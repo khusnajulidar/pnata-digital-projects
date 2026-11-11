@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>P’Nata – Petualangan Huruf Hijaiyah</title>
+<style>
+:root{--teal:#087f78;--deep:#075c58;--green:#15966f;--gold:#f4b82f;--cream:#fff5dc;--ink:#174b46;--paper:#fffdf6;--muted:#6c8a7f;--shadow:0 12px 30px #064e4630}
+*{box-sizing:border-box}body{margin:0;font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;color:var(--ink);background:linear-gradient(145deg,#d9f4e9,#fff4d7 65%,#d8f0e9);min-height:100vh}
+button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px solid #ffcf55;outline-offset:3px}
+.shell{max-width:1100px;margin:auto;padding:18px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--deep);font-size:1.1rem}.brand-mark{width:42px;height:42px;border-radius:14px;background:linear-gradient(145deg,#0d9c82,#075e59);display:grid;place-items:center;color:#fff;font-size:1.35rem;box-shadow:var(--shadow)}.score{background:#fff;border:2px solid #f5d78a;border-radius:30px;padding:9px 16px;font-weight:800}
+.panel{background:var(--paper);border:3px solid #f1d99d;border-radius:28px;box-shadow:var(--shadow);padding:clamp(18px,4vw,34px);position:relative;overflow:hidden}.panel:before{content:"";position:absolute;inset:0 0 auto;height:9px;background:linear-gradient(90deg,var(--teal),#e9b83c,var(--green))}
+h1,h2,h3,p{margin-top:0}h1{font-size:clamp(2rem,5vw,3.8rem);line-height:1.05;color:var(--deep);margin-bottom:12px}h2{font-size:clamp(1.5rem,4vw,2.2rem);color:var(--deep);margin-bottom:8px}p{line-height:1.6}.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:.76rem;font-weight:900;color:#b17b0d}.hero{min-height:450px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:22px;background:radial-gradient(circle at 80% 15%,#fce9a7 0 9%,transparent 10%),linear-gradient(140deg,#fff9e9,#e0f5e9)}.hero-art{min-height:290px;border-radius:24px;background:linear-gradient(160deg,#0b8a7d,#075b58);display:grid;place-items:center;position:relative;overflow:hidden;color:#fff}.arch{width:72%;height:245px;border:10px solid #f5c64f;border-bottom:0;border-radius:150px 150px 0 0;display:grid;place-items:center;background:linear-gradient(#d4f2e7,#fff0c9);color:var(--teal);font-size:5rem;box-shadow:inset 0 0 0 7px #fff8}.star{position:absolute;color:#ffd45a;font-size:2rem}.star.a{top:20px;left:22px}.star.b{top:50px;right:30px}.star.c{bottom:25px;left:30px}.btn{padding:13px 22px;border-radius:18px;font-weight:900;box-shadow:0 5px 0 #98640c;transition:.15s}.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #98640c}.primary{background:linear-gradient(#ffd45b,#f3a91d);color:#573900}.secondary{background:#e0f4ec;color:var(--deep);box-shadow:0 4px 0 #8abca7}.dark{background:var(--teal);color:white;box-shadow:0 4px 0 #064d49}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.screen{display:none}.screen.active{display:block}.section-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:20px}.back{background:#e6f4ed;color:var(--deep);padding:9px 14px;border-radius:14px;font-weight:800}
+.map{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.mission{background:linear-gradient(#fff9e9,#f5ebd1);border:2px solid #edcf83;border-radius:20px;padding:16px 10px;text-align:center;min-height:160px;color:var(--ink)}.mission .num{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;margin:0 auto 10px;background:var(--green);color:#fff;font-weight:900}.mission .symbol{font-size:2rem}.mission strong{display:block;margin:7px 0}.mission small{color:var(--muted)}.mission:disabled{opacity:.55;cursor:not-allowed}
+.letter-layout{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}.letter-card{background:linear-gradient(145deg,#f0fbf5,#fff3d7);border:2px solid #e8d18f;border-radius:24px;padding:22px;text-align:center}.arabic{font-family:"Noto Naskh Arabic","Amiri","Times New Roman",serif;font-size:clamp(6rem,18vw,10rem);line-height:1.3;color:var(--teal);direction:rtl}.letter-name{font-size:1.7rem;font-weight:900;color:var(--deep)}.letter-controls{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}.mini-btn{background:#e1f3e9;color:var(--deep);padding:10px 14px;border-radius:14px;font-weight:800}.progress{height:10px;background:#e6eadb;border-radius:99px;overflow:hidden;margin:12px 0 20px}.progress span{display:block;height:100%;background:linear-gradient(90deg,var(--green),#e6b437);width:0}
+.question{font-size:1.15rem;font-weight:800;margin:18px 0}.choices{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.choice{background:#fff8e9;border:2px solid #e8cf91;border-radius:18px;padding:14px;font-size:2.4rem;color:var(--deep);font-family:"Noto Naskh Arabic","Amiri","Times New Roman",serif}.choice.correct{background:#d9f5e4;border-color:#2aa56c}.choice.wrong{background:#ffe2d8;border-color:#df775e}.feedback{min-height:30px;font-weight:800;margin-top:14px}.footer-note{font-size:.82rem;color:#668078;margin-top:22px;border-top:1px solid #eadfbd;padding-top:14px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero-art{min-height:230px}.map{grid-template-columns:repeat(2,1fr)}.letter-layout{grid-template-columns:1fr}.top{align-items:flex-start}.section-head{align-items:flex-start;flex-direction:column}}
+@media(min-width:761px) and (max-width:950px){.map{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="top"><div class="brand"><div class="brand-mark">ن</div><span>P’Nata <span style="color:#b17b0d">|</span> Petualangan Hijaiyah</span></div><div class="score">⭐ <span id="stars">0</span></div></header>
+
+<section id="home" class="screen active">
+<div class="panel hero">
+<div><div class="eyebrow">Belajar • Bermain • Raih Bintang</div><h1>Petualangan<br>Huruf Hijaiyah</h1><p>Yuk, jelajahi dunia huruf Hijaiyah! Kenali bentuknya, dengarkan namanya, dan selesaikan misi seru.</p><div class="actions"><button class="btn primary" onclick="show('map')">▶ Mulai Petualangan</button><button class="btn secondary" onclick="show('learn')">📖 Belajar Huruf</button></div></div>
+<div class="hero-art"><span class="star a">✦</span><span class="star b">✧</span><span class="star c">✦</span><div class="arch">ا ب ت</div></div>
+</div>
+</section>
+
+<section id="map" class="screen">
+<div class="panel"><div class="section-head"><div><div class="eyebrow">Pilih perjalananmu</div><h2>Peta Petualangan</h2><p>Selesaikan misi satu per satu untuk mengumpulkan bintang.</p></div><button class="back" onclick="show('home')">← Beranda</button></div>
+<div class="map">
+<button class="mission" onclick="show('learn')"><div class="num">1</div><div class="symbol">🏛️</div><strong>Gerbang Hijaiyah</strong><small>Kenali huruf</small></button>
+<button class="mission" onclick="startMatch()"><div class="num">2</div><div class="symbol">🧩</div><strong>Lembah Pasangan</strong><small>Pasangkan huruf</small></button>
+<button class="mission" disabled><div class="num">3</div><div class="symbol">🔊</div><strong>Hutan Tebak Suara</strong><small>Segera hadir</small></button>
+<button class="mission" disabled><div class="num">4</div><div class="symbol">🌉</div><strong>Jembatan Urutan</strong><small>Segera hadir</small></button>
+<button class="mission" disabled><div class="num">5</div><div class="symbol">🏰</div><strong>Istana Juara</strong><small>Segera hadir</small></button>
+</div><div class="footer-note">Prototype tahap awal: misi 1 dan latihan memasangkan huruf sudah dapat dicoba. Misi lainnya akan dikembangkan bertahap.</div></div>
+</section>
+
+<section id="learn" class="screen">
+<div class="panel"><div class="section-head"><div><div class="eyebrow">Misi 1 • Gerbang Hijaiyah</div><h2>Kenali Huruf</h2><p>Amati bentuk huruf, lalu dengarkan nama hurufnya.</p></div><button class="back" onclick="show('map')">← Peta</button></div>
+<div class="progress"><span id="learnProgress"></span></div>
+<div class="letter-layout"><div class="letter-card"><div class="arabic" id="arabic">ا</div><div class="letter-name" id="letterName">Alif</div><div class="letter-controls"><button class="mini-btn" onclick="playNameAudio()">🔊 Dengar Nama</button></div></div>
+<div class="letter-card" style="display:flex;flex-direction:column;justify-content:center"><div class="eyebrow">Petunjuk belajar</div><h3 id="hintTitle">Huruf pertama</h3><p id="hintText">Alif adalah huruf pertama dalam urutan Hijaiyah. Perhatikan bentuknya dan ulangi namanya.</p><div class="actions" style="justify-content:center"><button class="btn secondary" onclick="moveLetter(-1)">← Sebelumnya</button><button class="btn primary" onclick="moveLetter(1)">Berikutnya →</button></div></div></div></div>
+</section>
+
+<section id="match" class="screen">
+<div class="panel"><div class="section-head"><div><div class="eyebrow">Misi 2 • Lembah Pasangan</div><h2>Pasangkan Huruf</h2><p>Pilih huruf yang sama dengan contoh di atas.</p></div><button class="back" onclick="show('map')">← Peta</button></div>
+<div class="letter-card"><div class="eyebrow">Cari pasangan untuk huruf ini</div><div class="arabic" id="targetLetter">ب</div><div class="letter-name" id="targetName">Ba</div></div>
+<div class="choices" id="matchChoices"></div><div class="feedback" id="matchFeedback" aria-live="polite"></div><div class="actions"><button class="btn primary" id="nextMatch" onclick="nextMatch()" style="display:none">Soal berikutnya →</button></div></div>
+</section>
+</div>
+<script>
+const letters=[
+['ا','Alif','Huruf pertama dalam urutan Hijaiyah.'],['ب','Ba','Perhatikan satu titik di bawah bentuk huruf.'],['ت','Ta','Perhatikan dua titik di atas bentuk huruf.'],['ث','Tsa','Perhatikan tiga titik di atas bentuk huruf.'],['ج','Jim','Perhatikan satu titik di bawah bentuk huruf.'],['ح','Ha','Huruf ini tidak memiliki titik.'],['خ','Kha','Perhatikan satu titik di atas bentuk huruf.'],['د','Dal','Bentuknya melengkung dan tidak memiliki titik.'],['ذ','Dzal','Bentuknya seperti Dal dengan satu titik di atas.'],['ر','Ra','Bentuknya melengkung tanpa titik.'],['ز','Zai','Bentuknya seperti Ra dengan satu titik.'],['س','Sin','Memiliki tiga lengkungan kecil.'],['ش','Syin','Bentuknya seperti Sin dengan tiga titik.'],['ص','Shad','Bentuknya lebih tebal dan memiliki lengkungan.'],['ض','Dhad','Bentuknya seperti Shad dengan satu titik.'],['ط','Tha','Memiliki bentuk tegak dan melengkung.'],['ظ','Zha','Bentuknya seperti Tha dengan satu titik.'],['ع','‘Ain','Perhatikan bentuk khas bagian tengahnya.'],['غ','Ghain','Bentuknya seperti ‘Ain dengan satu titik.'],['ف','Fa','Memiliki satu titik di atas.'],['ق','Qaf','Memiliki dua titik di atas.'],['ك','Kaf','Perhatikan bentuk khas pada bagian atasnya.'],['ل','Lam','Memiliki garis tegak yang tinggi.'],['م','Mim','Bentuknya membulat.'],['ن','Nun','Memiliki satu titik di atas.'],['و','Wau','Bentuknya melengkung.'],['ه','Ha','Bentuknya berbeda dari ح.'],['ء','Hamzah','Hamzah memiliki bentuk tersendiri.'],['ي','Ya','Memiliki dua titik di bawah.']
+];
+let index=0,matchIndex=1,stars=0;
+function show(id){document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));document.getElementById(id).classList.add('active');if(id==='learn')renderLetter()}
+function renderLetter(){const l=letters[index];document.getElementById('arabic').textContent=l[0];document.getElementById('letterName').textContent=l[1];document.getElementById('hintTitle').textContent='Tentang '+l[1];document.getElementById('hintText').textContent=l[2];document.getElementById('learnProgress').style.width=((index+1)/letters.length*100)+'%'}
+function moveLetter(n){index=(index+n+letters.length)%letters.length;renderLetter()}
+let currentAudio=null;
+function playNameAudio(){
+  const audioPath='assets/audio/nama/'+String(index+1).padStart(2,'0')+'.mp3';
+  if(currentAudio){currentAudio.pause();currentAudio.currentTime=0}
+  currentAudio=new Audio(audioPath);
+  currentAudio.play().catch(()=>alert('Audio belum dapat diputar. Pastikan folder assets/audio/nama tetap berada bersama file permainan.'))
+}
+function startMatch(){matchIndex=1;show('match');renderMatch()}
+function renderMatch(){const target=letters[matchIndex];document.getElementById('targetLetter').textContent=target[0];document.getElementById('targetName').textContent=target[1];document.getElementById('matchFeedback').textContent='';document.getElementById('nextMatch').style.display='none';let pool=[target];while(pool.length<4){let x=letters[Math.floor(Math.random()*letters.length)];if(!pool.some(a=>a[0]===x[0]))pool.push(x)}pool.sort(()=>Math.random()-.5);const box=document.getElementById('matchChoices');box.innerHTML='';pool.forEach(l=>{const b=document.createElement('button');b.className='choice';b.textContent=l[0];b.onclick=()=>checkMatch(b,l===target);box.appendChild(b)})}
+function checkMatch(btn,correct){document.querySelectorAll('.choice').forEach(b=>b.disabled=true);if(correct){btn.classList.add('correct');document.getElementById('matchFeedback').textContent='MasyaAllah, tepat! Kamu menemukan pasangannya.';stars++;document.getElementById('stars').textContent=stars}else{btn.classList.add('wrong');document.getElementById('matchFeedback').textContent='Belum tepat. Ayo coba soal berikutnya!'}document.getElementById('nextMatch').style.display='inline-block'}
+function nextMatch(){matchIndex=(matchIndex+1)%letters.length;renderMatch()}
+</script>
+</body>
+</html>
