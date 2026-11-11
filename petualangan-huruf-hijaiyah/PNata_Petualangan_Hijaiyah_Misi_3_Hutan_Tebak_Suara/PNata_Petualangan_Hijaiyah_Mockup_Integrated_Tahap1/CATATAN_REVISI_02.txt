@@ -1,0 +1,20 @@
+REVISI TAHAP 1.1 – TOMBOL KEMBALI DAN KETERBACAAN SOAL
+
+1. Misi 1 – Gerbang Hijaiyah
+   - Tombol kembali yang sebelumnya hanya berupa area klik transparan kini diberi tampilan visual berupa tombol bulat hijau dengan bingkai emas dan ikon panah kiri.
+   - Fungsi navigasi tetap menuju Peta Petualangan.
+
+2. Misi 2 – Lembah Pasangan
+   - Panel pertanyaan diperbesar dan diberi ruang khusus untuk huruf Arab target.
+   - Huruf target menggunakan ukuran font lebih besar daripada teks instruksi.
+   - Area empat kartu pilihan sedikit diperkecil agar panel soal lebih lega.
+   - Huruf Arab pada kartu pilihan tetap menggunakan ukuran besar dan font Arab.
+   - Mekanisme pilihan, umpan balik, dan audio tidak diubah.
+
+3. Keutuhan proyek
+   - Seluruh 29 audio hasil penyeimbangan dan 29 audio asli tetap disertakan tanpa perubahan.
+   - Enam aset mockup tetap disertakan.
+   - File index sebelum revisi disimpan sebagai index_sebelum_revisi_tombol_dan_font.html.
+
+Pemeriksaan yang dilakukan: sintaks JavaScript (Node.js), keberadaan aset, jumlah audio, dan integritas CRC ZIP.
+Pengujian interaksi browser langsung dan pengujian perangkat fisik belum diklaim selesai.

@@ -1,0 +1,35 @@
+P’Nata – Petualangan Huruf Hijaiyah
+Audio nama huruf yang telah disetujui pengguna.
+
+Urutan file:
+01.mp3 = ا
+02.mp3 = ب
+03.mp3 = ت
+04.mp3 = ث
+05.mp3 = ج
+06.mp3 = ح
+07.mp3 = خ
+08.mp3 = د
+09.mp3 = ذ
+10.mp3 = ر
+11.mp3 = ز
+12.mp3 = س
+13.mp3 = ش
+14.mp3 = ص
+15.mp3 = ض
+16.mp3 = ط
+17.mp3 = ظ
+18.mp3 = ع
+19.mp3 = غ
+20.mp3 = ف
+21.mp3 = ق
+22.mp3 = ك
+23.mp3 = ل
+24.mp3 = م
+25.mp3 = ن
+26.mp3 = و
+27.mp3 = ه
+28.mp3 = ء
+29.mp3 = ي
+
+Catatan: letakkan index.html bersama folder assets. Buka index.html melalui browser; untuk audio yang konsisten, jalankan dari local web server atau hosting statis.

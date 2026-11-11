@@ -1,0 +1,25 @@
+P’Nata – Petualangan Huruf Hijaiyah
+CATATAN REVISI UI 1.2
+
+Identitas brand:
+- Logo lengkap P’Nata dipasang pada halaman pembuka menggunakan aset master PNG asli.
+- Ikon P’Nata dipasang sebagai watermark pada keenam layar (Home, Peta, Kenali Huruf, Pasangkan Huruf, Tebak Huruf, dan Kemenangan).
+- File master logo dan ikon disimpan di assets/brand/ tanpa perubahan isi.
+
+Revisi UI:
+1. Tombol Back Misi 1 dan Misi 2 menggunakan kelas visual bersama: lingkaran hijau, bingkai emas, panah kiri. Kelas yang sama dapat digunakan oleh halaman misi berikutnya.
+2. Indikator angka urutan 1/29 pada layar Kenali Huruf dihilangkan. Navigasi huruf dan indikator titik dekoratif tetap dipertahankan.
+3. Panel nama huruf pada layar Kenali Huruf sedikit dipersempit dan digeser ke kanan agar ruang ikon audio di sisi kiri lebih lega.
+4. Area kartu Misi 2 dibersihkan dengan lapisan krem solid di atas ilustrasi kartu bawaan mockup; kartu pilihan interaktif tetap tampil di atas lapisan tersebut.
+5. Umpan balik audio benar/salah ditambahkan menggunakan Web Audio API lokal (tanpa file eksternal dan tanpa TTS): benar = tiga nada naik yang lembut; salah = dua nada lebih rendah yang lembut. Audio dipicu setelah pilihan jawaban.
+
+Keutuhan audio:
+- 29 audio hasil penyeimbangan di assets/audio/nama/ dipertahankan tanpa perubahan.
+- 29 audio asli di assets/audio/original/ dipertahankan tanpa perubahan.
+- Pemetaan file 01–29 tidak diubah.
+
+Batasan pengujian:
+- Sintaks JavaScript diperiksa dengan Node.js.
+- Referensi aset dan struktur ZIP diperiksa.
+- Hash SHA-256 seluruh 58 audio dibandingkan dengan paket sumber.
+- Pengujian interaksi browser dan perangkat fisik tetap perlu dilakukan oleh pengguna; tidak dinyatakan lulus hanya berdasarkan pemeriksaan statis.

@@ -1,0 +1,30 @@
+P’Nata – Petualangan Huruf Hijaiyah
+Paket Pengembangan Misi 3 – Hutan Tebak Suara
+
+CARA MEMBUKA
+1. Ekstrak seluruh isi ZIP ke satu folder.
+2. Buka folder PNata_Petualangan_Hijaiyah_Mockup_Integrated_Tahap1.
+3. Pastikan index.html tetap berada bersama folder assets.
+4. Buka index.html menggunakan Chrome, Edge, atau browser modern.
+5. Jika audio nama huruf tidak dapat diputar dari file lokal, jalankan folder melalui local web server atau hosting statis.
+
+BAGIAN YANG DIREVISI
+- Logo lengkap P’Nata tampil pada cover.
+- Ikon P’Nata tampil sebagai watermark pada enam layar.
+- Tombol Back Misi 1 dan Misi 2 memakai gaya visual yang sama.
+- Indikator angka 1/29 di layar Kenali Huruf dihilangkan.
+- Panel nama huruf sedikit dipersempit dan digeser ke kanan.
+- Lapisan kartu bawaan pada mockup Misi 2 ditutup dengan bidang krem bersih; kartu pilihan interaktif ditampilkan di atasnya.
+- Audio jawaban benar dan salah berupa nada pendek yang berbeda, dibuat secara lokal melalui Web Audio API (tanpa TTS dan tanpa koneksi internet).
+- Misi 3 – Hutan Tebak Suara: 10 soal per sesi; tekan speaker untuk mendengar audio nama huruf, lalu pilih satu dari empat huruf. Target dan pilihan diacak; jawaban benar memberi satu bintang.
+
+AUDIO MASTER
+- assets/audio/nama/01.mp3 sampai 29.mp3: audio nama huruf hasil penyeimbangan.
+- assets/audio/original/01.mp3 sampai 29.mp3: audio asli cadangan.
+- Seluruh 58 file dipertahankan identik dengan paket sumber Revisi UI 1.1.
+
+BATASAN VERSI
+- Misi 1, Misi 2, dan Misi 3 sudah memiliki mekanisme permainan aktif.
+- Misi 4 – Jembatan Urutan dan Misi 5 – Istana Juara masih terkunci dan belum dikembangkan sebagai permainan aktif.
+- Untuk Misi 3, audio nama huruf menggunakan 29 file MP3 hasil penyeimbangan yang sudah disetujui; tidak diganti TTS.
+- Pengujian browser interaktif lintas perangkat masih perlu dilakukan setelah ZIP diekstrak di perangkat pengguna.

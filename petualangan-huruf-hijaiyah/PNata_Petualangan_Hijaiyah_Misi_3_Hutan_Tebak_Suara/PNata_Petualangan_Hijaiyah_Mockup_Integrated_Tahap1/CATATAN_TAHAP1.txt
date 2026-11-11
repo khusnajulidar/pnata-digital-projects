@@ -1,0 +1,18 @@
+P’Nata – Petualangan Huruf Hijaiyah
+Paket integrasi visual tahap 1
+
+Basis fungsi: index.html dari PNata_Petualangan_Hijaiyah_Audio_Seimbang_FINAL(1).zip.
+Master visual: P’Nata Hijaiyah Adventure Game UI(2).png yang dipisah menjadi enam aset WebP berkualitas tinggi.
+Audio: seluruh file assets/audio/nama dan assets/audio/original disalin tanpa perubahan dari ZIP sumber.
+
+Status tahap ini:
+- Enam aset mockup tersedia dan dipasang pada layar terkait.
+- Halaman Home, Peta, Kenali Huruf, Pasangkan Huruf tampil dengan gambar mockup.
+- Audio nama 01–29 tetap dipanggil berdasarkan urutan data huruf yang ada di prototipe sumber.
+- Pada paket tahap 1 awal, Misi 1 dan 2 aktif; Misi 3–5 masih nonaktif. Misi 3 kemudian diaktifkan pada paket Pengembangan Misi 3 ini.
+- Layar win masih berupa pratinjau visual. Layar quiz kini menjadi permainan aktif Misi 3 – Hutan Tebak Suara pada paket pengembangan ini.
+- Belum ada klaim bahwa game final, penyimpanan permanen, atau seluruh perangkat sudah lulus uji.
+
+Cara menjalankan: ekstrak ZIP, lalu buka index.html di browser modern. Jika browser membatasi pemutaran audio dari file lokal, jalankan folder melalui local web server atau hosting statis.
+
+Pengujian tahap ini: pemeriksaan sintaks JavaScript (Node.js) lulus; seluruh referensi gambar tersedia; 29 audio nama dan 29 audio asli tersedia; CRC ZIP lulus. Pengujian interaksi browser belum dapat diselesaikan di lingkungan kerja ini karena navigasi browser lokal diblokir oleh kebijakan runtime. Karena itu, belum ada klaim lulus uji browser/perangkat.

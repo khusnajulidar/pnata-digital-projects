@@ -1,0 +1,22 @@
+P’Nata – Petualangan Huruf Hijaiyah
+PENGEMBANGAN MISI 3 – HUTAN TEBAK SUARA
+
+Mekanisme:
+- Anak menekan tombol speaker untuk mendengarkan audio nama huruf.
+- Anak memilih satu dari empat pilihan huruf Hijaiyah.
+- Sepuluh soal per permainan; huruf target diacak tanpa pengulangan dalam satu sesi.
+- Empat pilihan huruf diacak: satu benar dan tiga pengecoh berbeda.
+- Jawaban benar memberi satu bintang dan nada apresiasi; jawaban salah memberi nada lembut serta menandai jawaban benar.
+- Setelah 10 soal, tampil hasil dan tombol Ulangi Misi / Kembali ke Peta.
+- Tombol Back mengikuti standar visual misi yang telah disepakati.
+- Misi 4 dan 5 tetap terkunci karena belum dikembangkan.
+
+Audio:
+- Menggunakan assets/audio/nama/01.mp3 sampai 29.mp3 sesuai DAFTAR_AUDIO.txt.
+- Audio terbaru hasil penyeimbangan dipakai langsung; tidak diubah dan tidak diganti TTS.
+- Audio asli cadangan tetap dipertahankan.
+
+Pengujian:
+- Sintaks JavaScript diperiksa dengan Node.js.
+- Referensi aset dan integritas ZIP diperiksa.
+- Uji interaksi browser/HP tetap perlu dilakukan di perangkat pengguna.
