@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#087f78"><title>P’Nata – Petualangan Huruf Hijaiyah</title>
+<meta name="description" content="Game edukasi huruf Hijaiyah P’Nata. Belajar nama 29 huruf dengan audio dan permainan mencocokkan."><meta name="generator" content="P’Nata Visual Finalization Pass 1">
+<style>
+:root{--teal:#087f78;--deep:#075c58;--green:#15966f;--gold:#f4b82f;--cream:#fff5dc;--ink:#174b46;--shadow:0 12px 30px #064e4630}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;color:var(--ink)}body{background:linear-gradient(145deg,#d9f4e9,#fff4d7 65%,#d8f0e9);padding:12px}
+button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px solid #ffcf55;outline-offset:3px}.app{width:min(100%,1120px);margin:0 auto}.topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 auto 10px;max-width:1100px}.brand{font-weight:900;color:var(--deep);font-size:clamp(.9rem,2.5vw,1.15rem)}.score{background:#fff;border:2px solid #f5d78a;border-radius:30px;padding:7px 15px;font-weight:900;white-space:nowrap}.screen{display:none}.screen.active{display:block}.artboard{position:relative;margin:0 auto;overflow:hidden;border-radius:16px;box-shadow:var(--shadow);background:#f9edce;isolation:isolate}.artboard img{display:block;width:100%;height:100%;object-fit:fill;user-select:none;-webkit-user-drag:none}.home-board{width:min(100%,665px);aspect-ratio:665/540}.map-board{width:100%;aspect-ratio:866/540}.learn-board{width:min(100%,600px);aspect-ratio:359/330}.match-board{width:min(100%,650px);aspect-ratio:377/330}.quiz-board{width:min(100%,650px);aspect-ratio:366/330}.win-board{width:min(100%,650px);aspect-ratio:386/330}
+.hit{position:absolute;z-index:4;background:transparent;border:0;border-radius:14px}.hit:focus-visible{outline:4px solid #ffcf55;background:#ffffff22}.home-start{left:33.5%;top:71.5%;width:35%;height:14%}.home-learn{left:24%;top:87%;width:27%;height:10%}.home-help{left:56%;top:87%;width:25%;height:10%}.map-home{left:2%;top:3%;width:9%;height:14%}.map-mission{top:44%;height:25%;width:15%}.map-m1{left:6%}.map-m2{left:26%}.map-m3{left:46%}.map-m4{left:66%}.map-m5{left:86%;width:13%}
+.learn-letter{position:absolute;left:29%;top:25%;width:43%;height:33%;display:grid;place-items:center;background:#fff2d4;border-radius:22px;color:#087f78;font-family:"Noto Naskh Arabic","Amiri","Times New Roman",serif;font-size:clamp(3.5rem,13vw,7rem);line-height:1;direction:rtl;text-shadow:0 1px 0 #fff}.learn-name{position:absolute;left:31%;top:58%;width:40%;height:13%;display:grid;place-items:center;background:#fff2d4;border-radius:12px;color:#08745d;font-weight:1000;font-size:clamp(1.25rem,4vw,2rem)}.learn-audio{left:25%;top:72%;width:50%;height:12%;background:linear-gradient(#1ca96c,#08765c);border:2px solid #d4f29b;border-radius:30px;color:#fff;font-size:clamp(.68rem,1.8vw,.95rem);font-weight:900;box-shadow:0 3px 0 #075443}.learn-audio::after{content:"🔊 Dengar Nama"}.learn-prev{left:5%;top:84%;width:15%;height:13%}.learn-next{right:5%;top:84%;width:15%;height:13%}.learn-back{left:2.5%;top:3%;width:12%;height:14%;display:grid;place-items:center;background:linear-gradient(180deg,#1ba879,#08745f);border:3px solid #f6d47a;border-radius:50%;box-shadow:0 3px 0 #075447,0 0 0 2px #fff2c9;color:#fff;font-size:clamp(1.35rem,4vw,2.15rem);font-weight:1000;line-height:1}.learn-back::before{content:"←";text-shadow:0 1px 2px #064e46}.learn-dots{position:absolute;left:32%;bottom:5%;width:37%;font-size:clamp(7px,1.5vw,12px);text-align:center;color:#fff;pointer-events:none}
+.match-target{position:absolute;left:5%;top:13%;width:90%;height:19%;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.25em .45em;padding:4px 12px;background:#fff0d2;border:2px solid #e7bd72;border-radius:14px;font-weight:900;font-size:clamp(1rem,2.7vw,1.35rem);color:#45331a;text-align:center;line-height:1.2}.match-target .prompt-arabic{display:inline-block;font-family:"Noto Naskh Arabic","Amiri","Times New Roman",serif;font-size:clamp(2rem,5vw,2.8rem);font-weight:900;line-height:1.1;direction:rtl;color:#075f55;padding:0 .08em}.match-cards{position:absolute;left:16%;right:16%;top:36%;bottom:18%;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:4% 4%}.choice{border:2px solid #d8aa5d;border-radius:14px;background:linear-gradient(#fffdf6,#ffedcf);box-shadow:0 3px 0 #b8873b;color:#111;font-family:"Noto Naskh Arabic","Amiri","Times New Roman",serif;font-size:clamp(2.15rem,6.5vw,4rem);display:grid;place-items:center;min-width:0}.choice.correct{background:#d8f8df;border:3px solid #28ad47;box-shadow:0 0 0 3px #b9f4bd}.choice.wrong{background:#ffe0d8;border-color:#d85d43}.choice:disabled{cursor:default}.match-back{left:0;top:0;width:16%;height:15%}.feedback{position:absolute;left:13%;right:13%;bottom:0;min-height:1.5em;text-align:center;font-size:clamp(.65rem,1.8vw,.95rem);font-weight:900;color:#075c58;pointer-events:none}.next-match{position:absolute;right:4%;bottom:2%;z-index:6;background:linear-gradient(#ffdc63,#f5a51d);border:2px solid #fff0b0;border-radius:20px;padding:6px 12px;font-weight:900;box-shadow:0 3px 0 #9d650b}.screen-note{display:none}.modal{position:fixed;inset:0;background:#073f3bc9;z-index:20;display:none;place-items:center;padding:18px}.modal.open{display:grid}.modal-card{width:min(92vw,440px);background:#fff8e8;border:4px solid #e6b84e;border-radius:24px;padding:24px;text-align:center;box-shadow:0 20px 60px #002f2c66}.modal-card h2{margin-top:0;color:#075c58}.modal-card button{margin-top:12px;background:linear-gradient(#ffdc63,#f5a51d);padding:11px 24px;border-radius:18px;font-weight:900}
+
+/* Identitas resmi P’Nata */
+.home-brand-logo{position:absolute;z-index:5;left:32.5%;top:14%;width:35%;height:11%;padding:2px;object-fit:contain;background:rgba(255,244,218,.96);border:2px solid #ebb84b;border-radius:14px;box-shadow:0 3px 8px #073d3540;pointer-events:none}
+.brand-watermark{position:absolute;z-index:3;width:clamp(24px,5.2%,38px);height:auto;object-fit:contain;opacity:.30;pointer-events:none;user-select:none}
+.wm-home{right:2.5%;bottom:2.5%;width:6.5%}
+.wm-map{left:2.5%;bottom:2.5%;width:5.5%}
+.wm-learn{right:3%;top:3%;width:5.5%}
+.wm-match{right:3%;bottom:3%;width:5.5%}
+.wm-quiz{left:3%;bottom:3%;width:5.5%}
+.wm-win{right:3%;top:3%;width:5.5%}
+.mission-back{left:2.5%;top:3%;width:12%;height:14%;display:grid;place-items:center;background:linear-gradient(180deg,#1ba879,#08745f);border:3px solid #f6d47a;border-radius:50%;box-shadow:0 3px 0 #075447,0 0 0 2px #fff2c9;color:#fff;font-size:clamp(1.35rem,4vw,2.15rem);font-weight:1000;line-height:1;z-index:6}
+.mission-back::before{content:"←";text-shadow:0 1px 2px #064e46}
+.learn-name{left:34%;width:34%;height:12%;}
+.match-target{left:14%;width:72%;z-index:3;}
+.match-clean-layer{position:absolute;z-index:1;left:13%;top:28.5%;width:74%;height:60%;border-radius:19px;background:linear-gradient(180deg,#fff7e6 0%,#ffefd2 100%);box-shadow:inset 0 0 0 1px #f0d7a8;pointer-events:none}
+.match-cards{left:18%;right:18%;top:37%;bottom:19%;z-index:2;gap:4% 4%}
+.match-back{z-index:6}
+.match-cards .choice{position:relative;z-index:2}
+.feedback{z-index:6}
+.next-match{z-index:7}
+
+
+/* Misi 3 – Hutan Tebak Suara */
+.quiz-back{left:2.5%;top:3%;width:12%;height:14%}
+.quiz-panel{position:absolute;z-index:1;left:12%;right:12%;top:35%;bottom:11%;border-radius:18px;background:linear-gradient(180deg,#fff8e9 0%,#ffefd2 100%);box-shadow:inset 0 0 0 1px #f0d7a8;pointer-events:none}
+.quiz-instruction{position:absolute;z-index:3;left:13%;right:13%;top:36.5%;height:9%;display:grid;place-items:center;padding:2px 8px;border-radius:12px;background:#fff4dd;color:#49351b;font-weight:900;text-align:center;font-size:clamp(.72rem,2.1vw,1.08rem);line-height:1.12}
+.quiz-audio{position:absolute;z-index:5;left:42%;top:20%;width:16%;height:15%;border-radius:50%;display:grid;place-items:center;background:linear-gradient(180deg,#20b77d,#08765e);border:3px solid #f7d878;box-shadow:0 3px 0 #075447,0 0 0 2px #fff3c9;color:#fff;font-size:clamp(1.25rem,4vw,2.2rem)}
+.quiz-audio:active{transform:translateY(1px)}
+.quiz-audio::before{content:"🔊"}
+.quiz-audio.playing{animation:quizPulse .75s ease-in-out infinite alternate}
+@keyframes quizPulse{from{box-shadow:0 3px 0 #075447,0 0 0 2px #fff3c9}to{box-shadow:0 3px 0 #075447,0 0 0 7px #f7d87888}}
+.quiz-progress{position:absolute;z-index:5;right:4%;top:4%;min-width:12%;padding:3px 8px;border-radius:20px;background:linear-gradient(#145f54,#06483f);border:2px solid #f4ce66;color:#fff;font-weight:1000;text-align:center;font-size:clamp(.68rem,1.8vw,.95rem);box-shadow:0 2px 0 #063c35}
+.quiz-choices{position:absolute;z-index:3;left:15%;right:15%;top:47%;bottom:15%;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:5% 6%}
+.quiz-choice{font-size:clamp(2.1rem,6.8vw,4rem);border-radius:14px;min-height:0}
+.quiz-feedback{position:absolute;z-index:6;left:13%;right:13%;bottom:2.5%;min-height:8%;display:grid;place-items:center;text-align:center;font-weight:1000;color:#075c58;font-size:clamp(.68rem,1.9vw,.95rem);line-height:1.1;pointer-events:none}
+.quiz-next{position:absolute;z-index:7;right:4%;bottom:2%;background:linear-gradient(#ffdc63,#f5a51d);border:2px solid #fff0b0;border-radius:20px;padding:6px 12px;font-weight:1000;box-shadow:0 3px 0 #9d650b;font-size:clamp(.68rem,1.8vw,.95rem)}
+.quiz-complete{position:absolute;z-index:10;inset:0;display:none;place-items:center;padding:8%;background:#073f3bd9}
+.quiz-complete.open{display:grid}
+.quiz-complete-card{width:min(88%,430px);padding:clamp(16px,4vw,28px);border:4px solid #e8bd54;border-radius:24px;background:linear-gradient(#fff9e9,#ffedc9);box-shadow:0 12px 30px #002f2c70;text-align:center;color:#174b46}
+.quiz-complete-card h2{margin:0 0 8px;color:#08745d;font-size:clamp(1.2rem,4vw,2rem)}
+.quiz-complete-card .quiz-result-score{font-size:clamp(1.6rem,5vw,2.5rem);font-weight:1000;color:#a96c0a;margin:6px 0}
+.quiz-complete-card p{margin:6px 0 14px;font-size:clamp(.78rem,2vw,1rem);font-weight:700}
+.quiz-complete-card button{margin:4px;background:linear-gradient(#ffdc63,#f5a51d);border:2px solid #fff0b0;border-radius:18px;padding:9px 16px;font-weight:1000;box-shadow:0 3px 0 #9d650b}
+.quiz-choice.correct{background:#d8f8df;border:3px solid #28ad47;box-shadow:0 0 0 3px #b9f4bd}
+.quiz-choice.wrong{background:#ffe0d8;border-color:#d85d43}
+.quiz-choice:disabled{cursor:default}
+.win-result{position:absolute;z-index:10;inset:0;display:none;place-items:center;padding:7%;background:#073f3bc9}.win-result.open{display:grid}.win-result-card{width:min(88%,430px);padding:clamp(16px,4vw,28px);border:4px solid #e8bd54;border-radius:24px;background:linear-gradient(#fff9e9,#ffedc9);box-shadow:0 12px 30px #002f2c70;text-align:center;color:#174b46}.win-result-card h2{margin:0 0 8px;color:#08745d;font-size:clamp(1.2rem,4vw,2rem)}.win-result-score{font-size:clamp(1.6rem,5vw,2.5rem);font-weight:1000;color:#a96c0a;margin:6px 0}.win-result-card p{margin:6px 0 14px;font-size:clamp(.78rem,2vw,1rem);font-weight:700}.win-result-card button{margin:4px;background:linear-gradient(#ffdc63,#f5a51d);border:2px solid #fff0b0;border-radius:18px;padding:9px 16px;font-weight:1000;box-shadow:0 3px 0 #9d650b}.hit,.quiz-audio,.quiz-choice,.choice,.next-match,.quiz-next{touch-action:manipulation}
+
+@media(max-width:520px){body{padding:5px}.topbar{margin-bottom:6px}.artboard{border-radius:9px}.screen-note{font-size:.75rem}.match-cards{gap:4%}.choice{border-radius:10px}.score{padding:6px 10px}}
+@media(orientation:landscape) and (max-height:560px){body{padding:4px}.app{max-width:calc(100vh * 1.55)}.topbar{margin-bottom:4px}.home-board,.map-board,.learn-board,.match-board,.quiz-board,.win-board{max-height:calc(100vh - 44px);width:auto;height:calc(100vh - 44px);max-width:100%}}
+</style></head><body><main class="app">
+<header class="topbar"><div class="brand">P’Nata <span style="color:#b17b0d">|</span> Petualangan Huruf Hijaiyah</div><div class="score">⭐ <span id="stars">0</span></div></header>
+<section id="home" class="screen active"><div class="artboard home-board"><img src="assets/mockup/home.webp" alt="Halaman pembuka P’Nata Petualangan Huruf Hijaiyah"><img class="home-brand-logo" src="assets/brand/PNata_Logo_Lengkap_HQ.png" alt="Logo P’Nata"><img class="brand-watermark wm-home" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><button class="hit home-start" aria-label="Mulai petualangan" onclick="show('map')"></button><button class="hit home-learn" aria-label="Belajar huruf" onclick="show('learn')"></button><button class="hit home-help" aria-label="Petunjuk" onclick="openHelp()"></button></div></section>
+<section id="map" class="screen"><div class="artboard map-board"><img src="assets/mockup/map.webp" alt="Peta lima misi petualangan"><img class="brand-watermark wm-map" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><button class="hit map-home" aria-label="Beranda" onclick="show('home')"></button><button class="hit map-mission map-m1" aria-label="Misi 1 Gerbang Hijaiyah" onclick="show('learn')"></button><button class="hit map-mission map-m2" aria-label="Misi 2 Lembah Pasangan" onclick="startMatch()"></button><button class="hit map-mission map-m3" aria-label="Misi 3 Hutan Tebak Suara" onclick="startQuiz()"></button><button class="hit map-mission map-m4" aria-label="Misi 4 Jembatan Urutan" onclick="lockedMission(4)"></button><button class="hit map-mission map-m5" aria-label="Misi 5 Istana Juara" onclick="lockedMission(5)"></button></div><p class="screen-note">Pilih lokasi petualangan. Misi 3 kini dapat dimainkan; misi berikutnya akan dibuka pada tahap pengembangan selanjutnya.</p></section>
+<section id="learn" class="screen"><div class="artboard learn-board"><img src="assets/mockup/learn.webp" alt="Tampilan pengenalan huruf Hijaiyah"><img class="brand-watermark wm-learn" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><div class="learn-letter" id="arabic" lang="ar">ا</div><div class="learn-name" id="letterName">Alif</div><button class="hit mission-back learn-back" aria-label="Kembali ke peta" onclick="show('map')"></button><button class="hit learn-audio" aria-label="Dengar nama huruf" onclick="playNameAudio()"></button><button class="hit learn-prev" aria-label="Huruf sebelumnya" onclick="moveLetter(-1)"></button><button class="hit learn-next" aria-label="Huruf berikutnya" onclick="moveLetter(1)"></button><div class="learn-dots" id="learnDots">● ○ ○ ○ ○</div></div></section>
+<section id="match" class="screen"><div class="artboard match-board"><img src="assets/mockup/match.webp" alt="Tampilan permainan pasangkan huruf"><img class="brand-watermark wm-match" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><div class="match-target" id="matchPrompt">Temukan huruf yang sama dengan ب</div><button class="hit mission-back match-back" aria-label="Kembali ke peta" onclick="show('map')"></button><div class="match-clean-layer" aria-hidden="true"></div><div class="match-cards" id="matchChoices"></div><div class="feedback" id="matchFeedback" aria-live="polite"></div><button class="next-match" id="nextMatch" onclick="nextMatch()" style="display:none">Lanjut →</button></div></section>
+<section id="quiz" class="screen">
+<div class="artboard quiz-board">
+<img src="assets/mockup/quiz.webp" alt="Latar permainan Hutan Tebak Suara">
+<img class="brand-watermark wm-quiz" src="assets/brand/PNata_Ikon_HQ_4x.png" alt="">
+<button class="hit mission-back quiz-back" aria-label="Kembali ke peta" onclick="show('map')"></button>
+<div class="quiz-progress" id="quizProgress">1/10</div>
+<div class="quiz-panel" aria-hidden="true"></div>
+<div class="quiz-instruction" id="quizInstruction">Dengarkan nama huruf, lalu pilih huruf yang tepat!</div>
+<button class="quiz-audio" id="quizAudioButton" type="button" aria-label="Putar audio nama huruf" onclick="playQuizAudio()"></button>
+<div class="quiz-choices" id="quizChoices"></div>
+<div class="quiz-feedback" id="quizFeedback" aria-live="polite">Tekan tombol suara untuk mendengarkan.</div>
+<button class="quiz-next" id="quizNext" type="button" onclick="nextQuizQuestion()" style="display:none">Lanjut →</button>
+
+</div>
+</section>
+<section id="win" class="screen"><div class="artboard win-board"><img src="assets/mockup/win.webp" alt="Latar halaman hasil petualangan"><img class="brand-watermark wm-win" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><div class="win-result" id="winResult" role="status" aria-live="polite"><div class="win-result-card"><h2>MasyaAllah! Misi 3 selesai!</h2><div class="win-result-score" id="winFinalScore">0 dari 10 benar</div><p id="winFinalMessage">Terus berlatih mengenali nama huruf Hijaiyah, ya!</p><button type="button" onclick="startQuiz()">Ulangi Misi</button><button type="button" onclick="show(&quot;map&quot;)">Kembali ke Peta</button></div></div></div></section>
+</main>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><h2 id="modalTitle">Petunjuk Petualangan</h2><p id="modalText">Kenali huruf Hijaiyah, dengarkan nama huruf, lalu selesaikan misi untuk mengumpulkan bintang.</p><button onclick="closeModal()">Mengerti</button></div></div>
+<script>
+const letters=[['ا','Alif'],['ب','Ba'],['ت','Ta'],['ث','Tsa'],['ج','Jim'],['ح','Ha'],['خ','Kha'],['د','Dal'],['ذ','Dzal'],['ر','Ra'],['ز','Zai'],['س','Sin'],['ش','Syin'],['ص','Shad'],['ض','Dhad'],['ط','Tha'],['ظ','Zha'],['ع','‘Ain'],['غ','Ghain'],['ف','Fa'],['ق','Qaf'],['ك','Kaf'],['ل','Lam'],['م','Mim'],['ن','Nun'],['و','Wau'],['ه','Ha'],['ء','Hamzah'],['ي','Ya']];
+let index=0,matchIndex=1,stars=0,currentAudio=null,answered=false;
+function stopLearnAudio(){if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;currentAudio=null}}
+function stopQuizAudio(){if(quizAudio){quizAudio.pause();quizAudio.currentTime=0}const audioButton=document.getElementById('quizAudioButton');if(audioButton)audioButton.classList.remove('playing')}
+function show(id){if(id!=='learn')stopLearnAudio();if(id!=='quiz')stopQuizAudio();document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));const el=document.getElementById(id);if(el)el.classList.add('active');if(id==='learn')renderLetter()}
+function renderLetter(){const l=letters[index];document.getElementById('arabic').textContent=l[0];document.getElementById('letterName').textContent=l[1];const pct=Math.round((index+1)/29*5);document.getElementById('learnDots').textContent='● '.repeat(Math.max(1,pct))+'○ '.repeat(5-Math.max(1,pct))}
+function moveLetter(n){stopLearnAudio();index=(index+n+letters.length)%letters.length;renderLetter()}
+function playNameAudio(){const audioPath='assets/audio/nama/'+String(index+1).padStart(2,'0')+'.mp3';if(currentAudio){currentAudio.pause();currentAudio.currentTime=0}currentAudio=new Audio(audioPath);currentAudio.play().catch(()=>openModal('Audio belum dapat diputar. Pastikan seluruh folder assets ikut diekstrak bersama index.html.'))}
+let feedbackAudioContext=null;
+function playFeedback(kind){
+  const AudioCtx=window.AudioContext||window.webkitAudioContext;
+  if(!AudioCtx)return;
+  try{
+    if(!feedbackAudioContext)feedbackAudioContext=new AudioCtx();
+    const ctx=feedbackAudioContext;
+    if(ctx.state==='suspended')ctx.resume();
+    const now=ctx.currentTime;
+    const notes=kind==='correct'?[523.25,659.25,783.99]:[392.00,293.66];
+    notes.forEach((frequency,i)=>{
+      const start=now+i*(kind==='correct'?.12:.16);
+      const osc=ctx.createOscillator();
+      const gain=ctx.createGain();
+      osc.type=kind==='correct'?'sine':'triangle';
+      osc.frequency.setValueAtTime(frequency,start);
+      gain.gain.setValueAtTime(.0001,start);
+      gain.gain.exponentialRampToValueAtTime(kind==='correct'?.075:.055,start+.025);
+      gain.gain.exponentialRampToValueAtTime(.0001,start+.19);
+      osc.connect(gain);gain.connect(ctx.destination);
+      osc.start(start);osc.stop(start+.205);
+    });
+  }catch(e){/* Audio feedback is optional on browsers without Web Audio support. */}
+}
+function startMatch(){matchIndex=1;show('match');renderMatch()}
+function renderMatch(){answered=false;const target=letters[matchIndex];document.getElementById('matchPrompt').innerHTML='<span>Temukan huruf yang sama dengan</span><span class="prompt-arabic" lang="ar" dir="rtl">'+target[0]+'</span>';document.getElementById('matchFeedback').textContent='';document.getElementById('nextMatch').style.display='none';let pool=[target];while(pool.length<4){const x=letters[Math.floor(Math.random()*letters.length)];if(!pool.some(a=>a[0]===x[0]))pool.push(x)}pool.sort(()=>Math.random()-.5);const box=document.getElementById('matchChoices');box.innerHTML='';pool.forEach(l=>{const b=document.createElement('button');b.className='choice';b.type='button';b.textContent=l[0];b.setAttribute('aria-label','Pilih huruf '+l[1]);b.onclick=()=>checkMatch(b,l[0]===target[0]);box.appendChild(b)})}
+function checkMatch(btn,correct){if(answered)return;answered=true;document.querySelectorAll('#matchChoices .choice').forEach(b=>b.disabled=true);if(correct){playFeedback('correct');btn.classList.add('correct');document.getElementById('matchFeedback').textContent='MasyaAllah, tepat! Kamu menemukan pasangannya.';stars++;document.getElementById('stars').textContent=stars}else{playFeedback('wrong');btn.classList.add('wrong');document.getElementById('matchFeedback').textContent='Belum tepat. Ayo lanjut berlatih!';document.querySelectorAll('#matchChoices .choice').forEach(b=>{if(b.textContent===letters[matchIndex][0])b.classList.add('correct')})}document.getElementById('nextMatch').style.display='block'}
+function nextMatch(){matchIndex=(matchIndex+1)%letters.length;renderMatch()}
+
+// Misi 3 – Hutan Tebak Suara: dengarkan nama huruf, lalu pilih bentuk hurufnya.
+let quizQuestions=[],quizRound=0,quizCorrect=0,quizAnswered=false,quizTarget=null,quizAudio=null;
+function shuffleArray(items){const copy=items.slice();for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]]}return copy}
+function startQuiz(){stopQuizAudio();document.getElementById('winResult').classList.remove('open');quizQuestions=shuffleArray(letters.map((letter,i)=>i)).slice(0,10);quizRound=0;quizCorrect=0;show('quiz');renderQuizQuestion()}
+function renderQuizQuestion(){stopQuizAudio();quizAnswered=false;quizTarget=quizQuestions[quizRound];document.getElementById('quizProgress').textContent=(quizRound+1)+'/10';document.getElementById('quizInstruction').textContent='Dengarkan nama huruf, lalu pilih huruf yang tepat!';document.getElementById('quizFeedback').textContent='Tekan tombol suara untuk mendengarkan.';document.getElementById('quizNext').style.display='none';const audioButton=document.getElementById('quizAudioButton');audioButton.classList.remove('playing');audioButton.disabled=false;let options=[quizTarget];while(options.length<4){const candidate=Math.floor(Math.random()*letters.length);if(!options.includes(candidate))options.push(candidate)}options=shuffleArray(options);const choices=document.getElementById('quizChoices');choices.innerHTML='';options.forEach(optionIndex=>{const b=document.createElement('button');b.type='button';b.className='choice quiz-choice';b.textContent=letters[optionIndex][0];b.setAttribute('lang','ar');b.setAttribute('dir','rtl');b.setAttribute('aria-label','Pilih huruf '+letters[optionIndex][1]);b.dataset.letterIndex=String(optionIndex);b.addEventListener('click',()=>checkQuizAnswer(b,optionIndex===quizTarget));choices.appendChild(b)})}
+function playQuizAudio(){if(quizTarget===null)return;if(quizAudio){quizAudio.pause();quizAudio.currentTime=0}const audioPath='assets/audio/nama/'+String(quizTarget+1).padStart(2,'0')+'.mp3';quizAudio=new Audio(audioPath);const button=document.getElementById('quizAudioButton');button.classList.add('playing');quizAudio.onended=()=>button.classList.remove('playing');quizAudio.onerror=()=>{button.classList.remove('playing');document.getElementById('quizFeedback').textContent='Audio belum dapat diputar. Periksa folder assets/audio/nama.'};quizAudio.play().catch(()=>{button.classList.remove('playing');document.getElementById('quizFeedback').textContent='Tekan tombol suara sekali lagi untuk memutar audio.'})}
+function checkQuizAnswer(button,correct){if(quizAnswered)return;quizAnswered=true;stopQuizAudio();document.querySelectorAll('#quizChoices .quiz-choice').forEach(b=>b.disabled=true);if(correct){quizCorrect++;stars++;document.getElementById('stars').textContent=stars;button.classList.add('correct');playFeedback('correct');document.getElementById('quizFeedback').textContent='MasyaAllah, benar! Hebat sekali!'}else{button.classList.add('wrong');playFeedback('wrong');document.querySelectorAll('#quizChoices .quiz-choice').forEach(b=>{if(b.dataset.letterIndex===String(quizTarget))b.classList.add('correct')});document.getElementById('quizFeedback').textContent='Belum tepat. Tidak apa-apa, terus belajar!'}document.getElementById('quizNext').style.display='block';document.getElementById('quizNext').textContent=quizRound===9?'Lihat Hasil':'Lanjut →'}
+function nextQuizQuestion(){if(!quizAnswered)return;if(quizRound<9){quizRound++;renderQuizQuestion();return}finishQuiz()}
+function finishQuiz(){stopQuizAudio();document.getElementById('winFinalScore').textContent=quizCorrect+' dari 10 benar';document.getElementById('winFinalMessage').textContent=quizCorrect===10?'MasyaAllah! Sempurna. Kamu hebat mengenali nama huruf Hijaiyah!':quizCorrect>=7?'Alhamdulillah, hasil yang bagus! Ayo terus berlatih.':'Terus berlatih, ya. Kamu pasti semakin mengenal huruf Hijaiyah.';document.getElementById('quizNext').style.display='none';show('win');document.getElementById('winResult').classList.add('open')}
+
+function openHelp(){openModal('Petunjuk: tekan Mulai untuk membuka peta. Pilih Gerbang Hijaiyah untuk mengenal 29 huruf dan tombol Dengar Nama untuk mendengarkan audio. Pilih Lembah Pasangan untuk mencocokkan huruf.')}
+function lockedMission(n){openModal('Misi '+n+' belum diaktifkan. Tampilan dan mekanismenya akan dikembangkan setelah tahap integrasi visual ini.')}
+function openModal(message){document.getElementById('modalText').textContent=message;document.getElementById('modal').classList.add('open')}
+function closeModal(){document.getElementById('modal').classList.remove('open')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+</script></body></html>
