@@ -1,0 +1,35 @@
+P’Nata – Petualangan Huruf Hijaiyah
+CATATAN FINALISASI VISUAL TAHAP 1 – PASS 1
+
+Tanggal: 11 November 2026
+Sumber kerja: index.html pada folder ini (dipertahankan tanpa ditimpa).
+File hasil baru: index_finalisasi_visual_tahap1.html
+
+PERUBAHAN PADA FILE HASIL
+1. Catatan layar tambahan di bawah board disembunyikan agar fokus tetap pada mockup utama.
+2. Aturan landscape layar pendek diperluas ke board Home, Peta, Kenali Huruf, Pasangkan Huruf, Tebak Suara, dan Kemenangan.
+3. Interaksi tombol dan kartu diberi touch-action: manipulation.
+4. Audio pengenalan huruf dihentikan ketika pengguna berpindah layar atau huruf.
+5. Audio Misi 3 dihentikan ketika pengguna berpindah layar, mengganti soal, atau menjawab.
+6. Penanda jawaban benar Misi 3 menggunakan indeks huruf, bukan teks nama transliterasi. Ini mencegah dua huruf yang memiliki label nama sama (misalnya Ha) sama-sama ditandai sebagai jawaban benar.
+7. Setelah 10 soal Misi 3, hasil ditampilkan pada layar Kemenangan menggunakan latar win.webp yang telah tersedia, dengan tombol Ulangi Misi dan Kembali ke Peta.
+8. Mekanisme 10 soal, pemilihan 4 opsi, pengacakan target tanpa pengulangan, audio master, dan sistem bintang yang sudah ada dipertahankan.
+
+PEMERIKSAAN YANG TELAH DILAKUKAN
+- File HTML hasil dapat diambil kembali dari GitHub setelah commit.
+- JavaScript inline berhasil dikompilasi melalui pemeriksaan sintaks.
+- Enam referensi mockup (home.webp, map.webp, learn.webp, match.webp, quiz.webp, win.webp) cocok dengan enam file yang tersedia.
+- Logo lengkap dan ikon watermark tetap direferensikan dari assets/brand.
+- Folder audio Misi 3 memiliki 29 file master bernama 01.mp3 sampai 29.mp3 dan 29 file cadangan.
+- SHA Git untuk 29 file master dan 29 file cadangan pada folder Misi 3 identik dengan pasangan file pada paket Audio Seimbang FINAL.
+
+BELUM DILAKUKAN / TIDAK DIKLAIM
+- Belum dilakukan uji interaksi langsung di browser.
+- Belum dilakukan screenshot/render dan pengukuran visual pada perangkat HP portrait, HP landscape, dan laptop.
+- Belum dilakukan pengujian suara aktual dari perangkat.
+- Belum dibuat ZIP distribusi baru dan belum diuji ekstrak ulang.
+- Belum dilakukan persetujuan visual pengguna.
+- Misi 4 – Jembatan Urutan dan Misi 5 – Istana Juara belum dikembangkan.
+
+CATATAN SUMBER
+File index.html asli, mockup, logo, ikon, dan seluruh audio master tidak ditimpa atau diganti. File hasil ini merupakan versi kerja terpisah untuk pemeriksaan berikutnya. Jangan menyatakan tahap finalisasi visual selesai sepenuhnya sebelum pemeriksaan visual dan uji perangkat dilakukan serta pengguna menyetujuinya.
