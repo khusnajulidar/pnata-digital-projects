@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#087f78"><title>P’Nata – Petualangan Huruf Hijaiyah</title>
+<meta name="description" content="Game edukasi huruf Hijaiyah P’Nata. Belajar nama 29 huruf dengan audio dan permainan mencocokkan."><meta name="generator" content="P’Nata Visual Finalization Tahap 9">
+<style>
+:root{--teal:#087f78;--deep:#075c58;--green:#15966f;--gold:#f4b82f;--cream:#fff5dc;--ink:#174b46;--shadow:0 12px 30px #064e4630}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;color:var(--ink)}body{background:linear-gradient(145deg,#d9f4e9,#fff4d7 65%,#d8f0e9);padding:12px}
+button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px solid #ffcf55;outline-offset:3px}.app{width:min(100%,1120px);margin:0 auto}.topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 auto 10px;max-width:1100px}.brand{font-weight:900;color:var(--deep);font-size:clamp(.9rem,2.5vw,1.15rem)}.score{background:#fff;border:2px solid #f5d78a;border-radius:30px;padding:7px 15px;font-weight:900;white-space:nowrap}.screen{display:none}.screen.active{display:block}.artboard{position:relative;margin:0 auto;overflow:hidden;border-radius:16px;box-shadow:var(--shadow);background:#f9edce;isolation:isolate}.artboard img{display:block;width:100%;height:100%;object-fit:fill;user-select:none;-webkit-user-drag:none}.home-board{width:min(100%,665px);aspect-ratio:665/540}.map-board{width:100%;aspect-ratio:866/540}.learn-board{width:min(100%,600px);aspect-ratio:359/330}.match-board{width:min(100%,650px);aspect-ratio:377/330}.quiz-board{width:min(100%,650px);aspect-ratio:366/330}.win-board{width:min(100%,650px);aspect-ratio:386/330}
+.hit{position:absolute;z-index:4;background:transparent;border:0;border-radius:14px}.hit:focus-visible{outline:4px solid #ffcf55;background:#ffffff22}.home-start{left:33.5%;top:71.5%;width:35%;height:14%}.home-learn{left:24%;top:87%;width:27%;height:10%}.home-help{left:56%;top:87%;width:25%;height:10%}.map-home{left:2%;top:3%;width:9%;height:14%}.map-mission{top:44%;height:25%;width:15%}.map-m1{left:6%}.map-m2{left:26%}.map-m3{left:46%}.map-m4{left:66%}.map-m5{left:86%;width:13%}
+.map-total-stars{position:absolute;z-index:6;right:1.5%;top:3.5%;width:7%;height:8%;display:grid;place-items:center;border-radius:50%;background:#075c58;color:#fff8dc;font-size:clamp(12px,2.5vw,22px);font-weight:1000;text-shadow:0 1px 2px #003e38;pointer-events:none}
+.map-star{position:absolute;top:0;left:0;z-index:6;width:33%;height:100%;display:grid;place-items:center;color:#f7bd32;font-size:clamp(13px,2.6vw,23px);line-height:1;text-shadow:0 1px 0 #8b5b18,0 0 2px #fff2c6;pointer-events:none;opacity:0;transform:scale(.7);transition:opacity .18s ease,transform .18s ease}
+.map-star.earned{opacity:1;transform:scale(1)}
+.map-stars-m1,.map-stars-m2,.map-stars-m3,.map-stars-m4,.map-stars-m5{position:absolute;width:8.6%;height:5.5%;pointer-events:none}.map-stars-m1{left:8.38%;top:61.69%}.map-stars-m2{left:28.82%;top:60.03%}.map-stars-m3{left:47.64%;top:55.21%}.map-stars-m4{left:65.89%;top:61.69%}.map-stars-m5{left:84.48%;top:59.66%}
+.map-stars-m1 .map-star:nth-child(2),.map-stars-m2 .map-star:nth-child(2),.map-stars-m3 .map-star:nth-child(2),.map-stars-m4 .map-star:nth-child(2),.map-stars-m5 .map-star:nth-child(2){left:33%}
+.map-stars-m1 .map-star:nth-child(3),.map-stars-m2 .map-star:nth-child(3),.map-stars-m3 .map-star:nth-child(3),.map-stars-m4 .map-star:nth-child(3),.map-stars-m5 .map-star:nth-child(3){left:66%}
+
+.learn-letter{position:absolute;left:29%;top:25%;width:43%;height:33%;display:grid;place-items:center;background:#fff2d4;border-radius:22px;color:#087f78;font-family:"Noto Naskh Arabic","Amiri","Times New Roman",serif;font-size:clamp(3.5rem,13vw,7rem);line-height:1;direction:rtl;text-shadow:0 1px 0 #fff}.learn-name{position:absolute;left:31%;top:58%;width:40%;height:13%;display:grid;place-items:center;background:#fff2d4;border-radius:12px;color:#08745d;font-weight:1000;font-size:clamp(1.25rem,4vw,2rem)}.learn-audio{left:25%;top:72%;width:50%;height:12%;background:linear-gradient(#1ca96c,#08765c);border:2px solid #d4f29b;border-radius:30px;color:#fff;font-size:clamp(.68rem,1.8vw,.95rem);font-weight:900;box-shadow:0 3px 0 #075443}.learn-audio::after{content:"🔊 Dengar Nama"}.learn-prev{left:5%;top:84%;width:15%;height:13%}.learn-next{right:5%;top:84%;width:15%;height:13%}.learn-back{left:2.5%;top:3%;width:12%;height:14%;display:grid;place-items:center;background:linear-gradient(180deg,#1ba879,#08745f);border:3px solid #f6d47a;border-radius:50%;box-shadow:0 3px 0 #075447,0 0 0 2px #fff2c9;color:#fff;font-size:clamp(1.35rem,4vw,2.15rem);font-weight:1000;line-height:1}.learn-back::before{content:"←";text-shadow:0 1px 2px #064e46}.learn-dots{position:absolute;left:32%;bottom:5%;width:37%;font-size:clamp(7px,1.5vw,12px);text-align:center;color:#fff;pointer-events:none}
+.match-target{position:absolute;left:5%;top:13%;width:90%;height:19%;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.25em .45em;padding:4px 12px;background:#fff0d2;border:2px solid #e7bd72;border-radius:14px;font-weight:900;font-size:clamp(1rem,2.7vw,1.35rem);color:#45331a;text-align:center;line-height:1.2}.match-target .prompt-arabic{display:inline-block;font-family:"Noto Naskh Arabic","Amiri","Times New Roman",serif;font-size:clamp(2rem,5vw,2.8rem);font-weight:900;line-height:1.1;direction:rtl;color:#075f55;padding:0 .08em}.match-cards{position:absolute;left:16%;right:16%;top:36%;bottom:18%;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:4% 4%}.choice{border:2px solid #d8aa5d;border-radius:14px;background:linear-gradient(#fffdf6,#ffedcf);box-shadow:0 3px 0 #b8873b;color:#111;font-family:"Noto Naskh Arabic","Amiri","Times New Roman",serif;font-size:clamp(2.15rem,6.5vw,4rem);display:grid;place-items:center;min-width:0}.choice.correct{background:#d8f8df;border:3px solid #28ad47;box-shadow:0 0 0 3px #b9f4bd}.choice.wrong{background:#ffe0d8;border-color:#d85d43}.choice:disabled{cursor:default}.match-back{left:0;top:0;width:16%;height:15%}.feedback{position:absolute;left:13%;right:13%;bottom:0;min-height:1.5em;text-align:center;font-size:clamp(.65rem,1.8vw,.95rem);font-weight:900;color:#075c58;pointer-events:none}.next-match{position:absolute;right:4%;bottom:2%;z-index:6;background:linear-gradient(#ffdc63,#f5a51d);border:2px solid #fff0b0;border-radius:20px;padding:6px 12px;font-weight:900;box-shadow:0 3px 0 #9d650b}.screen-note{display:none}.modal{position:fixed;inset:0;background:#073f3bc9;z-index:20;display:none;place-items:center;padding:18px}.modal.open{display:grid}.modal-card{width:min(92vw,440px);background:#fff8e8;border:4px solid #e6b84e;border-radius:24px;padding:24px;text-align:center;box-shadow:0 20px 60px #002f2c66}.modal-card h2{margin-top:0;color:#075c58}.modal-card button{margin-top:12px;background:linear-gradient(#ffdc63,#f5a51d);padding:11px 24px;border-radius:18px;font-weight:900}
+.settings-card .settings-toggle{width:100%;display:flex;align-items:center;gap:14px;margin:12px 0;padding:12px 16px;text-align:left;border:2px solid #e7c36f;border-radius:16px;background:linear-gradient(#fffdf5,#ffedcf);color:#174b46;box-shadow:0 3px 0 #d2aa58}
+.settings-toggle .settings-icon{width:38px;height:38px;display:grid;place-items:center;font-size:1.6rem;border-radius:50%;background:#dff4e9}
+.settings-toggle strong,.settings-toggle small{display:block}.settings-toggle small{font-size:.82rem;font-weight:800;color:#08745d;margin-top:2px}
+.settings-toggle[aria-pressed="false"]{opacity:.68;background:#f0eadc}
+
+/* Identitas resmi P’Nata */
+.home-brand-logo{position:absolute;z-index:5;left:32.5%;top:14%;width:35%;height:11%;padding:2px;object-fit:contain;background:rgba(255,244,218,.96);border:2px solid #ebb84b;border-radius:14px;box-shadow:0 3px 8px #073d3540;pointer-events:none}
+.brand-watermark{position:absolute;z-index:3;width:clamp(24px,5.2%,38px);height:auto;object-fit:contain;opacity:.30;pointer-events:none;user-select:none}
+.wm-home{right:2.5%;bottom:2.5%;width:6.5%}
+.wm-map{left:2.5%;bottom:2.5%;width:5.5%}
+.wm-learn{right:3%;top:3%;width:5.5%}
+.wm-match{right:3%;bottom:3%;width:5.5%}
+.wm-quiz{left:3%;bottom:3%;width:5.5%}
+.wm-win{right:3%;top:3%;width:5.5%}
+.mission-back{left:2.5%;top:3%;width:12%;height:14%;display:grid;place-items:center;background:linear-gradient(180deg,#1ba879,#08745f);border:3px solid #f6d47a;border-radius:50%;box-shadow:0 3px 0 #075447,0 0 0 2px #fff2c9;color:#fff;font-size:clamp(1.35rem,4vw,2.15rem);font-weight:1000;line-height:1;z-index:6}
+.mission-back::before{content:none}
+.learn-name{left:34%;width:34%;height:12%;}
+.match-target{left:14%;width:72%;z-index:3;}
+.match-clean-layer{position:absolute;z-index:1;left:13%;top:28.5%;width:74%;height:60%;border-radius:19px;background:linear-gradient(180deg,#fff7e6 0%,#ffefd2 100%);box-shadow:inset 0 0 0 1px #f0d7a8;pointer-events:none}
+.match-cards{left:18%;right:18%;top:37%;bottom:19%;z-index:2;gap:4% 4%}
+.match-back{z-index:6}
+.match-cards .choice{position:relative;z-index:2}
+.feedback{z-index:6}
+.next-match{z-index:7}
+
+
+/* Misi 3 – Hutan Tebak Suara */
+.quiz-back{left:2.5%;top:3%;width:12%;height:14%}
+.quiz-panel{position:absolute;z-index:1;left:12%;right:12%;top:35%;bottom:11%;border-radius:18px;background:linear-gradient(180deg,#fff8e9 0%,#ffefd2 100%);box-shadow:inset 0 0 0 1px #f0d7a8;pointer-events:none}
+.quiz-instruction{position:absolute;z-index:3;left:13%;right:13%;top:36.5%;height:9%;display:grid;place-items:center;padding:2px 8px;border-radius:12px;background:#fff4dd;color:#49351b;font-weight:900;text-align:center;font-size:clamp(.72rem,2.1vw,1.08rem);line-height:1.12}
+.quiz-audio{position:absolute;z-index:5;left:42%;top:20%;width:16%;height:15%;border-radius:50%;display:grid;place-items:center;background:linear-gradient(180deg,#20b77d,#08765e);border:3px solid #f7d878;box-shadow:0 3px 0 #075447,0 0 0 2px #fff3c9;color:#fff;font-size:clamp(1.25rem,4vw,2.2rem)}
+.quiz-audio:active{transform:translateY(1px)}
+.quiz-audio::before{content:"🔊"}
+.quiz-audio.playing{animation:quizPulse .75s ease-in-out infinite alternate}
+@keyframes quizPulse{from{box-shadow:0 3px 0 #075447,0 0 0 2px #fff3c9}to{box-shadow:0 3px 0 #075447,0 0 0 7px #f7d87888}}
+.quiz-progress{position:absolute;z-index:5;right:4%;top:4%;min-width:12%;padding:3px 8px;border-radius:20px;background:linear-gradient(#145f54,#06483f);border:2px solid #f4ce66;color:#fff;font-weight:1000;text-align:center;font-size:clamp(.68rem,1.8vw,.95rem);box-shadow:0 2px 0 #063c35}
+.quiz-choices{position:absolute;z-index:3;left:15%;right:15%;top:47%;bottom:15%;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:5% 6%}
+.quiz-choice{font-size:clamp(2.1rem,6.8vw,4rem);border-radius:14px;min-height:0}
+.quiz-feedback{position:absolute;z-index:6;left:13%;right:13%;bottom:2.5%;min-height:8%;display:grid;place-items:center;text-align:center;font-weight:1000;color:#075c58;font-size:clamp(.68rem,1.9vw,.95rem);line-height:1.1;pointer-events:none}
+.quiz-next{position:absolute;z-index:7;right:4%;bottom:2%;background:linear-gradient(#ffdc63,#f5a51d);border:2px solid #fff0b0;border-radius:20px;padding:6px 12px;font-weight:1000;box-shadow:0 3px 0 #9d650b;font-size:clamp(.68rem,1.8vw,.95rem)}
+.quiz-complete{position:absolute;z-index:10;inset:0;display:none;place-items:center;padding:8%;background:#073f3bd9}
+.quiz-complete.open{display:grid}
+.quiz-complete-card{width:min(88%,430px);padding:clamp(16px,4vw,28px);border:4px solid #e8bd54;border-radius:24px;background:linear-gradient(#fff9e9,#ffedc9);box-shadow:0 12px 30px #002f2c70;text-align:center;color:#174b46}
+.quiz-complete-card h2{margin:0 0 8px;color:#08745d;font-size:clamp(1.2rem,4vw,2rem)}
+.quiz-complete-card .quiz-result-score{font-size:clamp(1.6rem,5vw,2.5rem);font-weight:1000;color:#a96c0a;margin:6px 0}
+.quiz-complete-card p{margin:6px 0 14px;font-size:clamp(.78rem,2vw,1rem);font-weight:700}
+.quiz-complete-card button{margin:4px;background:linear-gradient(#ffdc63,#f5a51d);border:2px solid #fff0b0;border-radius:18px;padding:9px 16px;font-weight:1000;box-shadow:0 3px 0 #9d650b}
+.quiz-choice.correct{background:#d8f8df;border:3px solid #28ad47;box-shadow:0 0 0 3px #b9f4bd}
+.quiz-choice.wrong{background:#ffe0d8;border-color:#d85d43}
+.quiz-choice:disabled{cursor:default}
+.win-result{position:absolute;z-index:10;inset:0;display:none;place-items:center;padding:7%;background:#073f3bc9}.win-result.open{display:grid}.win-result-card{width:min(88%,430px);padding:clamp(16px,4vw,28px);border:4px solid #e8bd54;border-radius:24px;background:linear-gradient(#fff9e9,#ffedc9);box-shadow:0 12px 30px #002f2c70;text-align:center;color:#174b46}.win-result-card h2{margin:0 0 8px;color:#08745d;font-size:clamp(1.2rem,4vw,2rem)}.win-result-score{font-size:clamp(1.6rem,5vw,2.5rem);font-weight:1000;color:#a96c0a;margin:6px 0}.win-result-card p{margin:6px 0 14px;font-size:clamp(.78rem,2vw,1rem);font-weight:700}.win-result-card button{margin:4px;background:linear-gradient(#ffdc63,#f5a51d);border:2px solid #fff0b0;border-radius:18px;padding:9px 16px;font-weight:1000;box-shadow:0 3px 0 #9d650b}.hit,.quiz-audio,.quiz-choice,.choice,.next-match,.quiz-next{touch-action:manipulation}
+
+@media(max-width:520px){body{padding:5px}.topbar{margin-bottom:6px}.artboard{border-radius:9px}.screen-note{font-size:.75rem}.match-cards{gap:4%}.choice{border-radius:10px}.score{padding:6px 10px}}
+@media(orientation:landscape) and (max-height:560px){body{padding:4px}.app{max-width:calc(100vh * 1.55)}.topbar{margin-bottom:4px}.home-board,.map-board,.learn-board,.match-board,.quiz-board,.win-board{max-height:calc(100vh - 44px);width:auto;height:calc(100vh - 44px);max-width:100%}}
+
+/* FIX TAHAP 2: batasi ukuran gambar overlay.
+   Selector .artboard img sebelumnya lebih spesifik daripada .home-brand-logo
+   dan .brand-watermark, sehingga aturan width/height overlay tidak berlaku. */
+.artboard img.home-brand-logo{
+  display:block;
+  width:35%;
+  height:11%;
+  object-fit:contain;
+}
+.artboard img.brand-watermark{
+  display:block;
+  height:auto;
+  object-fit:contain;
+}
+.artboard img.wm-home{width:6.5%}
+.artboard img.wm-map{width:5.5%}
+.artboard img.wm-learn{width:5.5%}
+.artboard img.wm-match{width:5.5%}
+.artboard img.wm-quiz{width:5.5%}
+.artboard img.wm-win{width:5.5%}
+
+
+/* ===== FINALISASI VISUAL TAHAP 3 ===== */
+/* Beranda: pertahankan ikon gear asli dan jadikan tombol pengaturan. */
+.home-settings{right:2.5%;top:2.5%;width:11%;height:14%;z-index:9;border-radius:50%;}
+/* Watermark kecil dan lembut hanya pada halaman isi. */
+.brand-watermark{opacity:.38;z-index:4}
+.wm-map{left:2.5%;bottom:2.5%;width:5.5%}
+.wm-learn{right:3%;top:3%;width:5.5%}
+.wm-match{right:3%;bottom:3%;width:5.5%}
+.wm-quiz{left:3%;bottom:3%;width:5.5%}
+.wm-win{right:3%;top:3%;width:5.5%}
+/* Tombol navigasi: tidak menggambar tombol baru di atas mockup. */
+.mission-back{
+  background:transparent!important;border:0!important;border-radius:0!important;
+  box-shadow:none!important;color:transparent!important;padding:0!important;
+}
+.mission-back::before{content:none!important}
+.match-back{left:1.5%;top:1.5%;width:13%;height:17%;z-index:8}
+.quiz-back{left:1.5%;top:1.5%;width:13%;height:17%;z-index:8}
+/* Mockup Kenali Huruf belum memiliki tombol kembali. Gunakan potongan tombol panah dari mockup Pasangkan Huruf. */
+.learn-back{
+  left:4%;top:4%;width:10.5%;height:12%;z-index:8;
+  background-image:url("assets/mockup/match.webp")!important;
+  background-repeat:no-repeat!important;background-size:698% 623%!important;
+  background-position:0 0!important;border:0!important;border-radius:50%!important;
+  clip-path:circle(50%);overflow:hidden;
+  box-shadow:none!important;
+}
+/* Gerbang Hijaiyah: area huruf digeser agar tidak menutupi speaker asli pada mockup. */
+.learn-letter{left:34%;width:38%;top:25%;height:31%;z-index:3}
+.learn-name{left:34%;width:38%;height:12%;z-index:3}
+.learn-audio{
+  left:12%;top:41%;width:20%;height:22%;z-index:7;
+  background:transparent!important;border:0!important;border-radius:0!important;
+  box-shadow:none!important;color:transparent!important;
+}
+.learn-audio::after{content:none!important}
+/* Lembah Pasangan: panel bersih menutup ilustrasi kartu/glow bawaan mockup. */
+.match-clean-layer{
+  left:11%;right:11%;top:27%;bottom:13%;width:auto;height:auto;
+  z-index:1;border-radius:20px;
+  background:linear-gradient(180deg,#fff7e6 0%,#ffefd2 100%);
+  box-shadow:inset 0 0 0 1px #f0d7a8;
+}
+.match-cards{z-index:2}
+.match-target{z-index:3}
+/* Hutan Tebak Suara: tombol suara menjadi hotspot transparan di atas speaker asli. */
+.quiz-audio{
+  left:41%;top:18%;width:18%;height:20%;z-index:7;
+  background:transparent!important;border:0!important;border-radius:0!important;
+  box-shadow:none!important;color:transparent!important;
+}
+.quiz-audio::before{content:none!important}
+.quiz-progress{
+  right:2.5%;top:2.4%;width:22%;height:11.5%;min-width:0;padding:0 4px;
+  display:grid;place-items:center;z-index:8;border-radius:20px;
+  background:linear-gradient(180deg,#0d9387 0%,#08766d 100%);
+  border:2px solid #f4ce66;color:#fff8df;
+  font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;
+  font-weight:1000;font-size:clamp(.72rem,1.9vw,1rem);
+  letter-spacing:.01em;text-shadow:0 1px 1px #07564f;
+  box-shadow:0 2px 0 #07564f;
+}
+/* Layar hasil: gunakan tombol Beranda dan Main Lagi yang memang tercetak pada mockup kemenangan. */
+.win-result{background:transparent;inset:0;padding:0;z-index:10}
+.win-result-card{
+  position:absolute;left:26%;top:41%;width:48%;height:40%;
+  padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;
+}
+.win-result-card h2,.win-result-card p{display:none}
+.win-result-score{
+  position:absolute;left:3%;top:8%;width:94%;height:70%;
+  display:grid;place-items:center;margin:0;padding:0;
+  color:#6f4310;font-size:clamp(1.05rem,3.5vw,2rem);
+  background:linear-gradient(180deg,#fff0c2 0%,#f6d995 100%);
+  border-radius:10px;text-shadow:0 1px 0 #fff5d8;
+  font-weight:1000;line-height:1.15;text-align:center;
+}
+.win-result-card button{
+  position:absolute;top:88%;height:48%;width:58%;
+  margin:0;padding:0;border:0;border-radius:0;
+  background:transparent!important;box-shadow:none!important;
+  color:transparent!important;font-size:0!important;
+}
+.win-result-card button:first-of-type{left:-12%}
+.win-result-card button:last-of-type{right:-12%}
+
+
+/* Misi 4 – Jembatan Urutan: antarmuka mandiri, responsif, tanpa karakter manusia/hewan. */
+.order-board{position:relative;isolation:isolate;overflow:hidden;width:min(100%,760px);min-height:min(88vh,690px);margin:0 auto;border:4px solid #e8bd54;border-radius:26px;background:linear-gradient(155deg,#e1f7ed 0%,#fff4d7 56%,#d9f1e7 100%);box-shadow:0 14px 34px #064e4630;padding:clamp(14px,3vw,26px);display:flex;flex-direction:column;gap:12px}
+.order-header{position:relative;z-index:2;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;color:#075c58}.order-header h1{margin:0;font-size:clamp(1.25rem,4vw,2rem);line-height:1.05}.order-header p{margin:4px 0 0;font-weight:800;font-size:clamp(.72rem,2vw,.95rem)}.order-kicker{font-size:.68rem;letter-spacing:.14em;font-weight:1000;color:#a66d0b;margin-bottom:3px}.order-back{width:42px;height:42px;border-radius:50%;border:3px solid #f5d47b;background:linear-gradient(#1ba879,#08745f);color:white;font-size:1.45rem;font-weight:1000;box-shadow:0 3px 0 #075447}.order-badge{padding:8px 12px;border-radius:20px;background:#075c58;color:#fff8df;font-weight:1000;white-space:nowrap}.order-progress{height:10px;background:#d5e8d8;border-radius:20px;overflow:hidden;position:relative;z-index:2}.order-progress-fill{height:100%;width:0;background:linear-gradient(90deg,#16a36e,#f4b82f);border-radius:20px;transition:width .25s ease}
+.order-scene{position:absolute;z-index:0;left:0;right:0;bottom:0;height:34%;overflow:hidden;background:linear-gradient(180deg,#b8e7df 0%,#53b9b0 48%,#198d88 100%)}.order-river{position:absolute;inset:22% -8% -15%;background:repeating-linear-gradient(170deg,transparent 0 18px,#ffffff38 19px 22px,transparent 23px 42px)}.bridge-deck{position:absolute;left:-4%;right:-4%;top:43%;height:15%;background:linear-gradient(#f9dfa1,#d79d42);border-top:5px solid #fff0c4;border-bottom:5px solid #a76d25;transform:perspective(180px) rotateX(5deg);box-shadow:0 7px 10px #064e4640}.bridge-rail{position:absolute;left:7%;right:7%;height:7px;border-radius:10px;background:#9a682d;border:2px solid #fbe2a6}.bridge-rail-top{top:24%}.bridge-rail-bottom{top:66%}.bridge-posts{position:absolute;left:10%;right:10%;top:23%;height:48%;display:flex;justify-content:space-between}.bridge-posts i{display:block;width:8px;height:100%;background:linear-gradient(90deg,#9a682d,#f7d98f,#9a682d);border-radius:5px}
+.order-play-area{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:12px;flex:1;padding:clamp(12px,2.5vw,20px);border:2px solid #e8c77e;border-radius:22px;background:#fff9ebed;box-shadow:0 5px 16px #064e4614}.order-instruction{width:100%;padding:clamp(10px,2vw,16px) clamp(12px,3vw,22px);border:3px solid #e8bd54;border-radius:20px;background:linear-gradient(135deg,#0c9b7b,#05685e);box-shadow:0 4px 0 #9b6b25;color:#fff9e8;text-align:center;font-weight:1000;font-size:clamp(.88rem,2.4vw,1.15rem);text-shadow:0 1px 2px #064e46}.order-slots{display:flex;flex-direction:row-reverse;justify-content:center;align-items:center;gap:clamp(5px,1.5vw,12px);flex-wrap:wrap;min-height:clamp(68px,12vw,88px);width:100%;padding:10px;border-radius:20px;background:linear-gradient(145deg,#fff8e7,#f8e3b8);border:3px solid #d9a847;box-shadow:inset 0 0 0 2px #fff4d7,0 3px 0 #b78332}.order-slot{width:clamp(44px,9vw,66px);height:clamp(52px,9.5vw,72px);display:grid;place-items:center;border-radius:16px;border:2px solid #dfb65e;background:linear-gradient(#fffdf7,#ffefcf);box-shadow:inset 0 0 0 2px #fff5df,0 3px 0 #c48b32;color:#08745d;font-family:"Noto Naskh Arabic","Amiri",serif;font-size:clamp(1.7rem,5vw,2.5rem);font-weight:900}.order-slot.filled{border-style:solid;border-color:#2da36e;background:#e0f6e8;box-shadow:0 2px 0 #9ccfb0}.order-feedback{min-height:1.5em;text-align:center;font-weight:900;color:#08745d;font-size:clamp(.75rem,2vw,.95rem)}.order-feedback.wrong{color:#b94c35}.order-choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(5px,1.5vw,10px);width:100%;margin-top:auto}.order-choice{min-width:0;min-height:clamp(58px,10vw,78px);padding:5px 2px;border:2px solid #d8aa5d;border-radius:13px;background:linear-gradient(#fffdf6,#ffedcf);box-shadow:0 3px 0 #b8873b;color:#075c58;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px}.order-choice .glyph{font-family:"Noto Naskh Arabic","Amiri",serif;font-size:clamp(1.55rem,4.5vw,2.2rem);font-weight:900;line-height:1.05}.order-choice .name{font-size:clamp(.55rem,1.5vw,.72rem);font-weight:900;color:#795b2d}.order-choice:disabled{opacity:.35;filter:grayscale(.65);box-shadow:none}.order-choice:focus-visible{outline:3px solid #087f78;outline-offset:2px}.order-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;margin-top:auto;padding:8px 0 2px}.order-hint,.order-check,.order-next,.order-finish-card button{border:2px solid #fff0b0;border-radius:22px;padding:9px clamp(12px,2.5vw,22px);background:linear-gradient(#ffdc63,#f5a51d);font-weight:1000;color:#49351b;box-shadow:0 3px 0 #9d650b;font-size:clamp(.72rem,1.8vw,.95rem)}.order-hint{background:linear-gradient(#e7f7ef,#bfe8d6);border-color:#fff3c7;color:#075c58;box-shadow:0 3px 0 #6caa8f}.order-check{background:linear-gradient(#ffdc63,#f5a51d)}.order-next{align-self:auto}.order-check:disabled{opacity:.5;filter:grayscale(.35);box-shadow:none}.order-hint:focus-visible,.order-check:focus-visible,.order-next:focus-visible{outline:3px solid #087f78;outline-offset:2px}@media(max-width:430px){.order-actions{gap:7px}.order-hint,.order-check,.order-next{padding:8px 11px}.order-play-area{gap:9px}.order-choices{grid-template-columns:repeat(5,minmax(0,1fr))}}.order-watermark{position:absolute;right:12px;bottom:12px;width:38px;height:38px;object-fit:contain;opacity:.32;z-index:3;pointer-events:none}.order-finish{position:absolute;z-index:5;inset:0;display:grid;place-items:center;padding:18px;background:#073f3bd9}.order-finish-card{width:min(92%,470px);padding:clamp(18px,4vw,30px);border:4px solid #e8bd54;border-radius:24px;background:linear-gradient(#fff9e9,#ffedc9);text-align:center;box-shadow:0 12px 30px #002f2c70;color:#174b46}.order-finish-star{font-size:clamp(1.5rem,5vw,2.3rem);color:#e9a91e;text-shadow:0 2px #8b5b18}.order-finish-card h2{margin:8px 0;color:#08745d;font-size:clamp(1.2rem,4vw,1.8rem)}.order-finish-card p{font-weight:800}.order-finish-score{font-size:1.5rem;font-weight:1000;color:#a96c0a;margin:10px}.order-finish-card button{margin:5px}.order-finish-card .order-replay{background:linear-gradient(#fffdf6,#ffedcf)}
+@media(max-width:520px){.order-board{min-height:calc(100vh - 76px);padding:11px;border-width:3px;border-radius:18px;gap:9px}.order-header{gap:8px}.order-back{width:36px;height:36px}.order-play-area{padding:10px;gap:9px}.order-choices{grid-template-columns:repeat(5,minmax(0,1fr));gap:5px}.order-choice{border-radius:9px}.order-scene{height:27%}}
+@media(max-width:360px){.order-header p{font-size:.66rem}.order-choice .name{font-size:.5rem}.order-slot{width:38px;height:44px}}
+
+@keyframes orderShake{0%,100%{transform:translateX(0)}30%{transform:translateX(-4px)}70%{transform:translateX(4px)}}.order-shake{animation:orderShake .2s ease}
+
+/* TAHAP 12 — visual Misi 4 diselaraskan dengan mockup Jembatan Urutan */
+#order.screen{padding:clamp(6px,1.4vw,18px);align-items:center;justify-content:center;overflow:auto}
+#order .order-board{
+ width:min(100%,1320px);min-height:min(88vh,820px);margin:auto;padding:clamp(16px,2.4vw,30px);
+ border:5px solid #e8bd54;border-radius:30px;overflow:hidden;
+ background:
+  radial-gradient(ellipse at 14% 44%,#83d66b 0 11%,transparent 29%),
+  radial-gradient(ellipse at 86% 42%,#70ca64 0 12%,transparent 30%),
+  linear-gradient(180deg,#25b9ed 0%,#a9e8f5 29%,#8bd46b 54%,#d9f2a1 67%,#31b9c2 100%);
+ box-shadow:0 16px 38px #064e4640;gap:clamp(10px,1.6vw,18px)
+}
+#order .order-board:before,#order .order-board:after{content:"";position:absolute;z-index:0;pointer-events:none}
+#order .order-board:before{left:-4%;right:-4%;top:28%;height:25%;background:radial-gradient(ellipse at 18% 100%,#279d59 0 23%,transparent 24%),radial-gradient(ellipse at 78% 100%,#238e56 0 27%,transparent 28%),linear-gradient(180deg,transparent 0 38%,#78c957 39% 100%);opacity:.9}
+#order .order-board:after{left:0;right:0;bottom:0;height:25%;background:linear-gradient(180deg,transparent,#1ab9d5 40%,#078ca7);opacity:.88}
+#order .order-header{z-index:3;grid-template-columns:64px 1fr auto;gap:clamp(8px,1.5vw,18px);padding:0 4px;color:#fff;text-align:center}
+#order .order-header>div:nth-child(2){padding:clamp(10px,1.6vw,18px) 18px;border:4px solid #e9b846;border-radius:24px;background:linear-gradient(180deg,#0b9e7c,#05685d);box-shadow:0 5px 0 #8e5f1d,inset 0 0 0 2px #fff0bd}
+#order .order-kicker{display:none}
+#order .order-header h1{font-size:clamp(1.45rem,4vw,2.65rem);color:#fff9e9;text-shadow:0 2px 3px #064e46}
+#order .order-header p{display:block;margin:clamp(8px,1.4vw,16px) auto 0;width:min(92%,760px);padding:clamp(10px,1.8vw,18px);border:4px solid #e8bd54;border-radius:20px;background:linear-gradient(180deg,#fff8df,#ffe6a9);box-shadow:0 4px 0 #a96d20;color:#075c58;font-size:clamp(.92rem,2.2vw,1.35rem);line-height:1.2}
+#order .order-back{width:clamp(48px,6vw,78px);height:clamp(48px,6vw,78px);border:4px solid #f8df91;background:linear-gradient(#1bb58c,#08745f);box-shadow:0 4px 0 #075447;font-size:clamp(1.5rem,3vw,2.2rem)}
+#order .order-badge{padding:10px 16px;border:3px solid #e9bf5a;border-radius:20px;background:linear-gradient(#0b9e7c,#05685d);box-shadow:0 4px 0 #85591e;color:#fff9df;font-size:clamp(.8rem,1.5vw,1rem)}
+#order .order-progress{height:10px;z-index:3;background:#fff2c9aa;border:1px solid #fff6d6}
+#order .order-scene{z-index:1;bottom:18%;height:39%;left:-2%;right:-2%;border-top:5px solid #f3d17e;background:linear-gradient(180deg,#b3eff1 0%,#27c0d2 58%,#058da9 100%);overflow:visible}
+#order .order-river{inset:45% -8% -18%;background:repeating-linear-gradient(170deg,transparent 0 22px,#ffffff55 23px 26px,transparent 27px 52px)}
+#order .bridge-deck{top:18%;height:29%;background:linear-gradient(#ffe7b2,#d59a42);border-top:6px solid #fff1cb;border-bottom:7px solid #9b6424;box-shadow:0 9px 14px #064e4650}
+#order .bridge-rail{height:9px;background:#a36d2e;border:3px solid #ffe9b2}
+#order .bridge-rail-top{top:7%}#order .bridge-rail-bottom{top:52%}
+#order .bridge-posts{top:6%;height:49%}
+#order .bridge-posts i{width:12px;border:2px solid #a66e2a}
+#order .order-play-area{z-index:3;flex:1;justify-content:flex-start;gap:clamp(12px,2vw,22px);padding:clamp(10px,2vw,22px);border:0;border-radius:0;background:transparent;box-shadow:none}
+#order .order-instruction{width:min(92%,900px);margin:0 auto;padding:clamp(10px,1.7vw,16px) clamp(14px,2vw,24px);border:4px solid #f1c95d;border-radius:24px;background:linear-gradient(180deg,#0da27e,#05695e);box-shadow:0 5px 0 #95651f,inset 0 0 0 2px #fff2c7;color:#fffbea;text-align:center;font-size:clamp(.95rem,2.2vw,1.35rem);text-shadow:0 2px 2px #064e46}
+#order .order-slots{width:min(90%,850px);min-height:clamp(86px,15vh,145px);margin:0 auto;padding:clamp(8px,1.3vw,16px);gap:clamp(8px,1.5vw,18px);border:5px solid #e5b74f;border-radius:26px;background:linear-gradient(145deg,#fff8e4,#f5d99c);box-shadow:0 6px 0 #a36d2c,inset 0 0 0 3px #fff4d4}
+#order .order-slot{width:clamp(48px,8.5vw,104px);height:clamp(58px,11vh,112px);border:3px solid #e4b957;border-radius:22px;background:linear-gradient(#fffdf3,#ffeac0);box-shadow:0 4px 0 #b78131,inset 0 0 0 3px #fff7df;color:#075e58;font-size:clamp(2rem,5.5vw,3.5rem)}
+#order .order-slot.filled{border-color:#299c67;background:linear-gradient(#f0fff1,#c8f0d1)}
+#order .order-feedback{min-height:1.2em;color:#075c58;font-size:clamp(.78rem,1.7vw,1rem);text-shadow:0 1px #fff}
+#order .order-choices{width:min(92%,980px);grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(8px,1.4vw,18px);padding:clamp(12px,1.8vw,22px);margin:0 auto;border:5px solid #e8b94f;border-radius:28px;background:linear-gradient(145deg,#fff8e5,#f7dfaa);box-shadow:0 6px 0 #9e6925,inset 0 0 0 3px #fff4d5}
+#order .order-choice{min-height:clamp(66px,12vh,112px);padding:6px 3px;border:3px solid #e1b452;border-radius:20px;background:linear-gradient(#fffdf3,#ffe9bd);box-shadow:0 5px 0 #ad792d,inset 0 0 0 2px #fff6df;color:#075c58}
+#order .order-choice .glyph{font-size:clamp(2rem,5vw,3.1rem)}
+#order .order-choice .name{font-size:clamp(.58rem,1.2vw,.8rem);color:#795526}
+#order .order-actions{z-index:4;width:100%;margin-top:auto;justify-content:space-between;gap:14px}
+#order .order-hint,#order .order-check,#order .order-next{min-width:clamp(120px,16vw,210px);min-height:clamp(48px,7vh,68px);padding:10px 18px;border:4px solid #f7dc83;border-radius:28px;background:linear-gradient(#13a987,#05745e);box-shadow:0 5px 0 #064d43;color:#fffbea;font-size:clamp(.82rem,1.7vw,1.1rem);text-shadow:0 1px 2px #064e46}
+#order .order-hint{background:linear-gradient(#14a98a,#08715f)}
+#order .order-check{background:linear-gradient(#16ad78,#08704f)}
+#order .order-next{background:linear-gradient(#f9d76c,#e8a52c);color:#533b18;text-shadow:none}
+#order .order-watermark{right:14px;bottom:14px;width:clamp(32px,4vw,52px);height:auto;opacity:.5}
+@media(max-width:600px){
+ #order.screen{padding:4px;align-items:flex-start}
+ #order .order-board{width:100%;min-height:calc(100dvh - 78px);padding:10px;border-width:3px;border-radius:18px;gap:8px}
+ #order .order-header{grid-template-columns:42px 1fr auto;gap:6px}
+ #order .order-header>div:nth-child(2){padding:7px 5px;border-width:2px;border-radius:14px}
+ #order .order-header h1{font-size:clamp(1rem,4.5vw,1.35rem)}
+ #order .order-header p{width:100%;margin-top:6px;padding:7px 5px;border-width:2px;border-radius:12px;font-size:clamp(.68rem,2.8vw,.85rem)}
+ #order .order-back{width:38px;height:38px;border-width:2px}
+ #order .order-badge{padding:6px 7px;border-width:2px;font-size:.65rem}
+ #order .order-scene{bottom:22%;height:29%}
+ #order .order-play-area{padding:5px 2px;gap:8px}
+ #order .order-instruction{width:100%;padding:8px 7px;border-width:2px;border-radius:14px;font-size:clamp(.72rem,3vw,.9rem)}
+ #order .order-slots{width:100%;min-height:76px;padding:6px;gap:4px;border-width:3px;border-radius:15px}
+ #order .order-slot{width:clamp(38px,15vw,56px);height:58px;border-width:2px;border-radius:12px;font-size:1.9rem}
+ #order .order-choices{width:100%;gap:5px;padding:7px;border-width:3px;border-radius:16px}
+ #order .order-choice{min-height:70px;border-width:2px;border-radius:11px;padding:3px 1px}
+ #order .order-choice .glyph{font-size:clamp(1.5rem,7vw,2.1rem)}
+ #order .order-choice .name{font-size:.52rem}
+ #order .order-actions{gap:6px}
+ #order .order-hint,#order .order-check,#order .order-next{min-width:0;flex:1;min-height:44px;padding:7px 5px;border-width:2px;border-radius:14px;font-size:.68rem}
+ #order .order-watermark{width:28px;right:6px;bottom:6px}
+}
+
+</style></head><body><main class="app">
+<header class="topbar"><div class="brand">P’Nata <span style="color:#b17b0d">|</span> Petualangan Huruf Hijaiyah</div><div class="score">⭐ <span id="stars">0</span></div></header>
+<section id="home" class="screen active"><div class="artboard home-board"><img src="assets/mockup/home.webp" alt="Halaman pembuka P’Nata Petualangan Huruf Hijaiyah"><button class="hit home-start" aria-label="Mulai petualangan" onclick="show('map')"></button><button class="hit home-learn" aria-label="Belajar huruf" onclick="show('learn')"></button><button class="hit home-help" aria-label="Petunjuk" onclick="openHelp()"></button><button class="hit home-settings" aria-label="Pengaturan" onclick="openSettings()"></button></div></section>
+<section id="map" class="screen"><div class="artboard map-board"><img src="assets/mockup/map.webp" alt="Peta lima misi petualangan"><img class="brand-watermark wm-map" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><span class="map-total-stars" id="mapTotalStars">0</span>
+<div class="map-stars-m1" aria-label="Bintang Misi 1"><span class="map-star">★</span><span class="map-star">★</span><span class="map-star">★</span></div>
+<div class="map-stars-m2" aria-label="Bintang Misi 2"><span class="map-star">★</span><span class="map-star">★</span><span class="map-star">★</span></div>
+<div class="map-stars-m3" aria-label="Bintang Misi 3"><span class="map-star">★</span><span class="map-star">★</span><span class="map-star">★</span></div>
+<div class="map-stars-m4" aria-label="Bintang Misi 4"><span class="map-star">★</span><span class="map-star">★</span><span class="map-star">★</span></div>
+<div class="map-stars-m5" aria-label="Bintang Misi 5"><span class="map-star">★</span><span class="map-star">★</span><span class="map-star">★</span></div><button class="hit map-home" aria-label="Beranda" onclick="show('home')"></button><button class="hit map-mission map-m1" aria-label="Misi 1 Gerbang Hijaiyah" onclick="show('learn')"></button><button class="hit map-mission map-m2" aria-label="Misi 2 Lembah Pasangan" onclick="startMatch()"></button><button class="hit map-mission map-m3" aria-label="Misi 3 Hutan Tebak Suara" onclick="startQuiz()"></button><button class="hit map-mission map-m4" aria-label="Misi 4 Jembatan Urutan" onclick="startOrderMission()"></button><button class="hit map-mission map-m5" aria-label="Misi 5 Istana Juara" onclick="lockedMission(5)"></button></div><p class="screen-note">Pilih lokasi petualangan dan selesaikan setiap tantangan untuk mengumpulkan bintang.</p></section>
+<section id="learn" class="screen"><div class="artboard learn-board"><img src="assets/mockup/learn.webp" alt="Tampilan pengenalan huruf Hijaiyah"><img class="brand-watermark wm-learn" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><div class="learn-letter" id="arabic" lang="ar">ا</div><div class="learn-name" id="letterName">Alif</div><button class="hit mission-back learn-back" aria-label="Kembali ke peta" onclick="show('map')"></button><button class="hit learn-audio" aria-label="Dengar nama huruf" onclick="playNameAudio()"></button><button class="hit learn-prev" aria-label="Huruf sebelumnya" onclick="moveLetter(-1)"></button><button class="hit learn-next" aria-label="Huruf berikutnya" onclick="nextLearnLetter()"></button><div class="learn-dots" id="learnDots">● ○ ○ ○ ○</div></div></section>
+<section id="match" class="screen"><div class="artboard match-board"><img src="assets/mockup/match.webp" alt="Tampilan permainan pasangkan huruf"><img class="brand-watermark wm-match" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><div class="match-target" id="matchPrompt">Temukan huruf yang sama dengan ب</div><button class="hit mission-back match-back" aria-label="Kembali ke peta" onclick="show('map')"></button><div class="match-clean-layer" aria-hidden="true"></div><div class="match-cards" id="matchChoices"></div><div class="feedback" id="matchFeedback" aria-live="polite"></div><button class="next-match" id="nextMatch" onclick="nextMatch()" style="display:none">Lanjut →</button></div></section>
+<section id="quiz" class="screen">
+<div class="artboard quiz-board">
+<img src="assets/mockup/quiz.webp" alt="Latar permainan Hutan Tebak Suara">
+<img class="brand-watermark wm-quiz" src="assets/brand/PNata_Ikon_HQ_4x.png" alt="">
+<button class="hit mission-back quiz-back" aria-label="Kembali ke peta" onclick="show('map')"></button>
+<div class="quiz-progress" id="quizProgress">1/10</div>
+<div class="quiz-panel" aria-hidden="true"></div>
+<div class="quiz-instruction" id="quizInstruction">Dengarkan nama huruf, lalu pilih huruf yang tepat!</div>
+<button class="quiz-audio" id="quizAudioButton" type="button" aria-label="Putar audio nama huruf" onclick="playQuizAudio()"></button>
+<div class="quiz-choices" id="quizChoices"></div>
+<div class="quiz-feedback" id="quizFeedback" aria-live="polite">Tekan tombol suara untuk mendengarkan.</div>
+<button class="quiz-next" id="quizNext" type="button" onclick="nextQuizQuestion()" style="display:none">Lanjut →</button>
+
+</div>
+</section>
+<section id="order" class="screen">
+<div class="order-board" role="region" aria-label="Misi 4 Jembatan Urutan">
+  <div class="order-header"><button class="order-back" type="button" aria-label="Kembali ke peta" onclick="show('map')">⌂</button><div><div class="order-kicker">MISI 4</div><h1>Jembatan Urutan</h1><p>Susun huruf Hijaiyah sesuai urutannya!</p></div><div class="order-badge" id="orderRound">1 / 6</div></div>
+  <div class="order-progress"><div class="order-progress-fill" id="orderProgressFill"></div></div>
+  <div class="order-scene" aria-hidden="true"><div class="order-river"></div><div class="bridge-rail bridge-rail-top"></div><div class="bridge-rail bridge-rail-bottom"></div><div class="bridge-deck"></div><div class="bridge-posts"><i></i><i></i><i></i><i></i><i></i></div></div>
+  <div class="order-play-area" id="orderPlayArea">
+    <div class="order-instruction" id="orderInstruction">Pilih huruf yang tepat dan letakkan pada tempatnya!</div>
+    <div class="order-slots" id="orderSlots" aria-label="Urutan huruf yang disusun dari kanan ke kiri"></div>
+    <div class="order-feedback" id="orderFeedback" aria-live="polite">Pilih huruf, letakkan pada tempatnya, lalu tekan Cek Pengerjaan.</div>
+    <div class="order-choices" id="orderChoices" aria-label="Pilihan huruf acak"></div>
+    <div class="order-actions"><button class="order-hint" id="orderHint" type="button" onclick="playOrderHint()">Dengar Petunjuk</button><button class="order-check" id="orderCheck" type="button" onclick="checkOrderAnswer()" disabled>Cek Pengerjaan</button><button class="order-next" id="orderNext" type="button" onclick="nextOrderRound()" style="display:none">Lanjut</button></div>
+  </div>
+  <div class="order-finish" id="orderFinish" style="display:none" role="status" aria-live="polite"><div class="order-finish-card"><div class="order-finish-star">★ ★ ★</div><h2>MasyaAllah! Hebat sekali!</h2><p>Kamu berhasil menyusun seluruh 29 huruf Hijaiyah sesuai urutannya.</p><div class="order-finish-score">3 Bintang</div><button type="button" onclick="show('map')">Kembali ke Peta Petualangan</button><button type="button" class="order-replay" onclick="startOrderMission()">Main Lagi</button></div></div>
+  <img class="order-watermark" src="assets/brand/PNata_Ikon_HQ_4x.png" alt="">
+</div></section>
+<section id="win" class="screen"><div class="artboard win-board"><img src="assets/mockup/win.webp" alt="Latar halaman hasil petualangan"><img class="brand-watermark wm-win" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><div class="win-result" id="winResult" role="status" aria-live="polite"><div class="win-result-card"><h2>MasyaAllah! Misi 3 selesai!</h2><div class="win-result-score" id="winFinalScore">0 dari 10 benar</div><p id="winFinalMessage">Terus berlatih mengenali nama huruf Hijaiyah, ya!</p><button type="button" aria-label="Beranda" onclick="show(&quot;home&quot;)">Beranda</button><button type="button" aria-label="Main lagi" onclick="show(&quot;map&quot;)">Main Lagi</button></div></div></div></section>
+</main>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><h2 id="modalTitle">Petunjuk Petualangan</h2><p id="modalText">Kenali huruf Hijaiyah, dengarkan nama huruf, lalu selesaikan misi untuk mengumpulkan bintang.</p><button onclick="closeModal()">Mengerti</button></div></div>
+<div class="modal" id="settingsModal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle"><div class="modal-card settings-card"><h2 id="settingsTitle">Pengaturan</h2><p>Atur suara dan getaran saat bermain.</p><button type="button" class="settings-toggle" id="audioToggle" onclick="toggleAudioSetting()" aria-pressed="true"><span class="settings-icon" id="audioIcon">🔊</span><span><strong>Audio</strong><small id="audioStatus">On</small></span></button><button type="button" class="settings-toggle" id="vibrationToggle" onclick="toggleVibrationSetting()" aria-pressed="true"><span class="settings-icon" id="vibrationIcon">📳</span><span><strong>Getar</strong><small id="vibrationStatus">On</small></span></button><button type="button" onclick="closeSettings()">Selesai</button></div></div>
+<script>
+const letters=[['ا','Alif'],['ب','Ba'],['ت','Ta'],['ث','Tsa'],['ج','Jim'],['ح','Ha'],['خ','Kha'],['د','Dal'],['ذ','Dzal'],['ر','Ra'],['ز','Zai'],['س','Sin'],['ش','Syin'],['ص','Shad'],['ض','Dhad'],['ط','Tha'],['ظ','Zha'],['ع','‘Ain'],['غ','Ghain'],['ف','Fa'],['ق','Qaf'],['ك','Kaf'],['ل','Lam'],['م','Mim'],['ن','Nun'],['و','Wau'],['ه','Ha'],['ء','Hamzah'],['ي','Ya']];
+let index=0,matchIndex=1,stars=0,currentAudio=null,answered=false;
+const missionStars={1:0,2:0,3:0,4:0,5:0};
+const listenedLetters=new Set();
+function loadMission1Progress(){try{const saved=JSON.parse(localStorage.getItem("pnataMission1Listened")||"[]");saved.forEach(i=>{if(Number.isInteger(i)&&i>=0&&i<29)listenedLetters.add(i)})}catch(e){}}
+function markLetterListened(letterIndex){if(listenedLetters.has(letterIndex))return;listenedLetters.add(letterIndex);saveMission1Progress();if(listenedLetters.size===letters.length&&missionStars[1]!==3){completeMission1();openModal("MasyaAllah! Semua 29 huruf Hijaiyah sudah diputar. Misi Gerbang Hijaiyah berhasil diselesaikan dan kamu memperoleh 3 bintang. Tekan Next pada huruf Ya untuk kembali ke Peta Petualangan.")}}
+function saveMission1Progress(){try{localStorage.setItem("pnataMission1Listened",JSON.stringify([...listenedLetters]))}catch(e){}}
+function completeMission1(){if(missionStars[1]===3)return;missionStars[1]=3;saveGameProgress();updateStarDisplays()}
+function loadGameProgress(){try{const saved=JSON.parse(localStorage.getItem("pnataMissionStars")||"{}");[1,2,3,4,5].forEach(n=>missionStars[n]=Math.max(0,Math.min(3,Number(saved[n])||0)))}catch(e){}updateStarDisplays()}
+function saveGameProgress(){try{localStorage.setItem("pnataMissionStars",JSON.stringify(missionStars))}catch(e){}}
+function updateStarDisplays(){const total=Object.values(missionStars).reduce((sum,n)=>sum+n,0);stars=total;const top=document.getElementById("stars"),mapTotal=document.getElementById("mapTotalStars");if(top)top.textContent=total;if(mapTotal)mapTotal.textContent=total;const orderTotal=document.getElementById("orderStarTotal");if(orderTotal)orderTotal.textContent=total;[1,2,3,4,5].forEach(n=>{const group=document.querySelector(".map-stars-m"+n);if(group)group.querySelectorAll(".map-star").forEach((el,i)=>el.classList.toggle("earned",i<missionStars[n]))})}
+function awardMissionStar(mission){if(missionStars[mission]>=3)return;missionStars[mission]++;saveGameProgress();updateStarDisplays()}
+
+let audioEnabled=true,vibrationEnabled=true;loadGameProgress();loadMission1Progress();if(listenedLetters.size===letters.length)completeMission1();
+try{audioEnabled=localStorage.getItem("pnataAudioEnabled")!=="false";vibrationEnabled=localStorage.getItem("pnataVibrationEnabled")!=="false"}catch(e){}
+function syncSettingsUI(){const a=document.getElementById("audioToggle"),v=document.getElementById("vibrationToggle");if(!a||!v)return;a.setAttribute("aria-pressed",String(audioEnabled));v.setAttribute("aria-pressed",String(vibrationEnabled));document.getElementById("audioIcon").textContent=audioEnabled?"🔊":"🔇";document.getElementById("audioStatus").textContent=audioEnabled?"On":"Off";document.getElementById("vibrationIcon").textContent=vibrationEnabled?"📳":"📴";document.getElementById("vibrationStatus").textContent=vibrationEnabled?"On":"Off"}
+function openSettings(){syncSettingsUI();document.getElementById("settingsModal").classList.add("open")}
+function closeSettings(){document.getElementById("settingsModal").classList.remove("open")}
+function toggleAudioSetting(){audioEnabled=!audioEnabled;try{localStorage.setItem("pnataAudioEnabled",String(audioEnabled))}catch(e){}if(!audioEnabled){stopLearnAudio();stopQuizAudio()}syncSettingsUI()}
+function toggleVibrationSetting(){vibrationEnabled=!vibrationEnabled;try{localStorage.setItem("pnataVibrationEnabled",String(vibrationEnabled))}catch(e){}syncSettingsUI()}
+function triggerVibration(pattern){if(!vibrationEnabled||!navigator.vibrate)return;try{navigator.vibrate(pattern||25)}catch(e){}}
+function stopLearnAudio(){if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;currentAudio=null}}
+function stopQuizAudio(){if(quizAudio){quizAudio.pause();quizAudio.currentTime=0}const audioButton=document.getElementById('quizAudioButton');if(audioButton)audioButton.classList.remove('playing')}
+function show(id){if(id!=='learn')stopLearnAudio();if(id!=='quiz')stopQuizAudio();document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));const el=document.getElementById(id);if(el)el.classList.add('active');if(id==='learn')renderLetter();if(id==='map')updateStarDisplays()}
+function renderLetter(){const l=letters[index];document.getElementById('arabic').textContent=l[0];document.getElementById('letterName').textContent=l[1];const pct=Math.round((index+1)/29*5);document.getElementById('learnDots').textContent='● '.repeat(Math.max(1,pct))+'○ '.repeat(5-Math.max(1,pct))}
+function moveLetter(n){stopLearnAudio();index=(index+n+letters.length)%letters.length;renderLetter()}
+function nextLearnLetter(){stopLearnAudio();if(index<letters.length-1){index++;renderLetter();return}if(listenedLetters.size===letters.length){completeMission1();show("map");return}const missing=letters.filter((letter,i)=>!listenedLetters.has(i)).map(letter=>letter[1]);openModal("Belum selesai, ya. Masih ada "+missing.length+" huruf yang belum diputar: "+missing.join(", ")+". Putar audio setiap huruf tersebut, lalu tekan Next pada huruf Ya untuk kembali ke peta.")}
+function playNameAudio(){if(!audioEnabled)return;const playedIndex=index;const audioPath='assets/audio/nama/'+String(index+1).padStart(2,'0')+'.mp3';if(currentAudio){currentAudio.pause();currentAudio.currentTime=0}currentAudio=new Audio(audioPath);currentAudio.onplaying=()=>markLetterListened(playedIndex);currentAudio.onerror=()=>openModal('Audio belum dapat diputar. Pastikan seluruh folder assets ikut diekstrak bersama index.html.');currentAudio.play().catch(()=>openModal('Audio belum dapat diputar. Pastikan seluruh folder assets ikut diekstrak bersama index.html.'))}
+let feedbackAudioContext=null;
+function playFeedback(kind){
+  if(!audioEnabled)return;
+  const AudioCtx=window.AudioContext||window.webkitAudioContext;
+  if(!AudioCtx)return;
+  try{
+    if(!feedbackAudioContext)feedbackAudioContext=new AudioCtx();
+    const ctx=feedbackAudioContext;
+    if(ctx.state==='suspended')ctx.resume();
+    const now=ctx.currentTime;
+    const notes=kind==='correct'?[523.25,659.25,783.99]:[392.00,293.66];
+    notes.forEach((frequency,i)=>{
+      const start=now+i*(kind==='correct'?.12:.16);
+      const osc=ctx.createOscillator();
+      const gain=ctx.createGain();
+      osc.type=kind==='correct'?'sine':'triangle';
+      osc.frequency.setValueAtTime(frequency,start);
+      gain.gain.setValueAtTime(.0001,start);
+      gain.gain.exponentialRampToValueAtTime(kind==='correct'?.075:.055,start+.025);
+      gain.gain.exponentialRampToValueAtTime(.0001,start+.19);
+      osc.connect(gain);gain.connect(ctx.destination);
+      osc.start(start);osc.stop(start+.205);
+    });
+  }catch(e){/* Audio feedback is optional on browsers without Web Audio support. */}
+}
+function startMatch(){matchIndex=1;show('match');renderMatch()}
+function renderMatch(){answered=false;const target=letters[matchIndex];document.getElementById('matchPrompt').innerHTML='<span>Temukan huruf yang sama dengan</span><span class="prompt-arabic" lang="ar" dir="rtl">'+target[0]+'</span>';document.getElementById('matchFeedback').textContent='';document.getElementById('nextMatch').style.display='none';document.getElementById('nextMatch').textContent=matchIndex===letters.length-1?'Kembali ke Peta':'Lanjut →';let pool=[target];while(pool.length<4){const x=letters[Math.floor(Math.random()*letters.length)];if(!pool.some(a=>a[0]===x[0]))pool.push(x)}pool.sort(()=>Math.random()-.5);const box=document.getElementById('matchChoices');box.innerHTML='';pool.forEach(l=>{const b=document.createElement('button');b.className='choice';b.type='button';b.textContent=l[0];b.setAttribute('aria-label','Pilih huruf '+l[1]);b.onclick=()=>checkMatch(b,l[0]===target[0]);box.appendChild(b)})}
+function checkMatch(btn,correct){if(answered)return;answered=true;triggerVibration(correct?[35,35,60]:[90]);document.querySelectorAll('#matchChoices .choice').forEach(b=>b.disabled=true);if(correct){playFeedback('correct');btn.classList.add('correct');document.getElementById('matchFeedback').textContent='MasyaAllah, tepat! Kamu menemukan pasangannya.';awardMissionStar(2)}else{playFeedback('wrong');btn.classList.add('wrong');document.getElementById('matchFeedback').textContent='Belum tepat. Ayo lanjut berlatih!';document.querySelectorAll('#matchChoices .choice').forEach(b=>{if(b.textContent===letters[matchIndex][0])b.classList.add('correct')})}document.getElementById('nextMatch').style.display='block'}
+function nextMatch(){if(matchIndex===letters.length-1){show('map');return}matchIndex++;renderMatch()}
+
+// Misi 3 – Hutan Tebak Suara: dengarkan nama huruf, lalu pilih bentuk hurufnya.
+let quizQuestions=[],quizRound=0,quizCorrect=0,quizAnswered=false,quizTarget=null,quizAudio=null,quizFinished=false;
+function shuffleArray(items){const copy=items.slice();for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]]}return copy}
+function startQuiz(){stopQuizAudio();document.getElementById('winResult').classList.remove('open');quizQuestions=shuffleArray(letters.map((letter,i)=>i)).slice(0,10);quizRound=0;quizCorrect=0;quizFinished=false;show('quiz');renderQuizQuestion()}
+function renderQuizQuestion(){stopQuizAudio();quizAnswered=false;quizTarget=quizQuestions[quizRound];document.getElementById('quizProgress').textContent=(quizRound+1)+'/10';document.getElementById('quizInstruction').textContent='Dengarkan nama huruf, lalu pilih huruf yang tepat!';document.getElementById('quizFeedback').textContent='Tekan tombol suara untuk mendengarkan.';document.getElementById('quizNext').style.display='none';const audioButton=document.getElementById('quizAudioButton');audioButton.classList.remove('playing');audioButton.disabled=false;let options=[quizTarget];while(options.length<4){const candidate=Math.floor(Math.random()*letters.length);if(!options.includes(candidate))options.push(candidate)}options=shuffleArray(options);const choices=document.getElementById('quizChoices');choices.innerHTML='';options.forEach(optionIndex=>{const b=document.createElement('button');b.type='button';b.className='choice quiz-choice';b.textContent=letters[optionIndex][0];b.setAttribute('lang','ar');b.setAttribute('dir','rtl');b.setAttribute('aria-label','Pilih huruf '+letters[optionIndex][1]);b.dataset.letterIndex=String(optionIndex);b.addEventListener('click',()=>checkQuizAnswer(b,optionIndex===quizTarget));choices.appendChild(b)})}
+function playQuizAudio(){if(quizTarget===null||!audioEnabled)return;if(quizAudio){quizAudio.pause();quizAudio.currentTime=0}const audioPath='assets/audio/nama/'+String(quizTarget+1).padStart(2,'0')+'.mp3';quizAudio=new Audio(audioPath);const button=document.getElementById('quizAudioButton');button.classList.add('playing');quizAudio.onended=()=>button.classList.remove('playing');quizAudio.onerror=()=>{button.classList.remove('playing');document.getElementById('quizFeedback').textContent='Audio belum dapat diputar. Periksa folder assets/audio/nama.'};quizAudio.play().catch(()=>{button.classList.remove('playing');document.getElementById('quizFeedback').textContent='Tekan tombol suara sekali lagi untuk memutar audio.'})}
+function checkQuizAnswer(button,correct){if(quizAnswered)return;quizAnswered=true;triggerVibration(correct?[35,35,60]:[90]);stopQuizAudio();document.querySelectorAll('#quizChoices .quiz-choice').forEach(b=>b.disabled=true);if(correct){quizCorrect++;awardMissionStar(3);button.classList.add('correct');playFeedback('correct');document.getElementById('quizFeedback').textContent='MasyaAllah, benar! Hebat sekali!'}else{button.classList.add('wrong');playFeedback('wrong');document.querySelectorAll('#quizChoices .quiz-choice').forEach(b=>{if(b.dataset.letterIndex===String(quizTarget))b.classList.add('correct')});document.getElementById('quizFeedback').textContent='Belum tepat. Tidak apa-apa, terus belajar!'}document.getElementById('quizNext').style.display='block';document.getElementById('quizNext').textContent=quizRound===9?'Lihat Hasil':'Lanjut →'}
+function nextQuizQuestion(){if(quizFinished){show('map');return}if(!quizAnswered)return;if(quizRound<9){quizRound++;renderQuizQuestion();return}finishQuiz()}
+function finishQuiz(){stopQuizAudio();quizFinished=true;document.getElementById('quizFeedback').textContent=quizCorrect===10?'MasyaAllah! Misi 3 selesai dengan sempurna!':quizCorrect>=7?'Alhamdulillah, Misi 3 berhasil diselesaikan dengan baik!':'Alhamdulillah, Misi 3 selesai. Terus berlatih agar semakin mengenal huruf Hijaiyah.';document.getElementById('quizNext').textContent='Kembali ke Peta';document.getElementById('quizNext').style.display='block'}
+
+
+// Misi 4 – Jembatan Urutan. Enam babak menyusun seluruh 29 huruf (5+5+5+5+5+4).
+const orderRounds=[];for(let i=0;i<letters.length;i+=5)orderRounds.push(letters.slice(i,i+5));
+let orderRoundIndex=0,orderPosition=0,orderCurrentChoices=[],orderCompletedRounds=0,orderSelectedIndices=[],orderHintAudio=null;
+function startOrderMission(){orderRoundIndex=0;orderPosition=0;orderCompletedRounds=0;orderSelectedIndices=[];if(orderHintAudio){orderHintAudio.pause();orderHintAudio.currentTime=0}document.getElementById('orderFinish').style.display='none';show('order');renderOrderRound()}
+function renderOrderRound(){const round=orderRounds[orderRoundIndex];orderPosition=0;orderSelectedIndices=[];orderCurrentChoices=shuffleArray(round.map((letter,i)=>i));document.getElementById('orderRound').textContent=(orderRoundIndex+1)+' / '+orderRounds.length;document.getElementById('orderProgressFill').style.width=(orderRoundIndex/orderRounds.length*100)+'%';document.getElementById('orderInstruction').textContent='Pilih huruf yang tepat dan letakkan pada tempatnya!';document.getElementById('orderFeedback').textContent='Pilih huruf, letakkan pada tempatnya, lalu tekan Cek Pengerjaan.';document.getElementById('orderFeedback').classList.remove('wrong');document.getElementById('orderCheck').style.display='inline-block';document.getElementById('orderCheck').disabled=true;document.getElementById('orderNext').style.display='none';const slots=document.getElementById('orderSlots');slots.innerHTML='';round.forEach(()=>{const slot=document.createElement('div');slot.className='order-slot';slot.textContent='?';slots.appendChild(slot)});const choices=document.getElementById('orderChoices');choices.innerHTML='';orderCurrentChoices.forEach(localIndex=>{const letter=round[localIndex];const button=document.createElement('button');button.type='button';button.className='order-choice';button.innerHTML='<span class="glyph" lang="ar" dir="rtl"></span><span class="name"></span>';button.querySelector('.glyph').textContent=letter[0];button.querySelector('.name').textContent=letter[1];button.setAttribute('aria-label','Pilih '+letter[1]);button.addEventListener('click',()=>chooseOrderLetter(button,localIndex));choices.appendChild(button)})}
+function chooseOrderLetter(button,localIndex){if(orderPosition>=orderRounds[orderRoundIndex].length||button.disabled)return;orderSelectedIndices.push(localIndex);const slot=document.querySelectorAll('#orderSlots .order-slot')[orderPosition];slot.textContent=orderRounds[orderRoundIndex][localIndex][0];slot.classList.add('filled');button.disabled=true;orderPosition=orderSelectedIndices.length;document.getElementById('orderCheck').disabled=orderPosition!==orderRounds[orderRoundIndex].length;document.getElementById('orderFeedback').classList.remove('wrong');document.getElementById('orderFeedback').textContent=orderPosition===orderRounds[orderRoundIndex].length?'Semua huruf sudah ditempatkan. Tekan Cek Jawaban!':'Huruf ditempatkan. Lanjutkan memilih huruf berikutnya.';}
+function checkOrderAnswer(){const round=orderRounds[orderRoundIndex];if(orderSelectedIndices.length!==round.length){document.getElementById('orderFeedback').textContent='Lengkapi semua tempat huruf terlebih dahulu, ya!';return}const correct=orderSelectedIndices.every((value,index)=>value===index);if(!correct){document.getElementById('orderFeedback').textContent='Belum tepat. Coba susun kembali urutannya, ya!';document.getElementById('orderFeedback').classList.add('wrong');playFeedback('wrong');triggerVibration([80]);document.querySelectorAll('#orderSlots .order-slot').forEach(slot=>{slot.textContent='?';slot.classList.remove('filled')});document.querySelectorAll('#orderChoices .order-choice').forEach(button=>{button.disabled=false});orderSelectedIndices=[];orderPosition=0;document.getElementById('orderCheck').disabled=true;return}document.getElementById('orderFeedback').textContent='MasyaAllah! Urutannya benar!';document.getElementById('orderFeedback').classList.remove('wrong');document.querySelectorAll('#orderSlots .order-slot').forEach(slot=>slot.classList.add('filled'));document.querySelectorAll('#orderChoices .order-choice').forEach(button=>{button.disabled=true});playFeedback('correct');triggerVibration([30,30,45]);orderCompletedRounds=Math.max(orderCompletedRounds,orderRoundIndex+1);missionStars[4]=Math.max(missionStars[4],Math.min(3,Math.floor(orderCompletedRounds/2)));saveGameProgress();updateStarDisplays();document.getElementById('orderProgressFill').style.width=((orderRoundIndex+1)/orderRounds.length*100)+'%';document.getElementById('orderCheck').style.display='none';document.getElementById('orderNext').textContent=orderRoundIndex===orderRounds.length-1?'Selesaikan Misi':'Lanjut';document.getElementById('orderNext').style.display='inline-block'}
+function playOrderHint(){if(!audioEnabled)return;const sessionStart=orderRoundIndex*5;const previousLetterIndex=orderPosition===0?Math.max(0,sessionStart-1):sessionStart+orderPosition-1;const audioIndex=Math.min(letters.length-1,previousLetterIndex);if(orderHintAudio){orderHintAudio.pause();orderHintAudio.currentTime=0}orderHintAudio=new Audio('assets/audio/nama/'+String(audioIndex+1).padStart(2,'0')+'.mp3');orderHintAudio.onerror=()=>openModal('Audio petunjuk belum dapat diputar. Pastikan folder assets/audio/nama tersedia.');orderHintAudio.play().catch(()=>openModal('Audio petunjuk belum dapat diputar. Pastikan folder assets/audio/nama tersedia.'))}
+function nextOrderRound(){if(orderPosition!==orderRounds[orderRoundIndex].length||orderSelectedIndices.length!==orderRounds[orderRoundIndex].length)return;if(orderRoundIndex<orderRounds.length-1){orderRoundIndex++;renderOrderRound();return}missionStars[4]=3;saveGameProgress();updateStarDisplays();document.getElementById('orderFinish').style.display='grid'}
+
+function openHelp(){openModal('Petunjuk: tekan Mulai untuk membuka peta. Pilih Gerbang Hijaiyah untuk mengenal 29 huruf dan tombol Dengar Nama untuk mendengarkan audio. Pilih Lembah Pasangan untuk mencocokkan huruf. Pilih Jembatan Urutan untuk menyusun huruf sesuai urutan Hijaiyah.')}
+function lockedMission(n){openModal('Misi '+n+' belum diaktifkan. Tampilan dan mekanismenya akan dikembangkan setelah tahap integrasi visual ini.')}
+function openModal(message){document.getElementById('modalText').textContent=message;document.getElementById('modal').classList.add('open')}
+function closeModal(){document.getElementById('modal').classList.remove('open')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+</script></body></html>
