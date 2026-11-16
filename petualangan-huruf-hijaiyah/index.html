@@ -713,9 +713,14 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
   .m5-crown-recap-overlay{left:6%;top:36.2%;gap:10%}
 }
 
+
+/* Watermark identitas P’Nata pada seluruh layar, termasuk layar Misi 4 dan Misi 5. */
+.artboard img.wm-home{right:2.5%;bottom:2.5%;width:6.5%;}
+.order-watermark{position:absolute;right:1.8%;bottom:2%;width:clamp(28px,4.2%,48px);height:auto;object-fit:contain;opacity:.38;z-index:4;pointer-events:none;user-select:none;}
+.m5-watermark{position:absolute;right:2.2%;top:2.2%;width:clamp(26px,5.2%,42px);height:auto;object-fit:contain;opacity:.38;z-index:4;pointer-events:none;user-select:none;}
 </style></head><body><main class="app">
 <header class="topbar"><div class="brand">P’Nata <span style="color:#b17b0d">|</span> Petualangan Huruf Hijaiyah</div><div class="score">⭐ <span id="stars">0</span></div></header>
-<section id="home" class="screen active"><div class="artboard home-board"><img src="assets/mockup/home.webp" alt="Halaman pembuka P’Nata Petualangan Huruf Hijaiyah"><button class="hit home-start" aria-label="Mulai petualangan" onclick="show('map')"></button><button class="hit home-learn" aria-label="Belajar huruf" onclick="show('learn')"></button><button class="hit home-help" aria-label="Petunjuk" onclick="openHelp()"></button><button class="hit home-settings" aria-label="Pengaturan" onclick="openSettings()"></button></div></section>
+<section id="home" class="screen active"><div class="artboard home-board"><img src="assets/mockup/home.webp" alt="Halaman pembuka P’Nata Petualangan Huruf Hijaiyah"><img class="brand-watermark wm-home" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><button class="hit home-start" aria-label="Mulai petualangan" onclick="show('map')"></button><button class="hit home-learn" aria-label="Belajar huruf" onclick="show('learn')"></button><button class="hit home-help" aria-label="Petunjuk" onclick="openHelp()"></button><button class="hit home-settings" aria-label="Pengaturan" onclick="openSettings()"></button></div></section>
 <section id="map" class="screen"><div class="artboard map-board"><img src="assets/mockup/map.webp" alt="Peta lima misi petualangan"><img class="brand-watermark wm-map" src="assets/brand/PNata_Ikon_HQ_4x.png" alt=""><span class="map-total-stars" id="mapTotalStars">0</span>
 <div class="map-stars-m1" aria-label="Bintang Misi 1"><span class="map-star">★</span><span class="map-star">★</span><span class="map-star">★</span></div>
 <div class="map-stars-m2" aria-label="Bintang Misi 2"><span class="map-star">★</span><span class="map-star">★</span><span class="map-star">★</span></div>
@@ -742,6 +747,7 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 <section id="order" class="screen">
 <div class="order-board order-mockup-board" role="region" aria-label="Misi 4 Jembatan Urutan">
   <img class="order-mockup-full" src="assets/mockup/Order.png" alt="Tampilan Jembatan Urutan">
+  <img class="order-watermark" src="assets/brand/PNata_Ikon_HQ_4x.png" alt="">
   <button class="order-back" type="button" aria-label="Back, kembali ke Peta Petualangan" onclick="show('map')"></button>
   <div class="order-star-total" aria-label="Total bintang"><b id="orderStarTotal">0</b></div>
   <div class="order-round-chip" id="orderRound" aria-hidden="true">1 / 6</div>
@@ -758,6 +764,7 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 <section id="m5home" class="screen">
  <div class="m5-board m5-home-board" role="region" aria-label="Layar utama Misi 5 Istana Juara">
   <img class="m5-art" src="assets/mockup/misi-5-istana-juara/01-Layar-Utama-Misi-5.png" alt="Istana Juara, ujian akhir petualangan huruf Hijaiyah">
+  <img class="m5-watermark" src="assets/brand/PNata_Ikon_HQ_4x.png" alt="">
   <button class="m5-hit m5-home-back" type="button" onclick="show('map')" aria-label="Kembali ke peta petualangan"></button>
   <div class="m5-home-kicker">MISI 5</div><div class="m5-home-title">Istana Juara</div>
   <div class="m5-home-description">Ujian Akhir Petualangan Huruf Hijaiyah<br>Tunjukkan kemampuan tuk jadi Juara!</div>
@@ -767,6 +774,7 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 <section id="m5map" class="screen">
  <div class="m5-board m5-map-board" role="region" aria-label="Peta empat ruangan Istana Juara">
   <img class="m5-art" src="assets/mockup/misi-5-istana-juara/02-Peta-Empat-Ruangan-Istana.png" alt="Peta empat ruangan ujian Istana Juara">
+  <img class="m5-watermark" src="assets/brand/PNata_Ikon_HQ_4x.png" alt="">
   <div class="m5-map-title">Pilih Ruang Ujian</div>
   <button class="m5-hit m5-map-back" type="button" onclick="show('m5home')" aria-label="Kembali ke layar utama Misi 5"></button>
   <button class="m5-hit m5-door m5-door-1" type="button" onclick="enterM5Room(0)" aria-label="Masuk Ruang 1 Gerbang Pengenalan"></button>
@@ -779,6 +787,7 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 <section id="mission5" class="screen">
  <div class="m5-board m5-room-board" id="m5RoomBoard" role="region" aria-label="Tantangan ruang Istana Juara">
   <img class="m5-art" id="m5RoomArt" src="assets/mockup/misi-5-istana-juara/03-Ruang-1-Gerbang-Pengenalan.png" alt="Latar ruang ujian Istana Juara">
+  <img class="m5-watermark" src="assets/brand/PNata_Ikon_HQ_4x.png" alt="">
   <button class="m5-hit m5-room-back" type="button" onclick="show('m5map')" aria-label="Kembali ke peta ruangan"></button>
   <div class="m5-question-panel" id="m5QuestionPanel">
    <div class="m5-prompt" id="m5Prompt" lang="ar" dir="rtl">ا</div>
@@ -796,6 +805,7 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 <section id="m5crown" class="screen">
  <div class="m5-board m5-crown-board" role="region" aria-label="Layar Penobatan Juara">
   <img class="m5-art" src="assets/mockup/misi-5-istana-juara/07-Layar-Penobatan-Juara.png" alt="Penobatan Juara Petualangan Huruf Hijaiyah">
+  <img class="m5-watermark" src="assets/brand/PNata_Ikon_HQ_4x.png" alt="">
   <div class="m5-crown-total-overlay" id="m5FinalTotal">0</div>
   <div class="m5-crown-recap-overlay" id="m5Recap"></div>
   <button class="m5-hit m5-crown-map" type="button" onclick="show('map')" aria-label="Kembali ke peta petualangan"></button>
