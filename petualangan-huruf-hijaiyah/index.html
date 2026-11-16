@@ -113,14 +113,14 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 .mission-back::before{content:none!important}
 .match-back{left:1.5%;top:1.5%;width:13%;height:17%;z-index:8}
 .quiz-back{left:1.5%;top:1.5%;width:13%;height:17%;z-index:8}
-/* Mockup Kenali Huruf belum memiliki tombol kembali. Gunakan potongan tombol panah dari mockup Pasangkan Huruf. */
+/* Tombol Back sudah menyatu di learn.webp.
+   Elemen ini hanya menjadi area klik transparan di atas tombol pada mockup. */
 .learn-back{
   left:4%;top:4%;width:10.5%;height:12%;z-index:8;
-  background-image:url("assets/mockup/match.webp")!important;
-  background-repeat:no-repeat!important;background-size:698% 623%!important;
-  background-position:0 0!important;border:0!important;border-radius:50%!important;
-  clip-path:circle(50%);overflow:hidden;
-  box-shadow:none!important;
+  background:transparent!important;background-image:none!important;
+  border:0!important;border-radius:0!important;
+  clip-path:none!important;box-shadow:none!important;
+  color:transparent!important;padding:0!important;
 }
 /* Gerbang Hijaiyah: area huruf digeser agar tidak menutupi speaker asli pada mockup. */
 .learn-letter{left:34%;width:38%;top:25%;height:31%;z-index:3}
