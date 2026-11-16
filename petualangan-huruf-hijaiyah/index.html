@@ -545,6 +545,46 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 .m5-room-symbol-2{left:21.5%;top:74%}.m5-room-symbol-3{left:69.5%;top:74%;font-size:clamp(1rem,2.6vw,1.9rem)}
 @media(max-width:560px){.m5-room-label{height:7%}.m5-room-name{font-size:clamp(.55rem,2.2vw,.85rem)}.m5-room-symbol{font-size:clamp(1rem,3.5vw,1.6rem)}.m5-room-symbol-3{font-size:clamp(.65rem,2vw,1rem)}}
 
+
+/* ===== M5 fine alignment pass ===== */
+.m5-home-kicker{top:15%}
+.m5-home-title{font-size:clamp(1.8rem,5.4vw,4.2rem)}
+.m5-home-description{font-size:clamp(.78rem,1.85vw,1.38rem);line-height:1.22}
+.m5-home-start{top:74%;height:11%;border:0;border-radius:0;background:transparent;box-shadow:none;color:#075b3b;font-size:clamp(.78rem,1.9vw,1.25rem);text-shadow:0 1px 0 #fff4c7}
+.m5-map-title{-webkit-text-stroke:1px #07564f;text-shadow:0 2px 0 #07564f,1px 0 #07564f,-1px 0 #07564f,0 -1px #07564f,0 0 5px #fff,0 0 8px #fff}
+.m5-room-label-0{left:17%}.m5-room-symbol-0{left:23.5%;top:32%}
+.m5-room-label-1{left:59%}.m5-room-symbol-1{left:65.5%;top:32%}
+.m5-room-label-2{left:13.5%;top:56.5%}.m5-room-symbol-2{top:72%}
+.m5-room-label-3{top:56.5%}.m5-room-symbol-3{top:72%}
+.m5-room-board[data-room="0"] .m5-choices{left:5%;right:5%;top:68%;height:17%;gap:1%}
+.m5-room-board[data-room="0"] .m5-choice{font-size:clamp(1.05rem,2.8vw,1.8rem)}
+.m5-room-board[data-room="0"] .m5-feedback{bottom:5%;font-size:clamp(.82rem,1.9vw,1.2rem)}
+.m5-room-board[data-room="1"] .m5-choices,.m5-room-board[data-room="2"] .m5-choices{top:63%;height:28%}
+.m5-room-board[data-room="1"] .m5-feedback,.m5-room-board[data-room="2"] .m5-feedback{bottom:5%;font-size:clamp(.82rem,1.9vw,1.2rem)}
+.m5-room-board[data-room="2"] .m5-subprompt{top:13%}
+.m5-room-board[data-room="3"] .m5-order-slots{left:0;width:100%;gap:1%;justify-content:space-between}
+.m5-room-board[data-room="3"] .m5-order-slot{width:24%;flex:0 0 24%;font-size:clamp(2.2rem,6vw,4.2rem)}
+.m5-room-board[data-room="3"] .m5-choices{top:69%;height:17%;left:5%;right:5%;gap:1%}
+.m5-room-board[data-room="3"] .m5-choice{font-size:clamp(2.2rem,6.2vw,4rem)}
+.m5-room-board[data-room="3"] .m5-feedback{bottom:4%;font-size:clamp(.82rem,1.9vw,1.2rem)}
+.m5-crown-total-overlay{right:8.5%;top:47.5%}
+.m5-crown-recap-overlay{top:45%}
+@media(max-width:560px){
+ .m5-home-kicker{top:15%}.m5-home-description{font-size:clamp(.5rem,2vw,.78rem)}
+ .m5-home-start{top:74%;font-size:clamp(.56rem,2vw,.82rem)}
+ .m5-room-label-0{left:18%}.m5-room-symbol-0{left:24.5%;top:32%}
+ .m5-room-label-1{left:58%}.m5-room-symbol-1{left:64.5%;top:32%}
+ .m5-room-label-2{left:13%}.m5-room-label-3{top:56.5%}
+ .m5-room-board[data-room="0"] .m5-choices{top:68%;height:17%;left:4%;right:4%}
+ .m5-room-board[data-room="0"] .m5-choice{font-size:clamp(.7rem,2.6vw,1rem)}
+ .m5-room-board[data-room="1"] .m5-choices,.m5-room-board[data-room="2"] .m5-choices{top:63%;height:28%}
+ .m5-room-board[data-room="2"] .m5-subprompt{top:13%}
+ .m5-room-board[data-room="3"] .m5-order-slot{font-size:clamp(1.5rem,5.5vw,2.5rem)}
+ .m5-room-board[data-room="3"] .m5-choices{top:69%;height:17%;left:4%;right:4%}
+ .m5-room-board[data-room="3"] .m5-choice{font-size:clamp(1.4rem,5.5vw,2.5rem)}
+ .m5-crown-total-overlay{right:8.5%;top:47.5%}.m5-crown-recap-overlay{top:45%}
+}
+
 </style></head><body><main class="app">
 <header class="topbar"><div class="brand">P’Nata <span style="color:#b17b0d">|</span> Petualangan Huruf Hijaiyah</div><div class="score">⭐ <span id="stars">0</span></div></header>
 <section id="home" class="screen active"><div class="artboard home-board"><img src="assets/mockup/home.webp" alt="Halaman pembuka P’Nata Petualangan Huruf Hijaiyah"><button class="hit home-start" aria-label="Mulai petualangan" onclick="show('map')"></button><button class="hit home-learn" aria-label="Belajar huruf" onclick="show('learn')"></button><button class="hit home-help" aria-label="Petunjuk" onclick="openHelp()"></button><button class="hit home-settings" aria-label="Pengaturan" onclick="openSettings()"></button></div></section>
@@ -740,8 +780,8 @@ function renderM5Question(){stopM5Audio();m5Correct=false;m5OrderSelected=[];con
  }
 function addM5Choice(label,isCorrect,arabic){const b=document.createElement('button');b.type='button';b.className='m5-choice'+(arabic?' arabic':'');b.textContent=label;b.addEventListener('click',()=>handleM5Choice(b,isCorrect));document.getElementById('m5Choices').appendChild(b)}
 function handleM5Choice(button,correct){if(m5Correct)return;if(m5Room===3){const idx=m5OrderSelected.length;const expected=m5OrderSequence[idx];const selected=letters.findIndex(l=>l[0]===button.textContent);if(selected!==expected){button.classList.add('wrong');document.getElementById('m5Feedback').className='m5-feedback wrong';document.getElementById('m5Feedback').textContent='Belum tepat. Coba lagi dari huruf pertama.';playFeedback('wrong');triggerVibration([80]);setTimeout(()=>button.classList.remove('wrong'),450);m5OrderSelected=[];document.querySelectorAll('#m5OrderSlots .m5-order-slot').forEach(x=>{x.textContent='؟';x.classList.remove('filled')});document.querySelectorAll('#m5Choices .m5-choice').forEach(x=>{x.disabled=false;x.classList.remove('correct')});return;}m5OrderSelected.push(selected);button.disabled=true;button.classList.add('correct');const slot=document.querySelectorAll('#m5OrderSlots .m5-order-slot')[idx];if(slot){slot.textContent=letters[selected][0];slot.classList.add('filled')}document.getElementById('m5Feedback').textContent=m5OrderSelected.length===4?'MasyaAllah! Urutannya benar!':'Tepat! Pilih huruf berikutnya.';if(m5OrderSelected.length===4)finishM5Question();return;}
- if(correct){m5Correct=true;button.classList.add('correct');document.querySelectorAll('#m5Choices .m5-choice').forEach(b=>b.disabled=true);document.getElementById('m5Feedback').textContent='MasyaAllah! Jawabanmu benar!';playFeedback('correct');triggerVibration([30,30,55]);document.getElementById('m5Continue').disabled=false;document.getElementById('m5Continue').textContent=m5Question===4?'Selesai':'Lanjut';document.getElementById('m5Continue').style.display='grid';}else{button.classList.add('wrong');document.getElementById('m5Feedback').className='m5-feedback wrong';document.getElementById('m5Feedback').textContent='Belum tepat. Tidak apa-apa, coba lagi!';playFeedback('wrong');triggerVibration([80]);setTimeout(()=>button.classList.remove('wrong'),450);}}
-function finishM5Question(){m5Correct=true;document.querySelectorAll('#m5Choices .m5-choice').forEach(b=>b.disabled=true);document.getElementById('m5Continue').disabled=false;document.getElementById('m5Continue').textContent=m5Question===4?'Selesai':'Lanjut';document.getElementById('m5Continue').style.display='grid';playFeedback('correct');triggerVibration([30,30,55]);}
+ if(correct){m5Correct=true;button.classList.add('correct');document.querySelectorAll('#m5Choices .m5-choice').forEach(b=>b.disabled=true);document.getElementById('m5Feedback').className='m5-feedback';document.getElementById('m5Feedback').textContent='MasyaAllah! Jawabanmu benar!';playFeedback('correct');triggerVibration([30,30,55]);setTimeout(()=>continueM5(),750);}else{button.classList.add('wrong');document.getElementById('m5Feedback').className='m5-feedback wrong';document.getElementById('m5Feedback').textContent='Belum tepat. Tidak apa-apa, coba lagi!';playFeedback('wrong');triggerVibration([80]);setTimeout(()=>button.classList.remove('wrong'),450);}}
+function finishM5Question(){m5Correct=true;document.querySelectorAll('#m5Choices .m5-choice').forEach(b=>b.disabled=true);if(m5Room===3){document.getElementById('m5Continue').disabled=false;document.getElementById('m5Continue').textContent=m5Question===4?'Selesai':'Lanjut';document.getElementById('m5Continue').style.display='grid';}else{setTimeout(()=>continueM5(),750);}playFeedback('correct');triggerVibration([30,30,55]);}
 function playM5Audio(){if(!audioEnabled)return;stopM5Audio();m5Audio=new Audio('assets/audio/nama/'+String(m5Target+1).padStart(2,'0')+'.mp3');m5Audio.onerror=()=>{document.getElementById('m5Feedback').textContent='Audio tidak dapat diputar. Periksa assets/audio/nama.'};m5Audio.play().catch(()=>{document.getElementById('m5Feedback').textContent='Tekan tombol dengarkan sekali lagi.'});}
 function continueM5(){if(!m5Correct)return;if(m5Question<4){m5Question++;renderM5Question();return;}completeM5Room();}
 function completeM5Room(){stopM5Audio();if(missionStars[5]<m5Room+1){missionStars[5]=m5Room+1;saveGameProgress();updateStarDisplays();}saveM5Progress();document.getElementById('m5CompleteTitle').textContent=m5Room===3?'MasyaAllah! Istana Ditaklukkan!':'MasyaAllah! Hebat sekali!';document.getElementById('m5CompleteText').textContent='Kamu berhasil menjawab lima tantangan di '+m5RoomNames[m5Room]+'.';document.getElementById('m5RoomNext').textContent=m5Room===3?'Lihat Penobatan Juara':'Kembali ke Peta Ruangan';document.getElementById('m5RoomComplete').style.display='grid';}
