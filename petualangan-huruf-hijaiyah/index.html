@@ -458,6 +458,7 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 .m5-hit:focus-visible{outline:4px solid #fff1a8;outline-offset:2px;background:#ffffff22}
 .m5-home-start{left:34%;top:78%;width:32%;height:16%}
 .m5-map-back{left:1.5%;top:1%;width:8%;height:15%}
+.m5-home-back{left:1.5%;top:1%;width:8%;height:15%;z-index:9}
 .m5-door{width:20%;height:43%;border-radius:18px}
 .m5-door-1{left:17%;top:17%}.m5-door-2{left:63%;top:17%}.m5-door-3{left:17%;top:56%}.m5-door-4{left:63%;top:56%}
 .m5-map-progress{position:absolute;z-index:7;inset:0;pointer-events:none}
@@ -757,6 +758,7 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
 <section id="m5home" class="screen">
  <div class="m5-board m5-home-board" role="region" aria-label="Layar utama Misi 5 Istana Juara">
   <img class="m5-art" src="assets/mockup/misi-5-istana-juara/01-Layar-Utama-Misi-5.png" alt="Istana Juara, ujian akhir petualangan huruf Hijaiyah">
+  <button class="m5-hit m5-home-back" type="button" onclick="show('map')" aria-label="Kembali ke peta petualangan"></button>
   <div class="m5-home-kicker">MISI 5</div><div class="m5-home-title">Istana Juara</div>
   <div class="m5-home-description">Ujian Akhir Petualangan Huruf Hijaiyah<br>Tunjukkan kemampuan tuk jadi Juara!</div>
   <button class="m5-home-start" type="button" onclick="openM5Map()">▶ &nbsp; Mulai Tantangan</button>
