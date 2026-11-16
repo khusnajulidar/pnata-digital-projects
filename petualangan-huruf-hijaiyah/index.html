@@ -674,6 +674,29 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
  .m5-crown-recap-overlay{top:39.6%;gap:8%}
 }
 
+
+/* PENYESUAIAN VISUAL M5 – putaran revisi berikutnya */
+.m5-home-description{top:50.4%}
+.m5-room-symbol-1{left:64%}
+.m5-room-board[data-room="0"] .m5-choice:nth-child(1){transform:translate(-5.5%,4%)}
+.m5-room-board[data-room="0"] .m5-choice:nth-child(2){transform:translate(-1.9%,4%)}
+.m5-room-board[data-room="0"] .m5-choice:nth-child(3){transform:translate(.8%,4%)}
+.m5-room-board[data-room="0"] .m5-choice:nth-child(4){transform:translate(3.8%,4%)}
+.m5-room-board[data-room="1"] .m5-choices .m5-choice{transform:translateX(-2.2%)}
+.m5-room-board[data-room="1"] .m5-feedback{bottom:2%}
+.m5-room-board[data-room="3"] .m5-order-slot:nth-child(1){transform:translate(-4.4%,4.4%)}
+.m5-room-board[data-room="3"] .m5-order-slot:nth-child(2){transform:translate(-2.2%,2.2%)}
+.m5-room-board[data-room="3"] .m5-order-slot:nth-child(3){transform:translate(2.2%,2.2%)}
+.m5-room-board[data-room="3"] .m5-order-slot:nth-child(4){transform:translate(4.4%,4.4%)}
+.m5-crown-total-overlay{top:44.5%}
+.m5-crown-recap-overlay{top:37.4%;gap:9%}
+@media(max-width:560px){
+  .m5-home-description{top:50.4%}
+  .m5-room-symbol-1{left:63%}
+  .m5-crown-total-overlay{top:44.5%}
+  .m5-crown-recap-overlay{top:37.4%;gap:9%}
+}
+
 </style></head><body><main class="app">
 <header class="topbar"><div class="brand">P’Nata <span style="color:#b17b0d">|</span> Petualangan Huruf Hijaiyah</div><div class="score">⭐ <span id="stars">0</span></div></header>
 <section id="home" class="screen active"><div class="artboard home-board"><img src="assets/mockup/home.webp" alt="Halaman pembuka P’Nata Petualangan Huruf Hijaiyah"><button class="hit home-start" aria-label="Mulai petualangan" onclick="show('map')"></button><button class="hit home-learn" aria-label="Belajar huruf" onclick="show('learn')"></button><button class="hit home-help" aria-label="Petunjuk" onclick="openHelp()"></button><button class="hit home-settings" aria-label="Pengaturan" onclick="openSettings()"></button></div></section>
