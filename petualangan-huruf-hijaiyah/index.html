@@ -627,6 +627,53 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
  .m5-crown-recap-overlay{top:40.2%;gap:7%}
 }
 
+
+/* ===== REVISI M5: penyetelan posisi tahap berikutnya ===== */
+/* Layar utama: rapatkan jarak judul dengan deskripsi dan naikkan deskripsi. */
+.m5-home-description{top:51.2%}
+@media(max-width:560px){.m5-home-description{top:51.2%}}
+/* Peta: pergeseran bertahap sesuai catatan posisi terbaru. */
+.m5-room-label-0{left:19.2%}
+.m5-room-symbol-0{left:27%;top:30.5%}
+.m5-room-label-1{left:55.8%}
+.m5-room-symbol-1{left:61.8%;top:31%}
+.m5-room-symbol-2{top:67.8%}
+@media(max-width:560px){
+ .m5-room-label-0{left:20.2%}.m5-room-symbol-0{left:28%;top:30.5%}
+ .m5-room-label-1{left:54.8%}.m5-room-symbol-1{left:60.8%;top:31%}
+ .m5-room-symbol-2{top:67.8%}
+}
+/* Ruang 1: turunkan semua opsi; tiap huruf digeser mengikuti urutan kartu. */
+.m5-room-board[data-room="0"] .m5-choices{top:72%}
+.m5-room-board[data-room="0"] .m5-choice{font-size:clamp(1.2rem,3.2vw,2.05rem);transform:translateY(3%)}
+.m5-room-board[data-room="0"] .m5-choice:nth-child(1){transform:translate(-2.2%,3%)}
+.m5-room-board[data-room="0"] .m5-choice:nth-child(2){transform:translate(-.8%,3%)}
+.m5-room-board[data-room="0"] .m5-choice:nth-child(3){transform:translate(.8%,3%)}
+.m5-room-board[data-room="0"] .m5-choice:nth-child(4){transform:translate(1.6%,3%)}
+@media(max-width:560px){
+ .m5-room-board[data-room="0"] .m5-choices{top:72%}
+ .m5-room-board[data-room="0"] .m5-choice{font-size:clamp(.76rem,3vw,1.18rem)}
+}
+/* Ruang 2: geser keempat pilihan sedikit ke kiri dan turunkan feedback. */
+.m5-room-board[data-room="1"] .m5-choices .m5-choice{transform:translateX(-1.2%)}
+.m5-room-board[data-room="1"] .m5-feedback{bottom:2.8%}
+/* Ruang 4: geser slot terisi sesuai kartu, dengan jarak vertikal bertahap. */
+.m5-room-board[data-room="3"] .m5-order-slots{transform:translateY(5%)}
+.m5-room-board[data-room="3"] .m5-order-slot:nth-child(1){transform:translate(-2.2%,2.2%)}
+.m5-room-board[data-room="3"] .m5-order-slot:nth-child(2){transform:translate(-1.1%,1.1%)}
+.m5-room-board[data-room="3"] .m5-order-slot:nth-child(3){transform:translate(1.1%,1.1%)}
+.m5-room-board[data-room="3"] .m5-order-slot:nth-child(4){transform:translate(2.2%,2.2%)}
+@media(max-width:560px){
+ .m5-room-board[data-room="3"] .m5-order-slots{transform:translateY(5%)}
+}
+/* Penobatan: total sedikit ke kiri-atas; rekap dinaikkan dan jarak baris ditambah. */
+.m5-crown-total-overlay{right:10.8%;top:45.6%}
+.m5-crown-recap-overlay{top:39.6%;gap:8%}
+@media(max-width:560px){
+ .m5-crown-total-overlay{right:10.8%;top:45.6%}
+ .m5-crown-recap-overlay{top:39.6%;gap:8%}
+}
+
 </style></head><body><main class="app">
 <header class="topbar"><div class="brand">P’Nata <span style="color:#b17b0d">|</span> Petualangan Huruf Hijaiyah</div><div class="score">⭐ <span id="stars">0</span></div></header>
 <section id="home" class="screen active"><div class="artboard home-board"><img src="assets/mockup/home.webp" alt="Halaman pembuka P’Nata Petualangan Huruf Hijaiyah"><button class="hit home-start" aria-label="Mulai petualangan" onclick="show('map')"></button><button class="hit home-learn" aria-label="Belajar huruf" onclick="show('learn')"></button><button class="hit home-help" aria-label="Petunjuk" onclick="openHelp()"></button><button class="hit home-settings" aria-label="Pengaturan" onclick="openSettings()"></button></div></section>
@@ -673,7 +720,7 @@ button{font:inherit;cursor:pointer;border:0}button:focus-visible{outline:4px sol
  <div class="m5-board m5-home-board" role="region" aria-label="Layar utama Misi 5 Istana Juara">
   <img class="m5-art" src="assets/mockup/misi-5-istana-juara/01-Layar-Utama-Misi-5.png" alt="Istana Juara, ujian akhir petualangan huruf Hijaiyah">
   <div class="m5-home-kicker">MISI 5</div><div class="m5-home-title">Istana Juara</div>
-  <div class="m5-home-description">Ujian Akhir Petualangan Huruf Hijaiyah<br>Tunjukkan kemampuanmu tuk jadi Juara!</div>
+  <div class="m5-home-description">Ujian Akhir Petualangan Huruf Hijaiyah<br>Tunjukkan kemampuan tuk jadi Juara!</div>
   <button class="m5-home-start" type="button" onclick="openM5Map()">▶ &nbsp; Mulai Tantangan</button>
  </div>
 </section>
