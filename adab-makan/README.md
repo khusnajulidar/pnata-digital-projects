@@ -4,29 +4,39 @@ Repository kerja proyek game edukasi interaktif P'Nata tentang adab makan untuk 
 
 ## Status proyek
 
-- [x] GDD versi 1.0 disepakati
-- [x] Target pengembangan diperluas menjadi 25 aktivitas (5 misi × 5 aktivitas)
-- [x] Rancangan awal 25 aktivitas disusun
-- [ ] Alur permainan terperinci dan spesifikasi interaksi tiap aktivitas
-- [ ] Verifikasi akhir seluruh materi agama, lafaz, audio, dan terjemahan
+- [x] GDD dasar disepakati
+- [x] Lima misi dan 25 aktivitas dirancang serta disetujui
+- [x] Pedoman ilustrasi diperjelas
+- [ ] Spesifikasi interaksi dan alur permainan per aktivitas
+- [ ] Verifikasi akhir materi agama, lafaz, audio, dan terjemahan
 - [ ] Implementasi fondasi UI dan gameplay
 - [ ] Integrasi audio
 - [ ] Desain mockup final (ditunda sementara)
 - [ ] Pengujian
 - [ ] Deployment Netlify
 
-## Keputusan desain yang telah disepakati
+## Keputusan desain
 
-- Nama produk final ditentukan belakangan.
-- Arah visual: **Soft 3D Playful**.
-- Untuk setiap mockup hanya dibuat **satu versi terbaik**, bukan beberapa alternatif untuk gambar yang sama.
-- Mockup visual ditunda sementara; pengembangan alur dan kode dilanjutkan terlebih dahulu.
-- Halaman pembuka yang disetujui: gunakan pilihan gambar dengan gelas **tanpa hiasan bintang**.
 - Target pengguna: anak usia 3–4 tahun.
 - Platform: web responsif (ponsel, tablet, desktop).
 - Teknologi: HTML, CSS, JavaScript.
-- Penyimpanan progres: Local Storage.
+- Penyimpanan progres: Local Storage; tanpa login.
 - Hosting yang direncanakan: Netlify.
+- Arah visual: **Soft 3D Playful**, palet teal, kuning, oranye, dan krem.
+- Untuk setiap mockup hanya dibuat **satu versi terbaik**, bukan beberapa alternatif.
+- Mockup visual ditunda sementara; pengembangan alur dan kode didahulukan.
+- Halaman pembuka yang disetujui: gelas tanpa hiasan bintang.
+
+### Pedoman ilustrasi
+
+- Ilustrasi benda dan objek dapat digunakan, tetapi **tidak semua ilustrasi harus berupa benda/objek**.
+- Karakter manusia boleh digunakan bila tindakan manusia memang diperlukan agar adegan mudah dipahami anak.
+- Manusia tidak digambarkan secara utuh. Gunakan crop/potongan bagian tubuh sesuai konteks adegan.
+- Wajah tidak ditampilkan lengkap; bila kepala masuk frame, batas potong dapat dibuat di bawah mata atau lebih tinggi sesuai kebutuhan. Hindari menampilkan mata.
+- Bagian tubuh tertentu seperti tangan, kaki, atau tubuh bagian bawah boleh ditampilkan.
+- Contoh: adegan meniup gelas dapat menampilkan bagian wajah anak dari bawah mata sampai mulut; adegan menginjak makanan dapat menampilkan kaki dan bagian bawah tubuh saja.
+- Tidak menggunakan ilustrasi hewan.
+- Ilustrasi harus tetap aman, tidak vulgar, tidak menakutkan, dan sesuai usia anak.
 
 ## Struktur permainan
 
@@ -35,69 +45,86 @@ Repository kerja proyek game edukasi interaktif P'Nata tentang adab makan untuk 
 - Misi dibuka secara berurutan.
 - Aktivitas dan misi yang telah terbuka dapat diulang bebas.
 - Mengulang tidak menghapus atau menggandakan bintang.
-- Tidak ada timer, nyawa, hukuman, atau leaderboard.
-- Aktivitas dibuat singkat, sederhana, beragam, dan ramah untuk rentang usia 3–4 tahun. Hindari tugas membaca panjang, menyusun huruf Arab yang rumit, atau instruksi bertahap yang terlalu banyak.
+- Tidak ada timer, nyawa, hukuman, leaderboard, atau skor numerik.
+- Interaksi singkat, sederhana, beragam, dan ramah usia 3–4 tahun.
+- Narasi utama berbahasa Indonesia; audio Arab digunakan untuk bacaan yang perlu didengar.
+- Audio dapat dikendalikan pengguna. Untuk produksi, bacaan Al-Qur'an/doa harus memakai rekaman yang telah diverifikasi, bukan TTS yang belum ditinjau.
 
-## Rancangan awal 25 aktivitas
-
-Rancangan ini menjadi dasar untuk spesifikasi gameplay. Kalimat, gambar, audio, dan tingkat kesulitan masih dapat disempurnakan saat peninjauan tiap aktivitas.
+## Rancangan aktivitas yang telah disetujui
 
 ### Misi 1 — Sebelum Makan
 
-1. **Kenali Bismillah** — anak memilih kartu بِسْمِ اللَّهِ di antara pilihan visual yang sederhana.
-2. **Dengarkan Bismillah** — anak mendengarkan audio pelafalan lalu memilih kartu yang sesuai.
-3. **Kapan Membaca Bismillah?** — anak memilih gambar kegiatan yang menunjukkan waktu sebelum mulai makan.
-4. **Urutkan Sebelum Makan** — anak menyusun dua atau tiga gambar sederhana: bersiap makan, membaca Bismillah, lalu mulai makan.
-5. **Ayo Mulai Makan!** — simulasi memilih tindakan yang tepat sebelum mulai makan.
+1. **Kenali Bismillah** — anak memilih kartu بِسْمِ اللَّهِ.
+2. **Dengarkan Bismillah** — anak mendengarkan pelafalan lalu memilih teks yang sesuai.
+3. **Kapan Membaca Bismillah?** — anak memilih gambar kegiatan sebelum mulai makan.
+4. **Urutkan Sebelum Makan** — anak menyusun tiga gambar sederhana: bersiap makan, membaca Bismillah, lalu mulai makan.
+5. **Ayo Mulai Makan!** — simulasi: memilih kartu Bismillah, mendengarkan audio, lalu tombol mulai makan terbuka.
 
 ### Misi 2 — Makan dengan Tangan Kanan
 
-6. **Pilih Tangan yang Benar** — anak mengenali pilihan tangan kanan melalui ilustrasi sederhana.
-7. **Ayo Makan dengan Tangan Kanan** — simulasi interaktif memilih tangan kanan untuk mengambil makanan.
-8. **Tangan Kanan Saat Makan** — anak memilih tindakan yang tepat dari beberapa situasi makan sederhana.
-9. **Ambil yang Terdekat** — anak memilih makanan yang berada di bagian terdekat dari posisinya ketika makan bersama dari satu wadah.
-10. **Misi Piring Makanan** — permainan gabungan: memilih tangan kanan dan mengambil makanan dari bagian yang dekat.
+6. **Kenali Tangan Kanan** — anak mengenali tangan kanan melalui ilustrasi tangan 3D tanpa tubuh/wajah; orientasi kanan-kiri harus jelas dari sudut pandang anak.
+7. **Ayo Makan dengan Tangan Kanan** — simulasi memilih tangan kanan untuk mengambil makanan.
+8. **Tangan Kanan Saat Makan** — anak memilih tindakan yang tepat dalam situasi makan sederhana.
+9. **Ambil Makanan Terdekat** — anak memilih makanan di bagian terdekat ketika makan bersama dari satu wadah.
+10. **Misi Piring Makanan** — tantangan gabungan memilih tangan kanan lalu mengambil makanan terdekat.
+
+Catatan: adab mengambil makanan terdekat berlaku dalam konteks makan bersama dari satu wadah; jangan memberi kesan bahwa anak tidak boleh mengambil makanan yang jauh ketika makanan disajikan secara individual. Ajarkan dengan lembut dan jangan menyalahkan anak yang memiliki keterbatasan menggunakan tangan kanan.
 
 ### Misi 3 — Menghargai Makanan
 
-11. **Jangan Mencela Makanan** — anak memilih respons yang baik ketika makanan disajikan.
-12. **Jika Tidak Suka Makanan** — anak belajar bahwa makanan yang tidak disukai tidak perlu dihina atau dicela; boleh tidak mengambil/memakannya.
-13. **Ambil Secukupnya** — anak memilih porsi kecil yang sesuai, dengan pilihan untuk mengambil lagi bila masih membutuhkan.
-14. **Jangan Menyia-nyiakan Makanan** — anak memilih tindakan yang tidak membuang makanan dengan sengaja.
-15. **Makanan adalah Nikmat Allah** — pengenalan sederhana bahwa makanan merupakan nikmat dan rezeki dari Allah.
+11. **Jangan Mencela Makanan** — anak memilih ucapan yang baik, bukan menghina makanan.
+12. **Jika Tidak Suka Makanan** — anak belajar tidak mencela makanan; tidak harus dipaksa memakan makanan yang tidak disukai, membuat tidak nyaman, atau tidak aman.
+13. **Ambil Secukupnya** — anak memilih porsi yang sesuai; boleh mengambil lagi bila masih lapar. Jangan menetapkan satu ukuran porsi sebagai aturan mutlak.
+14. **Jangan Menyia-nyiakan Makanan** — anak memilih tindakan yang tidak membuang makanan dengan sengaja; penyimpanan sisa makanan yang masih aman dilakukan dengan bantuan orang dewasa.
+15. **Makanan adalah Nikmat Allah** — anak mengenal bahwa makanan merupakan nikmat dan rezeki dari Allah.
 
 ### Misi 4 — Adab Saat Makan dan Minum
 
-16. **Jangan Bernapas di Dalam Gelas** — anak memilih cara minum yang tidak meniup atau bernapas ke dalam wadah.
-17. **Minum dengan Jeda** — anak mengenal minum beberapa teguk dan mengambil napas di luar wadah minum.
-18. **Tunggu Makanan Tidak Panas** — simulasi keselamatan: menunggu makanan panas menjadi cukup aman sebelum dimakan. Sajikan sebagai panduan keselamatan, bukan sebagai kutipan hadis khusus.
-19. **Bersih Sebelum Makan** — anak memilih kebiasaan menjaga kebersihan tangan sebelum makan.
-20. **Petualangan Meja Makan** — permainan penguatan yang menggabungkan kebiasaan makan dan minum yang telah dipelajari.
+16. **Minum dengan Tangan Kanan** — anak memilih tangan kanan untuk mengambil gelas.
+17. **Jangan Bernapas ke Dalam Gelas** — anak mengenali bahwa tidak meniup atau bernapas ke dalam wadah minuman; bila masih panas, tunggu sampai aman.
+18. **Minum dengan Beberapa Tegukan** — simulasi minum dengan jeda; napas dilakukan di luar wadah.
+19. **Tunggu Sampai Tidak Terlalu Panas** — anak memilih menunggu makanan/minuman sampai aman dikonsumsi; ini pesan keselamatan, bukan klaim hadis khusus.
+20. **Tantangan Adab Makan dan Minum** — penguatan empat kebiasaan: tangan kanan, tidak bernapas ke wadah, minum dengan jeda, dan menunggu sampai tidak panas.
 
 ### Misi 5 — Setelah Makan
 
 21. **Kenali Alhamdulillah** — anak mengenali lafaz الْحَمْدُ لِلَّهِ.
-22. **Kapan Mengucapkan Alhamdulillah?** — anak memilih waktu setelah selesai makan sebagai ungkapan pujian dan syukur kepada Allah.
-23. **Dengarkan Doa Setelah Makan** — anak mendengarkan doa yang diriwayatkan dalam hadis.
-24. **Pilih Doa yang Benar** — anak mencocokkan audio atau potongan doa dengan teks yang benar; jangan jadikan aktivitas ini tes hafalan yang berat.
+22. **Kapan Mengucapkan Alhamdulillah?** — anak memilih situasi setelah makan sebagai salah satu waktu mengungkapkan syukur; jelaskan bahwa Alhamdulillah juga diucapkan dalam keadaan lain.
+23. **Dengarkan Doa Setelah Makan** — anak mendengarkan doa melalui audio.
+24. **Pilih Doa Setelah Makan** — anak mengenali doa yang telah didengar; tidak diwajibkan menghafal seluruh doa.
 25. **Meja Makan Rapi** — simulasi merapikan perlengkapan makan setelah selesai.
+
+## Prinsip pembelajaran dan respons
+
+- Gunakan instruksi dan narasi pendek, satu langkah pada satu waktu.
+- Respons salah harus lembut dan mengundang anak mencoba lagi; tidak ada hukuman atau rasa malu.
+- Jangan memaksa anak menghabiskan makanan atau menyalahkan anak karena keterbatasan fisik.
+- Untuk aktivitas doa, mendengarkan dan mengenali bacaan sudah cukup; hafalan bukan syarat menyelesaikan permainan.
+- Pembiasaan keselamatan, kebersihan, dan kerapian tidak boleh diklaim sebagai ritual atau hadis khusus tanpa dalil yang terverifikasi.
 
 ## Prinsip materi Islam dan rujukan awal
 
-Semua lafaz Arab, transliterasi, terjemahan, dan penjelasan dalil harus diperiksa sebelum masuk ke versi produksi. Jangan menisbatkan suatu larangan atau anjuran kepada hadis tertentu tanpa rujukan yang dapat dipertanggungjawabkan.
+Semua lafaz Arab, harakat, transliterasi, terjemahan, audio, dan penjelasan dalil wajib diverifikasi sebelum produksi. Rujukan berikut merupakan titik awal penelaahan, bukan pengganti pemeriksaan akhir:
 
-Rujukan awal yang sudah ditemukan untuk ditelaah lebih lanjut:
+- Tidak mencela makanan: Sahih al-Bukhari 5409 dan Sahih Muslim 2064c.
+- Makan dari bagian yang dekat, menggunakan tangan kanan, dan membaca nama Allah: hadis Umar bin Abi Salamah, Sahih al-Bukhari (nomor penomoran dapat berbeda antar edisi; verifikasi teks dan nomor saat finalisasi).
+- Tidak bernapas ke dalam wadah minuman: Sahih Muslim 267d.
+- Riwayat Anas tentang minum dengan tiga kali napas/jeda di luar wadah: Sahih Muslim 2028b.
+- Doa setelah makan: Jami' at-Tirmidhi 3458 dan Sunan Abi Dawud 4023; periksa redaksi dan penilaian hadis dari rujukan tepercaya sebelum rekaman.
 
-- Tidak mencela makanan: Sahih Muslim 2064a, https://sunnah.com/muslim/36/254
-- Makan dari bagian yang dekat: Sahih al-Bukhari 5377–5378, https://sunnah.com/bukhari/70/5
-- Larangan bernapas di dalam wadah dan anjuran mengambil napas di luar wadah: Sahih Muslim 267d dan 2028b, https://sunnah.com/muslim/36/159 dan https://sunnah.com/muslim/36/161
-- Doa setelah makan: Jami' at-Tirmidhi 3458, dinilai hasan pada rujukan tersebut, https://sunnah.com/tirmidhi/48/89; juga Sunan Abi Dawud 4023, https://sunnah.com/abudawud/34/3
+Doa yang direncanakan untuk Aktivitas 23–24:
 
-Catatan penting:
-- Hadis tentang tiga kali napas dipahami sebagai jeda/bernapas di luar wadah, bukan bernapas ke dalam gelas. Redaksi dan cara pengajaran untuk anak perlu dibuat jelas agar tidak membingungkan.
-- Menunggu makanan panas menjadi aman untuk dimakan adalah pesan keselamatan; jangan menyebutnya sebagai larangan hadis khusus tanpa dalil yang terverifikasi.
-- Menjaga kebersihan, tidak menyia-nyiakan makanan, dan merapikan perlengkapan dapat disampaikan sebagai pembiasaan baik. Jangan mengklaim setiap detailnya sebagai sunnah khusus jika tidak ada dalil yang jelas.
-- Lafaz doa yang direncanakan untuk ditelaah: الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ. Periksa kembali teks Arab, harakat, transliterasi, terjemahan, dan sumber sebelum merekam audio atau memasukkannya ke game.
+**Arab (perlu pemeriksaan akhir):**
+
+الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ
+
+**Makna:** Segala puji bagi Allah yang telah memberiku makanan ini dan menganugerahkannya kepadaku tanpa daya dan kekuatan dariku.
+
+Catatan:
+- Hadis tentang tiga kali napas dipahami sebagai jeda/bernapas di luar wadah, bukan bernapas ke dalam gelas.
+- Menunggu makanan/minuman panas menjadi aman adalah pesan keselamatan, bukan larangan hadis khusus yang dinisbatkan tanpa dalil.
+- Menyimpan sisa makanan yang masih aman, menjaga kebersihan, dan merapikan perlengkapan adalah pembiasaan baik; jangan menisbatkan detailnya sebagai sunnah khusus tanpa dalil.
+- Pastikan redaksi doa, harakat, transliterasi, terjemahan, sumber, dan audio diperiksa sebelum implementasi.
 
 ## Struktur kode yang direncanakan
 
@@ -123,4 +150,4 @@ adab-makan/
     └── progress.js
 ```
 
-Struktur di atas adalah rencana; file implementasi akan ditambahkan bertahap setelah alur permainan dan materi aktivitas difinalisasi.
+Struktur di atas adalah rencana. File implementasi ditambahkan bertahap setelah spesifikasi interaksi dan pemeriksaan materi selesai.
