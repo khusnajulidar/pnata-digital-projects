@@ -24,6 +24,7 @@ File awal game telah dibuat: `index.html`, `css/style.css`, dan `js/app.js`. Pro
 - Memperbaiki pemetaan indeks data aktivitas agar jenis aktivitas dan jawaban benar dibaca dari kolom yang tepat.
 - Memperbaiki identifikasi aktivitas adegan makan bersama.
 - Menyesuaikan urutan Misi 1 Aktivitas 4 menjadi cuci tangan → membaca Bismillah → mulai makan.
+- Memastikan setiap kali misi dibuka, permainan dimulai kembali dari Aktivitas 1.
 
 **Batasan prototipe saat ini:** rekaman audio belum diintegrasikan; kontrol audio masih berupa penanda bahwa aset rekaman perlu ditambahkan. Beberapa ilustrasi aktivitas masih berupa simbol sementara. Materi doa ditampilkan sebagai data acuan kerja dan tetap wajib melalui pemeriksaan akhir sebelum rekaman dan publikasi. Aktivitas yang membutuhkan audio belum dapat diuji tuntas sebelum rekaman tersedia. Game belum siap dipublikasikan.
 
