@@ -7,15 +7,16 @@ Repository kerja proyek game edukasi interaktif P'Nata tentang adab makan untuk 
 - [x] GDD dasar disepakati
 - [x] Lima misi dan 25 aktivitas dirancang serta disetujui
 - [x] Pedoman ilustrasi diperjelas
-- [ ] Spesifikasi interaksi dan alur permainan per aktivitas
+- [x] Spesifikasi interaksi dan alur 25 aktivitas disepakati
 - [ ] Verifikasi akhir materi agama, lafaz, audio, dan terjemahan
-- [ ] Implementasi fondasi UI dan gameplay
+- [x] Implementasi fondasi awal UI dan gameplay (prototipe)
+- [ ] Penyempurnaan mekanik seluruh aktivitas dan integrasi aset mockup
 - [ ] Integrasi audio
-- [ ] Desain mockup final (ditunda sementara)
+- [x] Sebelas mockup visual final disiapkan dan disetujui
 - [ ] Pengujian
 - [ ] Deployment Netlify
 
-## Keputusan desain
+## Status implementasi awal (18 November 2026)\n\nFile awal game telah dibuat: `index.html`, `css/style.css`, dan `js/app.js`. Prototipe sudah memuat navigasi dasar, peta lima misi, data 25 aktivitas, respons pilihan, penyimpanan progres Local Storage, serta alur penyelesaian misi. Aktivitas susun/rapikan sedang menggunakan area seret-dan-letakkan yang juga memiliki alternatif sentuh untuk perangkat tanpa mouse.\n\n**Batasan prototipe saat ini:** rekaman audio belum diintegrasikan; kontrol audio masih berupa penanda bahwa aset rekaman perlu ditambahkan. Beberapa ilustrasi aktivitas masih berupa simbol sementara. Materi doa ditampilkan sebagai data acuan kerja dan tetap wajib melalui pemeriksaan akhir sebelum rekaman dan publikasi. Game belum siap dipublikasikan.\n\n## Keputusan desain
 
 - Target pengguna: anak usia 3–4 tahun.
 - Platform: web responsif (ponsel, tablet, desktop).
