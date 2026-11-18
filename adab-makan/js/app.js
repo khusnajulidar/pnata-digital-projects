@@ -13,7 +13,7 @@ const missions = [
   ["Kenali Bismillah","Mana bacaan Bismillah yang kita baca sebelum makan?",["بِسْمِ اللَّهِ","الْحَمْدُ لِلَّهِ"],0,"choice"],
   ["Dengarkan Bismillah","Pilih bacaan yang sesuai dengan Bismillah.",["بِسْمِ اللَّهِ","الْحَمْدُ لِلَّهِ"],0,"audio-choice"],
   ["Kapan Membaca Bismillah?","Kapan kita membaca Bismillah?",["Sebelum mulai makan","Setelah selesai makan"],0,"choice",["🧼","🍽️"]],
-  ["Urutkan Sebelum Makan","Susun kegiatan sebelum makan dengan urutan yang tepat.",["Bersiap makan","Membaca Bismillah","Mulai makan"],0,"sequence",["🧼","🤲","🥣"]],
+  ["Urutkan Sebelum Makan","Susun kegiatan sebelum makan dengan urutan yang tepat.",["Cuci tangan","Membaca Bismillah","Mulai makan"],0,"sequence",["🧼","🤲","🥣"]],
   ["Ayo Mulai Makan!","Pilih Bismillah, dengarkan bacaannya, lalu mulai makan.",["بِسْمِ اللَّهِ"],0,"audio-choice"]
  ]},
  {title:"Makan dengan Tangan Kanan",icon:"🤚",items:[
