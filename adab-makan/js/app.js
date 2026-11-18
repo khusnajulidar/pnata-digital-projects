@@ -1,0 +1,101 @@
+(() => {
+"use strict";
+const ROOT = document.getElementById("app");
+const KEY = "pnata-adab-makan-progress-v1";
+const RAW = "https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/refs/heads/main/adab-makan/mockups/";
+const dua = {
+ ar:"الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+ latin:"Alhamdu lillāhil-ladzī ath‘amanī hādzā wa razaqanīhi min ghairi haulin minnī wa lā quwwah.",
+ meaning:"Segala puji bagi Allah yang telah memberiku makanan ini dan menganugerahkan rezeki kepadaku tanpa daya dan kekuatan dariku."
+};
+const missions = [
+ {title:"Sebelum Makan",icon:"🍽️",items:[
+  ["Kenali Bismillah","Mana bacaan Bismillah yang kita baca sebelum makan?",["بِسْمِ اللَّهِ","الْحَمْدُ لِلَّهِ"],0,"choice"],
+  ["Dengarkan Bismillah","Pilih bacaan yang sesuai dengan Bismillah.",["بِسْمِ اللَّهِ","الْحَمْدُ لِلَّهِ"],0,"audio-choice"],
+  ["Kapan Membaca Bismillah?","Kapan kita membaca Bismillah?",["Sebelum mulai makan","Setelah selesai makan"],0,"choice",["🧼","🍽️"]],
+  ["Urutkan Sebelum Makan","Susun kegiatan sebelum makan dengan urutan yang tepat.",["Bersiap makan","Membaca Bismillah","Mulai makan"],0,"sequence",["🧼","🤲","🥣"]],
+  ["Ayo Mulai Makan!","Pilih Bismillah, dengarkan bacaannya, lalu mulai makan.",["بِسْمِ اللَّهِ"],0,"audio-choice"]
+ ]},
+ {title:"Makan dengan Tangan Kanan",icon:"🤚",items:[
+  ["Kenali Tangan Kanan","Pilih tangan kanan.",["Tangan kiri","Tangan kanan"],1,"choice",["🤚","🤚"]],
+  ["Ayo Makan dengan Tangan Kanan","Tangan mana yang digunakan untuk mengambil makanan?",["Tangan kiri","Tangan kanan"],1,"simulation",["🤚","🤚"]],
+  ["Tangan Kanan Saat Makan","Pilih kebiasaan makan yang tepat.",["Menggunakan tangan kanan","Menggunakan tangan kiri"],0,"choice",["🍴","🥄"]],
+  ["Ambil Makanan Terdekat","Pilih makanan yang paling dekat dengan tempat dudukmu.",["Makanan dekat anak","Makanan dekat orang tua"],0,"scene-choice",["🍚","🥗"]],
+  ["Misi Piring Makanan","Pertama pilih tangan kanan, lalu pilih makanan terdekat.",["Tangan kanan","Tangan kiri"],0,"two-step"]
+ ]},
+ {title:"Menghargai Makanan",icon:"🥗",items:[
+  ["Jangan Mencela Makanan","Apa yang sebaiknya kita ucapkan tentang makanan?",["Alhamdulillah, makanan ini nikmat dari Allah","Makanan ini jelek"],0,"choice",["💚","🙁"]],
+  ["Jika Tidak Suka Makanan","Jika tidak suka makanan, bagaimana sikap kita?",["Tidak mencela makanan","Menghina makanan"],0,"choice",["😊","💬"]],
+  ["Ambil Secukupnya","Pilih porsi yang sesuai. Kamu boleh menambah jika masih lapar.",["Porsi secukupnya","Mengambil terlalu banyak"],0,"choice",["🍲","🍛"]],
+  ["Jangan Menyia-nyiakan Makanan","Apa yang dilakukan pada makanan yang masih aman disimpan?",["Simpan dengan bantuan orang dewasa","Buang begitu saja"],0,"choice",["🥡","🗑️"]],
+  ["Makanan adalah Nikmat Allah","Siapakah yang memberi kita rezeki makanan?",["Allah","Mainan"],0,"choice",["🌤️","🧸"]]
+ ]},
+ {title:"Adab Saat Makan dan Minum",icon:"🥛",items:[
+  ["Minum dengan Tangan Kanan","Pilih tangan yang digunakan untuk memegang gelas.",["Tangan kiri","Tangan kanan"],1,"choice",["🥛","🥛"]],
+  ["Jangan Bernapas ke Dalam Gelas","Pilih kebiasaan yang tepat saat minum.",["Bernapas di luar gelas","Bernapas ke dalam gelas"],0,"choice",["🌬️","🥤"]],
+  ["Minum dengan Beberapa Tegukan","Ikuti urutan: minum, jauhkan gelas, bernapas di luar gelas, lalu lanjutkan.",["Minum","Jauhkan gelas","Bernapas di luar gelas","Lanjutkan"],0,"sequence4"],
+  ["Tunggu Sampai Tidak Terlalu Panas","Apa yang kita lakukan jika makanan masih panas?",["Menunggu sampai aman","Langsung dimakan"],0,"choice",["⏳","🔥"]],
+  ["Tantangan Adab Makan dan Minum","Pilih tindakan yang tepat.",["Gunakan tangan kanan","Bernapas ke dalam gelas"],0,"challenge4"]
+ ]},
+ {title:"Setelah Makan",icon:"🤲",items:[
+  ["Kenali Alhamdulillah","Pilih bacaan Alhamdulillah.",["بِسْمِ اللَّهِ","الْحَمْدُ لِلَّهِ"],1,"choice"],
+  ["Kapan Mengucapkan Alhamdulillah?","Pilih salah satu waktu kita mengucapkan Alhamdulillah.",["Setelah makan","Hanya sebelum tidur"],0,"choice",["🍽️","🌙"]],
+  ["Dengarkan Doa Setelah Makan","Dengarkan doa sambil melihat bacaan Arab, latin, dan artinya.",[],0,"dua-audio"],
+  ["Pilih Doa Setelah Makan","Pilih bacaan doa setelah makan yang telah kita dengarkan.",[dua.ar,"بِسْمِ اللَّهِ"],0,"dua-choice"],
+  ["Meja Makan Rapi","Letakkan perlengkapan makan pada tempatnya.",["Piring","Gelas","Sendok"],0,"tidy",["🍽️","🥛","🥄"]]
+ ]}
+];
+const state = {screen:"home",mission:0,activity:0,feedback:"",feedbackGood:false,step:0,sequence:[],audioPlaying:false};
+function blankProgress(){return {completedActivities:[],completedMissions:[],unlockedMissions:[0],finished:false};}
+function loadProgress(){try{return {...blankProgress(),...JSON.parse(localStorage.getItem(KEY)||"{}")}}catch{return blankProgress()}}
+let progress=loadProgress();
+function save(){localStorage.setItem(KEY,JSON.stringify(progress))}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function stars(){return Array.from({length:5},(_,i)=>'<span class="star '+(progress.completedMissions.includes(i)?"earned":"")+'">★</span>').join("")}
+function go(screen){state.screen=screen;state.feedback="";state.step=0;state.sequence=[];render()}
+function home(){ROOT.innerHTML='<section class="screen"><div class="brand"><span class="brand-mark">P</span><span>P’NATA</span></div><div class="hero"><div class="hero-art">🍽️</div><h1>Yuk Belajar<br>Adab Makan!</h1><p class="lead">Petualangan seru belajar adab makan dan minum bersama P’Nata.</p><button class="btn" data-action="start">MULAI PETUALANGAN</button><p class="small-muted">Untuk anak usia 3–4 tahun</p></div></section>'}
+function instructions(){ROOT.innerHTML='<section class="screen"><div class="topbar"><div class="brand"><span class="brand-mark">P</span><span>P’NATA</span></div></div><div class="hero"><h2>Yuk, bermain sambil belajar!</h2><p class="lead">Sentuh dan pilih jawaban yang tepat. Ikuti petunjuk pada setiap permainan. Tidak apa-apa jika belum tepat, kamu boleh mencoba lagi.</p><div class="options"><div class="option"><span class="symbol">👆</span>SENTUH DAN PILIH</div><div class="option"><span class="symbol">⭐</span>Kumpulkan bintang</div></div><button class="btn secondary" data-action="map">LIHAT PETA MISI</button></div><div class="footer-nav"><button class="btn ghost" data-action="home">KEMBALI</button></div></section>'}
+function map(){const cards=missions.map((m,i)=>{const done=progress.completedMissions.includes(i),open=progress.unlockedMissions.includes(i);return '<button class="mission-card '+(done?"done":open?"open":"locked")+'" data-mission="'+i+'" '+(!open?"disabled":"")+'><span class="mission-icon">'+m.icon+'</span><strong>MISI '+(i+1)+'<br>'+esc(m.title)+'</strong><small>'+(done?"✓ Selesai":open?"Ayo mulai!":"🔒 Terkunci")+'</small></button>'}).join("");ROOT.innerHTML='<section class="screen"><div class="topbar"><div class="brand"><span class="brand-mark">P</span><span>P’NATA</span></div><div class="stars" aria-label="Bintang yang diperoleh">'+stars()+'</div></div><h2>Peta Lima Misi</h2><p class="lead">Pilih misi yang sudah terbuka. Selesaikan semua aktivitas untuk mendapatkan bintang.</p><div class="map-grid">'+cards+'</div><div class="footer-nav"><button class="btn ghost" data-action="instructions">PETUNJUK</button><button class="btn secondary" data-action="home">HALAMAN AWAL</button></div></section>'}
+function activityData(){return missions[state.mission].items[state.activity]}
+function renderActivity(){const d=activityData(),num=state.mission*5+state.activity+1,done=progress.completedActivities.includes(num-1);
+let side='<div class="hero-art">'+(missions[state.mission].icon)+'</div><p class="small-muted">'+esc(missions[state.mission].title)+'</p>';
+let main='';
+if(d[3]==="dua-audio"||d[3]==="dua-choice"){side='<div class="small-muted">Doa setelah makan • Jami’ at-Tirmidzi 3458</div><div class="dua-panel"><div class="arabic">'+dua.ar+'</div></div><div class="audio-note">Rekaman bacaan terverifikasi akan dimasukkan pada tahap integrasi audio.</div>';main='<div class="dua-panel"><div class="arabic">'+dua.ar+'</div><p class="latin">'+dua.latin+'</p><p class="translation">'+dua.meaning+'</p></div><button class="audio-btn" data-action="audio">▶ DENGARKAN DOA</button><p class="audio-note">Audio belum tersedia pada prototipe ini. Teks doa ditampilkan sebagai acuan dan menunggu pemeriksaan akhir sebelum rekaman.</p>';
+ if(d[3]==="dua-choice")main+='<div class="options"><button class="option" data-choice="0"><span class="symbol">🤲</span><span class="arabic">'+dua.ar+'</span></button><button class="option" data-choice="1"><span class="symbol">📖</span><span class="arabic">بِسْمِ اللَّهِ</span></button></div>';
+}else if(d[3]==="audio-choice"){main='<button class="audio-btn" data-action="audio">▶ DENGARKAN BACAAN</button><p class="audio-note">Rekaman audio terverifikasi belum ditambahkan. Kontrol ini akan dihubungkan saat aset audio tersedia.</p>'+options(d);}
+else if(d[3]==="sequence"||d[3]==="sequence4"||d[3]==="tidy"){main=sequenceUI(d);}
+else if(d[3]==="two-step"){main=twoStepUI();}
+else if(d[3]==="challenge4"){main=challengeUI();}
+else if(d[3]==="scene-choice"){side='<img class="scene-image" src="'+RAW+'mockup-11.png" alt="Adegan makan bersama dari sudut pandang anak"><p class="small-muted">Pilih makanan pada bagian wadah yang paling dekat denganmu.</p>';main=options(d);}
+else{main=options(d);}
+ROOT.innerHTML='<section class="screen"><div class="activity-head"><span class="pill">MISI '+(state.mission+1)+' • AKTIVITAS '+(state.activity+1)+'/5</span><span class="pill">'+num+'/25</span></div><div class="progress-line"><span style="width:'+((state.activity+1)/5*100)+'%"></span></div><div class="activity-layout"><div class="activity-main"><h2>'+esc(d[0])+'</h2><p class="prompt">'+esc(d[1])+'</p>'+main+'<div id="feedback" class="feedback '+(state.feedbackGood?"good":"")+'" role="status">'+(state.feedback||"Pilih jawabanmu, ya!")+'</div></div><aside class="activity-side">'+side+'</aside></div><div class="footer-nav"><button class="btn ghost" data-action="map">KEMBALI</button><button class="btn ghost" data-action="hint">PETUNJUK</button><button class="btn secondary" data-action="next" '+(!done&&!state.feedbackGood?'disabled':'')+'>LANJUTKAN</button></div></section>';
+}
+function options(d){return '<div class="options">'+d[2].map((v,i)=>'<button class="option" data-choice="'+i+'"><span class="symbol">'+((d[5]&&d[5][i])||"✨")+'</span><span>'+v+'</span></button>').join("")+'</div>'}
+function sequenceUI(d){const list=d[2];const chosen=state.sequence;return '<div class="sequence-slots">'+list.map((v,i)=>'<div class="slot">'+(chosen[i]!==undefined?esc(list[chosen[i]]):"Urutan "+(i+1))+'</div>').join("")+'</div><div class="drag-items">'+list.map((v,i)=>chosen.includes(i)?"":'<button class="drag-item" data-seq="'+i+'">'+((d[5]&&d[5][i])||"")+' '+esc(v)+'</button>').join("")+'</div><button class="btn secondary" data-action="check-sequence">PERIKSA URUTAN</button>'}
+function twoStepUI(){if(state.step===0)return '<p class="prompt">Tahap 1: pilih tangan kanan.</p><div class="options"><button class="option" data-stepchoice="1">🤚 Tangan kanan</button><button class="option" data-stepchoice="0">🤚 Tangan kiri</button></div>';return '<p class="prompt">Tahap 2: pilih makanan terdekat.</p><img class="scene-image" src="'+RAW+'mockup-11.png" alt="Wadah makanan bersama"><div class="options"><button class="option" data-stepchoice="1">🍚 Makanan dekat anak</button><button class="option" data-stepchoice="0">🥗 Makanan dekat orang tua</button></div>'}
+function challengeUI(){const labels=["Gunakan tangan kanan","Jangan bernapas ke dalam gelas","Minum dengan jeda","Tunggu sampai tidak panas"];return '<p class="prompt">Tantangan '+(state.step+1)+' dari 4</p><p>'+labels[state.step]+'</p><div class="options"><button class="option" data-stepchoice="1">✓ Lakukan dengan benar</button><button class="option" data-stepchoice="0">Coba pilihan lain</button></div>'}
+function feedback(msg,good){state.feedback=msg;state.feedbackGood=good;const el=document.getElementById("feedback");if(el){el.textContent=msg;el.className="feedback "+(good?"good":"")}const next=document.querySelector('[data-action="next"]');if(next)next.disabled=!good}
+function answer(correct){if(correct){feedback("Masya Allah! Benar! ⭐",true);const id=state.mission*5+state.activity;progress.completedActivities=[...new Set([...progress.completedActivities,id])];save()}else feedback("Belum tepat. Tidak apa-apa, ayo coba lagi! 😊",false)}
+function completeActivity(){const id=state.mission*5+state.activity;progress.completedActivities=[...new Set([...progress.completedActivities,id])];save();state.feedbackGood=true;feedback("Alhamdulillah, aktivitas selesai!",true)}
+function finishMission(){if(!progress.completedMissions.includes(state.mission))progress.completedMissions.push(state.mission);if(state.mission<4&&!progress.unlockedMissions.includes(state.mission+1))progress.unlockedMissions.push(state.mission+1);if(progress.completedMissions.length===5)progress.finished=true;save();go("mission-done")}
+function next(){if(state.activity<4){state.activity++;state.feedback="";state.feedbackGood=false;state.step=0;state.sequence=[];render()}else finishMission()}
+function render(){if(state.screen==="home")home();else if(state.screen==="instructions")instructions();else if(state.screen==="map")map();else if(state.screen==="activity")renderActivity();else if(state.screen==="mission-done")missionDone();else if(state.screen==="game-done")gameDone()}
+function missionDone(){if(progress.finished){gameDone();return}ROOT.innerHTML='<section class="screen"><div class="completion"><div class="big-star">★</div><h1>ALHAMDULILLAH,<br>MISI SELESAI!</h1><p class="lead">Masya Allah! Kamu berhasil menyelesaikan misi ini!</p><div class="stars">'+stars()+'</div><button class="btn secondary" data-action="map">LANJUTKAN PETUALANGAN</button></div></section>'}
+function gameDone(){ROOT.innerHTML='<section class="screen"><div class="completion"><div class="big-star">★★★★★</div><h1>ALHAMDULILLAH,<br>PETUALANGAN SELESAI!</h1><p class="lead">Masya Allah! Kamu hebat! Kamu berhasil menyelesaikan semua misi!</p><button class="btn" data-action="replay">MAIN LAGI</button><button class="btn ghost" data-action="map">LIHAT PETA MISI</button></div></section>'}
+ROOT.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
+if(b.dataset.action){switch(b.dataset.action){
+case"start":go("instructions");break;case"home":go("home");break;case"instructions":go("instructions");break;case"map":go("map");break;
+case"hint":feedback("Petunjuk: "+activityData()[1],false);break;
+case"next":next();break;
+case"audio":feedback("Audio belum tersedia. Rekaman yang benar akan ditambahkan sebelum publikasi.",false);break;
+case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=state.sequence.every((v,i)=>v===i);answer(ok);break}
+case"replay":progress=blankProgress();save();go("home");break;
+}return}
+if(b.dataset.mission!==undefined){const m=Number(b.dataset.mission);if(progress.unlockedMissions.includes(m)){state.mission=m;go("activity")}return}
+if(b.dataset.choice!==undefined){const i=Number(b.dataset.choice);const d=activityData();answer(i===d[4]);return}
+if(b.dataset.seq!==undefined){const i=Number(b.dataset.seq);state.sequence.push(i);renderActivity();return}
+if(b.dataset.stepchoice!==undefined){const val=Number(b.dataset.stepchoice);if(activityData()[3]==="two-step"){if(state.step===0&&val===1){state.step=1;renderActivity()}else if(state.step===0)feedback("Coba pilih tangan kanan, ya.",false);else if(val===1)completeActivity();else feedback("Pilih makanan yang paling dekat denganmu.",false)}else if(activityData()[3]==="challenge4"){if(val===1){state.step++;if(state.step>=4)completeActivity();else renderActivity()}else feedback("Ayo coba lagi dengan petunjuk yang ada.",false)}return}
+});
+function boot(){render()}
+boot();
+})();
