@@ -45,9 +45,9 @@ const missions = [
   ["Meja Makan Rapi","Letakkan perlengkapan makan pada tempatnya.",["Piring","Gelas","Sendok"],0,"tidy",["🍽️","🥛","🥄"]]
  ]}
 ];
-const state = {screen:"home",mission:0,activity:0,feedback:"",feedbackGood:false,step:0,sequence:[],audioPlaying:false,audioHeard:false,bismillahSelected:false};
+const state = {screen:"home",mission:0,activity:0,feedback:"",feedbackGood:false,step:0,sequence:[],selectedSequenceIndex:null,audioPlaying:false,audioHeard:false,bismillahSelected:false};
 let activeAudio=null;
-const AUDIO={bismillah:"./assets/audio/bismillah.mp3",dua:"./assets/audio/doa-setelah-makan.mp3"};
+const AUDIO={bismillah:"./assets/audio/bismillah.mp3",dua:"./assets/audio/doa-setelah-makan-tirmidzi-3458.mp3"};
 function blankProgress(){return {completedActivities:[],completedMissions:[],unlockedMissions:[0],finished:false};}
 function loadProgress(){try{return {...blankProgress(),...JSON.parse(localStorage.getItem(KEY)||"{}")}}catch{return blankProgress()}}
 let progress=loadProgress();
@@ -87,7 +87,7 @@ function feedback(msg,good){state.feedback=msg;state.feedbackGood=good;const el=
 function answer(correct){if(correct){feedback("Masya Allah! Benar! ⭐",true);const id=state.mission*5+state.activity;progress.completedActivities=[...new Set([...progress.completedActivities,id])];save()}else{state.feedbackGood=false;feedback("Belum tepat. Tidak apa-apa, ayo coba lagi! 😊",false)}}
 function completeActivity(){const id=state.mission*5+state.activity;progress.completedActivities=[...new Set([...progress.completedActivities,id])];save();state.feedbackGood=true;feedback("Alhamdulillah, aktivitas selesai!",true)}
 function finishMission(){if(!progress.completedMissions.includes(state.mission))progress.completedMissions.push(state.mission);if(state.mission<4&&!progress.unlockedMissions.includes(state.mission+1))progress.unlockedMissions.push(state.mission+1);if(progress.completedMissions.length===5)progress.finished=true;save();go("mission-done")}
-function next(){if(state.activity<4){state.activity++;state.feedback="";state.feedbackGood=false;state.step=0;state.sequence=[];render()}else finishMission()}
+function next(){if(state.activity<4){state.activity++;state.feedback="";state.feedbackGood=false;state.step=0;state.sequence=[];state.selectedSequenceIndex=null;state.audioHeard=false;state.bismillahSelected=false;render()}else finishMission()}
 function render(){if(state.screen==="home")home();else if(state.screen==="instructions")instructions();else if(state.screen==="map")map();else if(state.screen==="activity")renderActivity();else if(state.screen==="mission-done")missionDone();else if(state.screen==="game-done")gameDone()}
 function missionDone(){if(progress.finished){gameDone();return}ROOT.innerHTML='<section class="screen"><div class="completion"><div class="big-star">★</div><h1>ALHAMDULILLAH,<br>MISI SELESAI!</h1><p class="lead">Masya Allah! Kamu berhasil menyelesaikan misi ini!</p><div class="stars">'+stars()+'</div><button class="btn secondary" data-action="map">LANJUTKAN PETUALANGAN</button></div></section>'}
 function gameDone(){ROOT.innerHTML='<section class="screen"><div class="completion"><div class="big-star">★★★★★</div><h1>ALHAMDULILLAH,<br>PETUALANGAN SELESAI!</h1><p class="lead">Masya Allah! Kamu hebat! Kamu berhasil menyelesaikan semua misi!</p><button class="btn" data-action="replay">MAIN LAGI</button><button class="btn ghost" data-action="map">LIHAT PETA MISI</button></div></section>'}
@@ -98,14 +98,18 @@ if(b.dataset.action){switch(b.dataset.action){
 case"start":go("instructions");break;case"home":go("home");break;case"instructions":go("instructions");break;case"map":go("map");break;
 case"hint":feedback("Petunjuk: "+activityData()[1],false);break;
 case"next":next();break;
-case"audio":feedback("Audio belum tersedia. Rekaman yang benar akan ditambahkan sebelum publikasi.",false);break;
+case"audio":playActivityAudio();break;
+case"select-bismillah":state.bismillahSelected=true;renderActivity();break;
+case"start-meal":if(state.audioHeard)completeActivity();break;
+case"simulate-pick":completeActivity();break;
 case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length||Array.from({length:d[2].length},(_,i)=>state.sequence[i]===undefined).some(Boolean)){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=Array.from({length:d[2].length},(_,i)=>state.sequence[i]===i).every(Boolean);answer(ok);break}
 case"replay":progress=blankProgress();save();go("home");break;
 }return}
 if(b.dataset.mission!==undefined){const m=Number(b.dataset.mission);if(progress.unlockedMissions.includes(m)){state.mission=m;state.activity=0;go("activity")}return}
-if(b.dataset.choice!==undefined){const i=Number(b.dataset.choice);const d=activityData();answer(i===d[3]);return}
-if(b.dataset.seq!==undefined){const i=Number(b.dataset.seq);const empty=Array.from({length:activityData()[2].length},(_,n)=>n).find(n=>state.sequence[n]===undefined);if(empty!==undefined)state.sequence[empty]=i;renderActivity();return}
-if(b.dataset.stepchoice!==undefined){const val=Number(b.dataset.stepchoice);if(activityData()[4]==="two-step"){if(state.step===0&&val===1){state.step=1;renderActivity()}else if(state.step===0)feedback("Coba pilih tangan kanan, ya.",false);else if(val===1)completeActivity();else feedback("Pilih makanan yang paling dekat denganmu.",false)}else if(activityData()[4]==="challenge4"){if(val===1){state.step++;if(state.step>=4)completeActivity();else renderActivity()}else feedback("Ayo coba lagi dengan petunjuk yang ada.",false)}return}
+if(b.dataset.choice!==undefined){const i=Number(b.dataset.choice);const d=activityData();if(d[4]==="audio-choice"&&!state.audioHeard){feedback("Dengarkan bacaannya terlebih dahulu, ya.",false);return}answer(i===d[3]);return}
+if(b.dataset.seq!==undefined){state.selectedSequenceIndex=Number(b.dataset.seq);feedback("Sekarang sentuh tempat yang sesuai.",false);return}
+if(b.dataset.slot!==undefined){const slot=Number(b.dataset.slot);if(state.selectedSequenceIndex!==null&&state.selectedSequenceIndex!==undefined){const source=state.selectedSequenceIndex;const previous=state.sequence.indexOf(source);const displaced=state.sequence[slot];if(previous>=0)state.sequence[previous]=displaced;state.sequence[slot]=source;state.selectedSequenceIndex=null;renderActivity()}else if(state.sequence[slot]!==undefined){state.sequence[slot]=undefined;renderActivity()}return}
+if(b.dataset.stepchoice!==undefined){const val=Number(b.dataset.stepchoice);if(activityData()[4]==="two-step"){if(state.step===0&&val===1){state.step=1;renderActivity()}else if(state.step===0)feedback("Coba pilih tangan kanan, ya.",false);else if(val===1)completeActivity();else feedback("Pilih makanan yang paling dekat denganmu.",false)}else if(activityData()[4]==="simulation"){if(state.step===0&&val===1){state.step=1;renderActivity()}else if(state.step===0)feedback("Coba pilih tangan kanan, ya.",false)}else if(activityData()[4]==="challenge4"){if(val===1){state.step++;if(state.step>=4)completeActivity();else renderActivity()}else feedback("Ayo coba lagi dengan petunjuk yang ada.",false)}return}
 });
 function boot(){render()}
 boot();
