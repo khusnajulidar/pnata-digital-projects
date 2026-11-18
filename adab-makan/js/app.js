@@ -93,7 +93,7 @@ case"audio":feedback("Audio belum tersedia. Rekaman yang benar akan ditambahkan 
 case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length||Array.from({length:d[2].length},(_,i)=>state.sequence[i]===undefined).some(Boolean)){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=Array.from({length:d[2].length},(_,i)=>state.sequence[i]===i).every(Boolean);answer(ok);break}
 case"replay":progress=blankProgress();save();go("home");break;
 }return}
-if(b.dataset.mission!==undefined){const m=Number(b.dataset.mission);if(progress.unlockedMissions.includes(m)){state.mission=m;go("activity")}return}
+if(b.dataset.mission!==undefined){const m=Number(b.dataset.mission);if(progress.unlockedMissions.includes(m)){state.mission=m;state.activity=0;go("activity")}return}
 if(b.dataset.choice!==undefined){const i=Number(b.dataset.choice);const d=activityData();answer(i===d[3]);return}
 if(b.dataset.seq!==undefined){const i=Number(b.dataset.seq);const empty=Array.from({length:activityData()[2].length},(_,n)=>n).find(n=>state.sequence[n]===undefined);if(empty!==undefined)state.sequence[empty]=i;renderActivity();return}
 if(b.dataset.stepchoice!==undefined){const val=Number(b.dataset.stepchoice);if(activityData()[4]==="two-step"){if(state.step===0&&val===1){state.step=1;renderActivity()}else if(state.step===0)feedback("Coba pilih tangan kanan, ya.",false);else if(val===1)completeActivity();else feedback("Pilih makanan yang paling dekat denganmu.",false)}else if(activityData()[4]==="challenge4"){if(val===1){state.step++;if(state.step>=4)completeActivity();else renderActivity()}else feedback("Ayo coba lagi dengan petunjuk yang ada.",false)}return}
