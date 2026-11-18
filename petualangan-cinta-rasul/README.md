@@ -1,7 +1,7 @@
 # Petualangan Cinta Rasul
 ## Dokumen Konsep & Progres Proyek — v1.1
 **Brand:** P’Nata  
-**Status:** Konsep utama dan Wilayah Bonus disepakati; bank materi masih dalam tahap penyusunan dan verifikasi.
+**Status:** Konsep utama dan Wilayah Bonus disepakati; bank materi Bonus v1.0 telah disusun dan menunggu uji keterbacaan serta proofreading.
 
 ---
 
@@ -88,11 +88,11 @@ Nama konsep permainan: **Buka Peti Ilmu**.
 | Adik (kelas 1–3) | 5 pasangan |
 | Kakak (kelas 4–6) | 8 pasangan |
 
-### Calon tokoh untuk proses verifikasi (belum final)
+### Delapan tokoh yang ditetapkan untuk bank materi edisi ini
 - Ulama yang telah wafat: Syaikh Abdul Aziz bin Baz, Syaikh Muhammad Nashiruddin al-Albani, Syaikh Muhammad bin Shalih al-'Utsaimin, Syaikh Muqbil bin Hadi al-Wadi'i.
 - Ulama yang masih hidup: Syaikh Shalih al-Fauzan, Syaikh Abdul Muhsin al-'Abbad, Syaikh Abdul Razzaq al-Badr.
 
-Nama, status hidup/wafat, biografi, bidang keilmuan, karya, dan kontribusi setiap calon harus diperiksa kembali melalui sumber tepercaya sebelum dimasukkan ke bank soal. Daftar ini bukan pemeringkatan dan bukan daftar final.
+Delapan tokoh tersebut telah dimasukkan ke bank materi versi 1.0. Daftar ini bukan pemeringkatan. Rujukan spesifik dicantumkan pada setiap pasangan soal; koreksi faktual tetap wajib dilakukan bila ditemukan kekeliruan pada pemeriksaan akhir.
 
 ### Standar verifikasi tokoh
 Setiap profil harus memiliki:
@@ -138,11 +138,10 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 1. Susun dan verifikasi bank materi Wilayah 1.
 2. Susun dan verifikasi bank materi Wilayah 2.
 3. Susun dan verifikasi bank materi Wilayah 3.
-4. Susun dan verifikasi bank materi Wilayah Bonus — Jejak Para Ulama.
-5. Finalisasi daftar tokoh dan pasangan petunjuk untuk profil Adik dan Kakak.
-6. Buat mockup layar pembuka, profil, peta, mode permainan, umpan balik, hadiah, dan pengaturan.
-7. Kembangkan game HTML.
-8. Uji responsivitas, alur progres, penyimpanan localStorage, sumber materi, dan seluruh jawaban.
-9. Finalisasi.
+4. Uji keterbacaan dan proofreading bank materi Wilayah Bonus — Jejak Para Ulama versi 1.0.
+5. Buat mockup layar pembuka, profil, peta, mode permainan, umpan balik, hadiah, dan pengaturan.
+6. Kembangkan game HTML.
+7. Uji responsivitas, alur progres, penyimpanan localStorage, sumber materi, dan seluruh jawaban.
+8. Finalisasi.
 
-**Status saat pencatatan:** Konsep inti permainan dan konsep Wilayah Bonus telah disepakati. Pengerjaan berikutnya dimulai dari bank materi dan verifikasi sumber, bukan langsung ke mockup atau coding.
+**Status saat pencatatan:** Konsep inti dan Wilayah Bonus telah disepakati. Bank materi bonus versi 1.0 (5 pasangan Adik dan 8 pasangan Kakak) sudah tersimpan; langkah berikutnya adalah uji keterbacaan, proofreading, lalu mockup.
