@@ -149,7 +149,7 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 }
 .screen[data-mockup="02"]::before,.screen[data-mockup="02"]::after{display:none}
 .screen[data-mockup="02"] .topbar,
-.screen[data-mockup="02"] .hero > :not(.options),
+.screen[data-mockup="02"] .hero > :not(.btn),
 .screen[data-mockup="02"] .options{display:none}
 .screen[data-mockup="02"] .hero{
   position:absolute;inset:0;width:100%;max-width:none;margin:0;
@@ -215,4 +215,11 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 .screen[data-mockup="03"] .footer-nav .btn:first-child{display:none}
 @media(max-width:760px){
   .screen[data-mockup="02"],.screen[data-mockup="03"]{min-height:100vh;background-size:100% 100%}
+}
+
+.screen[data-mockup="02"] .hero .btn{
+  position:absolute;left:38%;top:78%;width:25%;height:16%;
+  padding:0;border:0;border-radius:28px;background:transparent;
+  box-shadow:none;color:transparent;font-size:0;opacity:0;
+  pointer-events:auto;
 }
