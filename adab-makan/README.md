@@ -32,6 +32,8 @@ File awal game telah dibuat: `index.html`, `css/style.css`, dan `js/app.js`. Pro
 - Menghubungkan Aktivitas 23 agar selesai setelah audio doa benar-benar selesai diputar.
 - Mengunci pilihan Aktivitas 24 sampai audio doa selesai diperdengarkan, agar anak mendengar bacaan sebelum mengenalinya.
 - Memperbaiki status penyelesaian audio: mendengarkan bacaan saja tidak dianggap sebagai jawaban benar; tombol Lanjutkan tetap terkunci sampai anak menyelesaikan langkah aktivitas. Aktivitas yang sudah pernah selesai tetap dapat dilewati saat dimainkan ulang.
+- Mereset status pemutaran audio saat berpindah layar agar tombol audio tidak menampilkan status jeda yang keliru.
+- Menyusun inventaris audio dan naskah rekaman untuk 25 aktivitas, tiga bacaan Arab, serta umpan balik; sumber dan lisensi audio pendukung juga didokumentasikan.
 - Menyempurnakan kontrol audio dengan jeda dan putar ulang, serta slot aktivitas susun/rapikan agar dapat dioperasikan dengan sentuhan.
 - Memperjelas Aktivitas 9–10 dengan instruksi sudut pandang anak dan konteks mengambil makanan terdekat dari satu wadah bersama.
 - Memperjelas empat tahap Tantangan Aktivitas 20 dan instruksi interaksi sentuh/geser pada aktivitas menyusun.
