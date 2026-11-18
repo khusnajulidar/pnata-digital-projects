@@ -145,3 +145,29 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 8. Finalisasi.
 
 **Status saat pencatatan:** Konsep inti dan Wilayah Bonus telah disepakati. Bank materi bonus versi 1.0 (5 pasangan Adik dan 8 pasangan Kakak) sudah tersimpan; langkah berikutnya adalah uji keterbacaan, proofreading, lalu mockup.
+
+
+---
+
+## 11. Progres bank soal lintas mode — pembaruan 19 November 2026
+
+### Target bank soal utama
+| Mode | Adik | Kakak | Status |
+|---|---:|---:|---|
+| TTS | 5 jawaban/wilayah | 8 jawaban/wilayah | Wilayah 1 disusun; Wilayah 2 dan 3 memiliki draf TTS, masih perlu verifikasi/pemolesan |
+| Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Belum disusun |
+| Pasangkan Tokoh dan Kisahnya | 5 pasangan/wilayah | 8 pasangan/wilayah | Belum disusun |
+
+### Dokumen bank TTS
+- [Wilayah 1 — Jejak Rasulullah ﷺ, TTS v1.0](materi/wilayah-1-jejak-rasulullah-bank-tts-v1.0.md)
+- [Wilayah 2 dan 3 — TTS draf v1.0](materi/wilayah-2-3-bank-tts-v1.0-draf.md)
+
+### Standar finalisasi
+1. Satu fakta/inti pertanyaan tidak diulang antar-paket atau antar-mode tanpa tujuan penguatan yang disetujui.
+2. Semua jawaban grid dinormalisasi (huruf kapital, tanpa spasi/tanda baca) dan jumlah huruf diperiksa.
+3. Setiap butir mempunyai ID stabil, petunjuk, kunci, penjelasan, jenis sumber, dan rujukan spesifik.
+4. Bedakan dalil Al-Qur'an, hadis sahih/hasan yang terverifikasi, dan informasi sirah/biografi.
+5. Jangan masukkan butir dengan ejaan/identitas tokoh ambigu atau rujukan yang belum memadai ke HTML produksi.
+6. Grid Canva disusun setelah kunci jawaban disetujui; HTML mengelola huruf, pemilihan kotak, validasi, dan progres.
+
+**Catatan status:** Dokumen yang berlabel draf/kandidat belum merupakan bank final untuk produksi. Pemeriksaan sumber dan bahasa anak tetap menjadi gerbang sebelum pembuatan grid.
