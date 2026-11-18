@@ -25,8 +25,14 @@ File awal game telah dibuat: `index.html`, `css/style.css`, dan `js/app.js`. Pro
 - Memperbaiki identifikasi aktivitas adegan makan bersama.
 - Menyesuaikan urutan Misi 1 Aktivitas 4 menjadi cuci tangan → membaca Bismillah → mulai makan.
 - Memastikan setiap kali misi dibuka, permainan dimulai kembali dari Aktivitas 1.
+- Menambahkan alur Aktivitas 2: audio Bismillah harus selesai diperdengarkan sebelum pilihan teks dibuka.
+- Menambahkan alur Aktivitas 5: pilih Bismillah → dengarkan bacaan sampai selesai → tombol mulai makan terbuka.
+- Menambahkan simulasi Aktivitas 7: pilih tangan kanan, lalu lakukan aksi mengambil makanan.
+- Menambahkan alur audio Alhamdulillah untuk Aktivitas 21.
+- Menghubungkan Aktivitas 23 agar selesai setelah audio doa benar-benar selesai diputar.
+- Menyempurnakan kontrol audio dengan jeda dan putar ulang, serta slot aktivitas susun/rapikan agar dapat dioperasikan dengan sentuhan.
 
-**Batasan prototipe saat ini:** rekaman audio belum diintegrasikan; kontrol audio masih berupa penanda bahwa aset rekaman perlu ditambahkan. Beberapa ilustrasi aktivitas masih berupa simbol sementara. Materi doa ditampilkan sebagai data acuan kerja dan tetap wajib melalui pemeriksaan akhir sebelum rekaman dan publikasi. Aktivitas yang membutuhkan audio belum dapat diuji tuntas sebelum rekaman tersedia. Game belum siap dipublikasikan.
+**Batasan prototipe saat ini:** file rekaman final belum diunggah sehingga alur audio belum dapat diuji sampai tuntas. Beberapa ilustrasi aktivitas masih berupa simbol sementara dan perlu diganti dengan aset mockup yang disetujui. Materi doa tetap wajib melalui pemeriksaan akhir sebelum rekaman dan publikasi. Game belum siap dipublikasikan.
 
 **Arah audio yang disepakati:** narasi dan umpan balik menggunakan suara anak-anak yang ceria, dengan tempo pelan dan pelafalan jelas. Bacaan Bismillah, Alhamdulillah, dan doa menggunakan rekaman bacaan Arab yang benar serta terverifikasi.\n## Keputusan desain
 
