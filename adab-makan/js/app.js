@@ -66,7 +66,7 @@ if(d[4]==="dua-audio"||d[4]==="dua-choice"){side='<div class="small-muted">Doa s
 else if(d[4]==="sequence"||d[4]==="sequence4"||d[4]==="tidy"){main=sequenceUI(d);}
 else if(d[4]==="two-step"){main=twoStepUI();}
 else if(d[4]==="challenge4"){main=challengeUI();}
-else if(d[3]==="scene-choice"){side='<img class="scene-image" src="'+RAW+'mockup-11.png" alt="Adegan makan bersama dari sudut pandang anak"><p class="small-muted">Pilih makanan pada bagian wadah yang paling dekat denganmu.</p>';main=options(d);}
+else if(d[4]==="scene-choice"){side='<img class="scene-image" src="'+RAW+'mockup-11.png" alt="Adegan makan bersama dari sudut pandang anak"><p class="small-muted">Pilih makanan pada bagian wadah yang paling dekat denganmu.</p>';main=options(d);}
 else{main=options(d);}
 ROOT.innerHTML='<section class="screen"><div class="activity-head"><span class="pill">MISI '+(state.mission+1)+' • AKTIVITAS '+(state.activity+1)+'/5</span><span class="pill">'+num+'/25</span></div><div class="progress-line"><span style="width:'+((state.activity+1)/5*100)+'%"></span></div><div class="activity-layout"><div class="activity-main"><h2>'+esc(d[0])+'</h2><p class="prompt">'+esc(d[1])+'</p>'+main+'<div id="feedback" class="feedback '+(state.feedbackGood?"good":"")+'" role="status">'+(state.feedback||"Pilih jawabanmu, ya!")+'</div></div><aside class="activity-side">'+side+'</aside></div><div class="footer-nav"><button class="btn ghost" data-action="map">KEMBALI</button><button class="btn ghost" data-action="hint">PETUNJUK</button><button class="btn secondary" data-action="next" '+(!done&&!state.feedbackGood?'disabled':'')+'>LANJUTKAN</button></div></section>';
 }
