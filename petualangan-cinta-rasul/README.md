@@ -1,0 +1,148 @@
+# Petualangan Cinta Rasul
+## Dokumen Konsep & Progres Proyek — v1.1
+**Brand:** P’Nata  
+**Status:** Konsep utama dan Wilayah Bonus disepakati; bank materi masih dalam tahap penyusunan dan verifikasi.
+
+---
+
+## 1. Identitas permainan
+- **Judul:** Petualangan Cinta Rasul
+- **Subjudul:** Mengenal Rasulullah ﷺ, Keluarga, dan Para Shahabat
+- **Format:** Game HTML interaktif, responsif untuk ponsel, tablet, dan laptop.
+- **Mode teknis:** Bank soal tertanam di HTML; diupayakan dapat dimainkan offline tanpa API eksternal.
+- **Target:** SD kelas 1–6, dengan dua profil:
+  - **Adik:** kelas 1–3
+  - **Kakak:** kelas 4–6
+- **Arah visual:** Petualangan edukasi Islam 3D, ceria, hangat, kaya ilustrasi lingkungan dan objek, konsisten dengan identitas visual P’Nata.
+
+## 2. Prinsip materi dan adab
+1. Materi berlandaskan Al-Qur’an dan Sunnah sahih serta sumber sejarah/biografi yang dapat dipertanggungjawabkan sesuai jenis informasinya.
+2. Bedakan sumber: Al-Qur’an, hadis sahih, atsar, sirah/tarikh, dan biografi ulama.
+3. Hindari riwayat lemah/tidak jelas, klaim yang diperselisihkan tanpa penjelasan, dan pertanyaan yang memiliki jawaban ambigu.
+4. Tidak menggambarkan Rasulullah ﷺ atau para Shahabat.
+5. Untuk ulama, fokus pada ilmu, karya, pengajaran, dan kontribusi yang terverifikasi; bukan pengultusan tokoh.
+6. Ulama bukan manusia maksum. Anak diajak menghormati ulama dan mengambil manfaat ilmu, dengan tetap memahami bahwa kebenaran ditimbang dengan Al-Qur’an dan Sunnah.
+7. Tidak menyamakan kedudukan ulama dengan Rasulullah ﷺ atau para Shahabat.
+
+## 3. Struktur permainan utama
+Tiga wilayah utama, masing-masing terdiri dari tiga jenis tantangan.
+
+### Wilayah 1 — Jejak Rasulullah ﷺ (mudah)
+Cakupan: nama dan nasab, kelahiran dan masa kecil, keluarga sebelum kenabian, awal kenabian dan dakwah, sifat/akhlak, serta peristiwa penting yang terverifikasi.
+
+### Wilayah 2 — Keluarga Rasulullah ﷺ (menengah)
+Cakupan: istri-istri, anak-anak, orang tua, paman/kerabat dekat, dan hubungan keluarga.
+
+### Wilayah 3 — Taman Para Shahabat (lanjutan)
+Cakupan: Khulafa ar-Rasyidun, sepuluh Shahabat yang diberi kabar gembira dengan Surga, Muhajirin dan Anshar, keutamaan khusus, peran dan kisah yang terverifikasi.
+
+### Tiga mode permainan di setiap wilayah
+1. Teka-Teki Silang (TTS)
+2. Berburu Kata (word search)
+3. Pasangkan Tokoh dan Kisahnya (matching)
+
+Total tantangan utama: **9**.
+
+## 4. Profil dan jumlah soal
+| Mode | Adik (kelas 1–3) | Kakak (kelas 4–6) |
+|---|---:|---:|
+| TTS | 5 jawaban | 8 jawaban |
+| Berburu Kata | 6 kata | 10 kata |
+| Pasangkan Tokoh dan Kisahnya | 5 pasangan | 8 pasangan |
+
+## 5. Progresi dan sistem bintang
+- Wilayah 1 terbuka sejak awal.
+- Wilayah 2 terbuka setelah seluruh 3 tantangan Wilayah 1 selesai.
+- Wilayah 3 terbuka setelah seluruh 3 tantangan Wilayah 2 selesai.
+- Satu bintang untuk setiap tantangan yang diselesaikan.
+- Total wilayah utama: 9 bintang.
+- Tantangan yang telah selesai dapat dimainkan ulang; bintang yang diperoleh tetap tersimpan.
+- Tidak ada penalti karena jawaban salah dan tidak ada papan peringkat berbasis waktu.
+
+## 6. Mekanisme belajar dan umpan balik
+- Penjelasan edukatif muncul setelah **setiap jawaban**, baik benar maupun salah.
+- Jika jawaban salah, pemain boleh mencoba kembali sampai benar.
+- Tampilkan penjelasan singkat dan informasi sumber yang relevan setelah jawaban.
+- Setelah tantangan selesai, berikan bintang dan ringkasan progres.
+
+## 7. Wilayah Bonus — Jejak Para Ulama
+**Subjudul:** Mengenal Ulama Ahlus Sunnah
+
+### Keputusan yang telah disepakati
+- Cakupan tokoh: **global**.
+- Ulama yang masih hidup: **termasuk**.
+- Satu tantangan khusus dengan satu bintang.
+- Total keseluruhan permainan menjadi **10 bintang**.
+- Rekomendasi pembukaan: Wilayah Bonus terbuka setelah seluruh 9 tantangan utama diselesaikan.
+- Nama tokoh yang pernah diajukan masih merupakan **calon untuk diteliti**, belum menjadi daftar final.
+
+### Mekanisme tantangan
+Nama konsep permainan: **Buka Peti Ilmu**.
+- Pemain membaca petunjuk singkat tentang seorang ulama.
+- Pemain memasangkan petunjuk dengan nama ulama yang tepat.
+- Setelah menjawab, muncul penjelasan mengenai bidang ilmu, karya atau kontribusi yang terverifikasi, serta pelajaran baik yang dapat diambil.
+- Jawaban salah boleh dicoba kembali; penjelasan tetap muncul setelah setiap jawaban.
+
+| Profil | Jumlah pasangan |
+|---|---:|
+| Adik (kelas 1–3) | 5 pasangan |
+| Kakak (kelas 4–6) | 8 pasangan |
+
+### Calon tokoh untuk proses verifikasi (belum final)
+- Ulama yang telah wafat: Syaikh Abdul Aziz bin Baz, Syaikh Muhammad Nashiruddin al-Albani, Syaikh Muhammad bin Shalih al-'Utsaimin, Syaikh Muqbil bin Hadi al-Wadi'i.
+- Ulama yang masih hidup: Syaikh Shalih al-Fauzan, Syaikh Abdul Muhsin al-'Abbad, Syaikh Abdul Razzaq al-Badr.
+
+Nama, status hidup/wafat, biografi, bidang keilmuan, karya, dan kontribusi setiap calon harus diperiksa kembali melalui sumber tepercaya sebelum dimasukkan ke bank soal. Daftar ini bukan pemeringkatan dan bukan daftar final.
+
+### Standar verifikasi tokoh
+Setiap profil harus memiliki:
+- Nama lengkap dan nama yang dikenal.
+- Negara/tempat asal jika terverifikasi.
+- Status hidup atau wafat dengan tanggal yang dapat dipastikan.
+- Bidang ilmu yang ditekuni.
+- Contoh karya atau kontribusi yang dapat dibuktikan.
+- Pelajaran positif yang dapat dipahami anak.
+- Rujukan spesifik untuk setiap fakta.
+
+Prioritaskan situs/biografi resmi ulama, lembaga pendidikan tempat beliau mengajar, penerbit karya, serta sumber biografi tepercaya. Jika informasi tidak jelas atau diperselisihkan, jangan jadikan soal.
+
+### Aturan visual bonus
+- Gunakan perpustakaan, rak kitab, manuskrip, pena, lentera, peti ilmu, dan ornamen.
+- Jangan gunakan ilustrasi wajah/tubuh ulama atau avatar rekaan yang seolah menggambarkan ulama tertentu.
+- Kenalkan ulama melalui ilmu dan karya, bukan penggambaran fisik.
+- Tetap konsisten dengan identitas visual P’Nata dan aturan ilustrasi proyek.
+
+## 8. Penyimpanan progres pemain
+Gunakan localStorage untuk menyimpan:
+- Profil pemain.
+- Wilayah yang telah terbuka.
+- Tantangan yang telah selesai.
+- Bintang yang telah diperoleh.
+- Pengaturan suara.
+- Progres tantangan berjalan jika implementasinya memungkinkan.
+
+Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan tombol reset dengan konfirmasi. Penghapusan data browser dapat menghilangkan progres.
+
+## 9. Alur layar
+1. Halaman pembuka.
+2. Pilih profil (Adik/Kakak).
+3. Peta wilayah.
+4. Pilih tantangan.
+5. Mainkan tantangan.
+6. Umpan balik dan penjelasan setelah setiap jawaban.
+7. Hadiah bintang.
+8. Ringkasan progres dan pengaturan.
+9. Ringkasan penyelesaian seluruh permainan setelah 10 bintang/seluruh tantangan selesai.
+
+## 10. Rencana kerja berikutnya
+1. Susun dan verifikasi bank materi Wilayah 1.
+2. Susun dan verifikasi bank materi Wilayah 2.
+3. Susun dan verifikasi bank materi Wilayah 3.
+4. Susun dan verifikasi bank materi Wilayah Bonus — Jejak Para Ulama.
+5. Finalisasi daftar tokoh dan pasangan petunjuk untuk profil Adik dan Kakak.
+6. Buat mockup layar pembuka, profil, peta, mode permainan, umpan balik, hadiah, dan pengaturan.
+7. Kembangkan game HTML.
+8. Uji responsivitas, alur progres, penyimpanan localStorage, sumber materi, dan seluruh jawaban.
+9. Finalisasi.
+
+**Status saat pencatatan:** Konsep inti permainan dan konsep Wilayah Bonus telah disepakati. Pengerjaan berikutnya dimulai dari bank materi dan verifikasi sumber, bukan langsung ke mockup atau coding.
