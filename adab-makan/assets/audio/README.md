@@ -11,6 +11,14 @@ Folder ini disiapkan untuk rekaman produksi. **Belum ada rekaman final yang dipa
 - Efek suara positif yang lembut; tanpa suara hukuman atau menakutkan.
 - Musik latar opsional dengan kontrol putar/jeda dan volume.
 
+## Arah suara yang disepakati
+
+- Narasi dan umpan balik: suara anak-anak yang ceria, ramah, hangat, dan jelas; tempo pelan serta tidak berteriak.
+- Gunakan satu karakter suara yang konsisten sejauh memungkinkan.
+- Bacaan Bismillah, Alhamdulillah, dan doa: rekaman bacaan Arab yang benar dan telah diverifikasi; tidak harus menggunakan suara narator yang sama.
+- Narasi dapat disimpan dalam subfolder `narasi/`, sedangkan respons singkat seperti pujian dapat disimpan dalam `feedback/`.
+- Pastikan izin penggunaan rekaman suara diperoleh dari orang tua/wali perekam anak.
+
 ## Pemeriksaan wajib sebelum integrasi
 
 1. Cocokkan lafaz audio kata demi kata dengan teks Arab final.
