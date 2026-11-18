@@ -2,6 +2,8 @@
 
 Folder ini disiapkan untuk rekaman produksi. **Belum ada rekaman final yang dipasang.** Jangan mengganti bacaan Arab dengan TTS atau audio yang belum diverifikasi.
 
+Naskah rekaman lengkap untuk 25 aktivitas dan tiga bacaan Arab tersedia di [NASKAH-REKAMAN.md](./NASKAH-REKAMAN.md). Gunakan dokumen itu sebagai panduan pengisi suara.
+
 ## 1. Bacaan Arab — wajib
 
 | Nama file | Isi | Digunakan pada |
@@ -56,7 +58,7 @@ Sumber-sumber berikut bukan berarti semua audionya otomatis boleh dimasukkan ke 
 - Situs resmi Syaikh Khalid al-Sabt — penjelasan doa setelah makan dan tautan MP3: https://khaledalsabt.com/explanations/480/254-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%BA-%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B0%D9%8A-%D8%A7%D8%B7%D8%B9%D9%85%D9%86%D9%8A-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D9%84%D9%84%D9%87-%D8%AD%D9%85%D8%AF%D8%A7-%D9%83%D8%AB%D9%8A%D8%B1%D8%A7-%D8%B7%D9%8A%D8%A8%D8%A7
 - The Islamic Bulletin — kumpulan doa makan dengan pemutar audio: https://islamicbulletin.org/?page_id=45
 
-Gunakan rekaman dari situs-situs tersebut hanya untuk pembanding pelafalan sampai pemilik hak memberi izin yang jelas untuk penggunaan dalam game komersial. Pilihan paling aman adalah membuat rekaman sendiri dengan pembaca yang kompeten, lalu memeriksanya terhadap teks rujukan.
+Catatan penting: MP3 pada halaman Syaikh Khalid al-Sabt adalah rekaman penjelasan/ceramah, bukan file bacaan doa pendek yang sudah dipastikan siap dipasang ke game. Halamannya berguna untuk menelaah penjelasan dan rujukan hadis. Audio pada Islamic Bulletin dapat didengarkan sebagai pembanding awal, tetapi pelafalan, kecocokan redaksi, dan lisensi komersialnya belum terverifikasi. Jangan mengambil file dari kedua situs untuk game sebelum ada izin yang jelas. Pilihan paling aman adalah membuat rekaman sendiri dengan pembaca yang kompeten, lalu memeriksanya terhadap teks rujukan.
 
 ### Efek suara
 - Mixkit — sound effects untuk game: https://mixkit.co/free-sound-effects/video-game/
