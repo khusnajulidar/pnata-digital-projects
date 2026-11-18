@@ -53,7 +53,7 @@ Sumber-sumber berikut bukan berarti semua audionya otomatis boleh dimasukkan ke 
 
 ### Referensi bacaan
 - Sunnah.com — Jami’ at-Tirmidhi 3458 (teks hadis): https://sunnah.com/tirmidhi/48/89
-- Situs resmi Syaikh Khalid al-Sabt — penjelasan doa setelah makan dan tautan MP3: https://khaledalsabt.com/explanations/480/254-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D8%A7%D9%81%D8%B1%D8%A7%D8%BA-%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B0%D9%8A-%D8%A7%D8%B7%D8%B9%D9%85%D9%86%D9%8A-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D9%84%D9%84%D9%87-%D8%AD%D9%85%D8%AF%D8%A7-%D9%كثيرا-%Dطيبا
+- Situs resmi Syaikh Khalid al-Sabt — penjelasan doa setelah makan dan tautan MP3: https://khaledalsabt.com/explanations/480/254-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D8%A1-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%BA-%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B0%D9%8A-%D8%A7%D8%B7%D8%B9%D9%85%D9%86%D9%8A-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%AD%D9%85%D8%AF%D9%84%D9%84%D9%87-%D8%AD%D9%85%D8%AF%D8%A7-%D9%83%D8%AB%D9%8A%D8%B1%D8%A7-%D8%B7%D9%8A%D8%A8%D8%A7
 - The Islamic Bulletin — kumpulan doa makan dengan pemutar audio: https://islamicbulletin.org/?page_id=45
 
 Gunakan rekaman dari situs-situs tersebut hanya untuk pembanding pelafalan sampai pemilik hak memberi izin yang jelas untuk penggunaan dalam game komersial. Pilihan paling aman adalah membuat rekaman sendiri dengan pembaca yang kompeten, lalu memeriksanya terhadap teks rujukan.
