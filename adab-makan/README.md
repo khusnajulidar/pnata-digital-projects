@@ -31,6 +31,8 @@ File awal game telah dibuat: `index.html`, `css/style.css`, dan `js/app.js`. Pro
 - Menambahkan alur audio Alhamdulillah untuk Aktivitas 21.
 - Menghubungkan Aktivitas 23 agar selesai setelah audio doa benar-benar selesai diputar.
 - Menyempurnakan kontrol audio dengan jeda dan putar ulang, serta slot aktivitas susun/rapikan agar dapat dioperasikan dengan sentuhan.
+- Memperjelas Aktivitas 9–10 dengan instruksi sudut pandang anak dan konteks mengambil makanan terdekat dari satu wadah bersama.
+- Memperjelas empat tahap Tantangan Aktivitas 20 dan instruksi interaksi sentuh/geser pada aktivitas menyusun.
 - Lolos pemeriksaan sintaks JavaScript dan uji inisialisasi sederhana dengan lingkungan DOM tiruan; ini belum menggantikan pengujian interaksi di browser.
 
 **Batasan prototipe saat ini:** file rekaman final belum diunggah sehingga alur audio belum dapat diuji sampai tuntas. Beberapa ilustrasi aktivitas masih berupa simbol sementara dan perlu diganti dengan aset mockup yang disetujui. Materi doa tetap wajib melalui pemeriksaan akhir sebelum rekaman dan publikasi. Game belum siap dipublikasikan.
