@@ -16,7 +16,18 @@ Repository kerja proyek game edukasi interaktif P'Nata tentang adab makan untuk 
 - [ ] Pengujian
 - [ ] Deployment Netlify
 
-## Status implementasi awal (18 November 2026)\n\nFile awal game telah dibuat: `index.html`, `css/style.css`, dan `js/app.js`. Prototipe sudah memuat navigasi dasar, peta lima misi, data 25 aktivitas, respons pilihan, penyimpanan progres Local Storage, serta alur penyelesaian misi. Aktivitas susun/rapikan sedang menggunakan area seret-dan-letakkan yang juga memiliki alternatif sentuh untuk perangkat tanpa mouse.\n\n**Batasan prototipe saat ini:** rekaman audio belum diintegrasikan; kontrol audio masih berupa penanda bahwa aset rekaman perlu ditambahkan. Beberapa ilustrasi aktivitas masih berupa simbol sementara. Materi doa ditampilkan sebagai data acuan kerja dan tetap wajib melalui pemeriksaan akhir sebelum rekaman dan publikasi. Game belum siap dipublikasikan.\n\n## Keputusan desain
+## Status implementasi awal (18 November 2026)
+
+File awal game telah dibuat: `index.html`, `css/style.css`, dan `js/app.js`. Prototipe sudah memuat navigasi dasar, peta lima misi, data 25 aktivitas, respons pilihan, penyimpanan progres Local Storage, serta alur penyelesaian misi.
+
+**Pemeriksaan dan perbaikan terbaru:**
+- Memperbaiki pemetaan indeks data aktivitas agar jenis aktivitas dan jawaban benar dibaca dari kolom yang tepat.
+- Memperbaiki identifikasi aktivitas adegan makan bersama.
+- Menyesuaikan urutan Misi 1 Aktivitas 4 menjadi cuci tangan → membaca Bismillah → mulai makan.
+
+**Batasan prototipe saat ini:** rekaman audio belum diintegrasikan; kontrol audio masih berupa penanda bahwa aset rekaman perlu ditambahkan. Beberapa ilustrasi aktivitas masih berupa simbol sementara. Materi doa ditampilkan sebagai data acuan kerja dan tetap wajib melalui pemeriksaan akhir sebelum rekaman dan publikasi. Aktivitas yang membutuhkan audio belum dapat diuji tuntas sebelum rekaman tersedia. Game belum siap dipublikasikan.
+
+**Arah audio yang disepakati:** narasi dan umpan balik menggunakan suara anak-anak yang ceria, dengan tempo pelan dan pelafalan jelas. Bacaan Bismillah, Alhamdulillah, dan doa menggunakan rekaman bacaan Arab yang benar serta terverifikasi.\n## Keputusan desain
 
 - Target pengguna: anak usia 3–4 tahun.
 - Platform: web responsif (ponsel, tablet, desktop).
