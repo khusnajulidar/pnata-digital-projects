@@ -90,7 +90,7 @@ case"start":go("instructions");break;case"home":go("home");break;case"instructio
 case"hint":feedback("Petunjuk: "+activityData()[1],false);break;
 case"next":next();break;
 case"audio":feedback("Audio belum tersedia. Rekaman yang benar akan ditambahkan sebelum publikasi.",false);break;
-case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length||state.sequence.some(v=>v===undefined)){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=state.sequence.every((v,i)=>v===i);answer(ok);break}
+case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length||Array.from({length:d[2].length},(_,i)=>state.sequence[i]===undefined).some(Boolean)){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=Array.from({length:d[2].length},(_,i)=>state.sequence[i]===i).every(Boolean);answer(ok);break}
 case"replay":progress=blankProgress();save();go("home");break;
 }return}
 if(b.dataset.mission!==undefined){const m=Number(b.dataset.mission);if(progress.unlockedMissions.includes(m)){state.mission=m;go("activity")}return}
