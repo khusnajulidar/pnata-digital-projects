@@ -68,7 +68,7 @@
 | No. | Jawaban grid | Jumlah huruf | Petunjuk untuk pemain |
 |---|---|---:|---|
 | K1 | QURAISY | 7 | Rasulullah ﷺ berasal dari suku Arab yang disebut dalam hadis Sahih Muslim 2276. Apa nama suku tersebut? |
-| K2 | BANUHASYIM | 10 | Dalam hadis Sahih Muslim 2276, Rasulullah ﷺ disebut berasal dari kabilah Bani … |
+| K2 | BANIHASYIM | 10 | Dalam hadis Sahih Muslim 2276, Rasulullah ﷺ disebut berasal dari kabilah Bani … |
 | K3 | HIRA | 4 | Di gua inilah Rasulullah ﷺ menyendiri sebelum wahyu pertama datang. Apa nama gua tersebut? |
 | K4 | JIBRIL | 6 | Malaikat yang dikenal membawa wahyu Al-Qur’an kepada Nabi Muhammad ﷺ adalah … |
 | K5 | KHADIJAH | 8 | Siapakah istri Rasulullah ﷺ yang beliau datangi setelah menerima wahyu pertama dan yang menenangkan beliau? |
