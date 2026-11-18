@@ -86,20 +86,57 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 @media(max-width:420px){.options{grid-template-columns:1fr}.topbar{align-items:flex-start}.stars{font-size:22px}.btn{padding:13px 17px}}
 
 
-/* Approved visual mockups: kept as a soft visual layer while live controls remain interactive. */
-.screen[data-mockup]::before{
-  width:100%;height:100%;top:0;right:0;left:0;bottom:0;
-  border-radius:0;opacity:.18;background-color:transparent;
-  background-repeat:no-repeat;background-position:center;background-size:cover;
-  filter:saturate(.92);
+
+
+/* Mockup 01: use the approved artwork as the actual screen, not a faded backdrop. */
+.screen[data-mockup="01"]{
+  padding:0;
+  min-height:100%;
+  background:#f8f1e2 url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-01-halaman-pembuka.png") center/100% 100% no-repeat;
 }
-.screen[data-mockup="01"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-01-halaman-pembuka.png")}
-.screen[data-mockup="02"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-02-petunjuk.jfif")}
-.screen[data-mockup="03"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-03.jfif")}
-.screen[data-mockup="04"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-04-template-aktivitas-pilihan.png")}
-.screen[data-mockup="05"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-05.png")}
-.screen[data-mockup="06"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-06.png")}
-.screen[data-mockup="07"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-07%E2%80%93template-aktivitas-simulasi-interaktif.png")}
-.screen[data-mockup="08"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-08.jfif")}
-.screen[data-mockup="09"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-09.jfif")}
-.screen[data-mockup="10"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-10.png")}
+.screen[data-mockup="01"]::before,
+.screen[data-mockup="01"]::after{display:none}
+.screen[data-mockup="01"] .brand,
+.screen[data-mockup="01"] .hero > :not(button){display:none}
+.screen[data-mockup="01"] .hero{
+  position:absolute;
+  inset:0;
+  width:100%;
+  max-width:none;
+  margin:0;
+  display:block;
+  pointer-events:none;
+}
+.screen[data-mockup="01"] .hero .btn{
+  position:absolute;
+  left:39%;
+  top:77%;
+  width:24%;
+  height:16%;
+  padding:0;
+  margin:0;
+  border:0;
+  border-radius:28px;
+  background:transparent;
+  box-shadow:none;
+  color:transparent;
+  font-size:0;
+  pointer-events:auto;
+  opacity:0;
+}
+.screen[data-mockup="01"] .hero .btn:active{
+  transform:scale(.97);
+  box-shadow:none;
+}
+@media(max-width:760px){
+  .screen[data-mockup="01"]{
+    min-height:100vh;
+    background-size:100% 100%;
+  }
+  .screen[data-mockup="01"] .hero .btn{
+    left:37%;
+    top:76%;
+    width:27%;
+    height:17%;
+  }
+}
