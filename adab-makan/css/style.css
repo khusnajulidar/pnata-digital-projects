@@ -84,3 +84,22 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
  .footer-nav{position:sticky;bottom:0;background:linear-gradient(transparent,var(--cream) 25%);padding-top:12px}
 }
 @media(max-width:420px){.options{grid-template-columns:1fr}.topbar{align-items:flex-start}.stars{font-size:22px}.btn{padding:13px 17px}}
+
+
+/* Approved visual mockups: kept as a soft visual layer while live controls remain interactive. */
+.screen[data-mockup]::before{
+  width:100%;height:100%;top:0;right:0;left:0;bottom:0;
+  border-radius:0;opacity:.18;background-color:transparent;
+  background-repeat:no-repeat;background-position:center;background-size:cover;
+  filter:saturate(.92);
+}
+.screen[data-mockup="01"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-01-halaman-pembuka.png")}
+.screen[data-mockup="02"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-02-petunjuk.jfif")}
+.screen[data-mockup="03"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-03.jfif")}
+.screen[data-mockup="04"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-04-template-aktivitas-pilihan.png")}
+.screen[data-mockup="05"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-05.png")}
+.screen[data-mockup="06"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-06.png")}
+.screen[data-mockup="07"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-07%E2%80%93template-aktivitas-simulasi-interaktif.png")}
+.screen[data-mockup="08"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-08.jfif")}
+.screen[data-mockup="09"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-09.jfif")}
+.screen[data-mockup="10"]::before{background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-10.png")}
