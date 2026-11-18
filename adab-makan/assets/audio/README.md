@@ -25,7 +25,9 @@ Naskah rekaman lengkap untuk 25 aktivitas dan tiga bacaan Arab tersedia di [NASK
 
 ## 2. Narasi bahasa Indonesia — suara anak
 
-Gunakan satu suara anak yang konsisten sejauh memungkinkan. Karakter suara: ceria, ramah, hangat, artikulasi jelas, tempo pelan, tidak berteriak, dan tidak dibuat berlebihan.
+**Suara resmi yang dipilih: Rina (Speechma), Indonesian · female kids-styled voice.** Gunakan Rina untuk seluruh narasi aktivitas dan feedback agar karakter audio konsisten. Halaman suara: https://speechma.com/voice/rina-indonesian.
+
+Atur kecepatan lebih lambat daripada contoh awal yang didengarkan pengguna. Mulai dengan uji sekitar 0,85×–0,90× bila kontrol speed pada halaman menyediakan skala tersebut; angka ini hanya titik awal, bukan ketentuan mutlak. Dengarkan hasil setiap sampel dan pilih tempo yang jelas, ceria, alami, serta mudah diikuti anak usia 3–4 tahun. Gunakan jeda kalimat melalui tanda baca bila diperlukan. Catat nilai speed dan pitch final agar seluruh file dibuat konsisten. Speechma menyatakan audio hasil generasinya boleh digunakan secara komersial; simpan salinan ketentuan penggunaan saat produksi sebagai dokumentasi lisensi. Rujukan: https://speechma.com/faq dan https://speechma.com/voice/rina-indonesian.
 
 Rencana file:
 - `narasi/aktivitas-01.mp3` sampai `narasi/aktivitas-25.mp3` — instruksi lisan singkat tiap aktivitas.
@@ -34,7 +36,7 @@ Rencana file:
 - `feedback/misi-selesai.mp3` — ucapan penyelesaian misi.
 - `feedback/permainan-selesai.mp3` — ucapan penyelesaian seluruh permainan.
 
-Teks narasi harus sama maknanya dengan instruksi yang tampil di layar. Rekaman suara anak wajib mendapat izin orang tua/wali dan persetujuan penggunaan untuk produk digital yang dijual.
+Teks narasi harus sama maknanya dengan instruksi yang tampil di layar. Karena menggunakan suara TTS Rina, tidak diperlukan izin rekaman anak. Tetap pastikan naskah yang dimasukkan merupakan materi yang hak penggunaannya dimiliki sendiri.
 
 ## 3. Efek suara — pendukung
 
