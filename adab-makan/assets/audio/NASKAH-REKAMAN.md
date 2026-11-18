@@ -2,15 +2,16 @@
 
 Dokumen kerja untuk pengisi suara dan pemeriksa. Rekaman belum dibuat. Naskah boleh disempurnakan secara bahasa, tetapi perubahan makna materi agama harus diperiksa terlebih dahulu.
 
-## Arahan pengisi suara
+## Arahan produksi suara narasi
 
-- Gunakan suara anak yang ceria, ramah, hangat, dan alami.
-- Ucapkan dengan jelas dan perlahan, beri jeda antarpetunjuk.
-- Hindari berteriak, terlalu cepat, dibuat-buat, atau nada menggurui.
-- Rekam dalam ruangan tenang dengan mikrofon yang tidak terlalu dekat.
-- Satu file untuk setiap nomor aktivitas agar mudah dipasang dan diganti.
+- **Suara resmi: Rina dari Speechma**, Indonesian · female kids-styled voice: https://speechma.com/voice/rina-indonesian.
+- Gunakan kecepatan lebih lambat daripada contoh awal yang didengarkan pengguna. Uji sekitar 0,85×–0,90× bila kontrol speed menyediakan skala tersebut; sesuaikan berdasarkan hasil dengar, bukan angka semata.
+- Karakter suara harus ceria, ramah, hangat, dan alami; artikulasi jelas, tidak terburu-buru, tidak berteriak, dan tidak menggurui.
+- Sisipkan jeda antarkalimat melalui tanda baca bila diperlukan.
+- Catat nilai speed dan pitch yang dipakai, lalu pertahankan konsistensinya untuk seluruh 25 aktivitas dan feedback.
+- Unduh setiap nomor aktivitas sebagai file MP3 terpisah agar mudah dipasang dan diganti.
 - Narasi tidak menggantikan teks petunjuk di layar; keduanya harus menyampaikan instruksi yang sama.
-- Minta izin tertulis orang tua/wali untuk penggunaan suara anak dalam game digital yang akan dijual.
+- Speechma menyatakan penggunaan komersial audio hasil generasi diperbolehkan; simpan dokumentasi ketentuan penggunaan saat produksi: https://speechma.com/faq.
 
 ## Naskah narasi 25 aktivitas
 
@@ -82,7 +83,8 @@ Jangan menambahkan kalimat atau redaksi dari riwayat lain. Pastikan audio berakh
 - [ ] Naskah narasi dibaca sesuai teks.
 - [ ] Suara jelas, hangat, dan tidak terlalu cepat.
 - [ ] Tidak ada suara latar yang mengganggu.
-- [ ] Izin penggunaan suara anak sudah diperoleh dari orang tua/wali.
+- [ ] Seluruh narasi menggunakan suara Rina dan pengaturan speed/pitch yang konsisten.
+- [ ] Penggunaan komersial audio TTS sudah dicatat berdasarkan ketentuan Speechma.
 - [ ] Bacaan Arab cocok kata demi kata dengan teks final.
 - [ ] Pelafalan bacaan Arab telah diperiksa.
 - [ ] Izin/lisensi penggunaan komersial sudah tercatat.
