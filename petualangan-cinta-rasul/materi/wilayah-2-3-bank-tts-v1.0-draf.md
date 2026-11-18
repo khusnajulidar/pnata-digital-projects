@@ -29,25 +29,25 @@
 
 | ID | Jawaban grid | Huruf | Petunjuk |
 |---|---|---:|---|
-| W2-K1 | KHADIJAH | 8 | Siapakah istri Rasulullah ﷺ yang pertama kali beliau datangi setelah menerima wahyu pertama? |
+| W2-K1 | MAIMUNAH | 8 | Siapakah istri Rasulullah ﷺ yang dinikahi pada masa Umratul Qadha? |
 | W2-K2 | UMMUSALAMAH | 11 | Apa nama kunyah Umm Salamah, salah seorang istri Rasulullah ﷺ? |
 | W2-K3 | UMMUHABIBAH | 11 | Apa nama kunyah putri Abu Sufyan yang menjadi salah seorang istri Rasulullah ﷺ? |
 | W2-K4 | ZAINAB | 6 | Siapakah nama salah seorang istri Rasulullah ﷺ yang disebut dalam kisah pernikahan pada Surah Al-Ahzab ayat 37? |
-| W2-K5 | JUWAI RIYAH | 10 | Nama istri Rasulullah ﷺ dari Bani Musthaliq yang dikenal sebagai Juwayriyah binti al-Harith. Tulis nama panggilannya tanpa spasi. |
+| W2-K5 | JUWAYRIYAH | 10 | Nama istri Rasulullah ﷺ yang dikenal sebagai Juwayriyah binti al-Harith. Tulis nama panggilannya tanpa spasi. |
 | W2-K6 | SAUDAH | 6 | Siapakah istri Rasulullah ﷺ yang dinikahi setelah Khadijah wafat dan sebelum Aisyah mulai hidup bersama beliau? |
 | W2-K7 | MARIAH | 6 | Siapakah nama perempuan yang menjadi ibu putra Rasulullah ﷺ, Ibrahim? |
-| W2-K8 | ZAYNAB | 6 | Siapakah putri Rasulullah ﷺ yang menikah dengan Abu al-'As bin ar-Rabi'? |
+| W2-K8 | RUQAYYAH | 8 | Siapakah putri Rasulullah ﷺ yang menikah dengan Utsman bin Affan sebelum hijrah ke Madinah? |
 
 ### Catatan penting Paket Kakak
 Paket ini memerlukan pembakuan ejaan dan pemeriksaan rujukan sirah sebelum dinyatakan final. Beberapa nama/relasi keluarga tidak disebut secara eksplisit dalam satu hadis sahih tertentu. Karena itu:
-- **W2-K1 KHADIJAH**: rujukan Sahih al-Bukhari 3; https://sunnah.com/bukhari:3
+- **W2-K1 MAIMUNAH**: Rasulullah ﷺ menikahi Maimunah; riwayat menyebut pernikahan itu pada masa Umratul Qadha. Rujukan: Sahih al-Bukhari 4258–4259; https://sunnah.com/bukhari:4258
 - **W2-K2 UMMUSALAMAH**: gunakan ejaan grid UMMUSALAMAH; fakta nama lengkap dan status sebagai istri Rasulullah ﷺ harus dirujuk ke biografi Umm Salamah dalam sumber sirah/biografi yang tepercaya.
 - **W2-K3 UMMUHABIBAH**: gunakan ejaan grid UMMUHABIBAH; rujukan biografi Umm Habibah/Ramlah bint Abi Sufyan dalam sumber sirah/biografi tepercaya.
 - **W2-K4 ZAINAB**: yang dimaksud adalah Zaynab bint Jahsh; rujukan utama QS. Al-Ahzab [33]:37. https://quran.com/33/37
-- **W2-K5 JUWAYRIYAH**: kunci grid harus dibakukan menjadi JUWAYRIYAH (11 huruf) atau JUWAI RIYAH tidak boleh digunakan. Petunjuk dan fakta perlu dicek terhadap sumber biografi sebelum final.
+- **W2-K5 JUWAYRIYAH**: ejaan grid JUWAYRIYAH berjumlah 10 huruf. Rujukan biografi spesifik masih perlu dilengkapi sebelum final.
 - **W2-K6 SAUDAH**: rujukan sirah/biografi tentang Saudah bint Zam'ah dan urutan pernikahan. Jangan gunakan frasa “sebelum Aisyah mulai hidup bersama beliau” tanpa pemeriksaan kronologi terperinci; redaksi yang lebih aman: “Siapakah nama istri Rasulullah ﷺ yang dikenal sebagai Saudah bint Zam'ah?”
 - **W2-K7 MARIAH**: ejaan populer Indonesia Mariah al-Qibthiyyah; rujukan biografi. Jangan menyebut statusnya sebagai istri/Ummahatul Mukminin tanpa penjelasan ilmiah yang sesuai.
-- **W2-K8 ZAYNAB**: yang dimaksud Zaynab bint Muhammad, putri Rasulullah ﷺ. Rujukan sirah/biografi; perlu dicek agar tidak tertukar dengan Zaynab bint Jahsh pada W2-K4.
+- **W2-K8 RUQAYYAH**: putri Rasulullah ﷺ yang menikah dengan Utsman bin Affan. Rujukan sirah/biografi keluarga Nabi; perlu dilengkapi secara spesifik sebelum final.
 
 **Keputusan mutu:** Paket Kakak di atas adalah daftar kandidat, belum boleh dimasukkan ke grid atau HTML sebelum semua rujukan biografi spesifik dilengkapi dan dua ejaan Zaynab dibedakan secara eksplisit. Untuk mencegah ambiguitas, sebaiknya W2-K8 diganti jika sumber primer/biografi yang digunakan belum tersedia.
 
@@ -108,8 +108,8 @@ Paket ini memerlukan pembakuan ejaan dan pemeriksaan rujukan sirah sebelum dinya
 - Tidak ada kunci jawaban yang sama antara Paket Adik dan Kakak di Wilayah 2.
 - Tidak ada kunci jawaban yang sama antara Paket Adik dan Kakak di Wilayah 3.
 - Hindari memakai ulang fakta yang sama pada TTS, Berburu Kata, dan Matching kecuali ada tujuan penguatan yang dinyatakan.
-- Perhatikan kemiripan nama Zaynab bint Jahsh dan Zaynab bint Muhammad; jangan gunakan hanya “ZAINAB” tanpa pembeda yang jelas.
-- W2-K5 masih memiliki ejaan salah dalam tabel kandidat: ubah menjadi JUWAYRIYAH (11 huruf) jika tetap dipakai.
+- Nama yang mirip atau memiliki transliterasi bervariasi harus dibakukan sebelum grid disusun.
+- W2-K5 sudah dibakukan menjadi JUWAYRIYAH (10 huruf).
 - Wilayah 3 menggunakan beberapa nama shahabat yang sama-sama termasuk sepuluh orang yang diberi kabar gembira dengan Surga. Jangan mengulang soal daftar yang sama pada mode lain; tiap nama di sini diuji melalui satu petunjuk khusus.
 
 ## F. Status dokumen
