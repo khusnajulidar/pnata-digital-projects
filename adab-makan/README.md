@@ -30,6 +30,7 @@ File awal game telah dibuat: `index.html`, `css/style.css`, dan `js/app.js`. Pro
 - Menambahkan simulasi Aktivitas 7: pilih tangan kanan, lalu lakukan aksi mengambil makanan.
 - Menambahkan alur audio Alhamdulillah untuk Aktivitas 21.
 - Menghubungkan Aktivitas 23 agar selesai setelah audio doa benar-benar selesai diputar.
+- Mengunci pilihan Aktivitas 24 sampai audio doa selesai diperdengarkan, agar anak mendengar bacaan sebelum mengenalinya.
 - Menyempurnakan kontrol audio dengan jeda dan putar ulang, serta slot aktivitas susun/rapikan agar dapat dioperasikan dengan sentuhan.
 - Memperjelas Aktivitas 9–10 dengan instruksi sudut pandang anak dan konteks mengambil makanan terdekat dari satu wadah bersama.
 - Memperjelas empat tahap Tantangan Aktivitas 20 dan instruksi interaksi sentuh/geser pada aktivitas menyusun.
