@@ -31,6 +31,8 @@ Atur kecepatan lebih lambat daripada contoh awal yang didengarkan pengguna. Mula
 
 Rencana file:
 - `narasi/aktivitas-01.mp3` sampai `narasi/aktivitas-25.mp3` — instruksi lisan singkat tiap aktivitas.
+
+**Integrasi kode:** setiap layar aktivitas kini menyediakan tombol `DENGARKAN PETUNJUK` yang memanggil file sesuai nomor aktivitas. Tombol dapat menjeda dan melanjutkan audio. Narasi otomatis dihentikan saat berpindah aktivitas/layar atau ketika bacaan Arab mulai diputar, agar kedua audio tidak bertumpuk. Audio narasi tidak menjadi syarat penyelesaian aktivitas. Sampai file MP3 diunggah ke folder ini, tombol akan menampilkan pesan bahwa rekaman belum tersedia.
 - `feedback/benar.mp3` — pujian singkat, misalnya “Masya Allah, hebat!”
 - `feedback/coba-lagi.mp3` — ajakan lembut, misalnya “Ayo, coba lagi!”
 - `feedback/misi-selesai.mp3` — ucapan penyelesaian misi.
