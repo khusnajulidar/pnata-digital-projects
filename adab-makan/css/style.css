@@ -140,3 +140,77 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
     height:17%;
   }
 }
+
+
+/* Mockup 02: approved instruction artwork with transparent navigation hit areas. */
+.screen[data-mockup="02"]{
+  padding:0;min-height:100%;
+  background:#fbf4e5 url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-02-petunjuk.jfif") center/100% 100% no-repeat;
+}
+.screen[data-mockup="02"]::before,.screen[data-mockup="02"]::after{display:none}
+.screen[data-mockup="02"] .topbar,
+.screen[data-mockup="02"] .hero > :not(.options),
+.screen[data-mockup="02"] .options{display:none}
+.screen[data-mockup="02"] .hero{
+  position:absolute;inset:0;width:100%;max-width:none;margin:0;
+  display:block;pointer-events:none;
+}
+.screen[data-mockup="02"] .footer-nav{position:absolute;inset:0;margin:0;display:block;pointer-events:none}
+.screen[data-mockup="02"] .footer-nav .btn{
+  position:absolute;padding:0;border:0;background:transparent;box-shadow:none;
+  color:transparent;font-size:0;opacity:0;pointer-events:auto;
+}
+.screen[data-mockup="02"] .footer-nav .btn.ghost{left:1.5%;top:88%;width:7%;height:10%}
+.screen[data-mockup="02"] .footer-nav .btn.secondary{left:38%;top:78%;width:25%;height:16%}
+
+/* Mockup 03: the five illustrated mission cards are the clickable controls. */
+.screen[data-mockup="03"]{
+  padding:0;min-height:100%;
+  background:#fbf4e5 url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-03.jfif") center/100% 100% no-repeat;
+}
+.screen[data-mockup="03"]::before,.screen[data-mockup="03"]::after{display:none}
+.screen[data-mockup="03"] .topbar{position:absolute;left:0;right:0;top:0;height:34%;margin:0;pointer-events:none}
+.screen[data-mockup="03"] .topbar .brand{display:none}
+.screen[data-mockup="03"] .stars{
+  position:absolute;left:36%;top:65%;width:28%;justify-content:space-between;
+  gap:0;font-size:clamp(22px,3vw,38px);pointer-events:none;
+}
+.screen[data-mockup="03"] h2,
+.screen[data-mockup="03"] > .lead{display:none}
+.screen[data-mockup="03"] .map-grid{
+  position:absolute;left:0;right:0;top:37%;height:40%;margin:0;
+  display:block;pointer-events:none;
+}
+.screen[data-mockup="03"] .mission-card{
+  position:absolute;top:0;height:100%;width:15%;
+  padding:0;border:0;border-radius:0;background:transparent;
+  box-shadow:none;color:transparent;font-size:0;min-height:0;
+  pointer-events:auto;
+}
+.screen[data-mockup="03"] .mission-card:nth-child(1){left:6.5%}
+.screen[data-mockup="03"] .mission-card:nth-child(2){left:26%}
+.screen[data-mockup="03"] .mission-card:nth-child(3){left:44%}
+.screen[data-mockup="03"] .mission-card:nth-child(4){left:62%}
+.screen[data-mockup="03"] .mission-card:nth-child(5){left:80%}
+.screen[data-mockup="03"] .mission-card > *{visibility:hidden}
+.screen[data-mockup="03"] .mission-card.open::after,
+.screen[data-mockup="03"] .mission-card.done::after{
+  content:attr(data-status);position:absolute;left:50%;top:42%;
+  transform:translate(-50%,-50%);width:46%;aspect-ratio:1;
+  border-radius:50%;display:grid;place-items:center;
+  background:rgba(221,245,232,.96);border:3px solid #70bca2;
+  color:#167d78;font-size:clamp(18px,2.5vw,30px);font-weight:900;
+}
+.screen[data-mockup="03"] .mission-card.done::after{content:"✓";background:#fff0b9;border-color:#e9b94c;color:#9a6c12}
+.screen[data-mockup="03"] .footer-nav{
+  position:absolute;inset:0;margin:0;display:block;pointer-events:none
+}
+.screen[data-mockup="03"] .footer-nav .btn{
+  position:absolute;left:1.5%;top:89%;width:7%;height:9%;
+  padding:0;border:0;background:transparent;box-shadow:none;
+  color:transparent;font-size:0;opacity:0;pointer-events:auto;
+}
+.screen[data-mockup="03"] .footer-nav .btn:first-child{display:none}
+@media(max-width:760px){
+  .screen[data-mockup="02"],.screen[data-mockup="03"]{min-height:100vh;background-size:100% 100%}
+}
