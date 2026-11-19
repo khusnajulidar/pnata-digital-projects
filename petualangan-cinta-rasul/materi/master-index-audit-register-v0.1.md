@@ -113,4 +113,15 @@ Prinsip:
 6. Buat versi final setiap bank hanya setelah rujukan, bahasa, dan anti-pengulangan lulus.
 7. Setelah itu baru siapkan materi Canva dan kisi/koordinatnya.
 
-**Status keseluruhan:** Audit awal menemukan beberapa pengulangan fakta nyata, terutama pada Matching Wilayah 1 dan 2. Belum ada bank yang dinyatakan final untuk produksi HTML.
+## 9. Revisi yang sudah dikerjakan setelah audit awal
+1. **Matching Wilayah 2:** Fatimah Adik kini memakai riwayat bahwa ia menjadi anggota keluarga pertama yang menyusul Nabi ﷺ setelah wafat beliau (Sahih al-Bukhari 3623–3626), bukan mengulang hadis “bagian dari diriku”. Hasan Adik kini menguji kabar perdamaian dua kelompok kaum Muslimin melalui dirinya (Sahih al-Bukhari 2704). Butir Zaynab diganti Hafsah dengan fakta penyimpanan suhuf Al-Qur'an (Sahih al-Bukhari 4986). Butir Zayd yang mengulang fakta QS 33:37 diganti Ruqayyah dan hijrahnya ke Habasyah (sirah; jilid/halaman edisi perlu dilengkapi).
+2. **Matching Wilayah 3:** Butir Abu Talhah pada paket Kakak diganti Hudhayfah bin al-Yaman, dengan kisah ayahnya terbunuh tanpa sengaja saat Uhud dan sikap Hudhayfah memohonkan ampun bagi para pelakunya (Sahih al-Bukhari 4065). Fakta Hudhayfah berbeda dari fakta tentang pengetahuan sejumlah orang munafik yang digunakan di Berburu Kata.
+
+## 10. Urutan kerja tersisa
+1. Revisi Matching Wilayah 1 karena sejumlah fakta hijrah mengulang target Berburu Kata Wilayah 1; susun ulang butir dan periksa rujukan Bilal.
+2. Selesaikan audit sumber dan pengulangan tersisa pada Matching Wilayah 2–3.
+3. Audit TTS Wilayah 2–3 dan Berburu Kata Wilayah 1–3, termasuk ejaan serta panjang target.
+4. Audit Bonus, terutama sumber biografi dan konsistensi nama.
+5. Perbarui README dan tandai final hanya setelah seluruh butir lolos audit.
+
+**Status keseluruhan:** Audit awal menemukan pengulangan fakta nyata, terutama pada Matching Wilayah 1 dan beberapa butir Matching Wilayah 2. Revisi awal telah dilakukan pada Matching Wilayah 2 dan 3, tetapi belum ada bank utama yang dinyatakan final untuk produksi HTML.
