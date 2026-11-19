@@ -1,6 +1,8 @@
 # SPESIFIKASI TEKNIS UI
 ## P’Nata – Yuk Belajar Adab Makan
 
+> **Pembaruan standar:** Dokumen ini tetap menjadi spesifikasi khusus Peta Lima Misi. Untuk seluruh template aktivitas dan proyek P’Nata Digital, acuan yang lebih luas adalah [STANDAR-DESAIN-IMPLEMENTASI-GAME.md](../STANDAR-DESAIN-IMPLEMENTASI-GAME.md). Mockup berfungsi sebagai template visual berkualitas tinggi; konten dan kontrol yang perlu berubah dibuat dinamis, tanpa menurunkan kualitas tampilan dibanding mockup asli. Detail khusus Peta Lima Misi dalam dokumen ini tetap berlaku selama tidak bertentangan dengan standar tersebut.
+
 **Status:** Keputusan disetujui  
 **Ruang lingkup awal:** Peta Lima Misi (Mockup 03)  
 **Pendekatan:** Gabungan — aset ilustrasi statis dan elemen UI dinamis  
