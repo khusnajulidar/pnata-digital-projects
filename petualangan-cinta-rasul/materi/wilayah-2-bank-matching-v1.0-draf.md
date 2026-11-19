@@ -99,8 +99,9 @@
 - Penjelasan: Pada Perang Badar, Utsman bin Affan tidak ikut berangkat karena istrinya, putri Rasulullah ﷺ, sedang sakit. Rasulullah ﷺ menyampaikan bahwa Utsman memperoleh pahala dan bagian seperti orang yang ikut dalam Perang Badar. Identitas istri tersebut sebagai Ruqayyah ditetapkan melalui sumber sirah/biografi; riwayat Bukhari menyebutnya sebagai putri Rasulullah ﷺ tanpa menyebut nama.
 - Jenis sumber: Hadis sahih untuk peristiwa sakit dan bagian/pahala Badar; identifikasi nama melalui sirah/biografi.
 - Rujukan hadis: Sahih al-Bukhari no. 3130. https://sunnah.com/bukhari:3130
-- Rujukan identitas: Ibn Hisham, *as-Sirah an-Nabawiyyah*, edisi F. Wüstenfeld, *Das Leben Muhammed's nach Muhammed Ibn Ishâk bearbeitet von Abd el-Malik Ibn Hischâm*, jilid 1, Göttingen: Dieterich, 1858, hlm. 208–209; daftar hijrah pertama menyebut Utsman bersama istrinya Ruqayyah. Teks dan terjemahan: https://www.habeshahistory.com/travellers/first-hijra-to-abyssinia/read
-- Catatan: Petunjuk ini berbeda dari TTS W2-K8 yang menguji pernikahan dan hijrah Ruqayyah ke Habasyah. Bukhari 3130 sendiri tidak menyebut nama Ruqayyah, sehingga identifikasi nama harus tetap didukung sumber sirah.
+- Rujukan identitas dan sakit saat Badar: al-Tabari, *The History of al-Tabari*, vol. 39, *Biographies of the Prophet's Companions and Their Successors*, terj. Ella Landau-Tasseron, Albany: State University of New York Press, 1998, hlm. 162; teks biografi menyebut Ruqayyah sakit saat Rasulullah ﷺ berangkat ke Badar dan Utsman ditinggalkan untuk merawatnya. Lihat juga Ibn Hajar, *al-Isabah fi Tamyiz al-Sahabah*, entri Ruqayyah bint Rasulillah.
+- Rujukan pendukung hubungan Utsman-Ruqayyah: Ibn Hisham, *as-Sirah an-Nabawiyyah*, edisi F. Wüstenfeld, jilid 1, Göttingen: Dieterich, 1858, hlm. 208–209; daftar hijrah pertama menyebut Utsman bersama istrinya Ruqayyah. Teks dan terjemahan: https://www.habeshahistory.com/travellers/first-hijra-to-abyssinia/read
+- Catatan: Bukhari 3130 sendiri tidak menyebut nama Ruqayyah; nama dan peristiwa sakitnya saat Badar didukung sumber sirah/biografi terpisah. Petunjuk ini berbeda dari TTS W2-K8 yang menguji pernikahan dan hijrah Ruqayyah ke Habasyah.
 
 **W2-MK-07 — Usamah bin Zaid**
 - Penjelasan: Rasulullah ﷺ menggendong Usamah bersama Hasan dan mendoakan keduanya.
