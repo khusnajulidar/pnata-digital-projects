@@ -22,13 +22,13 @@ Nama file berikut mengikuti nama yang benar-benar ada di repositori:
 - `mockup-06.png` — acuan keluarga susun/drag-and-drop
 - `mockup-07–template-aktivitas-simulasi-interaktif.png` — acuan simulasi dua tangan dan meja makan berdasarkan analisis visual pengguna
 - `mockup-08.jfif` — penyelesaian Misi 1
-- `mockup-09.jfif` — penyelesaian permainan
+- `mockup-09.jfif` — penyelesaian permainan (diperiksa langsung; lima bintang dan tombol MAIN LAGI)
 - `mockup-10.png` — acuan penyajian doa Arab, transliterasi, terjemahan, dan audio berdasarkan analisis visual pengguna
-- `mockup-11.png` — ilustrasi adegan makan bersama (telah diperiksa visual langsung; torso/lengan/tangan tampak, kepala/wajah terpotong dari framing)
+- `mockup-11.png` — ilustrasi adegan makan bersama (diperiksa langsung; torso/lengan/tangan tampak, kepala/wajah terpotong; boleh diadaptasi dengan penggambaran manusia parsial sesuai batas visual proyek)
 
 ## Status audit aset
 
-Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, tetapi folder `assets/images/` belum berisi gambar ilustrasi mandiri. Mockup 07 dan 11 telah diperiksa visual langsung dari unggahan pengguna pada 20 November 2026. Mockup 07 menampilkan simulasi dua tangan dengan tangan kanan disorot; Mockup 11 menampilkan meja makan bersama dengan torso/lengan/tangan (kepala/wajah terpotong), sehingga penggunaannya perlu mempertimbangkan ketentuan visual proyek. Mockup lainnya belum diperiksa ulang secara langsung pada sesi ini. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) bagian 7 untuk hasil audit per aset dan per aktivitas.
+Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, tetapi folder `assets/images/` belum berisi gambar ilustrasi mandiri. Mockup 07 dan 11 diperiksa visual langsung dari unggahan pengguna; Mockup 09 berhasil diperiksa langsung dari repositori GitHub pada 20 November 2026. Mockup 07 menampilkan simulasi dua tangan dengan tangan kanan disorot. Mockup 11 menampilkan meja makan bersama; sesuai klarifikasi pengguna, konteks Abi/Umi boleh dipertahankan melalui penggambaran parsial tanpa sosok manusia utuh, dengan kepala/wajah dihilangkan, ditutup, atau di luar framing. Mockup 09 menampilkan layar penyelesaian dengan lima bintang dan tombol MAIN LAGI. Mockup 10 telah dikonfirmasi keberadaan filenya, tetapi belum dapat ditampilkan langsung melalui konektor; deskripsi visual pengguna menjadi acuan sementara. Mockup lain belum diperiksa ulang secara langsung pada sesi ini. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) bagian 7 untuk hasil audit per aset dan per aktivitas.
 
 ## Cara menggunakan aset
 
@@ -39,7 +39,7 @@ Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, teta
 5. Jangan memaksakan satu template pada aktivitas yang tidak cocok.
 6. Buat mockup/template baru hanya jika kebutuhan visual belum dapat dipenuhi aset dan template yang tersedia.
 7. Sebelum digunakan ulang, uji kualitas visual, responsivitas, keterbacaan, dan interaksi.
-8. Fungsi dan komposisi Mockup 07 dan 10 telah dijelaskan melalui analisis visual pengguna; validasi teknis interaksi dan audio tetap menjadi bagian implementasi.
+8. Fungsi dan komposisi Mockup 07 dan 10 telah dijelaskan melalui analisis visual pengguna; validasi teknis interaksi dan audio tetap menjadi bagian implementasi. Mockup 09 telah diperiksa langsung dan menjadi acuan layar akhir dengan progres lima bintang yang dinamis.
 
 ## Pemetaan aktivitas
 
