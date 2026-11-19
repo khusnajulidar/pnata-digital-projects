@@ -276,3 +276,23 @@ Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di ba
 - **W2-MK-02 Ummu Salamah:** rujukan Bukhari 2731–2732 sesuai dengan kisah nasihat pada Hudaibiyah. Redaksi harus tetap menggambarkan kesedihan/keadaan para shahabat secara santun, bukan menuduh mereka sengaja menentang perintah.
 
 **Status:** Lima butir di atas telah diperjelas atau diverifikasi. Matching Wilayah 2 masih berstatus draf; audit bahasa anak dan audit lintas-mode keseluruhan belum selesai.
+
+
+## 25. Audit Matching Wilayah 3 — pemeriksaan rujukan dan redaksi — 19 November 2026
+
+- **W3-MA-01 Abu Talhah al-Anshari:** Sahih al-Bukhari 3811 secara eksplisit menyebut Abu Talhah melindungi Rasulullah ﷺ dengan perisainya pada Perang Uhud. Rujukan sesuai.
+- **W3-MA-02 Ummu Sulaim:** Sahih al-Bukhari 3811 menyebut Ummu Sulaim bersama Aisyah membawa kantong air dan memberi minum orang-orang yang kehausan. Redaksi tabel diperbaiki; jangan menyebut orang-orang terluka sebagai objek khusus karena teks menyebut orang-orang yang kehausan.
+- **W3-MA-03 Ukkasyah:** Sahih al-Bukhari 6542 menyebut Ukkasyah meminta didoakan agar termasuk 70.000 orang yang masuk surga tanpa hisab, dan Rasulullah ﷺ mendoakannya. Petunjuk tidak boleh dicampur dengan daftar sepuluh shahabat yang dijanjikan surga.
+- **W3-MA-04 Rabi'ah bin Ka'b:** Sahih Muslim 489 secara eksplisit memuat permintaannya untuk menemani Rasulullah ﷺ di surga dan anjuran memperbanyak sujud.
+- **W3-MA-05 Abu Musa:** Sahih al-Bukhari 5048 menjadi rujukan pujian Rasulullah ﷺ atas bacaan Al-Qur'an Abu Musa; pertahankan konteks tilawah, bukan musik atau nyanyian.
+- **W3-MK-01 Thalhah bin Ubaidillah:** Sahih al-Bukhari 4063 secara eksplisit menyebut tangan Thalhah yang melindungi Nabi ﷺ pada Uhud hingga lumpuh/cedera. Bedakan dari Abu Talhah al-Anshari yang memakai perisai (Bukhari 3811).
+- **W3-MK-02 Nu'man bin Basyir:** Sahih al-Bukhari 2587 mendukung kisah pemberian ayahnya dan perintah berlaku adil kepada anak-anak.
+- **W3-MK-03 Usaid bin Hudhair:** Sahih al-Bukhari 5018 mendukung kisah bacaan Surah al-Baqarah, kuda yang gelisah, dan penjelasan tentang malaikat yang mendekat. Jangan menambahkan gambaran visual yang tidak terdapat dalam riwayat.
+- **W3-MK-04 Abu Hurairah:** Sahih al-Bukhari 119 mendukung kisah kain/rida dan hafalan hadis. Penjelasan tetap dibatasi pada hadis yang didengar dalam konteks riwayat, bukan klaim bahwa beliau tidak pernah lupa apa pun sepanjang hidup.
+- **W3-MK-05 Zaid bin Tsabit:** Sahih al-Bukhari 4986 mendukung penugasan Zaid mengumpulkan lembaran Al-Qur'an pada masa Abu Bakr setelah peristiwa Yamamah.
+- **W3-MK-06 Sa'd bin Abi Waqqas:** Sahih al-Bukhari 3728 mendukung pernyataannya bahwa ia orang Arab pertama yang melepaskan anak panah di jalan Allah.
+- **W3-MK-07 Ummu Sulaim:** rujukan diperjelas menjadi Sahih Muslim 2144a. Riwayat menyebut Anas membawa Abdullah bin Abi Talhah yang baru lahir kepada Rasulullah ﷺ; beliau melakukan tahnik dengan kurma dan memberi nama Abdullah.
+- **W3-MK-08 Hudhayfah bin al-Yaman:** Sahih al-Bukhari 4065 mendukung kisah ayahnya al-Yaman terbunuh tanpa sengaja pada Uhud dan Hudhayfah terus memohonkan ampun bagi para pembunuhnya.
+- **Audit lintas mode:** pengulangan nama Abu Hurairah dan Hudhayfah dengan Berburu Kata tetap dapat diterima karena fakta yang diuji berbeda. Ummu Sulaim muncul dua kali di Matching dengan dua fakta berbeda (Uhud dan tahnik Abdullah). Abu Talhah al-Anshari dan Thalhah bin Ubaidillah harus selalu ditampilkan dengan nama lengkap agar tidak tertukar.
+
+**Status:** Rujukan utama 13 pasangan telah diperiksa pada tahap ini. Bank masih draf; pemeriksaan ejaan, bahasa anak, dan keseimbangan tema Uhud sebelum produksi masih diperlukan.
