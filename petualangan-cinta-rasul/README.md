@@ -144,7 +144,7 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 7. Uji responsivitas, alur progres, penyimpanan localStorage, sumber materi, dan seluruh jawaban.
 8. Finalisasi.
 
-**Status saat pencatatan:** Konsep inti dan Wilayah Bonus telah disepakati. Bank materi bonus versi 1.0 (5 pasangan Adik dan 8 pasangan Kakak) sudah tersimpan; langkah berikutnya adalah uji keterbacaan, proofreading, lalu mockup.
+**Status saat pencatatan:** Konsep inti dan bank materi Bonus versi 1.0 telah tersimpan. Pada 19 November 2026 dibuat Master Index & Audit Register v0.1. Audit awal menemukan beberapa pengulangan fakta lintas mode (terutama Matching Wilayah 1 dan 2) serta beberapa rujukan yang masih perlu dipastikan. Bank soal utama belum dinyatakan final; revisi lintas mode harus selesai sebelum kisi Canva dan HTML produksi.
 
 
 ---
@@ -157,6 +157,9 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 | TTS | 5 jawaban/wilayah | 8 jawaban/wilayah | Wilayah 1 disusun; Wilayah 2 dan 3 memiliki draf TTS, masih perlu verifikasi/pemolesan |
 | Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Wilayah 1–3 draf v1.0 tersimpan; Bonus belum disusun |
 | Pasangkan Tokoh dan Kisahnya | 5 pasangan/wilayah | 8 pasangan/wilayah | Wilayah 1–3 draf v1.0 tersimpan; perlu audit sumber dan anti-pengulangan |
+
+### Dokumen audit induk
+- [Master Index & Audit Register v0.1](materi/master-index-audit-register-v0.1.md) — inventaris target seluruh mode, temuan pengulangan fakta, daftar verifikasi sumber, dan urutan revisi sebelum final.
 
 ### Dokumen bank TTS
 - [Wilayah 1 — Jejak Rasulullah ﷺ, TTS v1.0](materi/wilayah-1-jejak-rasulullah-bank-tts-v1.0.md)
