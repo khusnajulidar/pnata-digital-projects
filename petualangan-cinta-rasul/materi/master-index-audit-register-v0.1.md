@@ -316,3 +316,15 @@ Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di ba
 - Dihyah harus tetap dijelaskan sebagai pembawa surat kepada penguasa Busra untuk diteruskan kepada Heraclius; jangan menyatakan ia sendiri bertemu Heraclius.
 - Utsman: Bukhari 2778 memuat dua amal yang ia sebut, yaitu sumur Rumah dan menyiapkan pasukan Usrah. Jangan menambahkan rincian jumlah sumbangan yang tidak ada pada hadis tersebut.
 - **Status:** Matching W1 v1.2 lolos pemeriksaan sumber utama dan audit pengulangan lintas mode pada tahap ini. Masih perlu proofreading bahasa anak dan penyelarasan istilah/transliterasi sebelum final.
+
+
+## 28. Audit akhir gabungan TTS, Berburu Kata, dan Matching — 20 November 2026
+
+- Audit gabungan terhadap sembilan paket reguler Wilayah 1–3 selesai: TTS 39 jawaban, Berburu Kata 48 target, dan Matching 39 pasangan; total 126 butir.
+- **Hasil anti-pengulangan: lulus.** Tidak ditemukan pengulangan inti fakta/pertanyaan yang wajib dihapus pada bank revisi. Kemunculan nama yang sama dipertahankan bila tujuan belajar berbeda: Bilal (azan vs salat setelah wudu), Abu Dzarr (kejujuran vs pengumuman syahadat), Hasan (perdamaian vs kasih sayang), Ibrahim (identitas vs adab saat wafat), Juwayriyah (zikir vs pembebasan tawanan), Ruqayyah (hijrah ke Habasyah vs sakit saat Badar), Abu Hurairah (doa bagi ibu vs penjagaan ilmu), Hudzaifah (pemegang rahasia vs memohonkan ampun bagi pembunuh ayah), dan Ummu Sulaim (membawa air vs tahnik).
+- Disambiguasi wajib: Abu Talhah al-Anshari ≠ Thalhah bin Ubaidillah; Safiyyah binti Abdul Muththalib ≠ Shafiyyah binti Huyayy; Anas bin Malik ≠ Anas bin an-Nadr. Nama lengkap wajib tampil di umpan balik.
+- Catatan tematik: AMIR dan TIGA di Berburu Kata W1 Kakak berasal dari satu rangkaian kisah hijrah di gua Thaur (Bukhari 3905), tetapi menguji detail berbeda. Tidak dihitung sebagai pengulangan inti; TIGA menjadi kandidat pertama untuk diversifikasi bila paket direvisi lagi.
+- Catatan sumber: beberapa target Berburu Kata W2 dan TTS W2 Kakak masih memerlukan bibliografi sirah/nasab yang lebih spesifik (edisi/jilid/halaman). Catatan perbedaan penilaian an-Nasa'i 3350 dan Abu Dawud 3931 harus dipertahankan. Bukhari 3130 tidak menyebut nama Ruqayyah; identifikasi nama memerlukan rujukan biografi.
+- Ejaan target dan disambiguasi lintas bank dirangkum pada dokumen audit gabungan. Grid Canva belum dibuat sehingga pengujian grid/koordinat belum dapat dinyatakan lulus.
+- **Keputusan:** audit anti-pengulangan lulus; bank belum final produksi. Gerbang tersisa: bibliografi sirah/nasab W2, proofreading bahasa anak, penjelasan Ahlulbait, penyelarasan transliterasi, dan uji grid Canva.
+- Dokumen lengkap: [Audit Akhir Gabungan TTS, Berburu Kata, dan Matching v1.0](audit-akhir-gabungan-tts-berburu-kata-matching-v1.0.md).
