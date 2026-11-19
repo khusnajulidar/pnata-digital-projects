@@ -93,7 +93,7 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 - **W3-K5 ABUUBAIDAH** — Rasulullah ﷺ mengutus Abu Ubaidah bin al-Jarrah kepada penduduk Najran dan menyebutnya sebagai orang yang sangat tepercaya. Rujukan: Sunan Ibn Majah 135 (dinilai sahih oleh Darussalam) dan Jami‘ at-Tirmidhi 3796. https://sunnah.com/ibnmajah:135 ; https://sunnah.com/tirmidhi:3796
 - **W3-K6 JARIR** — Jarir bin Abdullah meriwayatkan bahwa ia berbaiat kepada Rasulullah ﷺ untuk menegakkan salat, menunaikan zakat, dan memberi nasihat yang tulus kepada setiap Muslim. Rujukan: Sahih al-Bukhari 57. https://sunnah.com/bukhari:57
 - **W3-K7 JABIR** — Dalam perjalanan bersama Rasulullah ﷺ, unta Jabir kelelahan. Rasulullah ﷺ menolongnya, membeli untanya, lalu mengembalikan unta itu kepada Jabir sekaligus membiarkan harga pembeliannya tetap menjadi miliknya. Rujukan: Sahih al-Bukhari 2097. https://sunnah.com/bukhari:2097
-- **W3-K8 SULAYK** — Sulayk al-Ghatafani datang ketika Rasulullah ﷺ sedang berkhutbah Jumat. Beliau memerintahkannya berdiri dan salat dua rakaat. Rujukan: Sahih Muslim 875; identitas Sulayk disebut dalam redaksi riwayat Muslim. https://sunnah.com/muslim:875
+- **W3-K8 SULAYK** — Sulayk al-Ghatafani datang ketika Rasulullah ﷺ sedang berkhutbah Jumat. Beliau memerintahkannya berdiri dan salat dua rakaat. Rujukan: Sahih Muslim 875g; identitas Sulayk disebut dalam redaksi riwayat Muslim. https://sunnah.com/muslim:875
 
 ---
 
