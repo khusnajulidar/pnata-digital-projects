@@ -24,11 +24,11 @@ Nama file berikut mengikuti nama yang benar-benar ada di repositori:
 - `mockup-08.jfif` — penyelesaian Misi 1
 - `mockup-09.jfif` — penyelesaian permainan
 - `mockup-10.png` — acuan penyajian doa Arab, transliterasi, terjemahan, dan audio berdasarkan analisis visual pengguna
-- `mockup-11.png` — ilustrasi adegan makan bersama
+- `mockup-11.png` — ilustrasi adegan makan bersama (telah diperiksa visual langsung; torso/lengan/tangan tampak, kepala/wajah terpotong dari framing)
 
 ## Status audit aset
 
-Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, tetapi folder `assets/images/` belum berisi gambar ilustrasi mandiri. Berkas mockup biner tidak dapat dibuka ulang melalui konektor GitHub teks pada sesi audit; klasifikasi isi gambar mengacu pada pemeriksaan terdahulu dan analisis visual pengguna. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) bagian 7 untuk hasil audit per aset dan per aktivitas.
+Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, tetapi folder `assets/images/` belum berisi gambar ilustrasi mandiri. Mockup 07 dan 11 telah diperiksa visual langsung dari unggahan pengguna pada 20 November 2026. Mockup 07 menampilkan simulasi dua tangan dengan tangan kanan disorot; Mockup 11 menampilkan meja makan bersama dengan torso/lengan/tangan (kepala/wajah terpotong), sehingga penggunaannya perlu mempertimbangkan ketentuan visual proyek. Mockup lainnya belum diperiksa ulang secara langsung pada sesi ini. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) bagian 7 untuk hasil audit per aset dan per aktivitas.
 
 ## Cara menggunakan aset
 
