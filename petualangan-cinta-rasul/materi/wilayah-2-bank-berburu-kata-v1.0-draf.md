@@ -1,4 +1,5 @@
 # Bank Berburu Kata — Wilayah 2: Keluarga Rasulullah ﷺ
+**Status:** Bank materi dikunci v1.0 sebagai acuan Canva; kisi belum dibuat.
 ## Draf v1.1 — revisi anti-pengulangan awal, 19 November 2026
 
 **Proyek:** P’Nata — Petualangan Cinta Rasul  
