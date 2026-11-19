@@ -22,7 +22,7 @@ Prinsip:
 | 2–3 | TTS | wilayah-2-3-bank-tts-v1.0-draf.md | Draf; verifikasi sumber/ejaan diperlukan |
 | 1 | Berburu Kata | wilayah-1-bank-berburu-kata-v1.0-draf.md | Draf |
 | 2 | Berburu Kata | wilayah-2-bank-berburu-kata-v1.0-draf.md | Draf |
-| 3 | Berburu Kata | wilayah-3-bank-berburu-kata-v1.0-draf.md | Draf |
+| 3 | Berburu Kata | wilayah-3-bank-berburu-kata-v1.0-draf.md | Draf revisi v1.1; audit pengulangan utama telah ditangani |
 | 1 | Matching | wilayah-1-bank-matching-v1.0-draf.md | Draf; perlu audit tumpang tindih besar dengan Berburu Kata |
 | 2 | Matching | wilayah-2-bank-matching-v1.0-draf.md | Draf; beberapa fakta berulang dengan TTS |
 | 3 | Matching | wilayah-3-bank-matching-v1.0-draf.md | Draf; perlu mengganti satu butir yang terlalu berdekatan |
@@ -54,7 +54,7 @@ Prinsip:
 
 ### Wilayah 3
 - Adik: ANAS, AMMAR, MUSAB, KHABBAB, JABIR, ABUDHARR.
-- Kakak: ABDULLAHIBNUMASUD, SALIM, UBAI, MUADH, HUDHAYFA, SALMAN, SUHAYB, KHALID, ABUAYYUB, IBNRAWAAHA.
+- Kakak: ABDULLAHBINSALAM, SAADBINMUADH, UMMUHARAM, ABUHURAIRAH, HUDZAIFAH, SALMAN, SUHAIB, KHALID, ABUAYYUB, ANASBINNADR.
 
 ## 5. Inventaris nama dan fakta — Matching
 
