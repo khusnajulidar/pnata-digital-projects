@@ -290,3 +290,207 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 @media(max-width:760px){
   .screen[data-mockup="07"]{min-height:100vh;background-size:100% 100%}
 }
+
+
+/* =========================================
+   MOCKUP 04 — TEMPLATE AKTIVITAS PILIHAN
+   P'NATA — YUK BELAJAR ADAB MAKAN
+   ========================================= */
+
+/* 1. Jadikan mockup sebagai latar utama */
+.screen[data-mockup="04"] {
+  padding: 0;
+  min-height: 100%;
+  background-color: #fff8e9;
+  background-image: url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/refs/heads/main/adab-makan/mockups/mockup-04-template-aktivitas-pilihan.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* 2. Hilangkan dekorasi CSS bawaan */
+.screen[data-mockup="04"]::before,
+.screen[data-mockup="04"]::after {
+  display: none;
+}
+
+/* 3. Sembunyikan header dan panel samping generik */
+.screen[data-mockup="04"] .activity-head,
+.screen[data-mockup="04"] .progress-line,
+.screen[data-mockup="04"] .activity-side {
+  display: none;
+}
+
+/* 4. Jadikan area aktivitas sebagai lapisan transparan */
+.screen[data-mockup="04"] .activity-layout {
+  position: absolute;
+  inset: 0;
+  display: block;
+  min-height: 0;
+}
+
+.screen[data-mockup="04"] .activity-main {
+  position: absolute;
+  inset: 0;
+  display: block;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  pointer-events: none;
+}
+
+/* 5. Posisi judul aktivitas */
+.screen[data-mockup="04"] .activity-main h2 {
+  position: absolute;
+  top: 14%;
+  left: 18%;
+  width: 64%;
+  margin: 0;
+  text-align: center;
+  font-size: clamp(18px, 3vw, 34px);
+  line-height: 1.2;
+  pointer-events: none;
+}
+
+/* 6. Posisi pertanyaan */
+.screen[data-mockup="04"] .activity-main > .prompt {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  font-size: clamp(14px, 2vw, 23px);
+  line-height: 1.3;
+  pointer-events: none;
+}
+
+/* 7. Sembunyikan tombol narasi dan pesan feedback
+      agar tidak menutupi desain mockup */
+.screen[data-mockup="04"] .narration-btn,
+.screen[data-mockup="04"] #feedback {
+  display: none;
+}
+
+/* 8. Area pilihan jawaban */
+.screen[data-mockup="04"] .activity-main .options {
+  position: absolute;
+  inset: 0;
+  display: block;
+  pointer-events: none;
+}
+
+/* 9. Tombol pilihan menjadi area sentuh transparan */
+.screen[data-mockup="04"] .activity-main .option {
+  position: absolute;
+  top: 59%;
+  width: 32%;
+  height: 22%;
+  min-height: 0;
+  padding: 8px;
+  border: 0;
+  border-radius: 22px;
+  background: transparent;
+  box-shadow: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #34433f;
+  font-size: clamp(15px, 2vw, 25px);
+  font-weight: 800;
+  text-align: center;
+
+  pointer-events: auto;
+}
+
+/* 10. Posisi pilihan kiri dan kanan */
+.screen[data-mockup="04"] .activity-main .option:first-child {
+  left: 14%;
+}
+
+.screen[data-mockup="04"] .activity-main .option:last-child {
+  left: 54%;
+}
+
+/* 11. Sembunyikan ikon emoji bawaan */
+.screen[data-mockup="04"] .activity-main .option .symbol {
+  display: none;
+}
+
+/* 12. Tampilan teks Arab */
+.screen[data-mockup="04"] .activity-main .option .arabic {
+  display: block;
+  width: 100%;
+  font-size: clamp(22px, 3vw, 38px);
+  line-height: 1.8;
+}
+
+/* 13. Area navigasi bawah */
+.screen[data-mockup="04"] .footer-nav {
+  position: absolute;
+  inset: 0;
+  display: block;
+  margin: 0;
+  pointer-events: none;
+}
+
+/* 14. Tombol navigasi transparan */
+.screen[data-mockup="04"] .footer-nav .btn {
+  position: absolute;
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  background: transparent;
+  box-shadow: none;
+  color: transparent;
+  font-size: 0;
+  opacity: 0;
+  pointer-events: auto;
+}
+
+/* 15. Tombol kembali */
+.screen[data-mockup="04"] .footer-nav .btn:nth-child(1) {
+  left: 1%;
+  top: 86%;
+  width: 10%;
+  height: 13%;
+}
+
+/* 16. Tombol petunjuk */
+.screen[data-mockup="04"] .footer-nav .btn:nth-child(2) {
+  left: 38%;
+  top: 85%;
+  width: 25%;
+  height: 13%;
+}
+
+/* 17. Tombol lanjutkan */
+.screen[data-mockup="04"] .footer-nav .btn:nth-child(3) {
+  left: 74%;
+  top: 85%;
+  width: 25%;
+  height: 13%;
+}
+
+/* 18. Penyesuaian layar kecil */
+@media (max-width: 760px) {
+  .screen[data-mockup="04"] {
+    min-height: 100vh;
+    background-size: 100% 100%;
+  }
+
+  .screen[data-mockup="04"] .activity-main h2 {
+    font-size: clamp(16px, 4vw, 28px);
+  }
+
+  .screen[data-mockup="04"] .activity-main > .prompt {
+    font-size: clamp(12px, 2.8vw, 19px);
+  }
+
+  .screen[data-mockup="04"] .activity-main .option .arabic {
+    font-size: clamp(18px, 4vw, 30px);
+  }
+}
