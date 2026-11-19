@@ -1,4 +1,5 @@
 # BANK MATCHING — WILAYAH 2: KELUARGA RASULULLAH ﷺ
+**Status:** Bank materi dikunci v1.0 sebagai acuan Canva; implementasi matching belum dibuat.
 ## Paket Adik (kelas 1–3) dan Kakak (kelas 4–6)
 **Proyek:** Petualangan Cinta Rasul — P’Nata  
 **Versi:** 1.2 — audit sumber dan anti-pengulangan lintas mode  
