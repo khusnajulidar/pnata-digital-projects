@@ -155,7 +155,7 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 | Mode | Adik | Kakak | Status |
 |---|---:|---:|---|
 | TTS | 5 jawaban/wilayah | 8 jawaban/wilayah | Wilayah 1 disusun; Wilayah 2 dan 3 memiliki draf TTS, masih perlu verifikasi/pemolesan |
-| Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Belum disusun |
+| Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Wilayah 1 draf v1.0 tersimpan; Wilayah 2 dan 3 belum disusun |
 | Pasangkan Tokoh dan Kisahnya | 5 pasangan/wilayah | 8 pasangan/wilayah | Belum disusun |
 
 ### Dokumen bank TTS
@@ -171,3 +171,8 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 6. Grid Canva disusun setelah kunci jawaban disetujui; HTML mengelola huruf, pemilihan kotak, validasi, dan progres.
 
 **Catatan status:** Dokumen yang berlabel draf/kandidat belum merupakan bank final untuk produksi. Pemeriksaan sumber dan bahasa anak tetap menjadi gerbang sebelum pembuatan grid.
+
+- [Wilayah 1 — Jejak Rasulullah ﷺ, Berburu Kata v1.0 (draf)](materi/wilayah-1-bank-berburu-kata-v1.0-draf.md)
+
+### Catatan terbaru
+Bank Berburu Kata Wilayah 1 telah disusun: 6 target Adik dan 10 target Kakak. Materi mengambil detail penggembalaan dan perjalanan hijrah dengan rujukan Sahih al-Bukhari 2262, 2263, dan 3905. Kisi visual belum dibuat; kisi dan koordinatnya menjadi pekerjaan Canva setelah daftar kata disetujui.
