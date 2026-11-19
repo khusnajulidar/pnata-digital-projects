@@ -235,3 +235,7 @@ Matching Wilayah 1 diperbarui menjadi v1.2: Zaid bin Haritsah diganti Dihyah al-
 ### Audit TTS Wilayah 2 — 19 November 2026
 
 TTS Wilayah 2 diperjelas pada butir ZAINAB: QS Al-Ahzab 33:37 menjelaskan peristiwa pernikahan Zaynab bint Jahsh tetapi tidak menyebut nama Zaynab secara eksplisit; identitas tokoh berasal dari sirah/biografi. Catatan sumber diperkuat untuk HIND (nama masyhur Umm Salamah dengan variasi penyebutan nasab), RAMLAH (Mustadrak al-Hakim 6769 dan an-Nasa'i 3350 dengan perbedaan penilaian), SAUDAH (Bukhari 5237), dan RUQAYYAH (Ibn Hisham 1/322–323). Bank tetap draf sampai audit akhir dan pencantuman edisi sirah selesai.
+
+### Temuan audit lanjutan — TTS Wilayah 3 dan Berburu Kata Wilayah 1
+
+Audit menemukan tiga soal TTS Kakak Wilayah 3 (Talhah, Zubair, Sa'd) yang semuanya menguji satu hadis/tujuan yang sama, yaitu daftar sepuluh shahabat yang diberi kabar gembira dengan Surga (Tirmidhi 3747). Dua butir perlu diganti dengan fakta lain yang terverifikasi. Audit juga menemukan W1 Berburu Kata target SUSU (Adik) dan AMIR (Kakak) menguji detail yang sama dari kisah Amir bin Fuhairah membawa ternak/susu ke sekitar gua. Salah satunya perlu diganti, dan paket Kakak perlu dikurangi kepadatannya pada satu peristiwa hijrah. Kisi Canva/HTML tetap ditunda.
