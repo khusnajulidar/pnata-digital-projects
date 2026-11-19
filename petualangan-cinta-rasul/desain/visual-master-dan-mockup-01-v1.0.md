@@ -181,3 +181,37 @@ Jika Gemini menambahkan teks, manusia, hewan, kaligrafi acak, tombol palsu, atau
 6. Baru setelah gaya dan kualitasnya dikunci, lanjutkan Mockup 02 — Pilih Profil.
 
 **Belum termasuk dalam dokumen ini:** mockup final berbentuk gambar, aset final yang disetujui, HTML, atau pengujian responsivitas. Semua itu menunggu proses produksi dan persetujuan visual.
+
+## 12. Keputusan eksplorasi latar Mockup 01 — 20 November 2026
+
+### Kandidat D dipilih sebagai dasar komposisi
+
+Kandidat D dari folder `desain/eksplorasi-background/` dipertahankan sebagai dasar visual untuk melanjutkan Mockup 01 — Halaman Pembuka.
+
+Aset eksplorasi:
+- `mockup-01-background-kandidat-d.jfif`
+
+Karakter yang dipertahankan:
+- Komposisi portrait dengan ruang langit yang cukup lega untuk identitas dan judul.
+- Gerbang oasis sebagai landmark utama.
+- Jalur batu yang mengarahkan pandangan ke gerbang.
+- Lanskap berlapis, pepohonan kurma, tanaman, bukit batu pasir, dan pencahayaan hangat.
+- Bentuk 3D membulat bergaya miniatur diorama yang ramah anak.
+- Tanpa figur manusia/hewan dan tanpa teks tertanam.
+
+Kandidat D berstatus **dasar visual terpilih untuk pengembangan Mockup 01**, belum berarti aset final produksi. Tahap berikutnya adalah menyiapkan komposisi dengan layer logo resmi, judul, subjudul, dan tombol HTML/UI terpisah, lalu menguji keterbacaan pada layar ponsel.
+
+### Arah nuansa padang pasir untuk mockup berikutnya
+
+Pengguna menginginkan nuansa padang pasir yang lebih kental. Keputusan ini tidak perlu memaksa perubahan pada Kandidat D atau halaman pembuka. Intensitas lanskap gurun akan diperkuat mulai Mockup 02 dan mockup wilayah permainan berikutnya.
+
+Arah visual yang perlu ditonjolkan:
+- Hamparan pasir dan bukit pasir yang lebih luas sebagai elemen lingkungan utama.
+- Formasi bukit batu pasir, tebing, dataran kering, dan jalur ekspedisi.
+- Warna pasir, ochre, sandstone, dan cahaya matahari gurun yang hangat.
+- Oasis dan vegetasi hijau digunakan sebagai aksen kontras, bukan mendominasi seluruh lanskap.
+- Siluet lanskap tetap sederhana dan mudah dibaca anak; jangan sampai terasa gersang, muram, atau mengancam.
+- Kekayaan detail 3D-diorama, bentuk membulat, dan keramahan visual P’Nata tetap dipertahankan.
+
+**Catatan penerapan:** Mockup 02 — Pilih Profil dapat mulai memperkenalkan identitas ekspedisi gurun dengan porsi pasir dan bukit batu yang lebih besar. Peta wilayah dan layar tantangan kemudian dapat memiliki variasi lanskap gurun sesuai karakter masing-masing wilayah, tanpa mengubah aturan adab dan larangan rekonstruksi sejarah spekulatif.
+
