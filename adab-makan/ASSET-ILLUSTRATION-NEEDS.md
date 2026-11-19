@@ -205,7 +205,7 @@ Kesiapan sebagai acuan tidak sama dengan kesiapan sebagai aset potongan gambar u
 - Mockup 07: pisahkan/siapkan objek meja, tangan, makanan, gelas, dan alat makan jika kualitas hasil ekstraksi memadai.
 - Mockup 08: jadikan acuan penyelesaian misi, tetapi hilangkan ketergantungan pada label Misi 1 melalui UI dinamis.
 - Mockup 10: teks doa dan kontrol audio harus berupa elemen dinamis/fungsional.
-- Mockup 11: adegan telah diperiksa langsung dan layak menjadi acuan Aktivitas 9–10; hapus motif wajah pada mug atau ganti mug sebelum digunakan.
+- Mockup 11: adegan telah diperiksa langsung dan layak menjadi acuan Aktivitas 9–10; dekorasi senyum pada mug tanpa mata boleh dipertahankan sesuai persetujuan pengguna.
 
 ### Belum ditemukan sebagai file gambar mandiri
 1. Situasi sebelum makan dan tiga tahap persiapan.
