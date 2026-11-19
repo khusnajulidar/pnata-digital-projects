@@ -125,7 +125,7 @@ Komponen dinamis tetap harus diberi styling khusus agar menyatu dengan efek 3D s
 
 **Tanggal audit:** 19 November 2026  
 **Cakupan:** seluruh pohon berkas `adab-makan/` pada branch `main`, termasuk `mockups/`, `assets/images/`, serta daftar aset audio.  
-**Metode:** daftar berkas dan metadata diverifikasi melalui GitHub API; dokumen proyek dibaca. Pemeriksaan visual langsung terhadap berkas gambar biner tidak berhasil dilakukan pada sesi audit ini karena konektor GitHub yang tersedia hanya mengembalikan teks dan menolak isi gambar biner. Karena itu, penilaian isi gambar di bawah menggunakan catatan pemeriksaan visual terdahulu dan deskripsi Mockup 07/10 yang diberikan pengguna, bukan klaim bahwa semua gambar dibuka ulang pada audit ini.
+**Metode:** daftar berkas dan metadata diverifikasi melalui GitHub API; dokumen proyek dibaca. Pada audit awal, konektor GitHub teks tidak dapat membaca biner gambar. Setelah audit awal, pengguna mengunggah Mockup 07 dan 11 langsung ke percakapan pada 20 November 2026; keduanya kini telah diperiksa secara visual. Penilaian visual baru ini terbatas pada Mockup 07 dan 11, bukan seluruh 11 mockup.
 
 ## 7.1 Temuan struktur repositori
 
@@ -152,7 +152,7 @@ Klasifikasi berikut menilai kegunaan sebagai **acuan/template**, bukan menyataka
 | `mockup-08.jfif` | **Perlu adaptasi/edit** | Dikenali sebagai layar penyelesaian Misi 1. Jangan gunakan mentah untuk seluruh misi karena label/konteksnya spesifik. Jadikan acuan gaya dan buat teks/status dinamis. |
 | `mockup-09.jfif` | **Dapat digunakan sebagai acuan template** | Dikenali sebagai layar penyelesaian permainan. Status bintang dan tombol akhir perlu terhubung ke progres sebenarnya. |
 | `mockup-10.png` | **Perlu adaptasi/edit untuk implementasi** | Berdasarkan analisis visual pengguna: tiga kartu Arab/transliterasi/terjemahan, audio utama, audio ulang, dekorasi perlengkapan makan, navigasi. Teks dan audio harus dinamis/terhubung ke rekaman yang benar; ilustrasi terpisah belum tersedia. |
-| `mockup-11.png` | **Perlu verifikasi visual sebelum dipakai ulang** | Inventaris sebelumnya mengenalinya sebagai adegan makan bersama dan GDD menetapkannya sebagai referensi sementara Aktivitas 9–10. Kecocokan perspektif, jarak makanan, representasi orang tanpa wajah/mata, serta kesesuaian ketentuan visual belum dapat dinyatakan lolos pada audit ini. |
+| `mockup-11.png` | **Perlu adaptasi; visual kini diperiksa** | Gambar menampilkan meja makan bersama, wadah makanan, piring, gelas, alat makan, tangan, lengan, dan torso beberapa orang; kepala/wajah tidak tampak dalam framing. Adegan cocok sebagai referensi makan bersama, tetapi elemen tubuh manusia yang terlihat perlu dipertimbangkan terhadap ketentuan visual proyek sebelum digunakan. |
 
 **Tidak ada mockup yang diklasifikasikan “tidak sesuai” secara final**, karena gambar biner tidak dapat diperiksa ulang untuk menilai detail visualnya. Mockup 08 hanya memiliki batas penggunaan: tidak sesuai bila dipakai mentah sebagai layar penyelesaian semua misi.
 
@@ -230,3 +230,26 @@ Kesiapan sebagai acuan tidak sama dengan kesiapan sebagai aset potongan gambar u
 Repositori saat ini memiliki 11 mockup visual, tetapi belum memiliki koleksi ilustrasi aktivitas terpisah di `assets/images/`. Mayoritas kebutuhan ilustrasi spesifik untuk 25 aktivitas berstatus **sebagian terpenuhi** atau **belum tersedia** jika dinilai sebagai aset gambar mandiri. Acuan template sudah relatif lengkap; kekurangan utama adalah ilustrasi objek/tindakan terpisah dan verifikasi visual sebelum ekstraksi.
 
 **Keputusan audit:** lanjutkan dengan pemeriksaan manual mockup dan identifikasi aset yang aman diekstrak terlebih dahulu. Setelah itu barulah daftar produksi ilustrasi baru difinalkan.
+
+
+## 7.7 Pemeriksaan visual lanjutan — Mockup 07 dan Mockup 11 (20 November 2026)
+
+Pengguna mengunggah kedua gambar langsung ke percakapan, sehingga pemeriksaan visual kini dapat dilakukan tanpa bergantung pada akses biner GitHub.
+
+### Mockup 07 — Simulasi makan dengan tangan kanan
+- Terlihat dua tangan dari sudut pandang anak di depan meja; tidak ada wajah atau tubuh karakter yang ditampilkan.
+- Tangan kanan (sisi kanan layar) diberi highlight cahaya turquoise, sedangkan tangan kiri tidak disorot.
+- Komposisi meja menampilkan piring, mangkuk, makanan, gelas, dan sendok; fokus tindakan mudah dikenali.
+- Judul dan instruksi berada di bagian atas; tombol kembali, PETUNJUK, dan LANJUTKAN berada di bawah.
+- Gaya 3D clay/pastel, bentuk membulat, pencahayaan lembut, latar cream dengan awan dan bintang.
+- **Penilaian:** acuan visual sangat sesuai untuk simulasi interaktif aktivitas 7 dan sebagai referensi elemen tangan/alat makan untuk aktivitas terkait. Area sentuh dan status harus dibuat dinamis, tetap mengikuti komposisi asli dan kualitas visual.
+
+### Mockup 11 — Adegan makan bersama
+- Terlihat meja makan dengan wadah makanan bersama di tengah, piring individual, gelas, sendok, garpu, dan tangan peserta makan.
+- Beberapa torso, lengan, dan tangan manusia terlihat; kepala/wajah dipotong dari framing.
+- Perspektif hangat dari posisi anak di meja makan; makanan bersama menjadi fokus utama.
+- Gaya 3D clay lembut, warna pastel natural, pencahayaan hangat, dan detail ruang makan.
+- **Penilaian:** adegan berpotensi menjadi referensi komposisi untuk aktivitas 9 (mengambil makanan dari wadah bersama) dan 10 (tantangan gabungan), tetapi jangan langsung menggunakannya tanpa mempertimbangkan batas visual proyek yang menghindari gambar makhluk bernyawa. Untuk memenuhi ketentuan tersebut, gunakan objek/peralatan makan saja atau area/crop yang tidak menampilkan torso, lengan, atau karakter, jika crop tetap menjaga kualitas dan konteks. Tidak ada pengeditan gambar yang dilakukan.
+
+### Pembaruan batas audit
+Pemeriksaan visual langsung telah dilakukan pada Mockup 07 dan 11 saja. Status visual Mockup 11 tidak lagi “belum diperiksa”, tetapi kecocokan untuk penggunaan dalam game tetap bersyarat pada aturan visual dan kemungkinan adaptasi yang tidak menurunkan kualitas. Mockup lainnya masih mengikuti batas audit sebelumnya dan belum diklaim diperiksa ulang secara langsung.
