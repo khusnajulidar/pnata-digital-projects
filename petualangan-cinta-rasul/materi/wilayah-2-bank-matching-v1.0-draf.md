@@ -1,8 +1,8 @@
 # BANK MATCHING — WILAYAH 2: KELUARGA RASULULLAH ﷺ
 ## Paket Adik (kelas 1–3) dan Kakak (kelas 4–6)
 **Proyek:** Petualangan Cinta Rasul — P’Nata  
-**Versi:** 1.1 — revisi sumber dan redaksi  
-**Status:** Draf revisi; beberapa rujukan sudah diperjelas, masih perlu audit akhir sumber, bahasa anak, dan konsistensi lintas mode.
+**Versi:** 1.2 — audit sumber dan anti-pengulangan lintas mode  
+**Status:** Draf revisi v1.2; rujukan dan beberapa temuan pengulangan lintas mode telah diperbaiki. Masih perlu audit akhir bahasa anak, konsistensi ejaan, dan persetujuan sebelum produksi.
 
 ## Prinsip
 - Adik: 5 pasangan. Kakak: 8 pasangan.
