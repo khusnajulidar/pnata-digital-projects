@@ -155,7 +155,7 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 | Mode | Adik | Kakak | Status |
 |---|---:|---:|---|
 | TTS | 5 jawaban/wilayah | 8 jawaban/wilayah | Wilayah 1 disusun; Wilayah 2–3 direvisi menjadi draf v1.1; beberapa rujukan biografi Wilayah 2 masih terbuka |
-| Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Wilayah 1–3 draf v1.0 tersimpan; Bonus belum disusun |
+| Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Wilayah 1 v1.1, Wilayah 2 v1.1, dan Wilayah 3 v1.1 tersimpan sebagai draf revisi; Bonus belum disusun |
 | Pasangkan Tokoh dan Kisahnya | 5 pasangan/wilayah | 8 pasangan/wilayah | Wilayah 1–3 draf v1.0 tersimpan; perlu audit sumber dan anti-pengulangan |
 
 ### Dokumen audit induk
@@ -175,7 +175,7 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 
 **Catatan status:** Dokumen yang berlabel draf/kandidat belum merupakan bank final untuk produksi. Pemeriksaan sumber dan bahasa anak tetap menjadi gerbang sebelum pembuatan grid.
 
-- [Wilayah 1 — Jejak Rasulullah ﷺ, Berburu Kata v1.0 (draf)](materi/wilayah-1-bank-berburu-kata-v1.0-draf.md)\n- [Wilayah 2 — Keluarga Rasulullah ﷺ, Berburu Kata v1.1 (draf revisi)](materi/wilayah-2-bank-berburu-kata-v1.0-draf.md)\n- [Wilayah 3 — Taman Para Shahabat, Berburu Kata v1.0 (draf)](materi/wilayah-3-bank-berburu-kata-v1.0-draf.md)
+- [Wilayah 1 — Jejak Rasulullah ﷺ, Berburu Kata v1.0 (draf)](materi/wilayah-1-bank-berburu-kata-v1.0-draf.md)\n- [Wilayah 2 — Keluarga Rasulullah ﷺ, Berburu Kata v1.1 (draf revisi)](materi/wilayah-2-bank-berburu-kata-v1.0-draf.md)\n- [Wilayah 3 — Taman Para Shahabat, Berburu Kata v1.1 (draf revisi)](materi/wilayah-3-bank-berburu-kata-v1.0-draf.md)
 
 ### Catatan terbaru
 
