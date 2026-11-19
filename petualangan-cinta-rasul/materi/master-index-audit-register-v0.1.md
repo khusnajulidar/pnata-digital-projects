@@ -76,7 +76,7 @@ Prinsip:
 ## 6. Temuan audit awal — perlu ditangani sebelum final
 
 ### A. Pengulangan fakta lintas mode
-1. **Wilayah 1 — Matching vs Berburu Kata:** beberapa butir matching mengulang detail yang sudah menjadi target Berburu Kata, yaitu Asma dan ikat pinggang/bekal; Amir dan ternak/susu; penunjuk jalan serta jalur pesisir; serta Abu Bakr dan gua Thaur. Perlu ganti sebagian besar fakta matching W1, bukan sekadar mengubah redaksi.
+1. **Wilayah 1 — Matching vs Berburu Kata:** temuan awal telah ditangani pada revisi Matching W1 v1.1. Fakta Asma dan ikat pinggang/bekal, Amir dan ternak/susu, penunjuk jalan/jalur pesisir, serta Abu Bakr di gua dihapus dari bank Matching. Penggantinya menggunakan riwayat lain yang dapat ditelusuri dalam Al-Qur'an dan hadis sahih.
 2. **Wilayah 2 — TTS vs Matching Adik:** Fatimah pada kedua mode sama-sama menguji hadis “Fatimah bagian dari diri Nabi ﷺ”. Ganti fakta matching Fatimah dengan riwayat berbeda, misalnya Fatimah sebagai anggota keluarga yang pertama menyusul Nabi ﷺ setelah wafat beliau (Sahih al-Bukhari 3623; redaksi harus diperiksa).
 3. **Wilayah 2 — TTS vs Matching Adik:** Hasan pada TTS sudah menguji cucu yang digendong dan disebut pemimpin; matching juga menguji digendong/dicium. Ubah salah satu agar tidak memecah satu rangkaian riwayat menjadi dua soal yang serupa.
 4. **Wilayah 2 — TTS vs Matching Kakak:** Zaynab bint Jahsh di kedua mode diuji melalui pernikahan yang disebut dalam QS Al-Ahzab 33:37. Ganti salah satu butir.
@@ -85,7 +85,7 @@ Prinsip:
 7. **Wilayah 3 — Matching:** Ummu Sulaim muncul pada dua profil dengan fakta berbeda: membawa air saat Uhud dan peristiwa tahnik putranya. Ini dapat dipertahankan karena fakta dan pelajaran berbeda.
 
 ### B. Verifikasi sumber dan redaksi
-1. Bilal pada W1 Matching Adik masih perlu rujukan sirah/biografi spesifik untuk kisah penyiksaan dan ucapan “Ahad, Ahad”; jangan gunakan tanpa sumber yang dapat ditelusuri.
+1. Kisah penyiksaan Bilal dan ucapan “Ahad, Ahad” telah dikeluarkan dari Matching W1 karena rujukan sirah spesifik belum ditetapkan. Bilal kini dipasangkan dengan hadis sahih tentang amalan salat setelah wudu dan suara langkahnya di surga (Sahih al-Bukhari 1149).
 2. Aisyah pada W2 Matching Adik: klaim bahwa para shahabat bertanya kepadanya perlu rujukan biografi yang spesifik; atau ubah petunjuk menjadi fakta hadis yang sumbernya jelas.
 3. Ummu Habibah, Juwayriyah, Ummu Aiman pada W2 Matching Kakak masih memerlukan rujukan spesifik/nomor riwayat yang tepat.
 4. Abu Ayyub pada W3 Berburu Kata Kakak masih perlu rujukan spesifik yang sesuai edisi.
@@ -118,10 +118,13 @@ Prinsip:
 2. **Matching Wilayah 3:** Butir Abu Talhah pada paket Kakak diganti Hudhayfah bin al-Yaman, dengan kisah ayahnya terbunuh tanpa sengaja saat Uhud dan sikap Hudhayfah memohonkan ampun bagi para pelakunya (Sahih al-Bukhari 4065). Fakta Hudhayfah berbeda dari fakta tentang pengetahuan sejumlah orang munafik yang digunakan di Berburu Kata.
 
 ## 10. Urutan kerja tersisa
-1. Revisi Matching Wilayah 1 karena sejumlah fakta hijrah mengulang target Berburu Kata Wilayah 1; susun ulang butir dan periksa rujukan Bilal.
+1. Proofread dan audit final Matching Wilayah 1 v1.1, termasuk konsistensi ejaan nama serta tingkat bahasa anak.
 2. Selesaikan audit sumber dan pengulangan tersisa pada Matching Wilayah 2–3.
 3. Audit TTS Wilayah 2–3 dan Berburu Kata Wilayah 1–3, termasuk ejaan serta panjang target.
 4. Audit Bonus, terutama sumber biografi dan konsistensi nama.
 5. Perbarui README dan tandai final hanya setelah seluruh butir lolos audit.
 
-**Status keseluruhan:** Audit awal menemukan pengulangan fakta nyata, terutama pada Matching Wilayah 1 dan beberapa butir Matching Wilayah 2. Revisi awal telah dilakukan pada Matching Wilayah 2 dan 3, tetapi belum ada bank utama yang dinyatakan final untuk produksi HTML.
+## 11. Revisi Matching Wilayah 1 v1.1
+Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Berburu Kata Wilayah 1. Paket Adik kini menggunakan Bilal (amalan salat setelah wudu; Sahih al-Bukhari 1149), Khadijah (kabar gembira rumah di surga; Bukhari 3820), Tsumamah bin Utsal (masuk Islam setelah dibebaskan; Bukhari 462), Thufail bin Amr (doa Nabi untuk Daus; Bukhari 4392), dan Abu Dzarr (perjalanan masuk Islam dan pengumuman syahadat; Muslim 2474). Paket Kakak menggunakan Abu Bakr (khalil; Bukhari 3656), Abdullah bin Mas'ud (membacakan Al-Qur'an; Bukhari 4582), Adi bin Hatim (kabar keamanan perjalanan; Bukhari 3595), Zaid bin Haritsah (QS 33:37), Ali (peristiwa Tabuk; Bukhari 4416), Mu'adz (diutus ke Yaman; Bukhari 4347), Jarir (Dzul Khalashah; Bukhari 4355), dan Utsman (sumur Rumah/pasukan Tabuk; Bukhari 2778). Bilal sengaja memakai riwayat berbeda dari TTS Wilayah 3 yang menguji azan.
+
+**Status keseluruhan:** Revisi awal telah dilakukan pada Matching Wilayah 1, 2, dan 3. Ketiganya masih berstatus draf; verifikasi akhir, pemeriksaan keterbacaan, dan audit lintas semua mode tetap diperlukan sebelum produksi HTML.
