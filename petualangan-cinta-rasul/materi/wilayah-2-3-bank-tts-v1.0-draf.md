@@ -82,7 +82,7 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 | W3-K4 | ALI | 3 | Shahabat yang menerima panji pada Perang Khaibar dan Allah memberikan kemenangan melalui tangannya. |
 | W3-K5 | ABUUBAIDAH | 10 | Shahabat yang dipilih Rasulullah ﷺ sebagai orang paling tepercaya untuk diutus kepada penduduk Najran. |
 | W3-K6 | JARIR | 5 | Shahabat yang berbaiat kepada Rasulullah ﷺ untuk menegakkan salat, menunaikan zakat, dan memberi nasihat tulus kepada setiap Muslim. |
-| W3-K7 | ANAS | 4 | Shahabat yang didoakan Rasulullah ﷺ agar diberi keberkahan pada harta dan keturunannya, atas permintaan ibunya. |
+| W3-K7 | JABIR | 5 | Shahabat yang untanya sempat kelelahan dalam perjalanan; Rasulullah ﷺ menolong untanya, lalu membeli unta itu dan tetap mengembalikannya kepada pemiliknya. |
 | W3-K8 | SULAYK | 6 | Shahabat yang datang ke masjid ketika Rasulullah ﷺ sedang berkhutbah Jumat, lalu diperintahkan salat dua rakaat. |
 
 ### Kunci dan penjelasan
@@ -92,7 +92,7 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 - **W3-K4 ALI** — Ali bin Abi Talib menerima panji pada Perang Khaibar; Rasulullah ﷺ menyebut keutamaan mencintai Allah dan Rasul-Nya serta dicintai Allah dan Rasul-Nya. Rujukan: Sahih al-Bukhari 4210. https://sunnah.com/bukhari:4210
 - **W3-K5 ABUUBAIDAH** — Rasulullah ﷺ mengutus Abu Ubaidah bin al-Jarrah kepada penduduk Najran dan menyebutnya sebagai orang yang sangat tepercaya. Rujukan: Sunan Ibn Majah 135 (dinilai sahih oleh Darussalam) dan Jami‘ at-Tirmidhi 3796. https://sunnah.com/ibnmajah:135 ; https://sunnah.com/tirmidhi:3796
 - **W3-K6 JARIR** — Jarir bin Abdullah meriwayatkan bahwa ia berbaiat kepada Rasulullah ﷺ untuk menegakkan salat, menunaikan zakat, dan memberi nasihat yang tulus kepada setiap Muslim. Rujukan: Sahih al-Bukhari 57. https://sunnah.com/bukhari:57
-- **W3-K7 ANAS** — Ibu Anas bin Malik meminta Rasulullah ﷺ mendoakannya. Beliau berdoa agar Anas diberi banyak harta dan keturunan serta keberkahan pada pemberian Allah. Rujukan: Sahih al-Bukhari 6344. https://sunnah.com/bukhari:6344
+- **W3-K7 JABIR** — Dalam perjalanan bersama Rasulullah ﷺ, unta Jabir kelelahan. Rasulullah ﷺ menolongnya, membeli untanya, lalu mengembalikan unta itu kepada Jabir sekaligus membiarkan harga pembeliannya tetap menjadi miliknya. Rujukan: Sahih al-Bukhari 2097. https://sunnah.com/bukhari:2097
 - **W3-K8 SULAYK** — Sulayk al-Ghatafani datang ketika Rasulullah ﷺ sedang berkhutbah Jumat. Beliau memerintahkannya berdiri dan salat dua rakaat. Rujukan: Sahih Muslim 875; identitas Sulayk disebut dalam redaksi riwayat Muslim. https://sunnah.com/muslim:875
 
 ---
