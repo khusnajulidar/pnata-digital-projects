@@ -183,3 +183,17 @@ Prinsip:
 Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Berburu Kata Wilayah 1. Paket Adik kini menggunakan Bilal (amalan salat setelah wudu; Sahih al-Bukhari 1149), Khadijah (kabar gembira rumah di surga; Bukhari 3820), Tsumamah bin Utsal (masuk Islam setelah dibebaskan; Bukhari 462), Thufail bin Amr (doa Nabi untuk Daus; Bukhari 4392), dan Abu Dzarr (perjalanan masuk Islam dan pengumuman syahadat; Muslim 2474). Paket Kakak menggunakan Abu Bakr (khalil; Bukhari 3656), Abdullah bin Mas'ud (membacakan Al-Qur'an; Bukhari 4582), Adi bin Hatim (kabar keamanan perjalanan; Bukhari 3595), Zaid bin Haritsah (QS 33:37), Ali (peristiwa Tabuk; Bukhari 4416), Mu'adz (diutus ke Yaman; Bukhari 4347), Jarir (Dzul Khalashah; Bukhari 4355), dan Utsman (sumur Rumah/pasukan Tabuk; Bukhari 2778). Bilal sengaja memakai riwayat berbeda dari TTS Wilayah 3 yang menguji azan.
 
 **Status keseluruhan:** Revisi awal telah dilakukan pada Matching Wilayah 1, 2, dan 3. Ketiganya masih berstatus draf; verifikasi akhir, pemeriksaan keterbacaan, dan audit lintas semua mode tetap diperlukan sebelum produksi HTML.
+
+
+## 17. Revisi Berburu Kata Wilayah 3 — 19 November 2026
+
+- Bank Berburu Kata Wilayah 3 diperbarui menjadi draf v1.1; jumlah tetap 6 target Adik dan 10 target Kakak.
+- Empat butir Kakak yang sebelumnya menguji satu tujuan yang sama (empat rujukan bacaan Al-Qur'an dalam Bukhari 3806/4999) dikeluarkan. Tidak ada lagi pemecahan satu fakta menjadi empat pertanyaan.
+- Target IBNRAWAAHA dikeluarkan karena terlalu berdekatan dengan KHALID: keduanya menguji rangkaian pemegang panji Perang Mu'tah dari Bukhari 3757.
+- Lima pengganti memperluas keragaman nama dan fakta: ABDULLAHBINSALAM (Bukhari 3329), SAADBINMUADH (Bukhari 3803), UMMUHARAM (Bukhari 2788–2789), ABUHURAIRAH (Muslim 2491), dan ANASBINNADR (Bukhari 2805–2806).
+- ABUAYYUB kini menggunakan rujukan spesifik Bukhari 3932. Target ini menguji persinggahan Rasulullah ﷺ di rumah Abu Ayyub ketika tiba di Madinah.
+- ABUHURAIRAH muncul lagi pada Matching Wilayah 3 dengan fakta berbeda. Word Search menguji doa Rasulullah ﷺ bagi ibunya hingga masuk Islam (Muslim 2491); Matching menguji kisah penjagaan ilmu. Ini pengulangan nama yang disengaja, bukan pengulangan fakta.
+- Ejaan target diseragamkan menjadi HUDZAIFAH dan SUHAIB. Kunci terpanjang ABDULLAHBINSALAM (16 huruf); kisi Kakak disarankan minimal 18×18.
+- Verifikasi W2 Word Search v1.1: target THUWAYBAH dan AQIL sudah selaras dengan petunjuk, penjelasan, dan rujukan masing-masing (Bukhari 5101; Muslim 1351a dan Bukhari 4282–4283). Tidak ditemukan sisa petunjuk lama KUNYAH/SEPUPU pada kedua baris tersebut.
+
+**Status:** Revisi W3 mengatasi temuan pengulangan terbesar dalam paket ini. Bank masih draf sampai audit ejaan lintas semua mode, redaksi usia, dan pemeriksaan final selesai.
