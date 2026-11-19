@@ -35,7 +35,7 @@ Nama file berikut mengikuti nama yang benar-benar ada di repositori:
 5. Jangan memaksakan satu template pada aktivitas yang tidak cocok.
 6. Buat mockup/template baru hanya jika kebutuhan visual belum dapat dipenuhi aset dan template yang tersedia.
 7. Sebelum digunakan ulang, uji kualitas visual, responsivitas, keterbacaan, dan interaksi.
-8. Mockup 07 dan 10 belum dianggap terverifikasi secara visual dalam inventaris ini.
+8. Fungsi dan komposisi Mockup 07 dan 10 telah dijelaskan melalui analisis visual pengguna; validasi teknis interaksi dan audio tetap menjadi bagian implementasi.
 
 ## Pemetaan aktivitas
 
