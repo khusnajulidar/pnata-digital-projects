@@ -9,7 +9,7 @@ Pemetaan aktivitas: [MOCKUP-ACTIVITY-MAP.md](./MOCKUP-ACTIVITY-MAP.md).
 1. Utamakan penggunaan ulang aset yang sudah ada, terutama Mockup 07 (meja, perlengkapan makan, makanan, gelas, sendok, dan dua tangan dari perspektif anak) serta Mockup 11 (adegan makan bersama).
 2. Jangan membuat satu gambar layar penuh untuk setiap aktivitas. Ilustrasi pendukung, kartu, tombol, label, area sentuh, status, dan feedback dipisahkan sesuai kebutuhan.
 3. Semua aset baru harus mengikuti gaya visual P’Nata: 3D soft clay, bentuk membulat, pencahayaan lembut, bayangan halus, palet pastel hangat, dan latar cream/ivory.
-4. Hindari gambar makhluk bernyawa. Jika konteks aktivitas membutuhkan representasi tindakan, prioritaskan objek, perlengkapan, atau bagian tangan tanpa wajah/karakter.
+4. Ikuti batas visual proyek: jangan menampilkan sosok manusia atau hewan secara utuh. Untuk konteks makan bersama keluarga, Abi/Umi boleh digambarkan secara parsial (misalnya lengan, tangan, atau torso) selama kepala/wajah dihilangkan, ditutup, atau berada di luar framing. Jangan tampilkan mata/wajah. Utamakan objek dan tindakan yang relevan.
 5. Ilustrasi harus memiliki komposisi yang jelas saat ditempatkan di kartu atau area simulasi. Jangan menambahkan detail dekoratif yang mengganggu fokus anak.
 6. Aset yang sama boleh dipakai ulang jika sudut pandang, warna, proporsi, dan maknanya tetap tepat. Jangan membalik ilustrasi secara otomatis jika hasilnya membuat tangan kanan/kiri menjadi keliru.
 7. Validasi materi agama, redaksi doa, dan tindakan adab secara terpisah. Dokumen ini hanya menetapkan kebutuhan visual.
@@ -222,7 +222,7 @@ Kesiapan sebagai acuan tidak sama dengan kesiapan sebagai aset potongan gambar u
 1. GitHub API berhasil memverifikasi nama file, lokasi, ukuran, dan jumlah aset, tetapi jalur yang tersedia pada sesi ini tidak dapat membaca isi biner gambar. Upaya membaca gambar melalui konektor teks ditolak oleh sistem karena file bukan UTF-8.
 2. Karena itu, belum dapat dipastikan apakah mockup memuat detail yang sesuai, apakah objek dapat dipotong tanpa kehilangan kualitas, atau apakah ada unsur visual yang perlu direvisi.
 3. Pemeriksaan visual langsung telah dilakukan untuk Mockup 07, 09, dan 11. Mockup 10 masih menggunakan analisis visual yang diberikan pengguna karena file gambarnya belum berhasil diambil melalui konektor.
-4. Untuk adegan keluarga makan bersama, penggambaran Abi/Umi secara parsial diperbolehkan sesuai klarifikasi pengguna: tidak ada sosok manusia utuh; kepala/wajah dihilangkan, ditutup, atau berada di luar framing; bagian tubuh parsial dapat dipakai seperlunya untuk membangun konteks.
+4. Untuk adegan keluarga makan bersama, penggambaran Abi/Umi secara parsial diperbolehkan sesuai klarifikasi pengguna: tidak ada sosok manusia utuh; kepala/wajah dihilangkan, ditutup, atau berada di luar framing; bagian tubuh parsial seperti lengan, tangan, dan torso dapat dipakai seperlunya untuk membangun konteks. Prinsip ini berlaku sebagai pedoman visual proyek, bukan hanya untuk Mockup 11.
 5. Jangan membuat ilustrasi baru hanya berdasarkan daftar “belum tersedia” sebelum pemeriksaan visual dan kemungkinan ekstraksi dari mockup selesai.
 6. Tahap audit ini **tidak mengubah gambar, kode game, mockup, audio, atau gameplay**. Hanya dokumen inventaris yang diperbarui.
 
@@ -275,3 +275,70 @@ Gambar berhasil diambil dari repositori GitHub dan ditampilkan untuk pemeriksaan
 
 ### Ringkasan status pemeriksaan langsung
 Mockup 07, 09, dan 11 telah diperiksa langsung. Mockup 10 telah dikonfirmasi keberadaan filenya dan memiliki analisis visual pengguna, tetapi belum dapat ditampilkan langsung melalui konektor. Mockup lain tetap mengikuti catatan audit sebelumnya; tidak diklaim telah diperiksa ulang pada tahap ini.
+
+
+## 8. Rencana produksi aset yang lebih terarah untuk 25 aktivitas
+
+Bagian ini mengubah daftar kebutuhan menjadi paket aset yang dapat diproduksi dan digunakan ulang. Satu paket dapat melayani beberapa aktivitas; tidak perlu membuat satu ilustrasi layar penuh untuk setiap aktivitas.
+
+### 8.1 Paket aset yang benar-benar perlu disiapkan
+
+| Paket | Isi aset/variasi yang dibutuhkan | Aktivitas yang dilayani | Keputusan produksi |
+|---|---|---:|---|
+| A. Situasi sebelum makan | Satu adegan meja siap makan; variasi kondisi sebelum mulai makan; objek yang dapat dikenali anak | 3, 4, 5 | Buat satu adegan dasar dan variasi tahap hanya jika tidak dapat disusun dari UI/objek yang sama. |
+| B. Tangan kanan dan tindakan makan | Aset tangan kanan/kiri dengan orientasi yang jelas; keadaan tangan mulai makan; keadaan mengambil makanan | 6, 7, 8, 10 | Prioritaskan ekstraksi/adaptasi dari Mockup 07. Buat ulang hanya jika hasil potongan tidak bersih atau orientasi tidak akurat. |
+| C. Adegan makan bersama dan makanan terdekat | Wadah makanan bersama, makanan dalam jangkauan berbeda, piring anak; titik sentuh yang jelas | 9, 10 | Adaptasi Mockup 11 dengan penggambaran keluarga secara parsial sesuai pedoman visual. Area sentuh dibuat sebagai UI, bukan tertanam pada gambar. |
+| D. Sikap terhadap makanan | Piring makanan untuk konteks tidak mencela/tidak suka; pasangan porsi secukupnya dan berlebihan; wadah penyimpanan makanan | 11, 12, 13, 14, 15 | Buat satu set objek makanan konsisten. Prioritaskan pasangan porsi dan adegan penyimpanan; aktivitas 11 dan 15 dapat cukup dengan teks plus sajian yang sudah ada. |
+| E. Adab minum | Tangan memegang gelas; gelas dijauhkan saat mengambil napas; 2–3 keadaan tegukan; gelas/minuman panas dan kondisi setelah cukup dingin | 16, 17, 18, 19, 20 | Buat satu set tangan-gelas dengan sudut pandang konsisten. Variasi urutan sebaiknya dibuat sebagai beberapa state/pose, bukan layar baru. |
+| F. Konteks setelah makan | Piring setelah makan dan perlengkapan makan pada kondisi selesai | 22, 25 | Adaptasi perlengkapan dari Mockup 07/10; siapkan satu keadaan meja setelah makan bila belum ada. |
+| G. Teks dan audio doa | Kartu Arab, transliterasi, terjemahan, tombol audio, pilihan jawaban | 1, 2, 21, 23, 24 | Tidak membutuhkan ilustrasi raster baru. Gunakan teks dan kontrol HTML/CSS yang dirancang sesuai mockup; sambungkan ke audio yang tepat. |
+| H. Perlengkapan meja | Piring, gelas, sendok, garpu sebagai item terpisah serta slot tujuan | 4, 25 | Ekstrak/adaptasi dari mockup bila kualitas memadai. Slot dan mekanisme drag/drop dibuat dinamis. |
+
+### 8.2 Keputusan kebutuhan visual untuk setiap aktivitas
+
+| No. | Aktivitas | Kebutuhan akhir | Keputusan |
+|---:|---|---|---|
+| 1 | Kenali Bismillah | Teks Arab dan kartu pilihan | Tanpa ilustrasi baru; UI teks dinamis. |
+| 2 | Dengarkan Bismillah | Teks Arab, kontrol audio, pilihan | Tanpa ilustrasi baru; gunakan keluarga Mockup 05. |
+| 3 | Kapan Membaca Bismillah? | Adegan/situasi sebelum makan | Perlu satu ilustrasi situasi; gunakan objek meja dari Mockup 07 jika dapat diadaptasi. |
+| 4 | Urutkan Sebelum Makan | Tiga tahap dan item perlengkapan | Perlu aset tahap yang jelas; gunakan Mockup 06 untuk interaksi dan objek yang berhasil diekstrak. |
+| 5 | Ayo Mulai Makan! | Adegan meja dan aksi awal | Adaptasi Mockup 07; ilustrasi baru hanya bila variasi tahap tidak dapat dibentuk. |
+| 6 | Kenali Tangan Kanan | Tangan kanan/kiri yang mudah dibedakan | Perlu aset tangan yang jelas; prioritaskan adaptasi Mockup 07. |
+| 7 | Ayo Makan dengan Tangan Kanan | Simulasi tangan kanan | Gunakan/adaptasi Mockup 07; tidak perlu membuat ulang adegan penuh. |
+| 8 | Tangan Kanan Saat Makan | Pilihan tindakan makan | Perlu variasi visual tangan/tindakan; gunakan aset Paket B. |
+| 9 | Ambil Makanan Terdekat | Adegan wadah makanan bersama | Adaptasi Mockup 11; pastikan makanan dan jarak pilihan terbaca jelas. |
+| 10 | Misi Piring Makanan | Tantangan gabungan tangan dan makanan terdekat | Gabungkan Paket B dan C; gunakan satu komposisi yang konsisten. |
+| 11 | Jangan Mencela Makanan | Pertanyaan dan pilihan respons | Tidak wajib ilustrasi baru; teks/UI cukup, sajian makanan boleh menjadi dekorasi. |
+| 12 | Jika Tidak Suka Makanan | Pilihan tindakan yang tepat | Perlu ilustrasi tindakan sederhana; gunakan piring/tangan dari Paket D. |
+| 13 | Ambil Secukupnya | Perbandingan porsi | Perlu pasangan visual porsi dengan jenis piring/makanan yang sama. |
+| 14 | Jangan Menyia-nyiakan Makanan | Penyimpanan makanan | Perlu ilustrasi wadah dan makanan yang disimpan dengan tepat. |
+| 15 | Makanan adalah Nikmat Allah | Sajian dan pertanyaan teks | Tidak wajib ilustrasi baru; gunakan sajian yang tersedia dan UI teks. |
+| 16 | Minum dengan Tangan Kanan | Tangan memegang gelas | Adaptasi Paket E dari Mockup 07; verifikasi orientasi tangan. |
+| 17 | Jangan Bernapas ke Dalam Gelas | Perbandingan tindakan minum dan mengambil napas | Perlu dua keadaan visual yang tidak menampilkan wajah; gelas dan tangan menjadi fokus. |
+| 18 | Minum dengan Beberapa Tegukan | Urutan 2–3 tegukan | Perlu beberapa state tangan/gelas; dapat berupa variasi aset yang sama. |
+| 19 | Tunggu Sampai Tidak Terlalu Panas | Kondisi panas dan setelah cukup dingin | Perlu dua keadaan visual yang mudah dibedakan; jangan menggambarkan meniup ke dalam gelas. |
+| 20 | Tantangan Adab Makan dan Minum | Tantangan gabungan | Gunakan ulang Paket B dan E; tidak perlu satu ilustrasi baru khusus. |
+| 21 | Kenali Alhamdulillah | Teks Arab dan kartu pilihan | Tanpa ilustrasi baru; UI teks dinamis. |
+| 22 | Kapan Mengucapkan Alhamdulillah? | Konteks selesai makan | Perlu/siapkan satu visual piring setelah makan; dapat digunakan ulang untuk Paket F. |
+| 23 | Dengarkan Doa Setelah Makan | Arab, transliterasi, terjemahan, audio | Tanpa ilustrasi baru; gunakan keluarga Mockup 10 dan audio doa yang telah ditentukan. |
+| 24 | Pilih Doa Setelah Makan | Kartu pilihan doa dan audio | Tanpa ilustrasi baru; adaptasi UI Mockup 05/10. |
+| 25 | Meja Makan Rapi | Perlengkapan meja sebagai item dan target susun | Gunakan item piring/gelas/sendok/garpu yang dapat dipisahkan; slot dibuat dinamis. |
+
+### 8.3 Urutan kerja yang direkomendasikan
+
+1. **Audit ekstraksi Mockup 07 dan 11:** tentukan objek mana yang dapat dipisahkan dengan kualitas tetap baik; jangan langsung menggambar ulang.
+2. **Buat Paket A–C:** situasi sebelum makan, tangan/tindakan makan, dan adegan makan bersama. Paket ini mendukung aktivitas awal dan inti.
+3. **Buat Paket D:** terutama porsi makanan dan penyimpanan makanan; dua kebutuhan ini paling jelas belum tercakup oleh mockup.
+4. **Buat Paket E:** satu set tangan-gelas dengan variasi tindakan untuk aktivitas 16–20.
+5. **Buat Paket F dan H:** kondisi setelah makan serta perlengkapan meja terpisah untuk aktivitas 22 dan 25.
+6. **Bangun Paket G sebagai UI:** tidak perlu menunggu ilustrasi baru untuk mulai mengimplementasikan aktivitas berbasis teks dan audio.
+
+### 8.4 Batas dan kriteria penerimaan aset
+
+- Aset baru harus satu gaya dengan mockup: 3D soft clay, bentuk membulat, pastel hangat, pencahayaan dan bayangan lembut, latar cream/ivory.
+- Jika aset ditujukan untuk interaksi, objek utama harus terpisah atau memiliki area transparan/crop yang bersih; jangan menanam area sentuh ke dalam gambar.
+- Orientasi tangan kanan/kiri harus benar dan tidak boleh dibalik otomatis tanpa verifikasi.
+- Untuk adegan keluarga, hanya penggambaran parsial; tidak menampilkan sosok manusia utuh atau wajah/mata.
+- Teks Arab, transliterasi, terjemahan, tombol, slot, highlight, bintang, dan feedback sebaiknya berupa elemen UI dinamis, bukan teks yang tertanam pada gambar.
+- Satu ilustrasi boleh melayani beberapa aktivitas jika konteks, sudut pandang, dan maknanya tetap tepat.
+- Produksi aset baru dilakukan setelah uji ekstraksi mockup; jangan membuat duplikasi objek yang sebenarnya dapat digunakan ulang.
