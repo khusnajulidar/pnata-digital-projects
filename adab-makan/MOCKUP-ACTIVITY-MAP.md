@@ -19,11 +19,14 @@
 | 23–24 | 10 | Kandidat doa setelah makan, tetapi isi artwork belum berhasil diverifikasi. Belum dipasang. |
 | 9. Ambil Makanan Terdekat | 11 | Aset adegan tersedia sebagai ilustrasi, bukan layar aktivitas lengkap. Belum dipasang sebagai latar mockup. |
 | Aktivitas lain | — | Belum ditemukan pasangan artwork yang teks dan ilustrasinya cocok. Kode tidak lagi memaksakan Mockup 04/05/06 sebagai latar generik. |
+| Penyelesaian Misi 1 | 08 | **Sudah dipetakan.** Hanya Misi 1 yang memakai artwork ini karena teks pada gambar secara spesifik menyebut Misi 1. |
+| Penyelesaian Misi 2–5 | — | Belum ada artwork penyelesaian yang cocok; tidak memakai gambar Misi 1 secara keliru. |
+| Penyelesaian permainan | 09 | **Sudah dipetakan.** Artwork utuh; tombol Main Lagi memakai hit-area transparan.
 
 ## Perubahan kode yang sudah dilakukan
 
 - `js/app.js`: pemetaan berdasarkan ID aktivitas, bukan semata-mata jenis interaksi. Hanya aktivitas 1, 2, dan 4 yang menggunakan mockup 04, 05, dan 06.
-- `css/style.css`: hit-area untuk mockup 04, 05, dan 06 dibuat transparan. Judul, instruksi, pilihan, ikon, kartu HTML, dan feedback HTML tidak lagi menutupi artwork.
+- `css/style.css`: hit-area untuk mockup 04, 05, 06, 08, dan 09 dibuat transparan. Judul, instruksi, pilihan, ikon, kartu HTML, dan feedback HTML tidak lagi menutupi artwork.
 - Tombol Petunjuk pada ketiga layar yang dipetakan menjalankan narasi aktivitas.
 - Mockup 06 menggunakan gambar tercetak sebagai kartu yang dapat dipilih dan slot tercetak sebagai target. Tombol Lanjutkan yang tercetak menjalankan pemeriksaan urutan; setelah benar, tombol yang sama melanjutkan aktivitas.
 - Aktivitas yang belum memiliki pasangan terverifikasi tidak menggunakan gambar mockup yang keliru; sementara ini tampil dengan layout aktivitas biasa. Ini bukan status visual final.
