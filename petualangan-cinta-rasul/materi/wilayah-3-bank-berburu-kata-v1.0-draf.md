@@ -1,19 +1,20 @@
 # Bank Berburu Kata — Wilayah 3: Taman Para Shahabat
-## Draf v1.0 — 19 November 2026
+## Draf v1.1 — revisi anti-pengulangan dan verifikasi sumber, 19 November 2026
 
 **Proyek:** P’Nata — Petualangan Cinta Rasul  
 **Wilayah:** 3 — Taman Para Shahabat  
 **Profil:** Adik (kelas 1–3), 6 kata; Kakak (kelas 4–6), 10 kata  
-**Status:** Draf materi untuk audit ejaan, redaksi, dan persetujuan kunci; belum menjadi kisi Canva atau bank HTML produksi.
+**Status:** Draf revisi; belum menjadi kisi Canva atau bank HTML produksi.
 
 ---
 
 ## A. Prinsip penyusunan
-1. Target kata tidak mengulang kunci TTS Wilayah 3 yang sudah tersimpan maupun target Berburu Kata Wilayah 1 dan 2.
-2. Nama tokoh dinormalisasi menjadi huruf kapital tanpa spasi, tanda baca, atau tanda diakritik.
-3. Hadis sahih/hasan dibedakan dari informasi sirah/biografi.
-4. Petunjuk dibuat spesifik agar tidak mengarah kepada lebih dari satu tokoh.
-5. Kisi belum dibuat. Pengguna akan membuat desain TTS dan Berburu Kata melalui Canva Activities Maker; hasil Canva menjadi acuan visual implementasi HTML.
+1. Tidak mengulang inti fakta/tujuan belajar yang sama di dalam paket atau lintas mode tanpa tujuan penguatan yang disetujui.
+2. Nama shahabat boleh muncul lebih dari sekali jika setiap kemunculan mengajarkan fakta yang berbeda.
+3. Nama target dinormalisasi menjadi huruf kapital tanpa spasi, tanda baca, atau diakritik.
+4. Hadis sahih/hasan dibedakan dari informasi sirah/biografi.
+5. Petunjuk dibuat spesifik agar tidak mengarah kepada lebih dari satu tokoh.
+6. Kisi belum dibuat. Pengguna akan membuat desain TTS dan Berburu Kata melalui Canva Activities Maker; hasil Canva menjadi acuan visual implementasi HTML.
 
 ## B. Profil Adik — 6 kata
 
@@ -30,32 +31,38 @@
 
 | ID | Target | Petunjuk untuk pemain | Penjelasan setelah jawaban | Jenis sumber dan rujukan |
 |---|---|---|---|---|
-| W3-BK-K01 | ABDULLAHIBNUMASUD | Shahabat yang termasuk empat orang yang disebut Rasulullah ﷺ sebagai rujukan untuk mempelajari bacaan Al-Qur'an. | Abdullah bin Mas'ud radhiyallahu 'anhu termasuk empat shahabat yang disebut dalam hadis tentang mengambil bacaan Al-Qur'an. | Hadis sahih: Sahih al-Bukhari no. 4999; no. 3759–3760. |
-| W3-BK-K02 | SALIM | Bekas budak Abu Hudzaifah yang disebut bersama tiga shahabat lain sebagai rujukan untuk mempelajari bacaan Al-Qur'an. | Salim maula Abi Hudzaifah termasuk empat orang yang disebut dalam hadis tentang belajar bacaan Al-Qur'an. | Hadis sahih: Sahih al-Bukhari no. 4999 dan 3806. |
-| W3-BK-K03 | UBAI | Shahabat yang nama lengkapnya Ubay bin Ka'b dan disebut sebagai salah satu rujukan untuk mempelajari bacaan Al-Qur'an. | Ubay bin Ka'b termasuk empat shahabat yang disebut dalam hadis tentang belajar bacaan Al-Qur'an. | Hadis sahih: Sahih al-Bukhari no. 4999 dan 3806. |
-| W3-BK-K04 | MUADH | Shahabat dari kalangan Anshar yang disebut sebagai salah satu rujukan untuk mempelajari bacaan Al-Qur'an. | Mu'adh bin Jabal termasuk empat shahabat yang disebut dalam hadis tentang belajar bacaan Al-Qur'an. | Hadis sahih: Sahih al-Bukhari no. 4999 dan 3806. |
-| W3-BK-K05 | HUDHAYFA | Shahabat yang dikenal dalam riwayat sebagai pemegang rahasia Rasulullah ﷺ mengenai orang-orang munafik tertentu. | Hudzaifah bin al-Yaman memiliki pengetahuan khusus tentang sejumlah nama orang munafik yang diberitahukan Rasulullah ﷺ kepadanya. Jangan mengembangkan petunjuk menjadi klaim bahwa ia mengetahui semua orang munafik. | Hadis sahih: Sahih al-Bukhari no. 3743; konteks tambahan no. 4658. |
+| W3-BK-K01 | ABDULLAHBINSALAM | Shahabat yang mengajukan tiga pertanyaan kepada Rasulullah ﷺ, termasuk tentang tanda pertama Kiamat dan makanan pertama penghuni Surga. | Abdullah bin Salam bertanya tentang tiga perkara yang menjadi tanda kenabian. Setelah Rasulullah ﷺ menjawab, ia bersaksi bahwa beliau adalah utusan Allah. | Hadis sahih: Sahih al-Bukhari no. 3329 (penomoran lain: no. 3938). |
+| W3-BK-K02 | SAADBINMUADH | Shahabat Anshar yang wafat dan Rasulullah ﷺ mengabarkan bahwa Arsy Ar-Rahman berguncang karena wafatnya. | Sa'd bin Mu'adh radhiyallahu 'anhu memiliki keutamaan besar. Jabir meriwayatkan sabda Rasulullah ﷺ tentang berguncangnya Arsy karena wafat Sa'd. | Hadis sahih: Sahih al-Bukhari no. 3803. |
+| W3-BK-K03 | UMMUHARAM | Shahabiyah yang meminta Rasulullah ﷺ mendoakannya agar termasuk rombongan umat yang berlayar di laut untuk berjihad. | Ummu Haram binti Milhan meminta doa tersebut. Rasulullah ﷺ mengabarkan bahwa ia termasuk golongan yang pertama; hadis menyebut ia kemudian ikut berlayar pada masa Mu'awiyah. | Hadis sahih: Sahih al-Bukhari no. 2788–2789. |
+| W3-BK-K04 | ABUHURAIRAH | Shahabat yang meminta Rasulullah ﷺ mendoakan ibunya agar mendapat hidayah; setelah itu ibunya masuk Islam. | Abu Hurairah radhiyallahu 'anhu pulang setelah mendengar doa Rasulullah ﷺ. Ia mendapati ibunya telah bersyahadat. Ini berbeda dari kisah Abu Hurairah tentang menjaga ilmu yang digunakan pada mode Matching Wilayah 3. | Hadis sahih: Sahih Muslim no. 2491. |
+| W3-BK-K05 | HUDZAIFAH | Shahabat yang diberi tahu Rasulullah ﷺ tentang sejumlah orang munafik tertentu. | Hudzaifah bin al-Yaman memiliki pengetahuan khusus tentang sejumlah nama orang munafik yang diberitahukan Rasulullah ﷺ kepadanya. Jangan mengembangkan petunjuk menjadi klaim bahwa ia mengetahui semua orang munafik. | Hadis sahih: Sahih al-Bukhari no. 3743; konteks tambahan no. 4658. |
 | W3-BK-K06 | SALMAN | Shahabat yang menyebut dirinya berasal dari Ram-Hurmuz, sebuah daerah di Persia. | Salman al-Farisi radhiyallahu 'anhu berasal dari Persia. Dalam Sahih al-Bukhari ia menyebut dirinya berasal dari Ram-Hurmuz. | Hadis sahih: Sahih al-Bukhari no. 3947. |
-| W3-BK-K07 | SUHAYB | Shahabat yang menjelaskan bahwa dirinya pernah diculik ketika masih kecil sehingga tidak mengaku berasal dari ayah yang bukan ayah kandungnya. | Suhaib ar-Rumi menjelaskan bahwa ia tidak mengaku kepada selain ayah kandungnya dan mengatakan bahwa ia pernah diculik ketika kecil. | Hadis sahih: Sahih al-Bukhari no. 2219. |
+| W3-BK-K07 | SUHAIB | Shahabat yang menjelaskan bahwa dirinya pernah diculik ketika masih kecil sehingga tidak mengaku berasal dari ayah yang bukan ayah kandungnya. | Suhaib ar-Rumi menjelaskan bahwa ia tidak mengaku kepada selain ayah kandungnya dan mengatakan bahwa ia pernah diculik ketika kecil. | Hadis sahih: Sahih al-Bukhari no. 2219. |
 | W3-BK-K08 | KHALID | Panglima yang mengambil alih panji dalam Perang Mu'tah setelah tiga pemegang panji sebelumnya gugur. | Khalid bin al-Walid mengambil panji setelah Zayd bin Haritsah, Ja'far bin Abi Thalib, dan Abdullah bin Rawahah gugur. Dalam hadis, Rasulullah ﷺ menyebutnya sebagai salah satu pedang Allah. | Hadis sahih: Sahih al-Bukhari no. 3757. |
-| W3-BK-K09 | ABUAYYUB | Shahabat Anshar yang rumahnya menjadi tempat Rasulullah ﷺ singgah ketika tiba di Madinah. | Abu Ayyub al-Anshari menyambut Rasulullah ﷺ di rumahnya ketika beliau tiba di Madinah. | Sirah/hadis: riwayat kedatangan Rasulullah ﷺ ke Madinah dan persinggahan di rumah Abu Ayyub; perlu dicocokkan dengan penomoran/edisi sumber sebelum final. |
-| W3-BK-K10 | IBNRAWAAHA | Shahabat yang menjadi pemegang panji ketiga dalam Perang Mu'tah setelah Zayd dan Ja'far gugur. | Abdullah bin Rawahah mengambil panji setelah Ja'far bin Abi Thalib gugur. Ia juga gugur dalam pertempuran tersebut. | Hadis sahih: Sahih al-Bukhari no. 3757. |
+| W3-BK-K09 | ABUAYYUB | Shahabat Anshar yang rumahnya menjadi tempat Rasulullah ﷺ singgah ketika tiba di Madinah. | Abu Ayyub al-Anshari menyambut Rasulullah ﷺ di rumahnya ketika beliau tiba di Madinah. | Hadis sahih: Sahih al-Bukhari no. 3932. |
+| W3-BK-K10 | ANASBINNADR | Shahabat yang tidak mengikuti Perang Badar dan bertekad akan menunjukkan kesungguhannya jika mendapat kesempatan berperang. | Anas bin an-Nadr, paman Anas bin Malik, kemudian ikut dalam Perang Uhud dan gugur di sana. Riwayat menyebut keteguhan tekadnya; penjelasan untuk anak tidak perlu memuat rincian luka atau mutilasi. | Hadis sahih: Sahih al-Bukhari no. 2805–2806. |
 
-## D. Audit awal kunci dan pengulangan
+## D. Hasil revisi anti-pengulangan
+- Empat target yang sebelumnya memecah satu tujuan belajar tentang rujukan bacaan Al-Qur'an (Abdullah bin Mas'ud, Salim, Ubay, dan Mu'adh) dikeluarkan dari paket Kakak. Keempatnya bersumber pada satu tema hadis yang sama; memisahkannya menjadi empat soal tidak memberi empat pengalaman belajar yang berbeda.
+- Target IBNRAWAAHA dikeluarkan karena KHALID sudah menguji rangkaian pemegang panji Perang Mu'tah dari Sahih al-Bukhari no. 3757.
+- Penggantinya memperluas cakupan nama dan fakta: Abdullah bin Salam, Sa'd bin Mu'adh, Ummu Haram, Abu Hurairah, dan Anas bin an-Nadr.
+- ABUHURAIRAH juga muncul pada Matching Wilayah 3, tetapi fakta yang diuji berbeda: Word Search menguji doa Rasulullah ﷺ bagi ibu Abu Hurairah hingga masuk Islam; Matching menguji riwayat lain tentang penjagaan ilmu. Pengulangan nama ini disengaja dan bukan pengulangan fakta.
+- ABUAYYUB kini memiliki rujukan spesifik, Sahih al-Bukhari no. 3932.
+- Bentuk kunci panjang telah dipersingkat/ditata ulang agar lebih praktis: ABDULLAHBINSALAM (16 huruf). Kisi Kakak disarankan minimal 18×18 untuk memberi ruang penempatan.
 
-### Pengulangan dengan bank terdahulu
-- Tidak ada target Adik yang sama dengan target Kakak di paket ini.
-- Tidak memakai target TTS Wilayah 3: ANSAR, MUHAJIRUN, BILAL, BADR, UHUD, ABUBAKR, UMAR, UTHMAN, ALI, ABUUBAIDAH, TALHAH, ZUBAIR, SAAD.
-- Tidak memakai target Berburu Kata Wilayah 1: ASMA, SABUK, TSUR, DOMBA, SUSU, UNTA, AMIR, FUHAIRAH, DAIL, PENUNJUK, PESISIR, KULIT, BEKAL, KAWANAN, MALAM, TIGA.
-- Tidak memakai target Berburu Kata Wilayah 2: QASIM, HAMZAH, ABBAS, HALIMAH, SAFIYYAH, JAAFAR, ABUTALIB, ABDULMUTTALIB, HASHIM, UMMUKULTSUM, ZAYD, USAMAH, NASAB, KUNYAH, SEPUPU, AHLULBAIT.
-- Nama HUDHAYFA, SUHAYB, UBAI, dan MUADH memakai transliterasi sederhana. Ejaan final perlu dibakukan konsisten dengan semua bank.
-- Target ABDULLAHIBNUMASUD panjang (17 huruf); kisi Kakak perlu dirancang dengan ukuran yang memadai atau target ini diganti dengan bentuk nama yang lebih ringkas tetapi tetap tidak ambigu.
+## E. Pemeriksaan lintas bank dan ejaan
+- Target Adik tetap: ANAS, AMMAR, MUSAB, KHABBAB, JABIR, ABUDHARR.
+- Target Kakak: ABDULLAHBINSALAM, SAADBINMUADH, UMMUHARAM, ABUHURAIRAH, HUDZAIFAH, SALMAN, SUHAIB, KHALID, ABUAYYUB, ANASBINNADR.
+- Nama ANAS pada paket Adik merujuk Anas bin Malik; ANASBINNADR pada paket Kakak adalah tokoh berbeda, yaitu Anas bin an-Nadr. Kunci Kakak harus selalu ditampilkan utuh setelah ditemukan agar tidak tertukar.
+- HUDZAIFAH dan SUHAIB dipilih sebagai ejaan target sederhana untuk pemain. Gunakan bentuk yang sama pada Canva dan HTML; nama lengkap tetap ditulis pada penjelasan.
+- Tidak ada target Kakak yang mengulang kunci TTS Wilayah 3 maupun target Berburu Kata Wilayah 1–2 yang telah tercatat.
+- Pengulangan nama lintas mode diperbolehkan hanya jika fakta/tujuan belajar berbeda; khusus ABUHURAIRAH, perbedaan fakta telah dijelaskan di atas.
 
-## E. Rencana kisi Canva
+## F. Rencana kisi Canva
 - Adik: kisi awal 10×10 atau 11×11; kata terpanjang ABUDHARR (8 huruf).
-- Kakak: kisi awal minimal 17×17 jika mempertahankan ABDULLAHIBNUMASUD; ukuran akhir menyesuaikan Activities Maker.
+- Kakak: kisi awal minimal 18×18; kata terpanjang ABDULLAHBINSALAM (16 huruf).
 - Arah kata, kata diagonal/terbalik, dan kepadatan kisi mengikuti kemampuan Canva Activities Maker serta desain final yang dibuat pengguna.
-- Kisi dan koordinat baru disiapkan setelah semua kunci disetujui dan tidak ada pengulangan.
+- Kisi dan koordinat baru disiapkan setelah daftar kata serta redaksi petunjuk disetujui.
 
 ---
-**Catatan:** Draf ini sengaja belum dinyatakan final. Butir ABUAYYUB masih memerlukan rujukan edisi/penomoran yang lebih presisi. Audit nama, ejaan, dan keterbacaan anak wajib selesai sebelum grid Canva dan HTML produksi dibuat.
+**Catatan:** Draf ini sudah melewati revisi pengulangan fakta utama dan penguatan rujukan, tetapi belum menjadi bank final. Audit ejaan lintas semua mode, redaksi usia, dan persetujuan kunci tetap diperlukan sebelum grid Canva dan HTML produksi dibuat.
