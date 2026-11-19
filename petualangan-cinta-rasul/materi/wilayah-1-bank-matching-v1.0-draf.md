@@ -1,7 +1,7 @@
 # BANK MATCHING — WILAYAH 1: JEJAK RASULULLAH ﷺ
 ## Paket Adik (kelas 1–3) dan Kakak (kelas 4–6)
 **Proyek:** Petualangan Cinta Rasul — P’Nata  
-**Versi:** 1.1 — revisi anti-pengulangan lintas mode  
+**Versi:** 1.2 — revisi anti-pengulangan lintas mode  
 **Status:** Draf revisi; fakta dan rujukan primer sudah diperbarui, tetap memerlukan proofreading akhir.
 
 ## Prinsip
@@ -65,7 +65,7 @@
 | W1-MK-01 | Abu Bakr ash-Shiddiq | Rasulullah ﷺ menyebut bahwa seandainya beliau mengambil seorang khalil dari umatnya, Abu Bakr akan menjadi orang itu. |
 | W1-MK-02 | Abdullah bin Mas'ud | Rasulullah ﷺ memintanya membacakan Al-Qur'an. Saat mendengar ayat tentang kesaksian pada hari kiamat, Nabi ﷺ menangis. |
 | W1-MK-03 | Adi bin Hatim | Rasulullah ﷺ menyampaikan kabar tentang masa ketika seorang perempuan dapat bepergian dari al-Hirah ke Ka'bah dengan aman. |
-| W1-MK-04 | Zaid bin Haritsah | Namanya disebut secara langsung dalam QS. Al-Ahzab ayat 37. |
+| W1-MK-04 | Dihyah al-Kalbi | Rasulullah ﷺ mengirim surat kepada Heraclius, penguasa Romawi; surat itu dibawa oleh Dihyah al-Kalbi kepada penguasa Busra untuk diteruskan kepada Heraclius. |
 | W1-MK-05 | Ali bin Abi Thalib | Ketika Rasulullah ﷺ berangkat ke Tabuk dan meninggalkannya di Madinah, beliau menghibur Ali dengan perumpamaan Harun terhadap Musa, serta menegaskan tidak ada nabi setelah beliau. |
 | W1-MK-06 | Mu'adz bin Jabal | Rasulullah ﷺ mengutusnya ke Yaman dan memberinya arahan tentang urutan dakwah serta kewajiban yang disampaikan kepada penduduk di sana. |
 | W1-MK-07 | Jarir bin Abdullah al-Bajali | Rasulullah ﷺ memintanya menangani Dzul Khalashah, tempat yang diagungkan pada masa jahiliah. Jarir berangkat bersama 150 penunggang kuda. |
@@ -93,12 +93,12 @@
 - Tautan: https://sunnah.com/bukhari:3595
 - Catatan: Jangan menambahkan bahwa Adi menyaksikan sendiri peristiwa itu dalam hadis ini; yang disebut adalah kabar yang disampaikan Nabi ﷺ kepadanya.
 
-**W1-MK-04 — Zaid bin Haritsah**
-- Penjelasan: Zaid adalah shahabat yang namanya disebut secara langsung dalam Al-Qur'an, yaitu pada QS. Al-Ahzab ayat 37.
-- Jenis sumber: Al-Qur'an.
-- Rujukan: QS. Al-Ahzab [33]:37.
-- Tautan: https://quran.com/33/37
-- Catatan: Jangan mengembangkan petunjuk menjadi pembahasan hukum adopsi yang terlalu luas untuk permainan matching.
+**W1-MK-04 — Dihyah al-Kalbi**
+- Penjelasan: Dalam hadis tentang percakapan Abu Sufyan dengan Heraclius, disebutkan bahwa surat Rasulullah ﷺ kepada Heraclius dibawa oleh Dihyah al-Kalbi kepada penguasa Busra, lalu diteruskan kepada Heraclius.
+- Jenis sumber: Hadis sahih.
+- Rujukan: Sahih al-Bukhari no. 7, Kitab Bad' al-Wahy.
+- Tautan: https://sunnah.com/bukhari:7
+- Catatan: Petunjuk tidak menyatakan bahwa Dihyah sendiri bertemu Heraclius; hadis menyebut surat dibawa kepada penguasa Busra dan diteruskan kepada Heraclius.
 
 **W1-MK-05 — Ali bin Abi Thalib**
 - Penjelasan: Saat berangkat menuju Tabuk, Rasulullah ﷺ meninggalkan Ali sebagai wakil beliau di Madinah. Ketika Ali merasa keberatan, Rasulullah ﷺ menyampaikan perumpamaan kedudukannya seperti Harun terhadap Musa, dengan penegasan bahwa tidak ada nabi setelah beliau.
@@ -139,12 +139,12 @@
 | Fakta Khadijah | Berbeda dari TTS W1: kabar gembira rumah di surga, bukan menenangkan Nabi setelah wahyu pertama |
 | Fakta Bilal | Berbeda dari TTS W3: amalan salat setelah wudu yang dikaitkan dengan kabar suara langkahnya di surga, bukan perintah mengumandangkan azan |
 | Fakta Abu Dzarr | Berbeda dari target kata W3; pastikan bank W3 tidak mengulang peristiwa pengumuman syahadat di Makkah |
-| Fakta Zaid bin Haritsah | Tidak digunakan sebagai target TTS W1 atau Berburu Kata W1 |
+| Fakta Zaid bin Haritsah | Dikeluarkan dari Matching W1 untuk menghindari kedekatan dengan target ZAYD pada Berburu Kata W2 |
 | Rujukan utama | Sahih al-Bukhari, Sahih Muslim, dan Al-Qur'an |
 | Kisi Canva | Belum dibuat; tetap menunggu finalisasi seluruh bank |
 
 ## D. Catatan cakupan dan kehati-hatian
-- Revisi ini memperluas nama yang dikenalkan, termasuk Tsumamah bin Utsal, Thufail bin Amr, Adi bin Hatim, Jarir bin Abdullah, dan Mu'adz bin Jabal.
+- Revisi ini memperluas nama yang dikenalkan, termasuk Tsumamah bin Utsal, Thufail bin Amr, Dihyah al-Kalbi, Adi bin Hatim, Jarir bin Abdullah, dan Mu'adz bin Jabal.
 - Nama tokoh dapat muncul di mode lain selama fakta yang dibahas berbeda. Contohnya, Bilal muncul di TTS Wilayah 3 dan Matching Wilayah 1, tetapi masing-masing menguji pengenalan nama dan perintah azan.
 - Abu Dzarr muncul pada Berburu Kata Wilayah 3 dan Matching Wilayah 1. Fakta yang dipakai harus berbeda; jangan gunakan ulang kisah yang sama.
 - Beberapa tokoh dalam paket Kakak berasal dari fase Madinah hingga Tabuk. Ini masih termasuk perjalanan hidup Rasulullah ﷺ, tetapi urutan kronologis tidak harus menjadi urutan kartu.
