@@ -151,4 +151,4 @@
 
 ## F. Status
 
-**Draf v1.0 — belum final untuk produksi.** Riwayat yang dipakai bersumber dari Sahih al-Bukhari dan Sahih Muslim. Tahap berikutnya: audit ulang redaksi terjemahan, ejaan nama, tingkat kesulitan, serta pemisahan fakta yang terlalu berdekatan (khususnya Thalhah bin Ubaidillah dan kisah Ummu Sulaim). Setelah disetujui, lakukan audit anti-pengulangan lintas seluruh bank Wilayah 3.
+**Draf v1.1 — audit rujukan utama telah dilakukan.** Riwayat utama bersumber dari Sahih al-Bukhari dan Sahih Muslim. Audit gabungan mencatat bahwa fakta berulang pada nama yang sama tetap berbeda tujuan belajarnya; Abu Talhah al-Anshari dan Thalhah bin Ubaidillah wajib dibedakan dengan nama lengkap. Masih perlu proofreading bahasa anak, penyelarasan ejaan, dan uji implementasi.
