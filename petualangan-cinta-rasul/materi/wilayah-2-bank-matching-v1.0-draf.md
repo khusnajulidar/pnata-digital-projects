@@ -1,8 +1,8 @@
 # BANK MATCHING — WILAYAH 2: KELUARGA RASULULLAH ﷺ
 ## Paket Adik (kelas 1–3) dan Kakak (kelas 4–6)
 **Proyek:** Petualangan Cinta Rasul — P’Nata  
-**Versi:** 1.0 — draf awal  
-**Status:** Bank pasangan tersusun; perlu audit rujukan dan bahasa anak sebelum produksi.
+**Versi:** 1.1 — revisi sumber dan redaksi  
+**Status:** Draf revisi; beberapa rujukan sudah diperjelas, masih perlu audit akhir sumber, bahasa anak, dan konsistensi lintas mode.
 
 ## Prinsip
 - Adik: 5 pasangan. Kakak: 8 pasangan.
@@ -19,7 +19,7 @@
 | W2-MA-02 | Hasan bin Ali | Cucu Rasulullah ﷺ yang melalui dirinya Allah mendamaikan dua kelompok besar kaum Muslimin. |
 | W2-MA-03 | Husain bin Ali | Cucu Rasulullah ﷺ yang beliau cintai; beliau mendoakan orang yang mencintainya. |
 | W2-MA-04 | Ibrahim | Putra Rasulullah ﷺ dari Mariyah al-Qibthiyyah yang wafat ketika masih kecil. |
-| W2-MA-05 | Aisyah binti Abu Bakr | Istri Rasulullah ﷺ yang meriwayatkan banyak hadis dan menjadi tempat para sahabat bertanya tentang agama. |
+| W2-MA-05 | Aisyah binti Abu Bakr | Istri Rasulullah ﷺ yang kalungnya hilang dalam sebuah perjalanan; ketika rombongan tidak menemukan air, turun ayat tentang tayammum. |
 
 ### Penjelasan dan sumber
 **W2-MA-01 — Fatimah az-Zahra**
@@ -46,10 +46,11 @@
 - Rujukan: Sahih al-Bukhari no. 1303; Sahih Muslim no. 2315. https://sunnah.com/bukhari:1303
 
 **W2-MA-05 — Aisyah binti Abu Bakr**
-- Penjelasan: Aisyah meriwayatkan banyak ilmu dari Rasulullah ﷺ. Para shahabat mengambil ilmu darinya, terutama dalam perkara keluarga dan ibadah.
-- Jenis sumber: Hadis/biografi shahabiyah.
-- Rujukan awal: Sahih al-Bukhari no. 3771 tentang keutamaan Aisyah; rincian peran sebagai rujukan ilmu perlu dilengkapi biografi primer sebelum final.
-- Catatan: Butir ini kandidat; jangan masukkan klaim “tempat para sahabat bertanya” tanpa rujukan biografi yang spesifik.
+- Penjelasan: Dalam sebuah perjalanan bersama Rasulullah ﷺ, kalung Aisyah hilang. Rombongan berhenti untuk mencarinya dan tidak menemukan air. Kemudian Allah menurunkan ayat tayammum. Kalung itu akhirnya ditemukan di bawah unta yang ditunggangi Aisyah.
+- Jenis sumber: Hadis sahih.
+- Rujukan: Sahih al-Bukhari no. 334; lihat juga Sahih Muslim no. 367.
+- Tautan: https://sunnah.com/bukhari:334
+- Catatan: Petunjuk menguji peristiwa kalung dan turunnya ayat tayammum, bukan klaim umum bahwa Aisyah menjadi tempat bertanya. Redaksi tidak boleh menyalahkan Aisyah; hadis menyebut peristiwa tersebut sebagai sebab turunnya keringanan tayammum.
 
 ## B. Paket Kakak — 8 pasangan
 
@@ -57,12 +58,12 @@
 |---|---|---|
 | W2-MK-01 | Hafsah binti Umar | Lembaran-lembaran Al-Qur’an yang dikumpulkan pada masa Abu Bakr kemudian disimpan oleh Hafsah setelah wafatnya Umar. |
 | W2-MK-02 | Ummu Salamah | Memberi saran kepada Rasulullah ﷺ pada peristiwa Hudaibiyah ketika para shahabat belum segera melaksanakan perintah tahallul. |
-| W2-MK-03 | Ummu Habibah (Ramlah binti Abi Sufyan) | Berhijrah ke Habasyah bersama suaminya; setelah suaminya wafat, Rasulullah ﷺ menikahinya. |
+| W2-MK-03 | Ummu Habibah (Ramlah binti Abi Sufyan) | Istri Rasulullah ﷺ yang akad nikahnya diurus Raja Najasyi ketika ia berada di Habasyah. |
 | W2-MK-04 | Juwairiyah binti al-Harits | Pernikahannya dengan Rasulullah ﷺ menjadi sebab banyak tawanan dari kaumnya dibebaskan oleh kaum Muslimin. |
 | W2-MK-05 | Shafiyyah binti Huyayy | Termasuk tawanan Khaibar yang kemudian dinikahi Rasulullah ﷺ. |
 | W2-MK-06 | Ruqayyah binti Rasulullah ﷺ | Berhijrah ke Habasyah bersama suaminya, Utsman bin Affan, dalam salah satu gelombang hijrah kaum Muslimin. |
 | W2-MK-07 | Usamah bin Zaid | Rasulullah ﷺ sangat menyayanginya dan pernah menggendongnya bersama Hasan. |
-| W2-MK-08 | Ummu Aiman (Barakah) | Rasulullah ﷺ menyebutnya sebagai ibu setelah ibu beliau; ia pernah mengasuh beliau sejak kecil. |
+| W2-MK-08 | Ummu Aiman (Barakah) | Perempuan yang biasa dikunjungi Rasulullah ﷺ. Setelah beliau wafat, Abu Bakr dan Umar mengunjunginya; ia menangis karena wahyu dari langit telah terputus. |
 
 ### Penjelasan dan sumber Kakak
 **W2-MK-01 — Hafsah binti Umar**
@@ -78,9 +79,10 @@
 - Catatan: Kisah ini perlu ditinjau kembali redaksi dan urutan peristiwanya sesuai riwayat.
 
 **W2-MK-03 — Ummu Habibah**
-- Penjelasan: Ummu Habibah berhijrah ke Habasyah. Setelah suaminya meninggal, Raja Najasyi mengurus pernikahannya dengan Rasulullah ﷺ.
-- Jenis sumber: Hadis/sirah.
-- Rujukan awal: Sahih Muslim no. 1774 memuat riwayat Ummu Habibah dan pernikahannya; verifikasi kecocokan nomor/riwayat sebelum final.
+- Penjelasan: Ummu Habibah radhiyallahu ‘anha berada di Habasyah ketika Rasulullah ﷺ menikahinya. Raja Najasyi mengurus akad nikah dan mahar, lalu mengirimnya kepada Rasulullah ﷺ bersama Shurahbil bin Hasanah.
+- Jenis sumber: Hadis; penilaian derajat riwayat memiliki perbedaan.
+- Rujukan: Sunan an-Nasa’i no. 3350. Dinilai sahih oleh al-Albani dan hasan oleh Darussalam; Zubair Ali Zai menilainya daif. Karena ada perbedaan penilaian, catat perbedaan ini dan jangan menyebutnya “disepakati sahih”.
+- Catatan: Redaksi kartu hanya menguji pernikahan yang diurus Raja Najasyi di Habasyah; tidak perlu memasukkan rincian status suami sebelumnya.
 
 **W2-MK-04 — Juwairiyah binti al-Harits**
 - Penjelasan: Setelah menikah dengan Rasulullah ﷺ, para shahabat membebaskan banyak tawanan dari Bani al-Mustaliq karena mereka telah menjadi kerabat Rasulullah ﷺ melalui pernikahan tersebut.
@@ -106,14 +108,15 @@
 - Catatan: Gunakan Bukhari no. 3735 sebagai rujukan utama setelah memeriksa redaksi lengkap.
 
 **W2-MK-08 — Ummu Aiman**
-- Penjelasan: Ummu Aiman mengasuh Rasulullah ﷺ setelah wafatnya ibu beliau. Rasulullah ﷺ menyebutnya sebagai ibu setelah ibu beliau.
-- Jenis sumber: Sirah/biografi dan riwayat.
-- Rujukan awal: Sahih Muslim no. 2454 menyebut keutamaan Ummu Aiman; detail pengasuhan masa kecil perlu rujukan sirah/biografi yang spesifik.
-- Catatan: Butir ini perlu audit sumber sebelum final.
+- Penjelasan: Setelah Rasulullah ﷺ wafat, Abu Bakr mengajak Umar mengunjungi Ummu Aiman karena Rasulullah ﷺ biasa mengunjunginya. Ketika ditanya mengapa menangis, Ummu Aiman menjelaskan bahwa ia menangis karena wahyu dari langit telah terputus. Abu Bakr dan Umar pun menangis.
+- Jenis sumber: Hadis sahih.
+- Rujukan: Sahih Muslim no. 2454.
+- Tautan: https://sunnah.com/muslim:2454
+- Catatan: Butir ini sengaja hanya menguji peristiwa yang jelas terdapat dalam hadis. Klaim bahwa Ummu Aiman mengasuh Nabi ﷺ sejak kecil memerlukan rujukan sirah terpisah dan tidak digunakan sebagai petunjuk.
 
 ## C. Audit pengulangan dan status
 - Jumlah: 5 pasangan Adik, 8 pasangan Kakak.
 - Butir Zaid bin Haritsah yang mengulang fakta penyebutan namanya dalam QS. Al-Ahzab 33:37 telah diganti dengan Ruqayyah dan peristiwa hijrahnya ke Habasyah. Butir Hafsah menggantikan Zaynab binti Jahsy agar tidak mengulang fakta QS. Al-Ahzab 33:37 yang sudah ada pada TTS Wilayah 2.
 - Hasan/Husain merupakan cucu; Ibrahim adalah putra; jangan campur kategori.
-- Beberapa butir masih membutuhkan verifikasi sumber spesifik (Aisyah, Ummu Habibah, Juwairiyah, Ummu Aiman).
+- Aisyah kini memakai kisah kalung dan turunnya ayat tayammum (Bukhari 334). Ummu Habibah memakai riwayat pernikahan di Habasyah dari an-Nasa'i 3350 dengan catatan perbedaan penilaian hadis. Ummu Aiman kini memakai Muslim 2454 dan petunjuk dibatasi pada isi riwayat tersebut. Juwairiyah tetap perlu audit penilaian dan redaksi rujukan.
 - Status: DRAF. Jangan masuk produksi sebelum audit sumber, ejaan, dan anti-pengulangan selesai.
