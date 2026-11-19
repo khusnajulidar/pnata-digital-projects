@@ -308,3 +308,11 @@ Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di ba
 **Status:** Temuan pengulangan inti Hasan dan Ruqayyah telah diperbaiki. Butir Ibrahim dipertahankan dengan tujuan belajar yang dibedakan secara eksplisit. Matching Wilayah 2 tetap draf sampai audit bahasa dan pengujian pemahaman anak selesai.
 
 - **Rujukan Ruqayyah diperkuat:** al-Tabari, *The History of al-Tabari*, vol. 39, terj. Ella Landau-Tasseron, SUNY Press, 1998, hlm. 162, menyebut Ruqayyah sakit ketika Rasulullah ﷺ berangkat ke Badar dan Utsman ditinggalkan untuk merawatnya. Ini mendukung identifikasi nama yang tidak disebut eksplisit dalam Bukhari 3130.
+
+## 27. Audit sumber dan lintas mode Matching Wilayah 1 — 19 November 2026
+
+- Seluruh 13 pasangan pada Matching Wilayah 1 diperiksa ulang terhadap rujukan yang dicantumkan. Rujukan hadis utama sesuai dengan inti petunjuk: Bilal (Bukhari 1149), Khadijah (Bukhari 3820), Tsumamah (Bukhari 462), Thufail (Bukhari 4392), Abu Dzarr (Muslim 2474), Abu Bakr (Bukhari 3656), Abdullah bin Mas'ud (Bukhari 4582/Muslim 800), Adi bin Hatim (Bukhari 3595), Dihyah (Bukhari 7), Ali (Bukhari 4416/Muslim 2404), Mu'adz (Bukhari 4347), Jarir (Bukhari 4355–4357), dan Utsman (Bukhari 2778).
+- Tidak ditemukan pengulangan inti fakta dengan paket TTS/Berburu Kata yang telah diperiksa. Kemunculan Bilal pada TTS W3 dan Matching W1 menguji fakta berbeda (azan vs salat setelah wudu). Kemunculan Abu Dzarr pada Berburu Kata W3 dan Matching W1 juga berbeda (kejujuran lisan vs pengumuman syahadat di Makkah). Jarir pada Matching W1 dan TTS W3 berbeda (Dzul Khalashah vs baiat salat, zakat, dan nasihat).
+- Dihyah harus tetap dijelaskan sebagai pembawa surat kepada penguasa Busra untuk diteruskan kepada Heraclius; jangan menyatakan ia sendiri bertemu Heraclius.
+- Utsman: Bukhari 2778 memuat dua amal yang ia sebut, yaitu sumur Rumah dan menyiapkan pasukan Usrah. Jangan menambahkan rincian jumlah sumbangan yang tidak ada pada hadis tersebut.
+- **Status:** Matching W1 v1.2 lolos pemeriksaan sumber utama dan audit pengulangan lintas mode pada tahap ini. Masih perlu proofreading bahasa anak dan penyelarasan istilah/transliterasi sebelum final.
