@@ -18,12 +18,12 @@ Mockup final tersimpan di `../mockups/`. Mockup adalah referensi desain; elemen 
 
 ## Penggunaan saat ini
 
-Adegan Mockup 11 dipakai sebagai referensi visual sementara untuk Aktivitas 9–10. URL sumber:
-`https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/refs/heads/main/adab-makan/mockups/mockup-11.png`
+Adegan Mockup 11 (`mockup-11.jfif`) dipakai sebagai referensi visual untuk Aktivitas 9–10. Berkas `.jfif` berhasil diperiksa langsung dari GitHub. Dekorasi mug berupa senyum tanpa mata boleh dipertahankan sesuai persetujuan pengguna. URL sumber:
+`https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/refs/heads/main/adab-makan/mockups/mockup-11.jfif`
 
 ## Ketentuan
 
 - Jangan memasang screenshot mockup penuh sebagai satu-satunya UI final.
 - Pisahkan ilustrasi/dekorasi statis dari tombol, kartu pilihan, status, progres, dan target interaksi.
 - Jika aset dipotong dari mockup, jaga kualitas dan jangan mengubah desain yang sudah disetujui tanpa konfirmasi.
-- Tidak menggunakan gambar hewan. Karakter manusia hanya sesuai kebutuhan adegan dan mengikuti pedoman proyek.
+- Tidak menggunakan gambar hewan. Untuk konteks makan bersama, bagian tubuh orang dewasa boleh tampak secara parsial sesuai pedoman proyek; jangan menampilkan sosok manusia utuh atau wajah.
