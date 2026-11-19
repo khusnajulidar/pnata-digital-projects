@@ -494,3 +494,133 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
     font-size: clamp(18px, 4vw, 30px);
   }
 }
+
+
+/* =========================================================
+   APPROVED ACTIVITY MOCKUPS — artwork stays untouched.
+   Only invisible hit areas are rendered over printed controls.
+   ========================================================= */
+.screen[data-mockup="04"],
+.screen[data-mockup="05"],
+.screen[data-mockup="06"]{
+  padding:0;
+  min-height:100%;
+  background-position:center;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
+.screen[data-mockup="04"]{
+  background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-04-template-aktivitas-pilihan.png");
+}
+.screen[data-mockup="05"]{
+  background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-05.png");
+}
+.screen[data-mockup="06"]{
+  background-image:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/main/adab-makan/mockups/mockup-06.png");
+}
+.screen[data-mockup="04"]::before,.screen[data-mockup="04"]::after,
+.screen[data-mockup="05"]::before,.screen[data-mockup="05"]::after,
+.screen[data-mockup="06"]::before,.screen[data-mockup="06"]::after{display:none}
+.screen[data-mockup="04"] .activity-head,
+.screen[data-mockup="04"] .progress-line,
+.screen[data-mockup="04"] .activity-side,
+.screen[data-mockup="05"] .activity-head,
+.screen[data-mockup="05"] .progress-line,
+.screen[data-mockup="05"] .activity-side,
+.screen[data-mockup="06"] .activity-head,
+.screen[data-mockup="06"] .progress-line,
+.screen[data-mockup="06"] .activity-side{display:none}
+.screen[data-mockup="04"] .activity-layout,
+.screen[data-mockup="05"] .activity-layout,
+.screen[data-mockup="06"] .activity-layout{position:absolute;inset:0;display:block;min-height:0}
+.screen[data-mockup="04"] .activity-main,
+.screen[data-mockup="05"] .activity-main,
+.screen[data-mockup="06"] .activity-main{
+  position:absolute;inset:0;padding:0;margin:0;border:0;border-radius:0;
+  background:transparent;display:block;pointer-events:none;
+}
+.screen[data-mockup="04"] .activity-main>*,
+.screen[data-mockup="05"] .activity-main>*,
+.screen[data-mockup="06"] .activity-main>*{display:none!important}
+
+/* Mockup 04: dua kartu jawaban, tombol petunjuk, kembali, lanjutkan. */
+.screen[data-mockup="04"] .activity-main .options{display:block!important;position:absolute;inset:0;pointer-events:none}
+.screen[data-mockup="04"] .activity-main .option{
+  display:block!important;position:absolute;left:auto;top:57%;width:33%;height:23%;
+  min-height:0;padding:0;border:0;border-radius:26px;background:transparent;
+  box-shadow:none;color:transparent;font-size:0;opacity:0;pointer-events:auto;
+}
+.screen[data-mockup="04"] .activity-main .option:first-child{left:14%}
+.screen[data-mockup="04"] .activity-main .option:last-child{left:54%}
+
+/* Mockup 05: audio control and two printed answer cards. */
+.screen[data-mockup="05"] .activity-main .audio-btn[data-action="audio"]{
+  display:block!important;position:absolute;left:38%;top:31%;width:36%;height:19%;
+  padding:0;border:0;border-radius:32px;background:transparent;
+  box-shadow:none;color:transparent;font-size:0;opacity:0;pointer-events:auto;
+}
+.screen[data-mockup="05"] .activity-main .options{display:block!important;position:absolute;inset:0;pointer-events:none}
+.screen[data-mockup="05"] .activity-main .option{
+  display:block!important;position:absolute;left:auto;top:57%;width:33%;height:23%;
+  min-height:0;padding:0;border:0;border-radius:26px;background:transparent;
+  box-shadow:none;color:transparent;font-size:0;opacity:0;pointer-events:auto;
+}
+.screen[data-mockup="05"] .activity-main .option:first-child{left:14%}
+.screen[data-mockup="05"] .activity-main .option:last-child{left:54%}
+
+/* Mockup 06: numbered slots and three illustrated draggable cards. */
+.screen[data-mockup="06"] .activity-main .sequence-slots{
+  display:block!important;position:absolute;inset:0;pointer-events:none;
+}
+.screen[data-mockup="06"] .activity-main .slot{
+  display:block;position:absolute;top:29%;width:21%;height:26%;min-height:0;
+  padding:0;border:0;border-radius:45%;background:transparent;
+  color:transparent;font-size:0;opacity:0;pointer-events:auto;
+}
+.screen[data-mockup="06"] .activity-main .slot:nth-child(1){left:16%}
+.screen[data-mockup="06"] .activity-main .slot:nth-child(2){left:40%}
+.screen[data-mockup="06"] .activity-main .slot:nth-child(3){left:64%}
+.screen[data-mockup="06"] .activity-main .drag-items{
+  display:block!important;position:absolute;inset:0;pointer-events:none;
+}
+.screen[data-mockup="06"] .activity-main .drag-item{
+  display:block;position:absolute;top:59%;width:20%;height:22%;padding:0;
+  border:0;border-radius:22px;background:transparent;box-shadow:none;
+  color:transparent;font-size:0;opacity:0;pointer-events:auto;
+}
+.screen[data-mockup="06"] .activity-main [data-seq="0"]{left:17%}
+.screen[data-mockup="06"] .activity-main [data-seq="1"]{left:41%}
+.screen[data-mockup="06"] .activity-main [data-seq="2"]{left:65%}
+.screen[data-mockup="06"] .footer-nav{
+  position:absolute;inset:0;margin:0;display:block;pointer-events:none;
+}
+.screen[data-mockup="04"] .footer-nav,
+.screen[data-mockup="05"] .footer-nav{position:absolute;inset:0;margin:0;display:block;pointer-events:none}
+.screen[data-mockup="04"] .footer-nav .btn,
+.screen[data-mockup="05"] .footer-nav .btn,
+.screen[data-mockup="06"] .footer-nav .btn{
+  position:absolute;padding:0;border:0;border-radius:24px;background:transparent;
+  box-shadow:none;color:transparent;font-size:0;opacity:0;pointer-events:auto;
+}
+.screen[data-mockup="04"] .footer-nav .btn:nth-child(1),
+.screen[data-mockup="05"] .footer-nav .btn:nth-child(1),
+.screen[data-mockup="06"] .footer-nav .btn:nth-child(1){left:1%;top:85%;width:10%;height:14%}
+.screen[data-mockup="04"] .footer-nav .btn:nth-child(2),
+.screen[data-mockup="05"] .footer-nav .btn:nth-child(2),
+.screen[data-mockup="06"] .footer-nav .btn:nth-child(2){left:38%;top:84%;width:25%;height:14%}
+.screen[data-mockup="04"] .footer-nav .btn:nth-child(3),
+.screen[data-mockup="05"] .footer-nav .btn:nth-child(3),
+.screen[data-mockup="06"] .footer-nav .btn:nth-child(3){left:73%;top:84%;width:26%;height:14%}
+
+/* Activities without a verified matching artwork must not borrow an unrelated mockup. */
+.screen[data-mockup="none"]{background-image:none!important}
+.screen[data-mockup="none"] .activity-main,
+.screen[data-mockup="none"] .activity-side{background:rgba(255,255,255,.88)}
+
+/* Preserve the artwork's native 16:9 composition in the app shell. */
+@media(max-width:760px){
+  .screen[data-mockup="04"],.screen[data-mockup="05"],.screen[data-mockup="06"]{
+    min-height:100%;
+    background-size:100% 100%;
+  }
+}
