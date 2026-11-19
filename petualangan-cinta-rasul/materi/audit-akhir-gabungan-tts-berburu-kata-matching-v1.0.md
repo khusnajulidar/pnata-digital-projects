@@ -104,3 +104,25 @@ Yang belum dapat diuji karena belum tersedia adalah:
 **BANK MATERI SIAP DIKUNCI v1.0.** Status ini berarti naskah petunjuk, kunci, penjelasan, dan rujukan siap menjadi acuan Canva. Ini bukan pernyataan bahwa grid Canva atau HTML telah selesai diuji.
 
 **PRODUKSI VISUAL/HTML BELUM LULUS**, menunggu kisi Canva, koordinat, integrasi, dan uji keterbacaan anak.
+
+
+## 9. Glosarium istilah untuk penjelasan anak
+
+Istilah berikut boleh tetap muncul pada paket Kakak. Untuk paket Adik, utamakan padanan sederhana dan gunakan penjelasan singkat saat istilah tidak dapat dihindari.
+
+| Istilah | Penjelasan ringkas yang disarankan |
+|---|---|
+| Kunyah | Panggilan yang biasanya diawali Abu (ayah) atau Ummu (ibu); tidak selalu sama dengan nama asli seseorang. |
+| Nasab | Garis keturunan atau hubungan keluarga seseorang. |
+| Tahnik | Mengoleskan kurma yang telah dilunakkan ke langit-langit mulut bayi; kisah tahnik dalam bank hanya diceritakan sebagai riwayat, bukan instruksi praktik medis. |
+| Ahlulbait | Keluarga/rumah tangga Nabi ﷺ. Jelaskan berdasarkan konteks ayat dan hadis yang digunakan; jangan menyederhanakan cakupannya menjadi satu daftar tanpa konteks. |
+| Umratul Qadha | Umrah yang dilakukan Rasulullah ﷺ dan para shahabat pada tahun berikutnya setelah perjanjian Hudaibiyah. |
+| Pasukan al-'Usrah | Sebutan bagi pasukan dalam ekspedisi Tabuk, yang persiapannya menghadapi kesulitan. |
+| Hadyu | Hewan kurban yang dibawa atau disembelih dalam rangka ibadah haji/umrah. |
+| Tahallul | Keluar dari keadaan ihram setelah menyelesaikan amalan yang ditentukan. |
+| Khalil | Sahabat yang sangat dekat; istilah hadis yang maknanya lebih khusus daripada teman biasa. |
+| Al-'Aqabah | Dalam hadis yang dipakai pada bank ini, sebutan bagi hari/peristiwa dakwah Rasulullah ﷺ kepada Ibn Abd Yalil; jangan menambahkan rincian lokasi di luar rujukan yang dipakai. |
+| Dzul Khalashah | Nama tempat/objek yang diagungkan dan disembah pada masa jahiliah; jelaskan dengan bahasa yang santun dan sederhana. |
+| Qari | Orang yang membaca Al-Qur'an. |
+
+**Catatan uji bahasa:** glosarium ini adalah bahan bantu editor dan bukan daftar hafalan. Pada layar anak, tampilkan hanya istilah yang benar-benar muncul pada soal yang sedang dimainkan.
