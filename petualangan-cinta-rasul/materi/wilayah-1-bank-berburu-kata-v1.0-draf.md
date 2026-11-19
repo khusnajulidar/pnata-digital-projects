@@ -94,4 +94,4 @@
 **Pemeriksaan akhir Canva:** setelah kisi selesai, cocokkan satu per satu semua target dengan posisi awal/akhirnya. Simpan daftar koordinat kata sebagai catatan implementasi HTML.
 
 ## F. Status
-**Draf v1.1 — revisi anti-pengulangan awal.** Empat target Kakak yang terlalu dekat satu sama lain atau sekadar memecah nama/objek dalam satu detail hijrah diganti dengan target dari Isra-Mi‘raj dan pembangunan Ka'bah. Butir BATUHITAM bersumber dari sirah dan harus tetap diberi label demikian. Audit lintas bank, ejaan, dan keterbacaan masih berjalan; belum untuk produksi.
+**Draf v1.2 — revisi diversifikasi tema dan anti-pengulangan lintas paket.** Target SUSU diganti QUBA; target Kakak yang terlalu terkonsentrasi pada satu rangkaian hijrah diperbarui menjadi SAFA, AQABAH, MINBAR, dan FATH. Kisi belum dibuat dan audit lintas bank telah dicatat dalam dokumen audit gabungan. Butir BATUHITAM bersumber dari sirah dan harus tetap diberi label demikian. Audit lintas bank, ejaan, dan keterbacaan masih berjalan; belum untuk produksi.
