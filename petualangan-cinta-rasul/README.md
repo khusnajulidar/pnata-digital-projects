@@ -227,3 +227,7 @@ Pemeriksaan ulang W2 Berburu Kata v1.1 memastikan target THUWAYBAH dan AQIL suda
 ### Audit Matching Wilayah 2 — 19 November 2026
 
 Matching Wilayah 2 direvisi menjadi v1.1. Aisyah kini memakai kisah kalung hilang dan turunnya ayat tayammum (Sahih al-Bukhari 334), menggantikan klaim umum tentang para shahabat bertanya kepadanya yang belum memiliki rujukan biografi spesifik. Ummu Habibah memakai Sunan an-Nasa'i 3350 untuk pernikahan di Habasyah; status penilaian hadis dicatat dengan transparan karena terdapat perbedaan penilaian. Ummu Aiman memakai isi yang jelas terdapat dalam Sahih Muslim 2454, bukan klaim pengasuhan sejak kecil yang memerlukan rujukan sirah terpisah. Juwairiyah masih memerlukan audit akhir. Catatan audit juga menandai kemiripan target Zaid bin Haritsah lintas W1 Matching dan W2 Berburu Kata, serta potensi tertukarnya Abu Talhah dan Thalhah bin Ubaidillah.
+
+### Revisi Matching Wilayah 1 dan klarifikasi Matching Wilayah 3 — 19 November 2026
+
+Matching Wilayah 1 diperbarui menjadi v1.2: Zaid bin Haritsah diganti Dihyah al-Kalbi untuk menghindari kedekatan dengan target ZAYD pada Berburu Kata Wilayah 2 yang sama-sama berpusat pada QS Al-Ahzab 33:37 dan tema nasab/adopsi. Dihyah diuji melalui perannya membawa surat Rasulullah ﷺ kepada penguasa Busra untuk diteruskan kepada Heraclius (Sahih al-Bukhari 7). Matching Wilayah 3 kini menandai secara eksplisit bahwa Abu Talhah al-Anshari dan Thalhah bin Ubaidillah adalah dua shahabat berbeda; nama lengkap wajib tampil di kartu dan umpan balik.
