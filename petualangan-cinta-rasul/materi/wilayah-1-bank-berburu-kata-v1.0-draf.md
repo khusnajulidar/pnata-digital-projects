@@ -40,7 +40,7 @@
 | ID | Kata target | Huruf | Petunjuk |
 |---|---|---:|---|
 | W1-BK-K1 | AMIR | 4 | Nama shahabat yang membawa ternak penghasil susu ke sekitar gua pada malam hari. |
-| W1-BK-K2 | BURAQ | 5 | Nama hewan tunggangan yang dibawa Malaikat Jibril dalam perjalanan malam Rasulullah ﷺ. |
+| W1-BK-K2 | BURAQ | 5 | Nama hewan tunggangan yang digunakan Rasulullah ﷺ dalam perjalanan Isra dan Mi‘raj. |
 | W1-BK-K3 | DAIL | 4 | Nama kabilah asal penunjuk jalan yang disewa untuk perjalanan hijrah. |
 | W1-BK-K4 | ZAMZAM | 6 | Air yang digunakan untuk membasuh dada Rasulullah ﷺ dalam peristiwa Isra. |
 | W1-BK-K5 | PESISIR | 7 | Jalur dekat tepi laut yang dilalui rombongan setelah meninggalkan Makkah. |
@@ -58,10 +58,8 @@
 - **KAABAH** — Rasulullah ﷺ menjelaskan bahwa kaum Quraisy membangun ulang Ka'bah dan tidak mengembalikannya ke seluruh fondasi yang dibangun Nabi Ibrahim. Rujukan: Sahih al-Bukhari 1583. https://sunnah.com/bukhari:1583
 - **BATUHITAM** — Dalam riwayat sirah tentang pembangunan kembali Ka'bah, Rasulullah ﷺ menyelesaikan perselisihan antarkabilah mengenai siapa yang akan meletakkan Hajar Aswad. Rujukan: Ibn Hisham, *as-Sirah an-Nabawiyyah*, bagian pembangunan Ka'bah oleh Quraisy; edisi Guillaume, *The Life of Muhammad*, hlm. 84–87. Ini sumber sirah, bukan hadis sahih.
 - **DAIL** — Penunjuk jalan yang disewa berasal dari Bani Ad-Dail. Kata target DAIL adalah bentuk singkat untuk nama kabilah tersebut; petunjuk tidak menyebut bahwa orang itu shahabat. Rujukan: Sahih al-Bukhari 3905 dan 2263. https://sunnah.com/bukhari:3905 ; https://sunnah.com/bukhari:2263
-
 - **PESISIR** — Penunjuk jalan membawa mereka melalui jalur pesisir/tepi laut. Rujukan: Sahih al-Bukhari 3905 dan 2263. https://sunnah.com/bukhari:3905
 - **KULIT** — Persediaan perjalanan dimasukkan ke kantong kulit. Rujukan: Sahih al-Bukhari 3905. https://sunnah.com/bukhari:3905
-
 - **MALAM** — Amir membawa ternak setelah berlalu sebagian waktu dari malam, kemudian mengembalikannya sebelum fajar. Rujukan: Sahih al-Bukhari 3905. https://sunnah.com/bukhari:3905
 - **TIGA** — Rasulullah ﷺ dan Abu Bakr tinggal di gua Thaur selama tiga malam. Rujukan: Sahih al-Bukhari 3905. https://sunnah.com/bukhari:3905
 
@@ -77,7 +75,7 @@
 | Sumber utama | Sahih al-Bukhari 3905, 2262, 2263, 349, 1583, 3887; sirah Ibn Hisham untuk Hajar Aswad |
 | Kisi pencarian kata | Belum dibuat; dikerjakan di Canva |
 
-**Catatan anti-pengulangan:** Paket Adik tetap mengambil detail hijrah dan penggembalaan. Pada paket Kakak, sebagian target hijrah dipertahankan karena menguji detail berbeda, sementara empat target yang redundan diganti, petunjuknya menguji detail yang berbeda. Detail tersebut tidak digunakan sebagai pengulangan pertanyaan TTS Wilayah 1. Untuk mode lain, jangan mengulang pertanyaan spesifik yang sama tanpa tujuan pembelajaran.
+**Catatan anti-pengulangan:** Paket Adik tetap mengambil detail hijrah dan penggembalaan. Pada paket Kakak, sebagian target hijrah dipertahankan karena menguji detail berbeda, sementara empat target yang redundan diganti dengan petunjuk yang menguji fakta lain. Detail tersebut tidak digunakan sebagai pengulangan pertanyaan TTS Wilayah 1. Untuk mode lain, jangan mengulang pertanyaan spesifik yang sama tanpa tujuan pembelajaran.
 
 ## E. Arahan untuk Canva
 
