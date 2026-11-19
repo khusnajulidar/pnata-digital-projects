@@ -223,3 +223,18 @@ Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Ber
 - W2-K6 SAUDAH: Sahih al-Bukhari 5237 secara eksplisit menyebut Saudah bint Zam'ah; sumber ini kini melengkapi identifikasi tokoh.
 - W2-K8 RUQAYYAH: Ibn Hisham, *as-Sirah an-Nabawiyyah*, jilid 1, hlm. 322–323 memuat daftar rombongan hijrah awal ke Habasyah bersama Utsman. Ini sumber sirah; edisi perlu dicatat di daftar pustaka produksi.
 - Status TTS W2 tetap draf. Sebagian butir menggunakan data biografi, sehingga tidak boleh dilabeli seolah seluruhnya berasal dari hadis sahih.
+
+## 21. Temuan audit lanjutan TTS W3 dan Berburu Kata W1 — 19 November 2026
+
+### TTS Wilayah 3
+- W3-K6 TALHAH, W3-K7 ZUBAIR, dan W3-K8 SAAD saat ini semuanya memakai satu riwayat yang sama, Jami' at-Tirmidhi 3747, tentang sepuluh shahabat yang diberi kabar gembira dengan Surga. Ini tiga target berbeda tetapi satu tujuan belajar dan satu hadis; terlalu repetitif untuk tiga slot.
+- Ketiganya tidak boleh dipertahankan sebagai tiga soal terpisah hanya karena nama shahabatnya berbeda. Rencana revisi: pertahankan paling banyak satu butir dari daftar tersebut; ganti dua slot lainnya dengan fakta lain yang terverifikasi dan berbeda. Kandidat sumber yang sedang diperiksa: Zubair sebagai hawari Rasulullah ﷺ (Tirmidhi 3744, dengan catatan perbedaan penilaian) dan Jarir bin Abdullah dalam hadis baiat untuk salat, zakat, dan nasihat kepada setiap Muslim (Bukhari 57). Belum ada perubahan bank sebelum pemeriksaan akhir.
+- W3-K5 ABUUBAIDAH sudah menguji amanah/kepercayaan melalui pengutusan ke Najran. Hindari mengganti target lain dengan butir Tirmidhi 3790 yang kembali memasukkan Abu Ubaidah dalam satu hadis yang sama.
+
+### Berburu Kata Wilayah 1
+- W1-BK-A05 SUSU dan W1-BK-K01 AMIR saat ini menguji satu detail yang sama dari riwayat hijrah: Amir bin Fuhairah membawa ternak/susu ke sekitar gua. Ini pengulangan fakta lintas paket Adik-Kakak walaupun target katanya berbeda.
+- Salah satu harus diganti. Selain itu, paket Kakak masih terlalu terkonsentrasi pada satu perjalanan hijrah: DAIL, PESISIR, KULIT, MALAM, dan TIGA. Perlu mengurangi kepadatan satu peristiwa dan memperluas fakta ke fase dakwah/kehidupan lain dengan sumber yang kuat.
+- DAIL adalah nama kabilah, bukan nama shahabat; petunjuk dan penjelasan harus terus menyatakan bahwa orang yang disewa sebagai penunjuk jalan adalah Abdullah bin Uraiqit dan bukan menyebut DAIL sebagai shahabat.
+
+### Status
+Temuan dicatat untuk revisi berikutnya. Jangan membangun grid Canva atau HTML dari butir-butir yang masih ditandai berulang ini.
