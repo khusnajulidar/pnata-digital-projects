@@ -163,7 +163,7 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 
 ### Dokumen bank TTS
 - [Wilayah 1 — Jejak Rasulullah ﷺ, TTS v1.0](materi/wilayah-1-jejak-rasulullah-bank-tts-v1.0.md)
-- [Wilayah 2 dan 3 — TTS draf v1.1](materi/wilayah-2-3-bank-tts-v1.0-draf.md)
+- [Wilayah 2 dan 3 — TTS draf v1.2](materi/wilayah-2-3-bank-tts-v1.0-draf.md)
 
 ### Standar finalisasi
 1. Satu fakta/inti pertanyaan tidak diulang antar-paket atau antar-mode tanpa tujuan penguatan yang disetujui.
@@ -180,12 +180,12 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 ### Catatan terbaru
 
 - TTS Wilayah 2–3 v1.1: petunjuk Hasan diselaraskan dengan hadis perdamaian; target Umm Salamah/Ummu Habibah diubah menjadi nama asli HIND/RAMLAH; Juwayriyah memakai kisah pembebasan seratus keluarga; rujukan Abu Ubaidah dikoreksi ke Ibn Majah 135/Tirmidzi 3796; status Mariyah diperjelas.
-- Audit Berburu Kata W1–3 menemukan beberapa pengulangan inti yang perlu direvisi: W1 Kakak terlalu bertumpu pada satu riwayat hijrah dan memecah nama Amir bin Fuhairah; W2 QASIM/KUNYAH serta JAAFAR/SEPUPU berdekatan; W3 empat target qira'ah mengulang satu tujuan pembelajaran, sementara Khalid/Ibn Rawahah berdekatan pada rangkaian Mu'tah. Temuan rinci tercatat dalam Master Index. W1 Kakak sudah direvisi awal ke v1.1; perlu audit lanjutan karena masih ada enam target bertema perjalanan hijrah. W2 Kakak direvisi ke v1.1 dengan mengganti KUNYAH dan SEPUPU menjadi THUWAYBAH dan AQIL, masing-masing dengan rujukan hadis sahih.
-Bank Berburu Kata Wilayah 1 direvisi menjadi draf v1.1: paket Kakak mengganti FUHAIRAH, PENUNJUK, BEKAL, dan KAWANAN dengan BURAQ, ZAMZAM, KAABAH, dan BATUHITAM. Rujukan pengganti ialah Bukhari 3887, 349, 1583, serta sirah Ibn Hisham (BATUHITAM). Jumlah tetap 6 target Adik dan 10 target Kakak. Kisi visual belum dibuat.
+- Audit Berburu Kata W1–3 menemukan beberapa pengulangan inti yang perlu direvisi: W1 Kakak terlalu bertumpu pada satu riwayat hijrah dan memecah nama Amir bin Fuhairah; W2 QASIM/KUNYAH serta JAAFAR/SEPUPU berdekatan; W3 empat target qira'ah mengulang satu tujuan pembelajaran, sementara Khalid/Ibn Rawahah berdekatan pada rangkaian Mu'tah. Temuan rinci tercatat dalam Master Index. W1 Kakak telah direvisi ke v1.2 untuk mengurangi dominasi tema hijrah; W2 Kakak direvisi ke v1.1 dengan mengganti KUNYAH dan SEPUPU menjadi THUWAYBAH dan AQIL, masing-masing dengan rujukan hadis sahih.
+Bank Berburu Kata Wilayah 1 kini draf v1.2: setelah revisi awal v1.1, paket Adik mengganti SUSU dengan QUBA dan paket Kakak mengganti DAIL, PESISIR, KULIT, MALAM dengan SAFA, AQABAH, MINBAR, FATH. Jumlah tetap 6 target Adik dan 10 target Kakak. Kisi visual belum dibuat.
 
 
 ### Dokumen Berburu Kata
-- [Wilayah 1 — Berburu Kata v1.1 (draf revisi)](materi/wilayah-1-bank-berburu-kata-v1.0-draf.md)
+- [Wilayah 1 — Berburu Kata v1.2 (draf revisi)](materi/wilayah-1-bank-berburu-kata-v1.0-draf.md)
 - [Wilayah 2 — Berburu Kata v1.0 (draf)](materi/wilayah-2-bank-berburu-kata-v1.0-draf.md)
 - [Wilayah 3 — Berburu Kata v1.0 (draf)](materi/wilayah-3-bank-berburu-kata-v1.0-draf.md)
 
