@@ -205,3 +205,10 @@ Misi khusus ini merupakan variasi mekanisme dalam mode Berburu Kata. Jumlah targ
 - Bank Wilayah 3 perlu memperluas keragaman nama, termasuk shahabat dan shahabiyah yang jarang dikenalkan, tanpa memasukkan tokoh hanya demi mengejar nama baru.
 - Simpan daftar induk nama, fakta yang telah digunakan, rujukan, dan kemunculan lintas mode untuk audit anti-pengulangan.
 - Semua dokumen matching saat ini berstatus draf; beberapa rujukan dan redaksi masih harus diperiksa sebelum dinyatakan final.
+
+
+### Progres audit lintas mode — pembaruan 19 November 2026
+- [Master Index & Audit Register v0.1](materi/master-index-audit-register-v0.1.md) dibuat sebagai daftar induk nama, fakta, kemunculan lintas mode, dan rujukan.
+- Matching Wilayah 2 direvisi: fakta Fatimah dan Hasan dibedakan dari TTS; Zaynab diganti Hafsah dengan riwayat penyimpanan suhuf; Zayd diganti Ruqayyah dengan kisah hijrah ke Habasyah.
+- Matching Wilayah 3 direvisi: butir Abu Talhah pada paket Kakak diganti dengan kisah Hudhayfah bin al-Yaman memohonkan ampun bagi orang-orang yang tanpa sengaja membunuh ayahnya saat Uhud.
+- Matching Wilayah 1 masih memerlukan perombakan sebagian karena beberapa fakta hijrah beririsan dengan Berburu Kata Wilayah 1. Semua bank utama tetap berstatus draf sampai audit selesai.
