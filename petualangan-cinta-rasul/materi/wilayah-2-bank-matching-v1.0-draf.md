@@ -17,7 +17,7 @@
 |---|---|---|
 | W2-MA-01 | Fatimah az-Zahra | Putri Rasulullah ﷺ yang diberi kabar bahwa beliau akan menjadi anggota keluarga pertama yang menyusul Rasulullah ﷺ setelah wafat beliau. |
 | W2-MA-02 | Hasan bin Ali | Cucu Rasulullah ﷺ yang melalui dirinya Allah mendamaikan dua kelompok besar kaum Muslimin. |
-| W2-MA-03 | Husain bin Ali | Cucu Rasulullah ﷺ yang beliau cintai; beliau mendoakan orang yang mencintainya. |
+| W2-MA-03 | Husain bin Ali | Cucu Rasulullah ﷺ yang bersama Hasan disebut sebagai pemimpin para pemuda penghuni surga. |
 | W2-MA-04 | Ibrahim | Putra Rasulullah ﷺ dari Mariyah al-Qibthiyyah yang wafat ketika masih kecil. |
 | W2-MA-05 | Aisyah binti Abu Bakr | Istri Rasulullah ﷺ yang kalungnya hilang dalam sebuah perjalanan; ketika rombongan tidak menemukan air, turun ayat tentang tayammum. |
 
@@ -35,10 +35,10 @@
 - Tautan: https://sunnah.com/bukhari:2704
 
 **W2-MA-03 — Husain bin Ali**
-- Penjelasan: Rasulullah ﷺ mencintai Hasan dan Husain serta mendoakan orang yang mencintai keduanya.
-- Jenis sumber: Hadis hasan/sahih menurut penilaian ulama hadis; periksa penilaian pada edisi yang dipakai.
-- Rujukan: Jami' at-Tirmidhi no. 3768.
-- Catatan: Sebaiknya gunakan riwayat sahih al-Bukhari/Muslim yang menyebut Hasan dan Husain bersama jika ingin menghindari perbedaan penilaian.
+- Penjelasan: Rasulullah ﷺ menyebut Hasan dan Husain sebagai pemimpin para pemuda penghuni surga.
+- Jenis sumber: Hadis; Imam at-Tirmidhi menilainya hasan sahih, dan edisi Darussalam pada Sunnah.com memberi nilai sahih.
+- Rujukan: Jami' at-Tirmidhi no. 3768. https://sunnah.com/tirmidhi:3768
+- Catatan: Petunjuk dan penjelasan kini sesuai dengan isi hadis 3768. Riwayat yang menyebut doa agar Allah mencintai orang yang mencintai Hasan dan Husain adalah riwayat berikutnya, Jami' at-Tirmidhi no. 3769, bukan no. 3768.
 
 **W2-MA-04 — Ibrahim**
 - Penjelasan: Ibrahim adalah putra Rasulullah ﷺ. Ketika Ibrahim wafat, Rasulullah ﷺ bersedih dan menjelaskan bahwa mata menangis dan hati bersedih, tetapi beliau tidak mengucapkan kecuali yang diridhai Allah.
@@ -76,7 +76,7 @@
 - Penjelasan: Pada Hudaibiyah, setelah para shahabat belum segera melaksanakan perintah, Ummu Salamah menyarankan agar Rasulullah ﷺ keluar dan melakukan tahallul terlebih dahulu tanpa berbicara. Para shahabat kemudian mengikuti.
 - Jenis sumber: Hadis sahih.
 - Rujukan: Sahih al-Bukhari no. 2731–2732.
-- Catatan: Kisah ini perlu ditinjau kembali redaksi dan urutan peristiwanya sesuai riwayat.
+- Catatan: Rujukan Bukhari 2731–2732 memuat rangkaian perjanjian Hudaibiyah dan nasihat Ummu Salamah setelah para shahabat belum segera melaksanakan perintah menyembelih hadyu dan mencukur rambut. Redaksi petunjuk diringkas; jangan menggambarkan para shahabat sebagai sengaja menentang perintah, karena riwayat menjelaskan keadaan mereka saat itu.
 
 **W2-MK-03 — Ummu Habibah**
 - Penjelasan: Ummu Habibah radhiyallahu ‘anha berada di Habasyah ketika Rasulullah ﷺ menikahinya. Raja Najasyi mengurus akad nikah dan mahar, lalu mengirimnya kepada Rasulullah ﷺ bersama Shurahbil bin Hasanah.
@@ -86,9 +86,9 @@
 
 **W2-MK-04 — Juwairiyah binti al-Harits**
 - Penjelasan: Setelah menikah dengan Rasulullah ﷺ, para shahabat membebaskan banyak tawanan dari Bani al-Mustaliq karena mereka telah menjadi kerabat Rasulullah ﷺ melalui pernikahan tersebut.
-- Jenis sumber: Hadis hasan/sahih.
-- Rujukan: Sunan Abi Dawud no. 3931; Musnad Ahmad (riwayat Aisyah). Perlu verifikasi penilaian sanad dan nomor edisi sebelum final.
-- Catatan: Jangan menyebut angka tawanan tertentu kecuali telah ditelusuri sumber dan derajat riwayatnya.
+- Jenis sumber: Hadis hasan menurut penilaian al-Albani.
+- Rujukan: Sunan Abi Dawud no. 3931. https://sunnah.com/abudawud:3931
+- Catatan: Riwayat secara eksplisit menyebut seratus keluarga Bani al-Mustaliq dibebaskan karena pernikahan Juwayriyah. Angka ini boleh digunakan bila dibutuhkan, tetapi petunjuk utama cukup menyebut “banyak tawanan”. Jangan menulis “disepakati sahih”; cantumkan penilaian hasan al-Albani.
 
 **W2-MK-05 — Shafiyyah binti Huyayy**
 - Penjelasan: Shafiyyah berasal dari Bani Nadhir dan menjadi tawanan pada peristiwa Khaibar; Rasulullah ﷺ kemudian memerdekakan dan menikahinya.
@@ -99,13 +99,15 @@
 **W2-MK-06 — Ruqayyah binti Rasulullah ﷺ**
 - Penjelasan: Ruqayyah berhijrah ke Habasyah bersama suaminya, Utsman bin Affan, dalam gelombang hijrah awal kaum Muslimin. Peristiwa ini termasuk materi sirah.
 - Jenis sumber: Sirah/biografi.
-- Rujukan: Ibn Hisham, *as-Sirah an-Nabawiyyah*, bagian hijrah kaum Muslimin ke Habasyah; perlu dicantumkan jilid/halaman sesuai edisi yang dipakai sebelum produksi.
+- Jenis sumber: Sirah/biografi, bukan hadis sahih.
+- Rujukan: Ibn Hisham, *as-Sirah an-Nabawiyyah*, edisi F. Wüstenfeld, *Das Leben Muhammed's nach Muhammed Ibn Ishâk bearbeitet von Abd el-Malik Ibn Hischâm*, jilid 1, Göttingen: Dieterich, 1858, hlm. 208–209. Daftar rombongan hijrah pertama secara eksplisit menyebut Utsman bin Affan bersama istrinya, Ruqayyah putri Rasulullah ﷺ. Teks dan terjemahan: https://www.habeshahistory.com/travellers/first-hijra-to-abyssinia/read
+- Catatan: Halaman berbeda pada edisi lain tidak boleh dicampur dengan nomor halaman Wüstenfeld. Untuk produksi, tulis edisi yang sama atau ganti nomor halaman setelah edisi fisik yang digunakan diperiksa.
 
 **W2-MK-07 — Usamah bin Zaid**
 - Penjelasan: Rasulullah ﷺ menggendong Usamah bersama Hasan dan mendoakan keduanya.
 - Jenis sumber: Hadis sahih.
-- Rujukan: Sahih al-Bukhari no. 3735; Sahih Muslim no. 2424 (riwayat terkait keutamaan Ahlul Bait, cek redaksi).
-- Catatan: Gunakan Bukhari no. 3735 sebagai rujukan utama setelah memeriksa redaksi lengkap.
+- Rujukan utama: Sahih al-Bukhari no. 3735. https://sunnah.com/bukhari:3735
+- Catatan: Redaksi Bukhari menyebut Rasulullah ﷺ menggendong/mengambil Usamah dan Hasan serta mendoakan agar Allah mencintai keduanya. Tidak perlu menambahkan Muslim 2424 karena rujukan Bukhari sudah langsung mendukung petunjuk.
 
 **W2-MK-08 — Ummu Aiman**
 - Penjelasan: Setelah Rasulullah ﷺ wafat, Abu Bakr mengajak Umar mengunjungi Ummu Aiman karena Rasulullah ﷺ biasa mengunjunginya. Ketika ditanya mengapa menangis, Ummu Aiman menjelaskan bahwa ia menangis karena wahyu dari langit telah terputus. Abu Bakr dan Umar pun menangis.
