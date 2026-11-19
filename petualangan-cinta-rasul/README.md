@@ -216,3 +216,10 @@ Misi khusus ini merupakan variasi mekanisme dalam mode Berburu Kata. Jumlah targ
 - Matching Wilayah 3 direvisi: butir Abu Talhah pada paket Kakak diganti dengan kisah Hudhayfah bin al-Yaman memohonkan ampun bagi orang-orang yang tanpa sengaja membunuh ayahnya saat Uhud.
 - Matching Wilayah 1 v1.1 mengganti fakta perjalanan hijrah yang berulang dengan riwayat berbeda: Bilal (Bukhari 1149), Khadijah (3820), Tsumamah (462), Thufail (4392), Abu Dzarr (Muslim 2474), Abu Bakr (3656), Abdullah bin Mas'ud (4582), Adi bin Hatim (3595), Zaid bin Haritsah (QS 33:37), Ali (4416), Mu'adz (4347), Jarir (4355), dan Utsman (2778).
 - Matching Wilayah 1 telah direvisi menjadi draf v1.1: fakta hijrah yang beririsan dengan Berburu Kata dihapus dan diganti dengan kisah lain yang memiliki rujukan Al-Qur'an/hadis sahih. Bilal memakai riwayat amalan salat setelah wudu (Bukhari 1149), berbeda dari petunjuk azan di TTS Wilayah 3. Semua bank utama tetap berstatus draf sampai audit selesai.
+
+
+### Pembaruan Berburu Kata Wilayah 3 — 19 November 2026
+
+Bank Wilayah 3 direvisi menjadi draf v1.1. Empat soal Kakak yang memecah satu hadis/tujuan tentang rujukan bacaan Al-Qur'an telah dihapus. Target IBNRAWAAHA juga diganti agar tidak mengulang rangkaian kisah Mu'tah yang sudah dipakai untuk KHALID. Pengganti: ABDULLAHBINSALAM (Bukhari 3329), SAADBINMUADH (Bukhari 3803), UMMUHARAM (Bukhari 2788–2789), ABUHURAIRAH (Muslim 2491), dan ANASBINNADR (Bukhari 2805–2806). ABUAYYUB kini memiliki rujukan spesifik Bukhari 3932. ABUHURAIRAH muncul lintas mode dengan fakta berbeda, sehingga bukan pengulangan inti soal. Kisi Canva belum dibuat; kata terpanjang 16 huruf sehingga kisi Kakak disarankan minimal 18×18.
+
+Pemeriksaan ulang W2 Berburu Kata v1.1 memastikan target THUWAYBAH dan AQIL sudah cocok dengan petunjuk, penjelasan, dan rujukan hadisnya. Seluruh bank masih berstatus draf sebelum audit akhir dan persetujuan.
