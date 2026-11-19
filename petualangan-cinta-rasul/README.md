@@ -250,3 +250,5 @@ Audit menemukan tiga soal TTS Kakak Wilayah 3 (Talhah, Zubair, Sa'd) yang semuan
 - Audit lintas mode Wilayah 2: TTS JUWAYRIYAH kini menguji zikir setelah Subuh (Sahih Muslim 2726a), sedangkan Matching JUWAYRIYAH menguji pembebasan tawanan Bani al-Mustaliq (Sunan Abi Dawud 3931). Nama sama, fakta berbeda; tidak lagi ada pengulangan inti soal.
 
 - Audit lanjutan Matching Wilayah 2: Husain kini memakai redaksi yang tepat untuk Tirmidzi 3768; Juwayriyah 3931 dicatat hasan menurut al-Albani; Ruqayyah dirujuk ke Ibn Hisham edisi Wüstenfeld jilid 1 hlm. 208–209; Usamah memakai Bukhari 3735 sebagai rujukan utama. Bank tetap draf.
+
+- **Matching Wilayah 3 — draf v1.1:** pemeriksaan rujukan utama 13 pasangan telah dilakukan. Redaksi Ummu Sulaim pada Uhud dibatasi pada memberi minum orang-orang yang kehausan (Bukhari 3811), dan rujukan tahnik Abdullah diperjelas menjadi Muslim 2144a. Abu Talhah al-Anshari dan Thalhah bin Ubaidillah tetap diberi penanda bahwa keduanya dua shahabat berbeda. Bank masih draf untuk audit bahasa dan keseimbangan tema.
