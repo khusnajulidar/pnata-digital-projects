@@ -342,3 +342,29 @@ Bagian ini mengubah daftar kebutuhan menjadi paket aset yang dapat diproduksi da
 - Teks Arab, transliterasi, terjemahan, tombol, slot, highlight, bintang, dan feedback sebaiknya berupa elemen UI dinamis, bukan teks yang tertanam pada gambar.
 - Satu ilustrasi boleh melayani beberapa aktivitas jika konteks, sudut pandang, dan maknanya tetap tepat.
 - Produksi aset baru dilakukan setelah uji ekstraksi mockup; jangan membuat duplikasi objek yang sebenarnya dapat digunakan ulang.
+
+
+## 7.9 Pemeriksaan ulang aset Mockup 11 dari repositori (20 November 2026)
+
+File `mockup-11.png` berhasil diambil sebagai data gambar dari GitHub dan ditampilkan untuk pemeriksaan langsung.
+
+### Detail visual yang terkonfirmasi
+- Komposisi meja makan keluarga dengan wadah makanan besar di tengah, berisi nasi dan beberapa jenis lauk/sayuran.
+- Terlihat tangan anak dari sisi depan meja, serta tangan orang dewasa yang mengambil makanan menggunakan sendok.
+- Terlihat bagian torso, lengan, dan tangan dua orang dewasa di sisi belakang meja; kepala/wajah orang dewasa tidak ditampilkan utuh dalam framing.
+- Terdapat piring anak, alas makan, sendok, garpu, dan sebuah gelas/mug.
+- Gaya visual 3D lembut, pencahayaan hangat, warna natural/pastel, dan sudut pandang yang menempatkan anak di meja makan.
+- Pada badan mug terdapat dekorasi menyerupai mata dan mulut/wajah kecil.
+
+### Keputusan penggunaan
+- **Layak sebagai acuan adegan makan bersama** untuk Aktivitas 9 dan sebagai salah satu referensi komposisi Aktivitas 10.
+- Penggambaran Abi/Umi secara parsial tetap sesuai klarifikasi pengguna: torso, lengan, dan tangan boleh terlihat, tetapi sosok manusia utuh dan wajah tidak boleh ditampilkan.
+- **Motif wajah pada mug harus dihilangkan atau mug diganti** sebelum mockup dijadikan aset final, agar konsisten dengan aturan tidak menampilkan gambar makhluk bernyawa/fitur wajah.
+- Area sentuh untuk memilih makanan harus menjadi elemen UI dinamis yang ditempatkan tepat di atas wadah/makanan, bukan bagian permanen dari gambar.
+- Jangan memotong atau menghapus bagian keluarga secara berlebihan sehingga konteks makan bersama hilang. Pertahankan komposisi meja, makanan, dan perspektif anak.
+
+### Status ekstraksi
+Pemeriksaan ini mengonfirmasi isi visual mockup, bukan keberhasilan memisahkan objek menjadi file transparan. Wadah makanan, makanan, alat makan, gelas, tangan, dan bagian torso masih menyatu dalam satu gambar. Ekstraksi manual atau pembuatan ulang objek individual perlu diuji sebelum dipakai sebagai aset interaktif.
+
+### Status akses Mockup 07 dan Mockup 10
+Pengambilan ulang melalui GitHub Base64 pada sesi ini menghasilkan konten kosong untuk Mockup 07 dan Mockup 10. Ini adalah keterbatasan jalur pengambilan file, bukan bukti bahwa file tersebut kosong atau rusak. Untuk Mockup 07, analisis visual pengguna yang telah tercatat tetap menjadi acuan; untuk Mockup 10, deskripsi visual pengguna tetap menjadi acuan sementara. Keduanya tidak diklaim berhasil diperiksa ulang pada sesi ini.
