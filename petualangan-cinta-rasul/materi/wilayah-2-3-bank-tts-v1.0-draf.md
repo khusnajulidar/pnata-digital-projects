@@ -1,6 +1,6 @@
 # BANK TTS — WILAYAH 2 & 3
 ## Petualangan Cinta Rasul ﷺ | Paket Adik dan Kakak
-**Versi:** 1.0 — draf materi untuk penelaahan  
+**Versi:** 1.1 — revisi audit awal, tetap berstatus draf  
 **Cakupan:** TTS Wilayah 2 — Keluarga Rasulullah ﷺ; TTS Wilayah 3 — Taman Para Shahabat  
 **Catatan:** Grid belum disusun. Kunci grid memakai huruf kapital tanpa spasi/tanda baca.
 
@@ -14,14 +14,14 @@
 |---|---|---:|---|
 | W2-A1 | FATIMAH | 7 | Siapakah nama putri Rasulullah ﷺ yang disebut dalam hadis bahwa beliau adalah bagian dari diri Rasulullah ﷺ? |
 | W2-A2 | IBRAHIM | 7 | Siapakah nama putra Rasulullah ﷺ yang wafat ketika masih kecil? |
-| W2-A3 | HASAN | 5 | Siapakah nama cucu Rasulullah ﷺ yang pernah beliau gendong dan disebut sebagai pemimpin? |
+| W2-A3 | HASAN | 5 | Siapakah cucu Rasulullah ﷺ yang disebut Nabi ﷺ sebagai pemimpin dan diharapkan Allah mendamaikan dua kelompok besar kaum Muslimin melalui dirinya? |
 | W2-A4 | AISYAH | 6 | Siapakah istri Rasulullah ﷺ yang merupakan putri Abu Bakr? |
 | W2-A5 | HAFSAH | 6 | Siapakah istri Rasulullah ﷺ yang merupakan putri Umar bin al-Khattab? |
 
 ### Kunci dan penjelasan
 - **W2-A1 FATIMAH** — Fatimah adalah putri Rasulullah ﷺ. Dalam hadis sahih, Rasulullah ﷺ menyatakan Fatimah bagian dari diri beliau. Rujukan: Sahih al-Bukhari 3715–3716 / 3767. https://sunnah.com/bukhari:3715
 - **W2-A2 IBRAHIM** — Ibrahim adalah putra Rasulullah ﷺ yang wafat ketika masih kecil. Rujukan: Sahih al-Bukhari 6194–6195. https://sunnah.com/bukhari:6194
-- **W2-A3 HASAN** — Al-Hasan adalah cucu Rasulullah ﷺ melalui putri beliau, Fatimah. Rasulullah ﷺ pernah menyebut Al-Hasan sebagai anak beliau dan menyampaikan bahwa Allah akan mendamaikan melalui dirinya dua kelompok kaum Muslimin. Rujukan: Sahih al-Bukhari 3746. https://sunnah.com/bukhari:3746
+- **W2-A3 HASAN** — Al-Hasan bin Ali adalah cucu Rasulullah ﷺ melalui putri beliau, Fatimah. Rasulullah ﷺ menyebutnya sebagai pemimpin dan mengabarkan bahwa Allah akan mendamaikan dua kelompok besar kaum Muslimin melalui dirinya. Rujukan: Sahih al-Bukhari 3746. https://sunnah.com/bukhari:3746
 - **W2-A4 AISYAH** — Aisyah radhiyallahu ‘anha adalah istri Rasulullah ﷺ dan putri Abu Bakr. Rujukan pernikahan/riwayat keluarga: Sahih al-Bukhari, Kitab an-Nikah dan Kitab al-Manaqib; untuk hubungan ayah-anak, Sahih al-Bukhari 3662–3663. https://sunnah.com/bukhari:3662
 - **W2-A5 HAFSAH** — Hafsah radhiyallahu ‘anha adalah putri Umar bin al-Khattab dan kemudian menjadi istri Rasulullah ﷺ. Rujukan: Sahih al-Bukhari 4005. https://sunnah.com/bukhari:4005
 
@@ -30,26 +30,26 @@
 | ID | Jawaban grid | Huruf | Petunjuk |
 |---|---|---:|---|
 | W2-K1 | MAIMUNAH | 8 | Siapakah istri Rasulullah ﷺ yang dinikahi pada masa Umratul Qadha? |
-| W2-K2 | UMMUSALAMAH | 11 | Apa nama kunyah Umm Salamah, salah seorang istri Rasulullah ﷺ? |
-| W2-K3 | UMMUHABIBAH | 11 | Apa nama kunyah putri Abu Sufyan yang menjadi salah seorang istri Rasulullah ﷺ? |
+| W2-K2 | HIND | 4 | Siapakah nama asli Umm Salamah, salah seorang istri Rasulullah ﷺ? |
+| W2-K3 | RAMLAH | 6 | Siapakah nama asli Ummu Habibah, putri Abu Sufyan yang menjadi salah seorang istri Rasulullah ﷺ? |
 | W2-K4 | ZAINAB | 6 | Siapakah nama salah seorang istri Rasulullah ﷺ yang disebut dalam kisah pernikahan pada Surah Al-Ahzab ayat 37? |
-| W2-K5 | JUWAYRIYAH | 10 | Nama istri Rasulullah ﷺ yang dikenal sebagai Juwayriyah binti al-Harith. Tulis nama panggilannya tanpa spasi. |
-| W2-K6 | SAUDAH | 6 | Siapakah istri Rasulullah ﷺ yang dinikahi setelah Khadijah wafat dan sebelum Aisyah mulai hidup bersama beliau? |
+| W2-K5 | JUWAYRIYAH | 10 | Siapakah istri Rasulullah ﷺ yang pernikahannya menjadi sebab terbebasnya banyak tawanan Bani al-Musthaliq? |
+| W2-K6 | SAUDAH | 6 | Siapakah istri Rasulullah ﷺ yang dikenal dengan nama Saudah bint Zam‘ah? |
 | W2-K7 | MARIAH | 6 | Siapakah nama perempuan yang menjadi ibu putra Rasulullah ﷺ, Ibrahim? |
 | W2-K8 | RUQAYYAH | 8 | Siapakah putri Rasulullah ﷺ yang menikah dengan Utsman bin Affan sebelum hijrah ke Madinah? |
 
 ### Catatan penting Paket Kakak
-Paket ini memerlukan pembakuan ejaan dan pemeriksaan rujukan sirah sebelum dinyatakan final. Beberapa nama/relasi keluarga tidak disebut secara eksplisit dalam satu hadis sahih tertentu. Karena itu:
+Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebelum dinyatakan final. Beberapa nama/relasi keluarga tidak disebut secara eksplisit dalam satu hadis sahih tertentu. Karena itu:
 - **W2-K1 MAIMUNAH**: Rasulullah ﷺ menikahi Maimunah; riwayat menyebut pernikahan itu pada masa Umratul Qadha. Rujukan: Sahih al-Bukhari 4258–4259; https://sunnah.com/bukhari:4258
-- **W2-K2 UMMUSALAMAH**: gunakan ejaan grid UMMUSALAMAH; fakta nama lengkap dan status sebagai istri Rasulullah ﷺ harus dirujuk ke biografi Umm Salamah dalam sumber sirah/biografi yang tepercaya.
-- **W2-K3 UMMUHABIBAH**: gunakan ejaan grid UMMUHABIBAH; rujukan biografi Umm Habibah/Ramlah bint Abi Sufyan dalam sumber sirah/biografi tepercaya.
+- **W2-K2 HIND**: Hind bint Abi Umayyah dikenal dengan kunyah Umm Salamah. Statusnya sebagai istri Rasulullah ﷺ benar, tetapi rujukan biografi primer untuk nama lengkapnya masih harus ditetapkan. Jangan menganggap nama Hind sudah lolos audit hanya karena dikenal luas.
+- **W2-K3 RAMLAH**: Ramlah bint Abi Sufyan dikenal dengan kunyah Umm Habibah. Rujukan biografi primer untuk nama lengkap dan statusnya masih harus ditetapkan sebelum final.
 - **W2-K4 ZAINAB**: yang dimaksud adalah Zaynab bint Jahsh; rujukan utama QS. Al-Ahzab [33]:37. https://quran.com/33/37
-- **W2-K5 JUWAYRIYAH**: ejaan grid JUWAYRIYAH berjumlah 10 huruf. Rujukan biografi spesifik masih perlu dilengkapi sebelum final.
-- **W2-K6 SAUDAH**: rujukan sirah/biografi tentang Saudah bint Zam'ah dan urutan pernikahan. Jangan gunakan frasa “sebelum Aisyah mulai hidup bersama beliau” tanpa pemeriksaan kronologi terperinci; redaksi yang lebih aman: “Siapakah nama istri Rasulullah ﷺ yang dikenal sebagai Saudah bint Zam'ah?”
-- **W2-K7 MARIAH**: ejaan populer Indonesia Mariah al-Qibthiyyah; rujukan biografi. Jangan menyebut statusnya sebagai istri/Ummahatul Mukminin tanpa penjelasan ilmiah yang sesuai.
+- **W2-K5 JUWAYRIYAH**: riwayat Aisyah menyebut pembebasan seratus keluarga Bani al-Mustaliq setelah pernikahan Juwayriyah dengan Rasulullah ﷺ. Rujukan: Sunan Abi Dawud 3931; dinilai hasan oleh al-Albani. https://sunnah.com/abudawud:3931.
+- **W2-K6 SAUDAH**: petunjuk identitas kini tidak lagi mengandalkan klaim urutan pernikahan. Tetap lengkapi rujukan biografi spesifik Saudah bint Zam‘ah sebelum final.
+- **W2-K7 MARIAH**: Mariah al-Qibthiyyah adalah ibu Ibrahim. Jangan masukkan beliau ke daftar 11 istri atau menyebutnya sebagai Ummul Mukminin; Komite Tetap Riset Ilmiah dan Fatwa Saudi menjelaskan bahwa beliau bukan istri, melainkan umm walad. Rujukan fatwa no. 5848, Majmu‘ Fatawa al-Lajnah ad-Da’imah, jilid 18, hlm. 10. https://abdurrahman.org/wp-content/uploads/2024/04/en_18_majmoo_alfatawa_iftaa_coll01.pdf
 - **W2-K8 RUQAYYAH**: putri Rasulullah ﷺ yang menikah dengan Utsman bin Affan. Rujukan sirah/biografi keluarga Nabi; perlu dilengkapi secara spesifik sebelum final.
 
-**Keputusan mutu:** Paket Kakak di atas adalah daftar kandidat, belum boleh dimasukkan ke grid atau HTML sebelum semua rujukan biografi spesifik dilengkapi dan dua ejaan Zaynab dibedakan secara eksplisit. Untuk mencegah ambiguitas, sebaiknya W2-K8 diganti jika sumber primer/biografi yang digunakan belum tersedia.
+**Keputusan mutu:** Paket Kakak tetap berstatus kandidat. Petunjuk dan jawaban K2–K3 kini menguji nama asli, bukan mengulang kunyah; K5 memakai kisah pembebasan tawanan; K6 tidak lagi memakai klaim kronologi yang rawan. Rujukan biografi K2, K3, K6, dan K8 masih harus dilengkapi. Jangan masukkan ke grid/HTML sebelum audit itu selesai.
 
 ---
 
@@ -90,8 +90,8 @@ Paket ini memerlukan pembakuan ejaan dan pemeriksaan rujukan sirah sebelum dinya
 - **W3-K2 UMAR** — Dalam hadis sahih, Rasulullah ﷺ menyampaikan bahwa setan mengambil jalan lain ketika melihat Umar berjalan di suatu jalan. Rujukan: Sahih al-Bukhari 3294. https://sunnah.com/bukhari:3294
 - **W3-K3 UTHMAN** — Utsman bin Affan mengadakan sumur Rumah dan menyiapkan pasukan al-'Usrah. Rujukan: Sahih al-Bukhari 2778. https://sunnah.com/bukhari:2778
 - **W3-K4 ALI** — Ali bin Abi Talib menerima panji pada Perang Khaibar; Rasulullah ﷺ menyebut keutamaan mencintai Allah dan Rasul-Nya serta dicintai Allah dan Rasul-Nya. Rujukan: Sahih al-Bukhari 4210. https://sunnah.com/bukhari:4210
-- **W3-K5 ABUUBAIDAH** — Rasulullah ﷺ mengutus Abu Ubaidah bin al-Jarrah kepada penduduk Najran dan menyebutnya sebagai orang yang sangat tepercaya. Rujukan: Sahih al-Bukhari 3746. https://sunnah.com/bukhari:3746
-- **W3-K6 TALHAH**, **W3-K7 ZUBAIR**, **W3-K8 SAAD** — Ketiganya termasuk nama yang disebut dalam hadis tentang sepuluh orang yang diberi kabar gembira dengan Surga. Rujukan: Jami' at-Tirmidhi 3747 (riwayat Sa'id bin Zaid; dinilai sahih dalam rujukan yang ditampilkan) dan riwayat-riwayat pendukung. https://sunnah.com/tirmidhi:3747
+- **W3-K5 ABUUBAIDAH** — Rasulullah ﷺ mengutus Abu Ubaidah bin al-Jarrah kepada penduduk Najran dan menyebutnya sebagai orang yang sangat tepercaya. Rujukan: Sunan Ibn Majah 135 (dinilai sahih oleh Darussalam) dan Jami‘ at-Tirmidhi 3796. https://sunnah.com/ibnmajah:135 ; https://sunnah.com/tirmidhi:3796
+- **W3-K6 TALHAH**, **W3-K7 ZUBAIR**, **W3-K8 SAAD** — Ketiganya termasuk sepuluh shahabat yang diberi kabar gembira dengan Surga. Riwayat Jami‘ at-Tirmidhi 3747 menyebut sepuluh nama secara lengkap dan dinilai sahih oleh Darussalam. https://sunnah.com/tirmidhi:3747
 
 ---
 
@@ -113,4 +113,4 @@ Paket ini memerlukan pembakuan ejaan dan pemeriksaan rujukan sirah sebelum dinya
 - Wilayah 3 menggunakan beberapa nama shahabat yang sama-sama termasuk sepuluh orang yang diberi kabar gembira dengan Surga. Jangan mengulang soal daftar yang sama pada mode lain; tiap nama di sini diuji melalui satu petunjuk khusus.
 
 ## F. Status dokumen
-**Belum final untuk produksi.** Wilayah 3 memiliki rujukan primer yang relatif kuat. Wilayah 2 Paket Kakak perlu penguatan rujukan biografi dan penyempurnaan redaksi sebelum grid/HTML. Semua grid harus dihitung dan diuji terpisah setelah kunci jawaban disetujui.
+**Belum final untuk produksi.** Rujukan Abu Ubaidah telah dikoreksi; wilayah 2 Paket Kakak masih membutuhkan rujukan biografi spesifik. Grid/HTML ditunda sampai seluruh rujukan dan ejaan lolos audit. Semua grid harus dihitung dan diuji terpisah setelah kunci jawaban disetujui.
