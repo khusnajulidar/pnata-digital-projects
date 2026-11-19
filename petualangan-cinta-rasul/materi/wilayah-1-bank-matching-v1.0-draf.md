@@ -69,7 +69,7 @@
 | W1-MK-05 | Ali bin Abi Thalib | Ketika Rasulullah ﷺ berangkat ke Tabuk dan meninggalkannya di Madinah, beliau menghibur Ali dengan perumpamaan Harun terhadap Musa, serta menegaskan tidak ada nabi setelah beliau. |
 | W1-MK-06 | Mu'adz bin Jabal | Rasulullah ﷺ mengutusnya ke Yaman dan memberinya arahan tentang urutan dakwah serta kewajiban yang disampaikan kepada penduduk di sana. |
 | W1-MK-07 | Jarir bin Abdullah al-Bajali | Rasulullah ﷺ memintanya menangani Dzul Khalashah, tempat yang diagungkan pada masa jahiliah. Jarir berangkat bersama 150 penunggang kuda. |
-| W1-MK-08 | Utsman bin Affan | Ia membeli sumur Rumah dan membantu menyiapkan pasukan dalam Perang Tabuk. |
+| W1-MK-08 | Utsman bin Affan | Ia membeli dan menggali sumur Rumah serta membantu menyiapkan pasukan dalam Perang Tabuk. |
 
 ### Penjelasan dan sumber Kakak
 
@@ -122,11 +122,11 @@
 - Catatan: Jelaskan kepada anak bahwa Dzul Khalashah adalah tempat yang di dalamnya terdapat objek yang disembah pada masa jahiliah; jangan menyamakan namanya dengan Ka'bah di Makkah.
 
 **W1-MK-08 — Utsman bin Affan**
-- Penjelasan: Utsman menyebut dua amalnya yang diberi kabar gembira: membeli sumur Rumah untuk kepentingan kaum Muslimin serta menyiapkan pasukan Usrah (pasukan Tabuk). Hadis menyebut Rasulullah ﷺ menjanjikan surga bagi orang yang melakukan dua amal tersebut.
+- Penjelasan: Utsman menyebut dua amalnya yang diberi kabar gembira: membeli dan menggali sumur Rumah serta menyiapkan pasukan Usrah (pasukan Tabuk). Hadis menyebut Rasulullah ﷺ menjanjikan surga bagi orang yang melakukan dua amal tersebut.
 - Jenis sumber: Hadis sahih.
 - Rujukan: Sahih al-Bukhari no. 2778.
 - Tautan: https://sunnah.com/bukhari:2778
-- Catatan: Hadis ini menyebut pembelian sumur Rumah dan penyiapan pasukan Usrah; jangan menambahkan rincian penggalian sumur atau jumlah harta yang tidak tercantum dalam riwayat ini.
+- Catatan: Hadis ini secara eksplisit menyebut Utsman membeli dan menggali sumur Rumah serta menyiapkan pasukan Usrah. Jangan menambahkan jumlah harta yang tidak tercantum dalam riwayat ini.
 
 ## C. Audit anti-pengulangan lintas mode
 
