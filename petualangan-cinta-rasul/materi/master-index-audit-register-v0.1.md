@@ -265,3 +265,14 @@ Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di ba
 - Catatan editor: target grid tetap JUWAYRIYAH (10 huruf). Pastikan redaksi soal tidak menyiratkan bahwa empat kalimat zikir tersebut adalah bacaan wajib khusus setelah Subuh; riwayat menyebut keutamaan zikir yang diucapkan Rasulullah ﷺ.
 
 **Status:** Revisi TTS telah disimpan. Matching Wilayah 2 masih draf dan tetap memerlukan pemeriksaan akhir atas derajat riwayat Juwayriyah 3931 serta edisi sirah Ruqayyah.
+
+
+## 24. Audit Matching Wilayah 2 — verifikasi rujukan dan koreksi redaksi — 19 November 2026
+
+- **W2-MA-03 Husain bin Ali:** redaksi petunjuk diperjelas agar sesuai tepat dengan Jami' at-Tirmidhi 3768: Hasan dan Husain disebut sebagai pemimpin para pemuda penghuni surga. Penjelasan lama tentang doa agar Allah mencintai orang yang mencintai keduanya tidak sesuai dengan hadis 3768; riwayat doa tersebut berada pada Tirmidhi 3769. Bank kini tidak mencampur dua matan berbeda.
+- **W2-MK-04 Juwairiyah:** Sunan Abi Dawud 3931 telah diperiksa; riwayat menyebut seratus keluarga Bani al-Mustaliq dibebaskan setelah pernikahan Juwayriyah. Al-Albani menilainya hasan. Petunjuk utama tetap memakai frasa “banyak tawanan” agar sesuai usia; catatan editor menyebut angka seratus dan grading secara transparan.
+- **W2-MK-06 Ruqayyah:** rujukan sirah kini ditetapkan secara bibliografis: Ibn Hisham, *as-Sirah an-Nabawiyyah*, edisi F. Wüstenfeld, *Das Leben Muhammed's nach Muhammed Ibn Ishâk bearbeitet von Abd el-Malik Ibn Hischâm*, vol. 1, Göttingen: Dieterich, 1858, hlm. 208–209. Daftar hijrah pertama secara eksplisit menyebut Utsman bin Affan bersama istrinya Ruqayyah. Ini sumber sirah, bukan hadis sahih. Sumber digital yang menampilkan teks Arab dan terjemahan: https://www.habeshahistory.com/travellers/first-hijra-to-abyssinia/read.
+- **W2-MK-07 Usamah:** rujukan utama disederhanakan ke Sahih al-Bukhari 3735, yang secara eksplisit menyebut Nabi ﷺ menggendong Usamah bersama Hasan dan mendoakan keduanya. Rujukan Muslim 2424 dikeluarkan karena tidak diperlukan untuk mendukung butir ini.
+- **W2-MK-02 Ummu Salamah:** rujukan Bukhari 2731–2732 sesuai dengan kisah nasihat pada Hudaibiyah. Redaksi harus tetap menggambarkan kesedihan/keadaan para shahabat secara santun, bukan menuduh mereka sengaja menentang perintah.
+
+**Status:** Lima butir di atas telah diperjelas atau diverifikasi. Matching Wilayah 2 masih berstatus draf; audit bahasa anak dan audit lintas-mode keseluruhan belum selesai.
