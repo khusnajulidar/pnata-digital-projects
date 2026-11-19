@@ -1,4 +1,5 @@
 # Bank Berburu Kata — Wilayah 3: Taman Para Shahabat
+**Status:** Bank materi dikunci v1.0 sebagai acuan Canva; kisi belum dibuat.
 ## Draf v1.1 — revisi anti-pengulangan dan verifikasi sumber, 19 November 2026
 
 **Proyek:** P’Nata — Petualangan Cinta Rasul  
