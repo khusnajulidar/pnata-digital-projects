@@ -133,7 +133,7 @@
 - Adik: 5 pasangan.
 - Kakak: 8 pasangan.
 - Total: 13 pasangan.
-- Nama yang berulang antarprofil: Ummu Sulaim. Abu Talhah hanya digunakan pada paket Adik; paket Kakak menggunakan Hudhayfah bin al-Yaman. Abu Talhah kini hanya digunakan pada paket Adik; butir Kakak diganti dengan Hudhayfah. Ummu Sulaim tetap muncul pada dua profil dengan fakta berbeda.
+- Nama yang berulang antarprofil: Ummu Sulaim. Ia muncul dengan dua fakta yang berbeda: membawa air pada Perang Uhud dan peristiwa tahnik putranya. Abu Talhah hanya digunakan pada paket Adik; paket Kakak kini menggunakan Hudhayfah bin al-Yaman.
 - Nama yang diperkenalkan melalui draf ini antara lain: Ukkasyah bin Mihshan, Rabi'ah bin Ka'b al-Aslami, Nu'man bin Basyir, Usaid bin Hudhair, Zaid bin Tsabit, dan Sa'd bin Abi Waqqash.
 - Nama-nama yang sudah muncul dalam bank TTS/word search boleh digunakan kembali jika butir ini mengajarkan kisah yang berbeda. Contoh: Abu Hurairah tidak menjadi target W3 word search sebelumnya.
 - Tidak ada target yang mengulang persis jawaban kunci TTS atau kata target Berburu Kata W3. Audit silang seluruh wilayah tetap diperlukan sebelum produksi.
