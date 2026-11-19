@@ -71,7 +71,7 @@
 | W3-MK-05 | Zaid bin Tsabit | Pada masa Abu Bakar, beliau ditugaskan menelusuri dan mengumpulkan catatan Al-Qur'an setelah banyak penghafal Al-Qur'an gugur dalam Perang Yamamah. |
 | W3-MK-06 | Sa'd bin Abi Waqqash | Beliau menyebut dirinya sebagai orang Arab pertama yang melepaskan anak panah di jalan Allah. |
 | W3-MK-07 | Ummu Sulaim | Ketika putranya yang baru lahir dibawa kepada Rasulullah ﷺ, beliau melakukan tahnik dengan kurma dan memberi nama anak itu Abdullah. |
-| W3-MK-08 | Abu Talhah al-Anshari | Beliau dikenal sebagai pemanah yang kuat dan terampil; pada Perang Uhud, Rasulullah ﷺ meminta agar anak panah diberikan kepadanya. |
+| W3-MK-08 | Hudhayfah bin al-Yaman | Pada Perang Uhud, ayahnya terbunuh tanpa sengaja dalam kekacauan pasukan. Hudhayfah kemudian mendoakan ampunan bagi orang-orang yang membunuh ayahnya. |
 
 ### Penjelasan dan rujukan Kakak
 
@@ -121,19 +121,19 @@
 - Tautan: https://sunnah.com/muslim/44/152
 - Catatan: Ini berbeda dari kisah Ummu Sulaim membawa air pada Perang Uhud di paket Adik; tokoh sama, fakta berbeda.
 
-**W3-MK-08 — Abu Talhah al-Anshari**
-- Penjelasan: Pada Perang Uhud, Abu Talhah adalah pemanah yang terampil. Rasulullah ﷺ meminta agar anak panah dari tempat anak panah diberikan kepadanya.
+**W3-MK-08 — Hudhayfah bin al-Yaman**
+- Penjelasan: Pada Perang Uhud, ayah Hudhayfah, al-Yaman, terbunuh tanpa sengaja ketika barisan kaum Muslimin saling bertempur dalam kekacauan. Hudhayfah berkata, “Semoga Allah mengampuni kalian.” Riwayat menyebut ia terus memohonkan ampun bagi orang-orang yang membunuh ayahnya.
 - Jenis sumber: Hadis sahih.
-- Rujukan: Sahih al-Bukhari no. 3811 dan 4064.
-- Tautan: https://sunnah.com/bukhari:3811
-- Catatan: Butir ini menggunakan sisi kisah yang berbeda dari petunjuk Adik yang menekankan perisai. Sebelum final, pertimbangkan apakah kedua rincian dari satu rangkaian peristiwa terlalu berdekatan untuk dua profil.
+- Rujukan: Sahih al-Bukhari no. 4065; penomoran dalam sebagian susunan kitab/edisi dapat berbeda.
+- Tautan: https://sunnah.com/bukhari:4065
+- Catatan: Nama Hudhayfah juga muncul di Berburu Kata Kakak, tetapi fakta yang diuji berbeda. Berburu Kata membahas pengetahuan khususnya tentang sejumlah orang munafik; Matching ini membahas sikap memaafkan dan mendoakan ampunan setelah ayahnya terbunuh tanpa sengaja.
 
 ## D. Audit keragaman dan pengulangan
 
 - Adik: 5 pasangan.
 - Kakak: 8 pasangan.
 - Total: 13 pasangan.
-- Nama yang berulang antarprofil: Abu Talhah dan Ummu Sulaim. Keduanya dipakai dengan fakta berbeda, bukan pertanyaan yang sama.
+- Nama yang berulang antarprofil: Ummu Sulaim. Abu Talhah hanya digunakan pada paket Adik; paket Kakak menggunakan Hudhayfah bin al-Yaman. Abu Talhah kini hanya digunakan pada paket Adik; butir Kakak diganti dengan Hudhayfah. Ummu Sulaim tetap muncul pada dua profil dengan fakta berbeda.
 - Nama yang diperkenalkan melalui draf ini antara lain: Ukkasyah bin Mihshan, Rabi'ah bin Ka'b al-Aslami, Nu'man bin Basyir, Usaid bin Hudhair, Zaid bin Tsabit, dan Sa'd bin Abi Waqqash.
 - Nama-nama yang sudah muncul dalam bank TTS/word search boleh digunakan kembali jika butir ini mengajarkan kisah yang berbeda. Contoh: Abu Hurairah tidak menjadi target W3 word search sebelumnya.
 - Tidak ada target yang mengulang persis jawaban kunci TTS atau kata target Berburu Kata W3. Audit silang seluruh wilayah tetap diperlukan sebelum produksi.
@@ -149,4 +149,4 @@
 
 ## F. Status
 
-**Draf v1.0 — belum final untuk produksi.** Riwayat yang dipakai bersumber dari Sahih al-Bukhari dan Sahih Muslim. Tahap berikutnya: audit ulang redaksi terjemahan, ejaan nama, tingkat kesulitan, serta pemisahan fakta yang terlalu berdekatan (khususnya Abu Talhah/Thalhah dan kisah Ummu Sulaim). Setelah disetujui, lakukan audit anti-pengulangan lintas seluruh bank Wilayah 3.
+**Draf v1.0 — belum final untuk produksi.** Riwayat yang dipakai bersumber dari Sahih al-Bukhari dan Sahih Muslim. Tahap berikutnya: audit ulang redaksi terjemahan, ejaan nama, tingkat kesulitan, serta pemisahan fakta yang terlalu berdekatan (khususnya Thalhah bin Ubaidillah dan kisah Ummu Sulaim). Setelah disetujui, lakukan audit anti-pengulangan lintas seluruh bank Wilayah 3.
