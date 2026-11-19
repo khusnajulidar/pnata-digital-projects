@@ -296,3 +296,13 @@ Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di ba
 - **Audit lintas mode:** pengulangan nama Abu Hurairah dan Hudhayfah dengan Berburu Kata tetap dapat diterima karena fakta yang diuji berbeda. Ummu Sulaim muncul dua kali di Matching dengan dua fakta berbeda (Uhud dan tahnik Abdullah). Abu Talhah al-Anshari dan Thalhah bin Ubaidillah harus selalu ditampilkan dengan nama lengkap agar tidak tertukar.
 
 **Status:** Rujukan utama 13 pasangan telah diperiksa pada tahap ini. Bank masih draf; pemeriksaan ejaan, bahasa anak, dan keseimbangan tema Uhud sebelum produksi masih diperlukan.
+
+
+## 26. Audit lintas mode Matching Wilayah 2 — temuan pengulangan dan revisi — 19 November 2026
+
+- **Hasan bin Ali:** Matching W2-MA-02 sebelumnya mengulang fakta TTS W2-A3 tentang peran Hasan mendamaikan dua kelompok kaum Muslimin (Bukhari 2704). Matching kini diganti dengan kisah Rasulullah ﷺ mencium Hasan di hadapan al-Aqra' bin Habis dan mengajarkan kasih sayang (Sahih al-Bukhari 5997). TTS tetap menguji peran Hasan dalam perdamaian; Matching menguji kasih sayang kepada anak.
+- **Ibrahim:** TTS W2-A2 menguji identitas putra Rasulullah ﷺ yang wafat ketika masih kecil. Matching W2-MA-04 kini menitikberatkan pada respons Rasulullah ﷺ saat Ibrahim wafat: mata menangis dan hati bersedih, tetapi lisan tetap mengucapkan yang diridhai Allah (Bukhari 1303; Muslim 2315). Nama sama dan peristiwa sama, tetapi tujuan belajar berbeda: identitas putra vs adab menghadapi kesedihan. Redaksi Matching tidak boleh kembali menjadi pertanyaan identitas yang sama dengan TTS.
+- **Ruqayyah:** Matching W2-MK-06 diganti dari hijrah ke Habasyah (yang juga dijelaskan pada TTS W2-K8) menjadi peristiwa sakitnya istri Utsman saat Perang Badar. Sahih al-Bukhari 3130 menyebut Utsman tinggal karena putri Rasulullah ﷺ sedang sakit dan beliau ﷺ memberinya pahala serta bagian seperti peserta Badar. Bukhari tidak menyebut nama putri itu; identifikasi sebagai Ruqayyah harus didukung sumber sirah Ibn Hisham edisi F. Wüstenfeld, vol. 1, Göttingen 1858, hlm. 208–209, yang menyebut Utsman bersama istrinya Ruqayyah pada daftar hijrah pertama.
+- **Dua Safiyyah:** Berburu Kata W2 Adik menggunakan SAFIYYAH untuk Safiyyah binti Abdul Muththalib (bibi Rasulullah ﷺ); Matching W2 Kakak menggunakan Safiyyah binti Huyayy (istri Rasulullah ﷺ). Keduanya perempuan berbeda. Nama lengkap wajib digunakan di penjelasan/umpan balik agar anak tidak mengira satu orang yang sama.
+
+**Status:** Temuan pengulangan inti Hasan dan Ruqayyah telah diperbaiki. Butir Ibrahim dipertahankan dengan tujuan belajar yang dibedakan secara eksplisit. Matching Wilayah 2 tetap draf sampai audit bahasa dan pengujian pemahaman anak selesai.
