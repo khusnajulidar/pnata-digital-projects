@@ -1,5 +1,5 @@
 # Bank Berburu Kata — Wilayah 2: Keluarga Rasulullah ﷺ
-## Draf v1.0 — 19 November 2026
+## Draf v1.1 — revisi anti-pengulangan awal, 19 November 2026
 
 **Proyek:** P’Nata — Petualangan Cinta Rasul  
 **Wilayah:** 2 — Keluarga Rasulullah ﷺ  
@@ -37,17 +37,17 @@
 | W2-BK-K05 | ZAYD | Sahabat yang dahulu dipanggil sebagai anak Rasulullah ﷺ sebelum turun perintah agar anak angkat dinisbatkan kepada ayah kandungnya. | Zayd bin Haritsah dikenal sebagai anak angkat Rasulullah ﷺ sebelum ketentuan Al-Qur'an tentang nasab. Al-Qur'an memerintahkan agar anak-anak angkat dipanggil dengan nama ayah kandung mereka. | Al-Qur'an: QS Al-Ahzab 33:4–5 dan 33:37. Hadis sahih tentang kedudukan Zayd: Sahih al-Bukhari no. 3730. |
 | W2-BK-K06 | USAMAH | Putra Zayd bin Haritsah yang sangat dicintai Rasulullah ﷺ. | Usamah bin Zayd adalah putra Zayd. Rasulullah ﷺ menyebut Zayd dan Usamah sebagai orang-orang yang beliau cintai. | Hadis sahih: Sahih al-Bukhari no. 3730. |
 | W2-BK-K07 | NASAB | Garis keturunan atau hubungan seseorang dengan ayah dan leluhurnya. | Islam memerintahkan agar anak dinisbatkan kepada ayah kandungnya. Nasab memiliki kedudukan penting dalam syariat. | Al-Qur'an: QS Al-Ahzab 33:5–6. |
-| W2-BK-K08 | KUNYAH | Panggilan yang diawali Abu atau Ummu; Rasulullah ﷺ memiliki panggilan Abu al-Qasim. | Sahih al-Bukhari meriwayatkan penjelasan Rasulullah ﷺ tentang nama beliau dan kun-yah Abu al-Qasim. | Hadis sahih: Sahih al-Bukhari no. 3115. |
-| W2-BK-K09 | SEPUPU | Hubungan kekerabatan antara anak-anak dari dua saudara kandung; Ja'far bin Abi Thalib termasuk kerabat Rasulullah ﷺ dalam hubungan ini. | Ja'far bin Abi Thalib adalah putra paman Rasulullah ﷺ, Abu Thalib, sehingga ia sepupu beliau. | Sirah/nasab: Ibn Hisham, *as-Sirah an-Nabawiyyah*, nasab Bani Hasyim; Ibn Hajar, *al-Isabah*, entri Ja'far bin Abi Thalib. |
+| W2-BK-K08 | THUWAYBAH | Panggilan yang diawali Abu atau Ummu; Rasulullah ﷺ memiliki panggilan Abu al-Qasim. | Sahih al-Bukhari meriwayatkan penjelasan Rasulullah ﷺ tentang nama beliau dan kun-yah Abu al-Qasim. | Hadis sahih: Sahih al-Bukhari no. 3115. |
+| W2-BK-K09 | AQIL | Hubungan kekerabatan antara anak-anak dari dua saudara kandung; Ja'far bin Abi Thalib termasuk kerabat Rasulullah ﷺ dalam hubungan ini. | Ja'far bin Abi Thalib adalah putra paman Rasulullah ﷺ, Abu Thalib, sehingga ia sepupu beliau. | Sirah/nasab: Ibn Hisham, *as-Sirah an-Nabawiyyah*, nasab Bani Hasyim; Ibn Hajar, *al-Isabah*, entri Ja'far bin Abi Thalib. |
 | W2-BK-K10 | AHLULBAIT | Istilah untuk keluarga/rumah tangga Nabi ﷺ yang disebut dalam Al-Qur'an. | QS Al-Ahzab 33:33 menyebut Ahlul Bait dalam konteks ayat-ayat yang ditujukan kepada istri-istri Nabi ﷺ. Hadis tentang selimut (Kisa') juga menyebut Ali, Fatimah, Hasan, dan Husain. Penjelasan tidak boleh menyempitkan atau memperluas makna tanpa dalil. | Al-Qur'an: QS Al-Ahzab 33:33. Hadis sahih: Sahih Muslim no. 2424 (hadis al-Kisa'). |
 
 ## D. Pemeriksaan awal kunci
 - Adik: 6 target; tidak ada pengulangan antar-target.
 - Kakak: 10 target; tidak ada pengulangan antar-target.
 - Tidak ada target yang sama antara profil Adik dan Kakak.
-- Tidak memakai target TTS Wilayah 2 yang telah tercatat: FATIMAH, IBRAHIM, HASAN, AISYAH, HAFSAH, MAIMUNAH, UMMUSALAMAH, UMMUHABIBAH, ZAINAB, JUWAYRIYAH, SAUDAH, MARIAH, RUQAYYAH.
-- Tidak memakai target Berburu Kata Wilayah 1 yang telah tercatat: ASMA, SABUK, TSUR, DOMBA, SUSU, UNTA, AMIR, FUHAIRAH, DAIL, PENUNJUK, PESISIR, KULIT, BEKAL, KAWANAN, MALAM, TIGA.
-- Beberapa target bersumber dari sirah/nasab, bukan hadis. Rujukan kitab perlu diperiksa kembali pada tahap audit akhir agar bagian/jilid/halaman edisi yang dipakai dapat dicantumkan secara konsisten.
+- Tidak memakai target TTS Wilayah 2 yang telah tercatat: FATIMAH, IBRAHIM, HASAN, AISYAH, HAFSAH, MAIMUNAH, HIND, RAMLAH, ZAINAB, JUWAYRIYAH, SAUDAH, MARIAH, RUQAYYAH.
+- Tidak memakai target Berburu Kata Wilayah 1 yang telah tercatat: ASMA, SABUK, TSUR, DOMBA, SUSU, UNTA, AMIR, BURAQ, DAIL, ZAMZAM, PESISIR, KULIT, KAABAH, BATUHITAM, MALAM, TIGA.
+- Beberapa target bersumber dari sirah/nasab, bukan hadis. Rujukan kitab perlu diperiksa kembali pada tahap audit akhir agar bagian/jilid/halaman edisi yang dipakai dapat dicantumkan secara konsisten. AQIL kini memiliki rujukan hadis sahih; THUWAYBAH bersumber pada Bukhari 5101.
 - Istilah AHLULBAIT perlu pemeriksaan redaksi akhir agar penjelasan sesuai dengan dalil dan tidak membingungkan anak.
 
 ## E. Rencana kisi Canva
