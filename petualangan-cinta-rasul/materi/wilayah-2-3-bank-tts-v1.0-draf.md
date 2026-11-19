@@ -1,4 +1,5 @@
 # BANK TTS — WILAYAH 2 & 3
+**Status:** Bank materi dikunci v1.0 sebagai acuan Canva; grid belum disusun.
 ## Petualangan Cinta Rasul ﷺ | Paket Adik dan Kakak
 **Versi:** 1.2 — revisi anti-pengulangan TTS Wilayah 3, tetap berstatus draf  
 **Cakupan:** TTS Wilayah 2 — Keluarga Rasulullah ﷺ; TTS Wilayah 3 — Taman Para Shahabat  
