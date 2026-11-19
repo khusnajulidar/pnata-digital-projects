@@ -28,7 +28,7 @@ Nama file berikut mengikuti nama yang benar-benar ada di repositori:
 
 ## Status audit aset
 
-Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, tetapi folder `assets/images/` belum berisi gambar ilustrasi mandiri. Mockup 07 dan 11 diperiksa visual langsung dari unggahan pengguna; Mockup 09 berhasil diperiksa langsung dari repositori GitHub pada 20 November 2026. Mockup 07 menampilkan simulasi dua tangan dengan tangan kanan disorot. Mockup 11 menampilkan meja makan bersama; sesuai klarifikasi pengguna, konteks Abi/Umi boleh dipertahankan melalui penggambaran parsial tanpa sosok manusia utuh, dengan kepala/wajah dihilangkan, ditutup, atau di luar framing. Mockup 09 menampilkan layar penyelesaian dengan lima bintang dan tombol MAIN LAGI. Mockup 10 telah dikonfirmasi keberadaan filenya, tetapi belum dapat ditampilkan langsung melalui konektor; deskripsi visual pengguna menjadi acuan sementara. Mockup lain belum diperiksa ulang secara langsung pada sesi ini. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) bagian 7 untuk hasil audit per aset dan per aktivitas.
+Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, tetapi folder `assets/images/` belum berisi gambar ilustrasi mandiri. Mockup 07 dan 11 diperiksa visual langsung dari unggahan pengguna; Mockup 09 berhasil diperiksa langsung dari repositori GitHub pada 20 November 2026. Mockup 07 menampilkan simulasi dua tangan dengan tangan kanan disorot. Mockup 11 menampilkan meja makan bersama; konteks Abi/Umi boleh dipertahankan melalui penggambaran parsial (misalnya lengan, tangan, atau torso) tanpa sosok manusia utuh, dengan kepala/wajah dihilangkan, ditutup, atau di luar framing. Mockup 09 menampilkan layar penyelesaian dengan lima bintang dan tombol MAIN LAGI. Mockup 10 telah dikonfirmasi keberadaan filenya, tetapi belum dapat ditampilkan langsung melalui konektor; deskripsi visual pengguna menjadi acuan sementara. Mockup lain belum diperiksa ulang secara langsung pada sesi ini. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) bagian 7 untuk hasil audit per aset dan per aktivitas.
 
 ## Cara menggunakan aset
 
@@ -43,7 +43,7 @@ Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, teta
 
 ## Pemetaan aktivitas
 
-Lihat [MOCKUP-ACTIVITY-MAP.md](../MOCKUP-ACTIVITY-MAP.md) untuk inventaris 11 aset dan pemetaan 25 aktivitas. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) untuk daftar kebutuhan ilustrasi, aset yang dapat digunakan ulang, dan prioritas produksi.
+Lihat [MOCKUP-ACTIVITY-MAP.md](../MOCKUP-ACTIVITY-MAP.md) untuk inventaris 11 aset dan pemetaan 25 aktivitas. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) untuk audit terperinci per aktivitas dan rencana produksi aset dalam paket yang melayani beberapa aktivitas sekaligus.
 
 ## Catatan
 
