@@ -134,6 +134,10 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 8. Ringkasan progres dan pengaturan.
 9. Ringkasan penyelesaian seluruh permainan setelah 10 bintang/seluruh tantangan selesai.
 
+## Dokumen desain visual
+
+- [Visual Master & Spesifikasi Mockup 01 — v1.0](desain/visual-master-dan-mockup-01-v1.0.md) — arah visual Ekspedisi Jejak Cahaya, sistem warna/material, aturan ilustrasi, komposisi mobile portrait, dan prompt produksi latar halaman pembuka.
+
 ## 10. Rencana kerja berikutnya
 1. Susun dan verifikasi bank materi Wilayah 1.
 2. Susun dan verifikasi bank materi Wilayah 2.
