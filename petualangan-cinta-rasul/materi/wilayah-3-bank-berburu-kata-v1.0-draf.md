@@ -38,7 +38,7 @@
 | W3-BK-K06 | SALMAN | Shahabat yang menyebut dirinya berasal dari Ram-Hurmuz, sebuah daerah di Persia. | Salman al-Farisi radhiyallahu 'anhu berasal dari Persia. Dalam Sahih al-Bukhari ia menyebut dirinya berasal dari Ram-Hurmuz. | Hadis sahih: Sahih al-Bukhari no. 3947. |
 | W3-BK-K07 | SUHAYB | Shahabat yang menjelaskan bahwa dirinya pernah diculik ketika masih kecil sehingga tidak mengaku berasal dari ayah yang bukan ayah kandungnya. | Suhaib ar-Rumi menjelaskan bahwa ia tidak mengaku kepada selain ayah kandungnya dan mengatakan bahwa ia pernah diculik ketika kecil. | Hadis sahih: Sahih al-Bukhari no. 2219. |
 | W3-BK-K08 | KHALID | Panglima yang mengambil alih panji dalam Perang Mu'tah setelah tiga pemegang panji sebelumnya gugur. | Khalid bin al-Walid mengambil panji setelah Zayd bin Haritsah, Ja'far bin Abi Thalib, dan Abdullah bin Rawahah gugur. Dalam hadis, Rasulullah ﷺ menyebutnya sebagai salah satu pedang Allah. | Hadis sahih: Sahih al-Bukhari no. 3757. |
-| W3-BK-K09 | JAAFAR | Shahabat yang memegang panji dalam Perang Mu'tah setelah Zayd bin Haritsah gugur. | Ja'far bin Abi Thalib mengambil panji setelah Zayd bin Haritsah gugur, lalu ia pun gugur dalam pertempuran. | Hadis sahih: Sahih al-Bukhari no. 3757. |
+| W3-BK-K09 | ABUAYYUB | Shahabat Anshar yang rumahnya menjadi tempat Rasulullah ﷺ singgah ketika tiba di Madinah. | Abu Ayyub al-Anshari menyambut Rasulullah ﷺ di rumahnya ketika beliau tiba di Madinah. | Sirah/hadis: riwayat kedatangan Rasulullah ﷺ ke Madinah dan persinggahan di rumah Abu Ayyub; perlu dicocokkan dengan penomoran/edisi sumber sebelum final. |
 | W3-BK-K10 | IBNRAWAAHA | Shahabat yang menjadi pemegang panji ketiga dalam Perang Mu'tah setelah Zayd dan Ja'far gugur. | Abdullah bin Rawahah mengambil panji setelah Ja'far bin Abi Thalib gugur. Ia juga gugur dalam pertempuran tersebut. | Hadis sahih: Sahih al-Bukhari no. 3757. |
 
 ## D. Audit awal kunci dan pengulangan
@@ -48,10 +48,8 @@
 - Tidak memakai target TTS Wilayah 3: ANSAR, MUHAJIRUN, BILAL, BADR, UHUD, ABUBAKR, UMAR, UTHMAN, ALI, ABUUBAIDAH, TALHAH, ZUBAIR, SAAD.
 - Tidak memakai target Berburu Kata Wilayah 1: ASMA, SABUK, TSUR, DOMBA, SUSU, UNTA, AMIR, FUHAIRAH, DAIL, PENUNJUK, PESISIR, KULIT, BEKAL, KAWANAN, MALAM, TIGA.
 - Tidak memakai target Berburu Kata Wilayah 2: QASIM, HAMZAH, ABBAS, HALIMAH, SAFIYYAH, JAAFAR, ABUTALIB, ABDULMUTTALIB, HASHIM, UMMUKULTSUM, ZAYD, USAMAH, NASAB, KUNYAH, SEPUPU, AHLULBAIT.
-- **Koreksi penting:** JAAFAR ternyata telah dipakai sebagai target Berburu Kata Wilayah 2 Adik. Karena itu W3-BK-K09 **tidak boleh dipakai sebagai target final**. Ganti dengan kandidat lain yang tidak berulang setelah verifikasi. Untuk menjaga 10 target Kakak, kandidat pengganti yang dapat diteliti: MIQDAD, tetapi jangan masukkan sebelum rujukan spesifiknya dipastikan.
 - Nama HUDHAYFA, SUHAYB, UBAI, dan MUADH memakai transliterasi sederhana. Ejaan final perlu dibakukan konsisten dengan semua bank.
 - Target ABDULLAHIBNUMASUD panjang (17 huruf); kisi Kakak perlu dirancang dengan ukuran yang memadai atau target ini diganti dengan bentuk nama yang lebih ringkas tetapi tetap tidak ambigu.
-- JAAFAR pada baris K09 dicantumkan hanya sebagai kandidat sementara untuk menunjukkan isu pengulangan; jangan jadikan daftar Canva. Perbaikan target K09 wajib dilakukan sebelum status final.
 
 ## E. Rencana kisi Canva
 - Adik: kisi awal 10×10 atau 11×11; kata terpanjang ABUDHARR (8 huruf).
@@ -60,4 +58,4 @@
 - Kisi dan koordinat baru disiapkan setelah semua kunci disetujui dan tidak ada pengulangan.
 
 ---
-**Catatan:** Draf ini sengaja belum dinyatakan final. Kunci JAAFAR pada Wilayah 3 harus diganti karena duplikasi dengan Wilayah 2. Audit nama, ejaan, dan keterbacaan anak wajib selesai sebelum grid Canva dan HTML produksi dibuat.
+**Catatan:** Draf ini sengaja belum dinyatakan final. Butir ABUAYYUB masih memerlukan rujukan edisi/penomoran yang lebih presisi. Audit nama, ejaan, dan keterbacaan anak wajib selesai sebelum grid Canva dan HTML produksi dibuat.
