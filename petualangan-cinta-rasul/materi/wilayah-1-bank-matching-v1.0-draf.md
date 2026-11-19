@@ -15,7 +15,7 @@
 
 | ID | Tokoh | Petunjuk/kisah |
 |---|---|---|
-| W1-MA-01 | Bilal bin Rabah | Rasulullah ﷺ memerintahkannya untuk mengumandangkan azan ketika kaum Muslimin mulai berkumpul untuk salat di Madinah. |
+| W1-MA-01 | Bilal bin Rabah | Rasulullah ﷺ pernah mendengar suara langkah sandalnya di surga. Bilal menjelaskan amalan yang ia harapkan pahalanya: setiap selesai berwudu, ia mengerjakan salat yang dimudahkan baginya. |
 | W1-MA-02 | Khadijah binti Khuwaylid | Allah mengirim salam kepadanya melalui Jibril dan memberinya kabar gembira tentang rumah di surga. |
 | W1-MA-03 | Tsumamah bin Utsal | Setelah dibebaskan dari ikatan di masjid, ia mandi lalu kembali dan menyatakan masuk Islam. |
 | W1-MA-04 | Thufail bin Amr ad-Dausi | Ketika kaumnya belum menerima Islam, Rasulullah ﷺ justru berdoa agar Allah memberi mereka petunjuk. |
@@ -24,11 +24,11 @@
 ### Penjelasan dan sumber Adik
 
 **W1-MA-01 — Bilal bin Rabah**
-- Penjelasan: Setelah kaum Muslimin tiba di Madinah, Rasulullah ﷺ memerintahkan Bilal untuk berdiri dan menyerukan azan.
+- Penjelasan: Rasulullah ﷺ bertanya kepada Bilal tentang amalan yang paling ia harapkan pahalanya setelah masuk Islam, karena beliau mendengar suara langkah sandal Bilal di hadapan beliau di surga. Bilal menjelaskan bahwa setiap kali berwudu pada siang atau malam, ia mengerjakan salat setelah wudu itu sesuai kemampuannya.
 - Jenis sumber: Hadis sahih.
-- Rujukan: Sahih al-Bukhari no. 604.
-- Tautan: https://sunnah.com/bukhari:604
-- Catatan: Hadis ini menyebut perintah Nabi ﷺ kepada Bilal untuk menyerukan azan. Jangan menambahkan rincian bahwa suara Bilal paling merdu berdasarkan riwayat ini, karena itu bukan redaksi hadis tersebut.
+- Rujukan: Sahih al-Bukhari no. 1149.
+- Tautan: https://sunnah.com/bukhari:1149
+- Catatan anti-pengulangan: TTS Wilayah 3 menyebut Bilal sebagai shahabat yang diperintahkan mengumandangkan azan. Matching ini menguji amalan salat setelah wudu yang dikisahkan dalam hadis lain, sehingga fakta yang dipelajari berbeda.
 
 **W1-MA-02 — Khadijah binti Khuwaylid**
 - Penjelasan: Jibril datang kepada Rasulullah ﷺ saat Khadijah membawa makanan. Jibril menyampaikan salam dari Allah dan darinya, serta kabar gembira tentang sebuah rumah di surga yang tidak ada kegaduhan dan keletihan di dalamnya.
@@ -137,7 +137,7 @@
 | Total pasangan | 13 |
 | Fakta lama tentang gua, bekal Asma, ternak Amir, dan penunjuk jalan | Dihapus dari Matching W1 karena beririsan dengan Berburu Kata W1 |
 | Fakta Khadijah | Berbeda dari TTS W1: kabar gembira rumah di surga, bukan menenangkan Nabi setelah wahyu pertama |
-| Fakta Bilal | Berbeda dari TTS W3: perintah mengumandangkan azan, bukan sekadar nama Bilal |
+| Fakta Bilal | Berbeda dari TTS W3: amalan salat setelah wudu yang dikaitkan dengan kabar suara langkahnya di surga, bukan perintah mengumandangkan azan |
 | Fakta Abu Dzarr | Berbeda dari target kata W3; pastikan bank W3 tidak mengulang peristiwa pengumuman syahadat di Makkah |
 | Fakta Zaid bin Haritsah | Tidak digunakan sebagai target TTS W1 atau Berburu Kata W1 |
 | Rujukan utama | Sahih al-Bukhari, Sahih Muslim, dan Al-Qur'an |
