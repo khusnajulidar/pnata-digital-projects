@@ -156,7 +156,7 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 |---|---:|---:|---|
 | TTS | 5 jawaban/wilayah | 8 jawaban/wilayah | Wilayah 1 disusun; Wilayah 2 dan 3 memiliki draf TTS, masih perlu verifikasi/pemolesan |
 | Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Wilayah 1–3 draf v1.0 tersimpan; Bonus belum disusun |
-| Pasangkan Tokoh dan Kisahnya | 5 pasangan/wilayah | 8 pasangan/wilayah | Belum disusun |
+| Pasangkan Tokoh dan Kisahnya | 5 pasangan/wilayah | 8 pasangan/wilayah | Wilayah 1–3 draf v1.0 tersimpan; perlu audit sumber dan anti-pengulangan |
 
 ### Dokumen bank TTS
 - [Wilayah 1 — Jejak Rasulullah ﷺ, TTS v1.0](materi/wilayah-1-jejak-rasulullah-bank-tts-v1.0.md)
@@ -176,3 +176,29 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 
 ### Catatan terbaru
 Bank Berburu Kata Wilayah 1 telah disusun: 6 target Adik dan 10 target Kakak. Materi mengambil detail penggembalaan dan perjalanan hijrah dengan rujukan Sahih al-Bukhari 2262, 2263, dan 3905. Kisi visual belum dibuat; kisi dan koordinatnya menjadi pekerjaan Canva setelah daftar kata disetujui.
+
+
+### Dokumen Berburu Kata
+- [Wilayah 1 — Berburu Kata v1.0 (draf)](materi/wilayah-1-bank-berburu-kata-v1.0-draf.md)
+- [Wilayah 2 — Berburu Kata v1.0 (draf)](materi/wilayah-2-bank-berburu-kata-v1.0-draf.md)
+- [Wilayah 3 — Berburu Kata v1.0 (draf)](materi/wilayah-3-bank-berburu-kata-v1.0-draf.md)
+
+### Dokumen Matching
+- [Wilayah 1 — Matching v1.0 (draf)](materi/wilayah-1-bank-matching-v1.0-draf.md)
+- [Wilayah 2 — Matching v1.0 (draf)](materi/wilayah-2-bank-matching-v1.0-draf.md)
+- [Wilayah 3 — Matching v1.0 (draf)](materi/wilayah-3-bank-matching-v1.0-draf.md)
+- [Wilayah Bonus — Jejak Para Ulama v1.0](materi/bonus-jejak-para-ulama-draf.md)
+
+### Keputusan tambahan — Berburu Kata dengan target tersembunyi
+Dua misi khusus sedang dimasukkan ke rancangan:
+- Wilayah 2, profil Adik: menemukan nama Ummahatul Mukminin. Daftar nama tidak ditampilkan sebelum ditemukan. Daftar lengkap muncul setelah semua target ditemukan.
+- Wilayah 3, profil Kakak: menemukan sepuluh shahabat yang diberi kabar gembira dengan surga dalam satu hadits. Daftar nama tidak ditampilkan sebelum ditemukan; daftar lengkap muncul setelah semua target ditemukan.
+
+Misi khusus ini merupakan variasi mekanisme dalam mode Berburu Kata. Jumlah target dan penyesuaian paket reguler 6/10 perlu ditetapkan pada tahap finalisasi desain Canva; jangan menghapus atau mengganti paket reguler sebelum keputusan final.
+
+### Prinsip kurasi nama shahabat — pembaruan
+- Tidak ada pengulangan inti soal/fakta yang sama tanpa tujuan penguatan yang disetujui.
+- Nama shahabat boleh muncul di lebih dari satu soal atau mode jika setiap soal mengajarkan fakta/kisah yang berbeda.
+- Bank Wilayah 3 perlu memperluas keragaman nama, termasuk shahabat dan shahabiyah yang jarang dikenalkan, tanpa memasukkan tokoh hanya demi mengejar nama baru.
+- Simpan daftar induk nama, fakta yang telah digunakan, rujukan, dan kemunculan lintas mode untuk audit anti-pengulangan.
+- Semua dokumen matching saat ini berstatus draf; beberapa rujukan dan redaksi masih harus diperiksa sebelum dinyatakan final.
