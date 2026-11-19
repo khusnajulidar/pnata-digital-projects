@@ -89,7 +89,7 @@
 - Rujukan: Sunan Abi Dawud no. 3931. https://sunnah.com/abudawud:3931
 - Catatan: Riwayat secara eksplisit menyebut seratus keluarga Bani al-Mustaliq dibebaskan karena pernikahan Juwayriyah. Angka ini boleh digunakan bila dibutuhkan, tetapi petunjuk utama cukup menyebut “banyak tawanan”. Jangan menulis “disepakati sahih”; cantumkan penilaian hasan al-Albani.
 
-**W2-MK-05 — Shafiyyah binti Huyayy**
+**W2-MK-05 — Safiyyah binti Huyayy**
 - Penjelasan: Safiyyah berasal dari Bani Nadhir dan menjadi tawanan pada peristiwa Khaibar; Rasulullah ﷺ kemudian memerdekakan dan menikahinya.
 - Jenis sumber: Hadis sahih.
 - Rujukan: Sahih al-Bukhari no. 4211–4212; Sahih Muslim no. 1365.
@@ -120,5 +120,5 @@
 - Jumlah: 5 pasangan Adik, 8 pasangan Kakak.
 - Butir Zaid bin Haritsah yang mengulang fakta penyebutan namanya dalam QS. Al-Ahzab 33:37 telah diganti dengan Ruqayyah dan peristiwa hijrahnya ke Habasyah. Butir Hafsah menggantikan Zaynab binti Jahsy agar tidak mengulang fakta QS. Al-Ahzab 33:37 yang sudah ada pada TTS Wilayah 2.
 - Hasan/Husain merupakan cucu; Ibrahim adalah putra; jangan campur kategori. Hasan pada Matching kini menguji kasih sayang kepada anak (Bukhari 5997), bukan pengulangan kisah perdamaian Hasan yang sudah diuji TTS. Ibrahim pada Matching menyoroti respons Rasulullah ﷺ ketika putranya wafat, berbeda dari TTS yang menguji identitas putra beliau.
-- Aisyah kini memakai kisah kalung dan turunnya ayat tayammum (Bukhari 334). Ummu Habibah memakai riwayat pernikahan di Habasyah dari an-Nasa'i 3350 dengan catatan perbedaan penilaian hadis. Ummu Aiman kini memakai Muslim 2454 dan petunjuk dibatasi pada isi riwayat tersebut. Juwairiyah tetap perlu audit penilaian dan redaksi rujukan.
+- Aisyah kini memakai kisah kalung dan turunnya ayat tayammum (Bukhari 334). Ummu Habibah memakai riwayat pernikahan di Habasyah dari an-Nasa'i 3350 dengan catatan perbedaan penilaian hadis. Ummu Aiman kini memakai Muslim 2454 dan petunjuk dibatasi pada isi riwayat tersebut. Juwayriyah tetap perlu audit penilaian dan redaksi rujukan.
 - Status: DRAF. Jangan masuk produksi sebelum audit sumber, ejaan, dan anti-pengulangan selesai.
