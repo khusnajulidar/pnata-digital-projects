@@ -117,14 +117,25 @@ Prinsip:
 1. **Matching Wilayah 2:** Fatimah Adik kini memakai riwayat bahwa ia menjadi anggota keluarga pertama yang menyusul Nabi ﷺ setelah wafat beliau (Sahih al-Bukhari 3623–3626), bukan mengulang hadis “bagian dari diriku”. Hasan Adik kini menguji kabar perdamaian dua kelompok kaum Muslimin melalui dirinya (Sahih al-Bukhari 2704). Butir Zaynab diganti Hafsah dengan fakta penyimpanan suhuf Al-Qur'an (Sahih al-Bukhari 4986). Butir Zayd yang mengulang fakta QS 33:37 diganti Ruqayyah dan hijrahnya ke Habasyah (sirah; jilid/halaman edisi perlu dilengkapi).
 2. **Matching Wilayah 3:** Butir Abu Talhah pada paket Kakak diganti Hudhayfah bin al-Yaman, dengan kisah ayahnya terbunuh tanpa sengaja saat Uhud dan sikap Hudhayfah memohonkan ampun bagi para pelakunya (Sahih al-Bukhari 4065). Fakta Hudhayfah berbeda dari fakta tentang pengetahuan sejumlah orang munafik yang digunakan di Berburu Kata.
 
-## 10. Urutan kerja tersisa
+## 10. Audit TTS Wilayah 2–3 — revisi 19 November 2026
+
+- TTS W2-A3 diperjelas agar petunjuk dan penjelasan sama-sama menguji kabar Al-Hasan sebagai pemimpin yang menjadi sebab perdamaian dua kelompok kaum Muslimin (Sahih al-Bukhari 3746).
+- TTS W2-K2 dan W2-K3 diubah dari kunyah yang tautologis menjadi nama asli: HIND (Umm Salamah) dan RAMLAH (Umm Habibah). Rujukan biografi spesifik masih perlu ditetapkan.
+- TTS W2-K5 JUWAYRIYAH kini menguji kisah pembebasan seratus keluarga Bani al-Mustaliq; rujukan Sunan Abi Dawud 3931 (hasan menurut al-Albani).
+- TTS W2-K6 SAUDAH tidak lagi memakai klaim kronologi pernikahan; kini hanya menguji identitas Saudah bint Zam‘ah. Rujukan biografi spesifik masih diperlukan.
+- TTS W2-K7 MARIAH diberi catatan tegas: Mariyah al-Qibthiyyah adalah ibu Ibrahim, tetapi tidak dimasukkan ke daftar 11 istri/Ummahatul Mukminin. Fatwa Lajnah Da’imah no. 5848, jilid 18 hlm. 10, menyatakan beliau bukan istri melainkan umm walad.
+- TTS W3-K5 ABUUBAIDAH: rujukan yang sebelumnya salah (Bukhari 3746, tentang Al-Hasan) diganti dengan Sunan Ibn Majah 135 dan Jami‘ at-Tirmidhi 3796 tentang pengutusan Abu Ubaidah ke Najran.
+- TTS W3-K6–K8 (Talhah, Zubair, Sa‘d) diverifikasi dalam daftar sepuluh shahabat yang diberi kabar gembira dengan Surga, Jami‘ at-Tirmidhi 3747.
+- W3-A3 Bilal dan W3-K1 Abu Bakr tetap memiliki fakta berbeda dari kemunculan nama mereka pada mode lain; nama yang berulang tidak otomatis menjadi soal berulang.
+
+## 11. Urutan kerja tersisa
 1. Proofread dan audit final Matching Wilayah 1 v1.1, termasuk konsistensi ejaan nama serta tingkat bahasa anak.
 2. Selesaikan audit sumber dan pengulangan tersisa pada Matching Wilayah 2–3.
 3. Audit TTS Wilayah 2–3 dan Berburu Kata Wilayah 1–3, termasuk ejaan serta panjang target.
 4. Audit Bonus, terutama sumber biografi dan konsistensi nama.
 5. Perbarui README dan tandai final hanya setelah seluruh butir lolos audit.
 
-## 11. Revisi Matching Wilayah 1 v1.1
+## 12. Revisi Matching Wilayah 1 v1.1
 Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Berburu Kata Wilayah 1. Paket Adik kini menggunakan Bilal (amalan salat setelah wudu; Sahih al-Bukhari 1149), Khadijah (kabar gembira rumah di surga; Bukhari 3820), Tsumamah bin Utsal (masuk Islam setelah dibebaskan; Bukhari 462), Thufail bin Amr (doa Nabi untuk Daus; Bukhari 4392), dan Abu Dzarr (perjalanan masuk Islam dan pengumuman syahadat; Muslim 2474). Paket Kakak menggunakan Abu Bakr (khalil; Bukhari 3656), Abdullah bin Mas'ud (membacakan Al-Qur'an; Bukhari 4582), Adi bin Hatim (kabar keamanan perjalanan; Bukhari 3595), Zaid bin Haritsah (QS 33:37), Ali (peristiwa Tabuk; Bukhari 4416), Mu'adz (diutus ke Yaman; Bukhari 4347), Jarir (Dzul Khalashah; Bukhari 4355), dan Utsman (sumur Rumah/pasukan Tabuk; Bukhari 2778). Bilal sengaja memakai riwayat berbeda dari TTS Wilayah 3 yang menguji azan.
 
 **Status keseluruhan:** Revisi awal telah dilakukan pada Matching Wilayah 1, 2, dan 3. Ketiganya masih berstatus draf; verifikasi akhir, pemeriksaan keterbacaan, dan audit lintas semua mode tetap diperlukan sebelum produksi HTML.
