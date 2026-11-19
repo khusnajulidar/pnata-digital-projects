@@ -328,3 +328,14 @@ Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di ba
 - Ejaan target dan disambiguasi lintas bank dirangkum pada dokumen audit gabungan. Grid Canva belum dibuat sehingga pengujian grid/koordinat belum dapat dinyatakan lulus.
 - **Keputusan:** audit anti-pengulangan lulus; bank belum final produksi. Gerbang tersisa: bibliografi sirah/nasab W2, proofreading bahasa anak, penjelasan Ahlulbait, penyelarasan transliterasi, dan uji grid Canva.
 - Dokumen lengkap: [Audit Akhir Gabungan TTS, Berburu Kata, dan Matching v1.0](audit-akhir-gabungan-tts-berburu-kata-matching-v1.0.md).
+
+
+## 29. Koreksi putaran akhir lintas mode dan penguncian editorial — 20 November 2026
+
+- Putaran pembacaan ulang menemukan dua irisan fakta yang perlu diperjelas setelah audit sebelumnya: (1) Utsman pada TTS W3 semula mengulang fakta sumur Rumah dan pasukan Usrah yang sudah ada pada Matching W1; TTS W3 kini diganti dengan keutamaan sifat malu Utsman, berdasarkan Sahih Muslim 2401. (2) Usamah pada Berburu Kata W2 semula menonjolkan bahwa ia sangat dicintai Nabi, berdekatan dengan Matching W2 yang menguji kisah ia digendong bersama Hasan; Berburu Kata kini menguji pengangkatannya sebagai pemimpin pasukan, Sahih al-Bukhari 3730, sedangkan Matching tetap menguji kisah bersama Hasan (Bukhari 3735).
+- Pemeriksaan ulang sumber Ummu Habibah: Sunan an-Nasa'i 3350 memiliki perbedaan penilaian. Al-Albani dan Abu Ghuddah menilainya sahih; Darussalam pada Sunnah.com mencantumkan daif; Zubair Ali Zai juga menilainya daif. Pernyataan lama “hasan menurut Darussalam” telah dikoreksi di TTS W2, Matching W2, dan laporan audit.
+- Bibliografi Berburu Kata W2 diperjelas dengan rujukan kitab, jilid, bab/bagian, atau entri biografi yang dapat ditelusuri. Nomor halaman tidak ditebak karena berbeda antar-edisi; gunakan halaman dari edisi cetak yang benar-benar dipilih bila nanti dibuat daftar pustaka berhalaman.
+- Penjelasan AHLULBAIT diperhalus: QS Al-Ahzab 33:33 berada dalam rangkaian ayat yang berbicara kepada istri-istri Nabi ﷺ; hadis al-Kisa' juga menyebut Ali, Fatimah, Hasan, dan Husain dikumpulkan di bawah selimut. Jangan membuat kesimpulan bahwa dalil tersebut hanya mencakup satu kelompok atau menghapus konteks ayat.
+- Transliterasi yang dikunci: JUWAYRIYAH, HUDZAIFAH, SAFIYYAH, THUWAYBAH, SAADBINMUADH, SUHAIB, ABUDHARR, ABUUBAIDAH, SULAYK. Nama lengkap harus ditampilkan pada penjelasan/umpan balik jika ada nama yang serupa.
+- **Keputusan:** bank materi reguler 126 butir siap dikunci sebagai acuan Canva (Bank Materi v1.0). Ini tidak berarti grid Canva, koordinat, HTML, atau uji keterbacaan anak telah selesai. Tahap tersebut baru dapat diuji setelah desain Canva tersedia.
+- Dokumen laporan: [Audit Akhir Gabungan TTS, Berburu Kata, dan Matching v1.0](audit-akhir-gabungan-tts-berburu-kata-matching-v1.0.md).
