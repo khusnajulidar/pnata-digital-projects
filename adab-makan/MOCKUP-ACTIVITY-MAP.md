@@ -1,39 +1,38 @@
 # Pemetaan Mockup ke Aktivitas — P’Nata
 
-Dokumen ini memisahkan **kecocokan visual yang sudah terverifikasi** dari pemetaan yang masih perlu pemeriksaan. Acuan: GDD, data aktivitas di `js/app.js`, inventaris file GitHub, dan pemeriksaan visual aset yang berhasil dibuka.
+## Prinsip tetap
 
-## Aturan yang tidak boleh dilanggar
+- Mockup adalah artwork final: tidak diedit, dipotong, dibersihkan, diganti, atau ditimpa elemen visual HTML/CSS.
+- HTML/CSS/JavaScript hanya menyediakan hit-area transparan tepat di atas kontrol yang memang sudah tercetak.
+- Feedback jawaban muncul otomatis melalui audio/logika; tidak ada tombol feedback atau panel visual tambahan.
+- Mockup tidak boleh dipasangkan hanya karena jenis interaksinya mirip. Teks dan ilustrasi harus sesuai.
+- Peta Misi tetap mengikuti pengecualian hybrid yang telah disetujui pada `UI-IMPLEMENTATION-SPEC.md`.
 
-- Mockup adalah artwork final; jangan mengedit, memotong, membersihkan, mengganti, atau menimpanya.
-- Jangan menampilkan judul, instruksi, pilihan, atau tombol HTML di atas teks/komponen yang sudah tercetak pada artwork.
-- Interaksi hanya melalui hit-area transparan yang tepat berada di atas kontrol tercetak.
-- Feedback jawaban muncul otomatis; tidak dibuat tombol feedback.
-- Jangan memakai sebuah mockup untuk aktivitas lain hanya karena tipe interaksinya sama.
+## Status implementasi kode
 
-## Kecocokan yang sudah diperiksa
-
-| Aktivitas | Mockup | Hasil pemeriksaan |
+| Aktivitas | Mockup | Status |
 |---|---|---|
-| 1. Kenali Bismillah | 04 | Cocok. Artwork sudah memuat judul, pertanyaan, dua kartu Arab, Petunjuk, dan Lanjutkan. HTML tidak boleh menggandakan elemen tersebut. |
-| 2. Dengarkan Bismillah | 05 | Cocok secara isi. Artwork menyebut “Dengarkan Bismillah”, menyediakan kontrol audio/ulang, dua kartu Arab, Petunjuk, dan Lanjutkan. |
-| 4. Urutkan Sebelum Makan | 06 | Cocok secara isi. Artwork menyebut “Urutkan Sebelum Makan”, tiga slot bernomor, tiga gambar urutan, Petunjuk, dan Lanjutkan. |
-| 9. Ambil Makanan Terdekat | 11 | Aset adegan makan bersama tersedia, tetapi bukan layar aktivitas lengkap. Perlu dipastikan bagaimana adegan itu dipakai tanpa menumpuk UI pada artwork lain. |
-| Penyelesaian misi | 08 | Cocok sebagai layar selesai misi; tombol lanjut harus menjadi hit-area transparan. |
-| Penyelesaian permainan | 09 | Cocok sebagai layar selesai permainan; tombol main lagi harus menjadi hit-area transparan. |
+| 1. Kenali Bismillah | 04 | **Sudah dipetakan.** Artwork utuh; dua kartu jawaban dan navigasi memakai hit-area transparan. |
+| 2. Dengarkan Bismillah | 05 | **Sudah dipetakan.** Artwork utuh; kontrol audio, dua kartu jawaban, dan navigasi memakai hit-area transparan. |
+| 4. Urutkan Sebelum Makan | 06 | **Sudah dipetakan.** Artwork utuh; slot, tiga gambar aktivitas, dan navigasi memakai hit-area transparan. Posisi kartu mengikuti urutan gambar yang tercetak, bukan urutan jawaban. |
+| 7, 10, 18, 20 | 07 | Kandidat simulasi, tetapi isi artwork belum berhasil diverifikasi. Belum dipasang agar tidak salah. |
+| 23–24 | 10 | Kandidat doa setelah makan, tetapi isi artwork belum berhasil diverifikasi. Belum dipasang. |
+| 9. Ambil Makanan Terdekat | 11 | Aset adegan tersedia sebagai ilustrasi, bukan layar aktivitas lengkap. Belum dipasang sebagai latar mockup. |
+| Aktivitas lain | — | Belum ditemukan pasangan artwork yang teks dan ilustrasinya cocok. Kode tidak lagi memaksakan Mockup 04/05/06 sebagai latar generik. |
 
-## Pemetaan yang belum boleh dianggap final
+## Perubahan kode yang sudah dilakukan
 
-| Aktivitas | Catatan |
-|---|---|
-| 3, 5, 6, 8, 11–17, 19, 21–22, 25 | Belum ada kecocokan teks/visual yang terverifikasi dari aset yang diperiksa. |
-| 7, 10, 18, 20 | Mockup 07 adalah kandidat berdasarkan kategori simulasi, tetapi teks dan kontrol tercetaknya harus dicocokkan secara visual sebelum dipakai. |
-| 23–24 | Mockup 10 adalah kandidat untuk doa setelah makan; perlu pemeriksaan visual dan pencocokan teks Arab/latin/arti serta pilihan sebelum dihubungkan. |
+- `js/app.js`: pemetaan berdasarkan ID aktivitas, bukan semata-mata jenis interaksi. Hanya aktivitas 1, 2, dan 4 yang menggunakan mockup 04, 05, dan 06.
+- `css/style.css`: hit-area untuk mockup 04, 05, dan 06 dibuat transparan. Judul, instruksi, pilihan, ikon, kartu HTML, dan feedback HTML tidak lagi menutupi artwork.
+- Tombol Petunjuk pada ketiga layar yang dipetakan menjalankan narasi aktivitas.
+- Mockup 06 menggunakan gambar tercetak sebagai kartu yang dapat dipilih dan slot tercetak sebagai target. Tombol Lanjutkan yang tercetak menjalankan pemeriksaan urutan; setelah benar, tombol yang sama melanjutkan aktivitas.
+- Aktivitas yang belum memiliki pasangan terverifikasi tidak menggunakan gambar mockup yang keliru; sementara ini tampil dengan layout aktivitas biasa. Ini bukan status visual final.
 
-## Tindakan implementasi
+## Hal yang masih harus diselesaikan
 
-1. Ubah pemetaan kode dari sekadar berdasarkan tipe interaksi menjadi berdasarkan ID aktivitas dan kecocokan artwork.
-2. Untuk aktivitas yang cocok, sembunyikan seluruh duplikasi visual HTML dan sisakan hit-area transparan pada posisi kontrol mockup.
-3. Untuk aktivitas yang belum cocok, jangan menampilkan mockup yang salah. Tandai sebagai membutuhkan aset/keputusan desain sebelum dianggap siap.
-4. Setelah semua pasangan terverifikasi, lakukan uji tampilan desktop dan ponsel dengan menjaga proporsi artwork (hindari peregangan yang mengubah komposisi).
+1. Verifikasi visual Mockup 07 dan 10, kemudian pasangkan hanya ke aktivitas yang benar-benar sesuai.
+2. Tentukan kebutuhan aset tambahan untuk aktivitas yang belum memiliki mockup cocok.
+3. Periksa mockup layar penyelesaian misi/permainan: artwork 08 secara spesifik bertuliskan Misi 1, sehingga tidak boleh dipakai untuk semua misi tanpa penyesuaian desain yang disetujui.
+4. Uji hit-area pada browser desktop dan ponsel. Posisi hit-area saat ini adalah pemetaan awal berdasarkan ukuran artwork 16:9 dan tetap memerlukan pengujian langsung.
 
-**Status:** audit pemetaan dimulai; ini belum menyatakan seluruh 25 aktivitas sudah siap menggunakan mockup.
+**Status keseluruhan:** perbaikan awal untuk tiga layar aktivitas sudah ditulis ke GitHub. Masalah mockup belum dapat dinyatakan selesai untuk seluruh 25 aktivitas sampai aset yang tersisa diverifikasi dan diuji.
