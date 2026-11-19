@@ -187,7 +187,7 @@ Bank Berburu Kata Wilayah 1 telah disusun: 6 target Adik dan 10 target Kakak. Ma
 - [Wilayah 3 — Berburu Kata v1.0 (draf)](materi/wilayah-3-bank-berburu-kata-v1.0-draf.md)
 
 ### Dokumen Matching
-- [Wilayah 1 — Matching v1.0 (draf)](materi/wilayah-1-bank-matching-v1.0-draf.md)
+- [Wilayah 1 — Matching v1.1 (draf revisi)](materi/wilayah-1-bank-matching-v1.0-draf.md)
 - [Wilayah 2 — Matching v1.0 (draf)](materi/wilayah-2-bank-matching-v1.0-draf.md)
 - [Wilayah 3 — Matching v1.0 (draf)](materi/wilayah-3-bank-matching-v1.0-draf.md)
 - [Wilayah Bonus — Jejak Para Ulama v1.0](materi/bonus-jejak-para-ulama-draf.md)
@@ -211,4 +211,5 @@ Misi khusus ini merupakan variasi mekanisme dalam mode Berburu Kata. Jumlah targ
 - [Master Index & Audit Register v0.1](materi/master-index-audit-register-v0.1.md) dibuat sebagai daftar induk nama, fakta, kemunculan lintas mode, dan rujukan.
 - Matching Wilayah 2 direvisi: fakta Fatimah dan Hasan dibedakan dari TTS; Zaynab diganti Hafsah dengan riwayat penyimpanan suhuf; Zayd diganti Ruqayyah dengan kisah hijrah ke Habasyah.
 - Matching Wilayah 3 direvisi: butir Abu Talhah pada paket Kakak diganti dengan kisah Hudhayfah bin al-Yaman memohonkan ampun bagi orang-orang yang tanpa sengaja membunuh ayahnya saat Uhud.
-- Matching Wilayah 1 masih memerlukan perombakan sebagian karena beberapa fakta hijrah beririsan dengan Berburu Kata Wilayah 1. Semua bank utama tetap berstatus draf sampai audit selesai.
+- Matching Wilayah 1 v1.1 mengganti fakta perjalanan hijrah yang berulang dengan riwayat berbeda: Bilal (Bukhari 1149), Khadijah (3820), Tsumamah (462), Thufail (4392), Abu Dzarr (Muslim 2474), Abu Bakr (3656), Abdullah bin Mas'ud (4582), Adi bin Hatim (3595), Zaid bin Haritsah (QS 33:37), Ali (4416), Mu'adz (4347), Jarir (4355), dan Utsman (2778).
+- Matching Wilayah 1 telah direvisi menjadi draf v1.1: fakta hijrah yang beririsan dengan Berburu Kata dihapus dan diganti dengan kisah lain yang memiliki rujukan Al-Qur'an/hadis sahih. Bilal memakai riwayat amalan salat setelah wudu (Bukhari 1149), berbeda dari petunjuk azan di TTS Wilayah 3. Semua bank utama tetap berstatus draf sampai audit selesai.
