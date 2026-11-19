@@ -40,13 +40,13 @@ Prinsip:
 
 ### Wilayah 3
 - Adik: ANSAR, MUHAJIRUN, BILAL, BADR, UHUD.
-- Kakak: ABUBAKR, UMAR, UTHMAN, ALI, ABUUBAIDAH, TALHAH, ZUBAIR, SAAD.
+- Kakak: ABUBAKR, UMAR, UTHMAN, ALI, ABUUBAIDAH, JARIR, JABIR, SULAYK.
 
 ## 4. Inventaris target — Berburu Kata
 
 ### Wilayah 1
-- Adik: ASMA, SABUK, TSUR, DOMBA, SUSU, UNTA.
-- Kakak: AMIR, FUHAIRAH, DAIL, PENUNJUK, PESISIR, KULIT, BEKAL, KAWANAN, MALAM, TIGA.
+- Adik: ASMA, SABUK, TSUR, DOMBA, QUBA, UNTA.
+- Kakak: AMIR, BURAQ, SAFA, ZAMZAM, AQABAH, MINBAR, KAABAH, BATUHITAM, FATH, TIGA.
 
 ### Wilayah 2
 - Adik: QASIM, HAMZAH, ABBAS, HALIMAH, SAFIYYAH, JAAFAR.
@@ -237,4 +237,21 @@ Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Ber
 - DAIL adalah nama kabilah, bukan nama shahabat; petunjuk dan penjelasan harus terus menyatakan bahwa orang yang disewa sebagai penunjuk jalan adalah Abdullah bin Uraiqit dan bukan menyebut DAIL sebagai shahabat.
 
 ### Status
-Temuan dicatat untuk revisi berikutnya. Jangan membangun grid Canva atau HTML dari butir-butir yang masih ditandai berulang ini.
+Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di bagian 22. Grid Canva/HTML tetap ditunda sampai audit lintas seluruh bank selesai.
+
+
+## 22. Revisi TTS Wilayah 3 dan Berburu Kata Wilayah 1 — 19 November 2026
+
+### TTS Wilayah 3 — draf v1.2
+- Tiga butir Kakak yang semula memakai Talhah, Zubair, dan Sa'd dari satu hadis daftar sepuluh shahabat (Jami' at-Tirmidhi 3747) seluruhnya diganti. Penggantian total diperlukan karena Berburu Kata Wilayah 3 Kakak memiliki misi khusus untuk menemukan sepuluh nama tersebut; mempertahankan satu butir saja di TTS tetap akan mengulang fakta yang sama lintas mode.
+- Target baru: **JARIR** — baiat untuk menegakkan salat, menunaikan zakat, dan menasihati setiap Muslim (Sahih al-Bukhari 57); **JABIR** — kisah unta yang kelelahan, dibeli Rasulullah ﷺ lalu dikembalikan bersama harganya (Sahih al-Bukhari 2097); **SULAYK** — shahabat yang datang saat khutbah Jumat dan diperintahkan salat dua rakaat (Sahih Muslim 875; nama Sulayk disebut dalam redaksi Muslim).
+- Catatan: Sahih al-Bukhari 930 memuat kisah perintah salat dua rakaat bagi seseorang yang datang saat khutbah, tetapi redaksi yang digunakan tidak menyebut nama Sulayk. Karena itu, rujukan identitas Sulayk harus tetap Sahih Muslim 875, bukan Bukhari 930 saja.
+
+### Berburu Kata Wilayah 1 — draf v1.2
+- Paket Adik: target **SUSU** diganti **QUBA**. Petunjuk dan penjelasan menguji masjid yang dibangun Rasulullah ﷺ ketika tinggal bersama Bani Amr bin Auf, dengan rujukan Sahih al-Bukhari 3906. Ini menghilangkan pengulangan fakta dengan AMIR pada paket Kakak.
+- Paket Kakak: target **DAIL, PESISIR, KULIT, MALAM** diganti menjadi **SAFA, AQABAH, MINBAR, FATH**. Rujukan berturut-turut: Sahih al-Bukhari 4770, 3231, 3584, dan 4280.
+- Redaksi AQABAH dibatasi pada yang disebut dalam hadis: Rasulullah ﷺ menyebut peristiwa ketika menawarkan dakwah kepada Ibn Abd Yalil bin Abd Kulal sebagai pengalaman yang sangat berat. Jangan menyatakan lokasi Taif seolah disebut secara eksplisit dalam teks Bukhari 3231; bila ingin menambahkan identifikasi lokasi dari sirah, cantumkan rujukan sirah terpisah.
+- Target AMIR dan TIGA tetap ada karena menguji dua fakta berbeda dalam peristiwa hijrah. Target SAFA, AQABAH, MINBAR, dan FATH memperluas cakupan ke dakwah terbuka, pengalaman dakwah, khutbah Jumat, dan pembukaan Makkah.
+- Kata terpanjang tetap BATUHITAM (9 huruf); kisi 12×12 atau 13×13 tetap memungkinkan secara panjang kata, tetapi tata letak harus diuji di Canva.
+
+**Status:** Dua temuan audit utama telah direvisi di bank masing-masing dan disimpan di GitHub. Kedua bank tetap berstatus draf sampai pemeriksaan ejaan, rujukan, keterbacaan anak, dan audit lintas seluruh mode selesai.
