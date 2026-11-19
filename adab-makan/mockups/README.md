@@ -39,7 +39,7 @@ Nama file berikut mengikuti nama yang benar-benar ada di repositori:
 
 ## Pemetaan aktivitas
 
-Lihat [MOCKUP-ACTIVITY-MAP.md](../MOCKUP-ACTIVITY-MAP.md) untuk inventaris 11 aset, pemetaan kebutuhan 25 aktivitas, keluarga template, kandidat, dan daftar pekerjaan yang masih diperlukan.
+Lihat [MOCKUP-ACTIVITY-MAP.md](../MOCKUP-ACTIVITY-MAP.md) untuk inventaris 11 aset dan pemetaan 25 aktivitas. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) untuk daftar kebutuhan ilustrasi, aset yang dapat digunakan ulang, dan prioritas produksi.
 
 ## Catatan
 
