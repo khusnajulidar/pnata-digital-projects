@@ -19,7 +19,7 @@
 
 | ID | Tokoh | Petunjuk/kisah yang dipasangkan |
 |---|---|---|
-| W3-MA-01 | Abu Talhah al-Anshari | Pada Perang Uhud, beliau berdiri melindungi Rasulullah ﷺ dengan perisainya. |
+| W3-MA-01 | Abu Talhah al-Anshari (bukan Thalhah bin Ubaidillah) | Pada Perang Uhud, beliau berdiri melindungi Rasulullah ﷺ dengan perisainya. |
 | W3-MA-02 | Ummu Sulaim | Pada Perang Uhud, beliau bersama Aisyah membawa air untuk membantu orang-orang yang terluka/kehausan. |
 | W3-MA-03 | Ukkasyah bin Mihshan | Ketika Rasulullah ﷺ menyebut 70.000 orang masuk surga tanpa hisab, Ukkasyah meminta didoakan agar termasuk di antara mereka. |
 | W3-MA-04 | Rabi'ah bin Ka'b al-Aslami | Beliau pernah meminta kepada Rasulullah ﷺ agar dapat menemani beliau di surga; Rasulullah ﷺ mengajarkan agar memperbanyak sujud. |
@@ -64,7 +64,7 @@
 
 | ID | Tokoh | Petunjuk/kisah yang dipasangkan |
 |---|---|---|
-| W3-MK-01 | Thalhah bin Ubaidillah | Pada Perang Uhud, beliau melindungi Rasulullah ﷺ dengan tangannya hingga tangannya mengalami cedera berat. |
+| W3-MK-01 | Thalhah bin Ubaidillah (bukan Abu Talhah al-Anshari) | Pada Perang Uhud, beliau melindungi Rasulullah ﷺ dengan tangannya hingga tangannya mengalami cedera berat. |
 | W3-MK-02 | Nu'man bin Basyir | Ayahnya pernah memberinya hadiah khusus. Setelah Rasulullah ﷺ ditanya tentang hal itu, beliau memerintahkan agar orang tua berlaku adil kepada anak-anaknya. |
 | W3-MK-03 | Usaid bin Hudhair | Ketika membaca Surah Al-Baqarah pada malam hari, kudanya gelisah. Rasulullah ﷺ menjelaskan bahwa para malaikat mendekat karena bacaan Al-Qur'annya. |
 | W3-MK-04 | Abu Hurairah | Beliau mengadukan kepada Rasulullah ﷺ bahwa ia khawatir lupa terhadap banyak hadis. Rasulullah ﷺ memintanya membentangkan kain, lalu beliau berdoa/berbuat sebagaimana disebutkan dalam riwayat; setelah itu Abu Hurairah tidak melupakan apa yang didengarnya. |
@@ -129,6 +129,8 @@
 - Catatan: Nama Hudhayfah juga muncul di Berburu Kata Kakak, tetapi fakta yang diuji berbeda. Berburu Kata membahas pengetahuan khususnya tentang sejumlah orang munafik; Matching ini membahas sikap memaafkan dan mendoakan ampunan setelah ayahnya terbunuh tanpa sengaja.
 
 ## D. Audit keragaman dan pengulangan
+
+**Catatan pencegah tertukar:** Abu Talhah al-Anshari dan Thalhah bin Ubaidillah adalah dua shahabat yang berbeda. Nama lengkap harus selalu ditampilkan pada kartu, umpan balik, dan ringkasan. Abu Talhah melindungi Rasulullah ﷺ dengan perisai (Bukhari 3811); Thalhah bin Ubaidillah melindungi beliau dengan tangannya (Bukhari 4063/4064 menurut perbedaan penomoran).
 
 - Adik: 5 pasangan.
 - Kakak: 8 pasangan.
