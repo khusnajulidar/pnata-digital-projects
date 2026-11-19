@@ -162,7 +162,15 @@ Prinsip:
 
 **Status audit Berburu Kata:** Belum ada bank yang dinaikkan ke final. Prioritas revisi: kurangi pengulangan fakta dalam W1 Kakak, W2 QASIM/KUNYAH dan JAAFAR/SEPUPU, serta W3 empat nama qira'ah dan dua target Mu‘tah.
 
-## 14. Revisi Berburu Kata Wilayah 1 Kakak — 19 November 2026
+## 15. Revisi Berburu Kata Wilayah 2 — 19 November 2026
+
+- W2 Berburu Kata diperbarui menjadi draf v1.1; jumlah tetap 6 target Adik dan 10 target Kakak.
+- Target KUNYAH diganti menjadi THUWAYBAH. Fakta yang diuji adalah bahwa Thuwaibah menyusui Rasulullah ﷺ dan Abu Salamah sehingga keduanya menjadi saudara sepersusuan; rujukan Sahih al-Bukhari 5101.
+- Target SEPUPU diganti menjadi AQIL. Petunjuk kini menguji Aqil bin Abi Thalib yang disebut dalam riwayat tentang rumah keluarga Abu Thalib di Makkah; rujukan Sahih Muslim 1351a dan Sahih al-Bukhari 4282–4283.
+- JAAFAR tetap dipertahankan pada paket Adik dengan fakta berbeda, yakni putra Abu Thalib dan sepupu Rasulullah ﷺ; AQIL tidak lagi mengulang konsep SEPUPU.
+- Perlu audit akhir transliterasi THUWAYBAH (variasi Thuwaiba/Thuwaybah) dan pastikan ejaan target yang sama dipakai pada Canva serta HTML.
+
+## 16. Revisi Berburu Kata Wilayah 1 Kakak — 19 November 2026
 
 - Dokumen W1 Berburu Kata diperbarui menjadi draf v1.1; jumlah tetap 6 target Adik dan 10 target Kakak.
 - Paket Kakak menghapus FUHAIRAH (memecah nama Amir bin Fuhairah), PENUNJUK (terlalu dekat dengan DAIL), BEKAL (beririsan dengan KULIT sebagai satu detail wadah/perbekalan), dan KAWANAN (mengulang detail ternak yang dibawa Amir).
