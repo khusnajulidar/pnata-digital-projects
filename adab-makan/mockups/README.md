@@ -1,6 +1,14 @@
 # Mockups — P’Nata – Yuk Belajar Adab Makan
 
-Folder ini menyimpan aset mockup visual yang telah disiapkan untuk proyek P’Nata.
+Folder ini menyimpan 11 aset mockup visual untuk proyek P’Nata.
+
+## Pedoman aktif
+
+Ikuti [Standar Desain dan Implementasi Game P’Nata Digital](../../STANDAR-DESAIN-IMPLEMENTASI-GAME.md).
+
+Mockup berfungsi sebagai **template visual berkualitas tinggi**. Ilustrasi, latar, ornamen, komposisi, warna, dan identitas desain dipertahankan. Judul, pertanyaan, instruksi, pilihan, tombol, kontrol, status, progres, dan feedback dapat dibuat sebagai elemen UI dinamis apabila perlu berubah atau berinteraksi.
+
+Kualitas hasil implementasi dinamis wajib menyamai standar visual mockup asli. Jangan mengganti desain yang kaya dengan tampilan generik atau komponen seadanya.
 
 ## Daftar aset aktual
 
@@ -8,26 +16,31 @@ Nama file berikut mengikuti nama yang benar-benar ada di repositori:
 
 - `mockup-01-halaman-pembuka.png`
 - `mockup-02-petunjuk.jfif`
-- `mockup-03.jfif`
-- `mockup-04-template-aktivitas-pilihan.png`
-- `mockup-05.png`
-- `mockup-06.png`
-- `mockup-07–template-aktivitas-simulasi-interaktif.png` (menggunakan tanda pisah en dash U+2013)
-- `mockup-08.jfif`
-- `mockup-09.jfif`
-- `mockup-10.png`
-- `mockup-11.png`
+- `mockup-03.jfif` — Peta Lima Misi
+- `mockup-04-template-aktivitas-pilihan.png` — acuan keluarga pilihan
+- `mockup-05.png` — acuan keluarga audio dan pilihan
+- `mockup-06.png` — acuan keluarga susun/drag-and-drop
+- `mockup-07–template-aktivitas-simulasi-interaktif.png` — nama file menunjukkan simulasi; isi visual perlu diverifikasi
+- `mockup-08.jfif` — penyelesaian Misi 1
+- `mockup-09.jfif` — penyelesaian permainan
+- `mockup-10.png` — kandidat untuk aktivitas doa; isi visual perlu diverifikasi
+- `mockup-11.png` — ilustrasi adegan makan bersama
 
-## Prinsip integrasi
+## Cara menggunakan aset
 
-1. Gambar mockup adalah karya visual final dan tidak boleh diedit, dipotong, dibersihkan, diganti, atau ditimpa elemen visual HTML/CSS.
-2. HTML/CSS/JavaScript hanya boleh menyediakan area interaksi transparan tepat di atas kontrol yang memang sudah tergambar.
-3. Teks judul, instruksi, pilihan, dan tombol yang sudah tercetak di mockup tidak boleh diduplikasi oleh HTML.
-4. Setiap mockup harus dipasangkan dengan aktivitas yang isi visual dan teksnya benar-benar sesuai. Kesamaan kategori interaksi saja (misalnya sama-sama pilihan ganda atau audio) tidak cukup.
-5. Jika isi aktivitas berbeda dari teks/ilustrasi yang tercetak pada mockup, aktivitas tersebut memerlukan aset mockup lain atau solusi yang disetujui terlebih dahulu. Jangan memaksakan mockup yang tidak cocok.
-6. Feedback jawaban tetap otomatis melalui audio/respons logika tanpa menambahkan tombol feedback atau panel visual yang menutupi mockup.
-7. Peta Misi mengikuti pengecualian hybrid yang telah disetujui dalam `UI-IMPLEMENTATION-SPEC.md`: dekorasi mockup dipertahankan, sedangkan status misi, kunci, dan bintang dapat dinamis.
+1. Jangan otomatis memasang satu mockup sebagai gambar layar utuh.
+2. Tentukan bagian yang menjadi aset visual tetap dan bagian yang harus dinamis.
+3. Gunakan kembali keluarga template bila susunan dan kebutuhan aktivitas sesuai.
+4. Sediakan ilustrasi pendukung yang spesifik bila konten aktivitas membutuhkannya.
+5. Jangan memaksakan satu template pada aktivitas yang tidak cocok.
+6. Buat mockup/template baru hanya jika kebutuhan visual belum dapat dipenuhi aset dan template yang tersedia.
+7. Sebelum digunakan ulang, uji kualitas visual, responsivitas, keterbacaan, dan interaksi.
+8. Mockup 07 dan 10 belum dianggap terverifikasi secara visual dalam inventaris ini.
+
+## Pemetaan aktivitas
+
+Lihat [MOCKUP-ACTIVITY-MAP.md](../MOCKUP-ACTIVITY-MAP.md) untuk inventaris 11 aset, pemetaan kebutuhan 25 aktivitas, keluarga template, kandidat, dan daftar pekerjaan yang masih diperlukan.
 
 ## Catatan
 
-Daftar file ini adalah inventaris aset, bukan pernyataan bahwa seluruh 25 aktivitas sudah memiliki mockup yang cocok. Pemetaan per aktivitas harus diverifikasi sebelum implementasi final.
+Jumlah 11 file mockup tidak berarti harus membuat 25 layar mockup baru. Tujuan inventaris ini adalah menemukan keluarga template yang dapat digunakan ulang tanpa menurunkan kualitas visual.
