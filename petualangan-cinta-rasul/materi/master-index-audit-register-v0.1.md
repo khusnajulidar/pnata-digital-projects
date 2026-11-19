@@ -255,3 +255,13 @@ Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di ba
 - Kata terpanjang tetap BATUHITAM (9 huruf); kisi 12×12 atau 13×13 tetap memungkinkan secara panjang kata, tetapi tata letak harus diuji di Canva.
 
 **Status:** Dua temuan audit utama telah direvisi di bank masing-masing dan disimpan di GitHub. Kedua bank tetap berstatus draf sampai pemeriksaan ejaan, rujukan, keterbacaan anak, dan audit lintas seluruh mode selesai.
+
+
+## 23. Revisi anti-pengulangan TTS dan Matching Wilayah 2 — 19 November 2026
+
+- Audit lintas mode menemukan TTS W2-K5 dan Matching W2-MK-04 sama-sama memakai fakta pernikahan Juwayriyah yang menjadi sebab pembebasan tawanan Bani al-Mustaliq. Ini pengulangan inti fakta, walaupun target dan format permainannya berbeda.
+- **TTS W2-K5 JUWAYRIYAH** kini diganti dengan kisah Juwayriyah yang tetap duduk berzikir di tempat salat setelah Subuh; Rasulullah ﷺ kembali pada waktu duha dan mengajarkan empat kalimat zikir yang sangat besar keutamaannya. Rujukan: Sahih Muslim 2726a.
+- **Matching W2-MK-04 JUWAIRIYAH** tetap memakai kisah pembebasan banyak tawanan Bani al-Mustaliq, dengan rujukan Sunan Abi Dawud 3931. Dengan demikian, nama yang sama muncul pada dua mode, tetapi masing-masing mengajarkan fakta yang berbeda dan terverifikasi.
+- Catatan editor: target grid tetap JUWAYRIYAH (10 huruf). Pastikan redaksi soal tidak menyiratkan bahwa empat kalimat zikir tersebut adalah bacaan wajib khusus setelah Subuh; riwayat menyebut keutamaan zikir yang diucapkan Rasulullah ﷺ.
+
+**Status:** Revisi TTS telah disimpan. Matching Wilayah 2 masih draf dan tetap memerlukan pemeriksaan akhir atas derajat riwayat Juwayriyah 3931 serta edisi sirah Ruqayyah.
