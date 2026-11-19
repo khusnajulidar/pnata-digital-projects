@@ -110,11 +110,11 @@ Keluarga tersebut dapat berbagi komponen visual dan sistem UI. Tidak semuanya ha
 ## E. Kesimpulan inventaris sementara
 
 - Tersedia **11 file mockup**.
-- **3 keluarga template aktivitas** sudah memiliki acuan visual yang diketahui: pilihan (04), audio-pilihan (05), dan susun/drag (06).
+- **5 keluarga template aktivitas** telah memiliki acuan visual: pilihan (04), audio-pilihan (05), susun/drag (06), simulasi (07), dan materi doa-audio (10).
 - Mockup 07 telah ditetapkan sebagai acuan simulasi berdasarkan analisis visual pengguna.
 - Mockup 10 telah ditetapkan sebagai acuan materi doa dan audio berdasarkan analisis visual pengguna.
 - Mockup 11 dapat menjadi aset adegan makan bersama, bukan layar aktivitas lengkap.
 - Aktivitas yang belum memiliki ilustrasi spesifik tidak otomatis memerlukan mockup layar baru; mungkin cukup menyiapkan ilustrasi pendukung dan memakai template dinamis yang telah divalidasi.
-- Jumlah template final baru ditetapkan setelah audit visual 07 dan 10 serta uji satu template inti.
+- Lima keluarga tersebut menjadi acuan awal; kelayakan implementasinya tetap harus diuji pada satu aktivitas per keluarga.
 
-Dokumen ini adalah inventaris kerja yang dapat diperbarui setelah inspeksi visual aset dan persetujuan pengguna. Jangan menyatakan pemetaan kandidat sebagai final sebelum pemeriksaan selesai.
+Dokumen ini adalah inventaris kerja. Fungsi visual Mockup 07 dan 10 telah dijelaskan pengguna; status kandidat pada aktivitas tertentu tetap perlu divalidasi melalui rancangan alur dan uji implementasi.
