@@ -260,3 +260,13 @@ Audit menemukan tiga soal TTS Kakak Wilayah 3 (Talhah, Zubair, Sa'd) yang semuan
 - **Matching Wilayah 2 — draf v1.2:** selain verifikasi sumber, audit lintas mode mengganti Hasan (Bukhari 2704 yang sama dengan TTS) menjadi kisah ciuman dan kasih sayang (Bukhari 5997), membedakan tujuan belajar Ibrahim dari TTS, dan mengganti kisah hijrah Ruqayyah yang berulang dengan sakitnya Ruqayyah saat Badar (Bukhari 3130; identitas didukung al-Tabari vol. 39 hlm. 162 dan Ibn Hisham edisi Wüstenfeld vol. 1 hlm. 208–209). Disambiguasi dua Safiyyah juga dicatat.
 
 - **Matching Wilayah 1 — draf v1.2:** 13 pasangan telah diperiksa ulang terhadap rujukan utama dan audit lintas mode; tidak ditemukan pengulangan inti fakta pada butir yang ditinjau. Catatan khusus: Dihyah hanya membawa surat kepada penguasa Busra untuk diteruskan kepada Heraclius; Utsman Bukhari 2778 dibatasi pada sumur Rumah dan pasukan Usrah.
+
+
+### Audit akhir gabungan — 20 November 2026
+
+Audit pengulangan inti fakta untuk sembilan paket reguler TTS, Berburu Kata, dan Matching Wilayah 1–3 telah lulus: 39 jawaban TTS, 48 target Berburu Kata, dan 39 pasangan Matching (126 butir). Nama tokoh yang muncul kembali dipertahankan bila fakta/tujuan belajarnya berbeda. Disambiguasi nama yang wajib dijaga meliputi Abu Talhah al-Anshari vs Thalhah bin Ubaidillah, Safiyyah binti Abdul Muththalib vs Shafiyyah binti Huyayy, serta Anas bin Malik vs Anas bin an-Nadr.
+
+**Bank belum final produksi.** Masih perlu melengkapi bibliografi sirah/nasab terutama Berburu Kata W2 dan TTS W2 Kakak, proofreading bahasa anak, kehati-hatian redaksi Ahlulbait, penyelarasan ejaan/transliterasi, dan uji grid Canva setelah desain tersedia.
+
+- [Audit Akhir Gabungan TTS, Berburu Kata, dan Matching v1.0](materi/audit-akhir-gabungan-tts-berburu-kata-matching-v1.0.md)
+- [Master Index & Audit Register](materi/master-index-audit-register-v0.1.md)
