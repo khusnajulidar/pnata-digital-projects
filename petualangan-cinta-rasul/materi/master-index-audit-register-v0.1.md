@@ -207,3 +207,10 @@ Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Ber
 - W2-MK-06 Ruqayyah tetap bersumber sirah. Ibn Hisham, jilid 1, hlm. 322–323 (rujukan yang digunakan dalam studi sirah untuk rombongan hijrah awal ke Habasyah) dapat dicatat, tetapi edisi yang digunakan perlu disebutkan sebelum final.
 - W3 Matching: Abu Talhah al-Anshari dan Thalhah bin Ubaidillah adalah dua shahabat berbeda; karena nama keduanya mudah tertukar, kartu perlu menampilkan nama lengkap dan catatan editor “bukan orang yang sama”. Abu Talhah adalah pelindung dengan perisai (Bukhari 3811), sedangkan Thalhah bin Ubaidillah adalah shahabat yang melindungi Nabi ﷺ dengan tangannya (Bukhari 4063/4064 bergantung penomoran).
 - W1 Matching: Zaid bin Haritsah diuji melalui namanya yang disebut dalam QS 33:37; W2 Berburu Kata juga memakai ZAYD dan QS 33:4–5/33:37 dalam konteks adopsi dan nasab. Keduanya berdekatan pada satu ayat dan perlu ditinjau pada audit final lintas mode; jangan anggap otomatis lolos hanya karena petunjuknya berbeda.
+
+## 19. Revisi Matching Wilayah 1 dan klarifikasi nama Matching Wilayah 3 — 19 November 2026
+
+- W1 Matching: target Zaid bin Haritsah pada W1-MK-04 diganti Dihyah al-Kalbi. Sebelumnya, W1 Matching menguji nama Zaid yang disebut dalam QS 33:37, sedangkan W2 Berburu Kata memiliki target ZAYD dengan konteks adopsi/nasab dan ayat QS 33:4–5/33:37. Walaupun petunjuknya tidak identik, kedekatan ayat dan inti pembelajaran terlalu tinggi untuk dua slot berbeda.
+- Dihyah al-Kalbi dipilih karena riwayat sahih yang spesifik dan berbeda: ia membawa surat Rasulullah ﷺ kepada penguasa Busra untuk diteruskan kepada Heraclius. Rujukan Sahih al-Bukhari no. 7. Petunjuk wajib mempertahankan alur yang tepat; jangan menyatakan Dihyah sendiri bertemu Heraclius.
+- W3 Matching: nama Abu Talhah al-Anshari dan Thalhah bin Ubaidillah diberi penanda eksplisit bahwa keduanya bukan orang yang sama. Nama lengkap harus dipertahankan pada kartu, umpan balik, dan ringkasan untuk mencegah anak tertukar.
+- W1 Matching kini v1.2; W3 Matching tetap draf dengan klarifikasi editorial.
