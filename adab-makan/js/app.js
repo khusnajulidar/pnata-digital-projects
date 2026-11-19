@@ -83,7 +83,7 @@ const activityId=num-1;
 const exactMockups={0:"04",1:"05",3:"06"};
 const mockup=exactMockups[activityId]||"none";
 const isArtwork=mockup!=="none";
-const nav=isArtwork?'<div class="footer-nav"><button class="btn ghost" data-action="map" aria-label="Kembali">KEMBALI</button><button class="btn ghost" data-action="hint" aria-label="Petunjuk">PETUNJUK</button><button class="btn secondary" data-action="'+(activityId===3?"check-sequence":"next")+'" '+(!done&&!state.feedbackGood?'disabled':'')+' aria-label="Lanjutkan">LANJUTKAN</button></div>':'<div class="footer-nav"><button class="btn ghost" data-action="map">KEMBALI</button><button class="btn ghost" data-action="hint">PETUNJUK</button><button class="btn secondary" data-action="next" '+(!done&&!state.feedbackGood?'disabled':'')+'>LANJUTKAN</button></div>';
+const nav=isArtwork?'<div class="footer-nav"><button class="btn ghost" data-action="map" aria-label="Kembali">KEMBALI</button><button class="btn ghost" data-action="hint" aria-label="Petunjuk">PETUNJUK</button><button class="btn secondary" data-action="'+(activityId===3&&!state.feedbackGood?"check-sequence":"next")+'" '+(!done&&!state.feedbackGood&&activityId!==3?'disabled':'')+' aria-label="Lanjutkan">LANJUTKAN</button></div>':'<div class="footer-nav"><button class="btn ghost" data-action="map">KEMBALI</button><button class="btn ghost" data-action="hint">PETUNJUK</button><button class="btn secondary" data-action="next" '+(!done&&!state.feedbackGood?'disabled':'')+'>LANJUTKAN</button></div>';
 ROOT.innerHTML='<section class="screen" data-mockup="'+mockup+'" data-activity-id="'+activityId+'"><div class="activity-head"><span class="pill">MISI '+(state.mission+1)+' • AKTIVITAS '+(state.activity+1)+'/5</span><span class="pill">'+num+'/25</span></div><div class="progress-line"><span style="width:'+((state.activity+1)/5*100)+'%"></span></div><div class="activity-layout"><div class="activity-main"><h2>'+esc(d[0])+'</h2><p class="prompt">'+esc(d[1])+'</p><button class="audio-btn narration-btn" data-action="narration">'+narrationButtonText()+'</button>'+main+'<div id="feedback" class="feedback '+(state.feedbackGood?"good":"")+'" role="status">'+(state.feedback||"Pilih jawabanmu, ya!")+'</div></div><aside class="activity-side">'+side+'</aside></div>'+nav+'</section>';
 }
 function options(d){return '<div class="options">'+d[2].map((v,i)=>{const ar=/[\\u0600-\\u06FF]/.test(v);return '<button class="option" data-choice="'+i+'"><span class="symbol">'+((d[5]&&d[5][i])||"✨")+'</span><span class="'+(ar?"arabic":"")+'" '+(ar?'dir="rtl" lang="ar"':"")+'>'+v+'</span></button>'}).join("")+'</div>'}
@@ -112,13 +112,13 @@ ROOT.addEventListener("pointerup",e=>{const slot=e.target.closest("[data-slot]")
 ROOT.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
 if(b.dataset.action){switch(b.dataset.action){
 case"start":go("instructions");break;case"home":go("home");break;case"instructions":go("instructions");break;case"map":go("map");break;
-case"hint":feedback("Petunjuk: "+activityData()[1],false);break;
+case"hint":if(document.querySelector('.screen[data-mockup="04"],.screen[data-mockup="05"],.screen[data-mockup="06"]'))playNarration();else feedback("Petunjuk: "+activityData()[1],false);break;
 case"next":next();break;
 case"audio":playActivityAudio();break;case"narration":playNarration();break;
 case"select-bismillah":state.bismillahSelected=true;renderActivity();break;
 case"start-meal":if(state.audioHeard)completeActivity();break;
 case"simulate-pick":completeActivity();break;
-case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length||Array.from({length:d[2].length},(_,i)=>state.sequence[i]===undefined).some(Boolean)){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=Array.from({length:d[2].length},(_,i)=>state.sequence[i]===i).every(Boolean);answer(ok);break}
+case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length||Array.from({length:d[2].length},(_,i)=>state.sequence[i]===undefined).some(Boolean)){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=Array.from({length:d[2].length},(_,i)=>state.sequence[i]===i).every(Boolean);answer(ok);if(ok){b.dataset.action="next";b.disabled=false}break}
 case"replay":progress=blankProgress();save();go("home");break;
 }return}
 if(b.dataset.mission!==undefined){const m=Number(b.dataset.mission);if(progress.unlockedMissions.includes(m)){state.mission=m;state.activity=0;go("activity")}return}
