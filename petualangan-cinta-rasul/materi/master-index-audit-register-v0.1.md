@@ -214,3 +214,12 @@ Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Ber
 - Dihyah al-Kalbi dipilih karena riwayat sahih yang spesifik dan berbeda: ia membawa surat Rasulullah ﷺ kepada penguasa Busra untuk diteruskan kepada Heraclius. Rujukan Sahih al-Bukhari no. 7. Petunjuk wajib mempertahankan alur yang tepat; jangan menyatakan Dihyah sendiri bertemu Heraclius.
 - W3 Matching: nama Abu Talhah al-Anshari dan Thalhah bin Ubaidillah diberi penanda eksplisit bahwa keduanya bukan orang yang sama. Nama lengkap harus dipertahankan pada kartu, umpan balik, dan ringkasan untuk mencegah anak tertukar.
 - W1 Matching kini v1.2; W3 Matching tetap draf dengan klarifikasi editorial.
+
+## 20. Audit TTS Wilayah 2 — sumber biografi dan redaksi, 19 November 2026
+
+- W2-K4 ZAINAB diperjelas: QS Al-Ahzab 33:37 menjelaskan peristiwa pernikahan Zaynab bint Jahsh, tetapi ayat tidak menyebut nama Zaynab secara eksplisit. Identitasnya ditetapkan dari kitab sirah/biografi; redaksi petunjuk tidak boleh memberi kesan nama Zaynab tertulis dalam ayat.
+- W2-K2 HIND: nama masyhur Umm Salamah adalah Hind bint Abi Umayyah; terdapat variasi dalam penyebutan nama ayah/garis nasab pada sumber biografi (sebagian menyebut Hind bint Suhayl). Pertahankan target HIND hanya dengan catatan editorial bahwa bentuk ini adalah nama yang masyhur dan bukan klaim kesepakatan seluruh detail nasab.
+- W2-K3 RAMLAH: Mustadrak al-Hakim 6769 mengutip ahli nasab Mus'ab bin Abdullah az-Zubairi yang menyebut nama Umm Habibah adalah Ramlah; Sunan an-Nasa'i 3350 meriwayatkan pernikahannya di Habasyah. Grading riwayat an-Nasa'i 3350 berbeda di kalangan penilai (al-Albani sahih, Darussalam hasan, Zubair Ali Zai daif); perbedaan ini harus tetap dicatat.
+- W2-K6 SAUDAH: Sahih al-Bukhari 5237 secara eksplisit menyebut Saudah bint Zam'ah; sumber ini kini melengkapi identifikasi tokoh.
+- W2-K8 RUQAYYAH: Ibn Hisham, *as-Sirah an-Nabawiyyah*, jilid 1, hlm. 322–323 memuat daftar rombongan hijrah awal ke Habasyah bersama Utsman. Ini sumber sirah; edisi perlu dicatat di daftar pustaka produksi.
+- Status TTS W2 tetap draf. Sebagian butir menggunakan data biografi, sehingga tidak boleh dilabeli seolah seluruhnya berasal dari hadis sahih.
