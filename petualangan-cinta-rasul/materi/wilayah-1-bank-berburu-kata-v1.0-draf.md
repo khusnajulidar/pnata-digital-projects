@@ -1,4 +1,5 @@
 # BANK BERBURU KATA — WILAYAH 1: JEJAK RASULULLAH ﷺ
+**Status:** Bank materi dikunci v1.0 sebagai acuan Canva; kisi belum dibuat.
 ## Paket Adik (kelas 1–3) dan Kakak (kelas 4–6)
 **Proyek:** Petualangan Cinta Rasul | **Brand:** P’Nata  
 **Versi:** 1.2 — diversifikasi tema dan perbaikan pengulangan lintas paket  
