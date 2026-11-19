@@ -221,9 +221,10 @@ Kesiapan sebagai acuan tidak sama dengan kesiapan sebagai aset potongan gambar u
 
 1. GitHub API berhasil memverifikasi nama file, lokasi, ukuran, dan jumlah aset, tetapi jalur yang tersedia pada sesi ini tidak dapat membaca isi biner gambar. Upaya membaca gambar melalui konektor teks ditolak oleh sistem karena file bukan UTF-8.
 2. Karena itu, belum dapat dipastikan apakah mockup memuat detail yang sesuai, apakah objek dapat dipotong tanpa kehilangan kualitas, atau apakah ada unsur visual yang perlu direvisi.
-3. Sebelum produksi, lakukan pemeriksaan visual manual terhadap 11 mockup, khususnya Mockup 11 dan elemen tangan/karakter. Cocokkan dengan aturan GDD tentang tidak menggunakan hewan, tidak menampilkan tubuh manusia utuh, serta tidak menampilkan mata bila wajah diperlukan.
-4. Jangan membuat ilustrasi baru hanya berdasarkan daftar “belum tersedia” sebelum pemeriksaan visual dan kemungkinan ekstraksi dari mockup selesai.
-5. Tahap audit ini **tidak mengubah gambar, kode game, mockup, audio, atau gameplay**. Hanya dokumen inventaris yang diperbarui.
+3. Pemeriksaan visual langsung telah dilakukan untuk Mockup 07, 09, dan 11. Mockup 10 masih menggunakan analisis visual yang diberikan pengguna karena file gambarnya belum berhasil diambil melalui konektor.
+4. Untuk adegan keluarga makan bersama, penggambaran Abi/Umi secara parsial diperbolehkan sesuai klarifikasi pengguna: tidak ada sosok manusia utuh; kepala/wajah dihilangkan, ditutup, atau berada di luar framing; bagian tubuh parsial dapat dipakai seperlunya untuk membangun konteks.
+5. Jangan membuat ilustrasi baru hanya berdasarkan daftar “belum tersedia” sebelum pemeriksaan visual dan kemungkinan ekstraksi dari mockup selesai.
+6. Tahap audit ini **tidak mengubah gambar, kode game, mockup, audio, atau gameplay**. Hanya dokumen inventaris yang diperbarui.
 
 ## 7.6 Kesimpulan audit
 
@@ -249,7 +250,28 @@ Pengguna mengunggah kedua gambar langsung ke percakapan, sehingga pemeriksaan vi
 - Beberapa torso, lengan, dan tangan manusia terlihat; kepala/wajah dipotong dari framing.
 - Perspektif hangat dari posisi anak di meja makan; makanan bersama menjadi fokus utama.
 - Gaya 3D clay lembut, warna pastel natural, pencahayaan hangat, dan detail ruang makan.
-- **Penilaian:** adegan berpotensi menjadi referensi komposisi untuk aktivitas 9 (mengambil makanan dari wadah bersama) dan 10 (tantangan gabungan), tetapi jangan langsung menggunakannya tanpa mempertimbangkan batas visual proyek yang menghindari gambar makhluk bernyawa. Untuk memenuhi ketentuan tersebut, gunakan objek/peralatan makan saja atau area/crop yang tidak menampilkan torso, lengan, atau karakter, jika crop tetap menjaga kualitas dan konteks. Tidak ada pengeditan gambar yang dilakukan.
+- **Penilaian (mengikuti klarifikasi pengguna):** adegan dapat dijadikan acuan untuk aktivitas 9 (mengambil makanan dari wadah bersama) dan 10 (tantangan gabungan). Konteks makan bersama Abi/Umi boleh dipertahankan dengan penggambaran parsial; jangan menampilkan sosok manusia secara utuh. Kepala/wajah harus dihilangkan dari framing, ditutup, atau berada di luar bidang gambar; jangan tampilkan mata/wajah. Bagian tubuh parsial seperti lengan dan tangan dapat digunakan seperlunya untuk menyampaikan konteks keluarga makan bersama. Pertahankan fokus pada makanan dan adab, serta jangan mengorbankan kualitas komposisi saat adaptasi. Tidak ada pengeditan gambar yang dilakukan.
 
 ### Pembaruan batas audit
 Pemeriksaan visual langsung telah dilakukan pada Mockup 07 dan 11 saja. Status visual Mockup 11 tidak lagi “belum diperiksa”, tetapi kecocokan untuk penggunaan dalam game tetap bersyarat pada aturan visual dan kemungkinan adaptasi yang tidak menurunkan kualitas. Mockup lainnya masih mengikuti batas audit sebelumnya dan belum diklaim diperiksa ulang secara langsung.
+
+
+## 7.8 Pemeriksaan visual lanjutan — Mockup 09 dan status Mockup 10 (20 November 2026)
+
+### Mockup 09 — Penyelesaian seluruh permainan
+Gambar berhasil diambil dari repositori GitHub dan ditampilkan untuk pemeriksaan langsung.
+- Judul/ucapan utama: “ALHAMDULILLAH, PETUALANGAN SELESAI!”
+- Pesan keberhasilan menyatakan anak telah menyelesaikan semua misi.
+- Lima bintang emas ditampilkan berjajar, disertai konfeti.
+- Tombol utama berwarna turquoise bertuliskan “MAIN LAGI”.
+- Latar cream dengan ornamen bintang/awan pastel, mengikuti gaya 3D clay lembut.
+- **Penilaian:** sangat sesuai sebagai layar penyelesaian seluruh permainan. Lima bintang harus mencerminkan penyelesaian lima misi yang sebenarnya, bukan dekorasi statis. Tombol MAIN LAGI harus menjalankan fungsi mengulang permainan sesuai rancangan progres dan penyimpanan lokal.
+
+### Mockup 10 — Doa setelah makan
+- File `mockup-10.png` terkonfirmasi berada di repositori.
+- Pengambilan isi biner melalui konektor GitHub menghasilkan konten kosong; jalur pengambilan blob juga tidak dapat mendekode file gambar. Karena itu, gambar belum dapat diperiksa langsung pada sesi ini.
+- Analisis visual yang sebelumnya diberikan pengguna tetap menjadi acuan sementara: judul “DOA SETELAH MAKAN”, subtitle ajakan mendengarkan doa, tiga kartu berisi teks Arab/transliterasi/terjemahan, kontrol audio, serta tombol navigasi bawah.
+- **Penilaian sementara:** sesuai sebagai acuan aktivitas 23, dengan teks dan kontrol audio dibuat dinamis/fungsional. Pemeriksaan visual langsung dan verifikasi detail tata letak masih tertunda.
+
+### Ringkasan status pemeriksaan langsung
+Mockup 07, 09, dan 11 telah diperiksa langsung. Mockup 10 telah dikonfirmasi keberadaan filenya dan memiliki analisis visual pengguna, tetapi belum dapat ditampilkan langsung melalui konektor. Mockup lain tetap mengikuti catatan audit sebelumnya; tidak diklaim telah diperiksa ulang pada tahap ini.
