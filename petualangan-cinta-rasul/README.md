@@ -270,3 +270,13 @@ Audit pengulangan inti fakta untuk sembilan paket reguler TTS, Berburu Kata, dan
 
 - [Audit Akhir Gabungan TTS, Berburu Kata, dan Matching v1.0](materi/audit-akhir-gabungan-tts-berburu-kata-matching-v1.0.md)
 - [Master Index & Audit Register](materi/master-index-audit-register-v0.1.md)
+
+
+### Penguncian Bank Materi v1.0 — 20 November 2026
+
+Putaran akhir menemukan dan memperbaiki dua pengulangan lintas mode: Utsman pada TTS W3 kini menguji sifat malu kepada para malaikat (Muslim 2401), bukan mengulang sumur Rumah/pasukan Usrah yang tetap digunakan Matching W1 (Bukhari 2778); Usamah pada Berburu Kata W2 kini menguji pengangkatannya sebagai pemimpin pasukan (Bukhari 3730), bukan mengulang tema kecintaan Nabi yang terkait kisah Matching W2 (Bukhari 3735). Penilaian Sunan an-Nasa'i 3350 tentang Ummu Habibah juga telah dikoreksi agar perbedaan grading al-Albani, Abu Ghuddah, Darussalam, dan Zubair Ali Zai ditulis tepat.
+
+**Bank materi reguler 126 butir (39 TTS, 48 Berburu Kata, 39 Matching) dikunci sebagai acuan Canva v1.0.** Kisi, koordinat, integrasi HTML, dan uji keterbacaan anak belum selesai dan tetap menjadi tahap produksi berikutnya.
+
+- [Audit Akhir Gabungan](materi/audit-akhir-gabungan-tts-berburu-kata-matching-v1.0.md)
+- [Master Index & Audit Register](materi/master-index-audit-register-v0.1.md)
