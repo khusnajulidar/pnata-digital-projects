@@ -58,8 +58,8 @@
 | W2-MK-01 | Hafsah binti Umar | Lembaran-lembaran Al-Qur’an yang dikumpulkan pada masa Abu Bakr kemudian disimpan oleh Hafsah setelah wafatnya Umar. |
 | W2-MK-02 | Ummu Salamah | Memberi saran kepada Rasulullah ﷺ pada peristiwa Hudaibiyah ketika para shahabat belum segera melaksanakan perintah tahallul. |
 | W2-MK-03 | Ummu Habibah (Ramlah binti Abi Sufyan) | Istri Rasulullah ﷺ yang akad nikahnya diurus Raja Najasyi ketika ia berada di Habasyah. |
-| W2-MK-04 | Juwairiyah binti al-Harits | Pernikahannya dengan Rasulullah ﷺ menjadi sebab banyak tawanan dari kaumnya dibebaskan oleh kaum Muslimin. |
-| W2-MK-05 | Shafiyyah binti Huyayy | Termasuk tawanan Khaibar yang kemudian dinikahi Rasulullah ﷺ. |
+| W2-MK-04 | Juwayriyah binti al-Harits | Pernikahannya dengan Rasulullah ﷺ menjadi sebab banyak tawanan dari kaumnya dibebaskan oleh kaum Muslimin. |
+| W2-MK-05 | Safiyyah binti Huyayy | Termasuk tawanan Khaibar yang kemudian dinikahi Rasulullah ﷺ. |
 | W2-MK-06 | Ruqayyah binti Rasulullah ﷺ | Istri Utsman bin Affan yang sedang sakit ketika Perang Badar sehingga Utsman tetap tinggal merawatnya; Rasulullah ﷺ memberinya pahala dan bagian seperti peserta Badar. |
 | W2-MK-07 | Usamah bin Zaid | Rasulullah ﷺ sangat menyayanginya dan pernah menggendongnya bersama Hasan. |
 | W2-MK-08 | Ummu Aiman (Barakah) | Perempuan yang biasa dikunjungi Rasulullah ﷺ. Setelah beliau wafat, Abu Bakr dan Umar mengunjunginya; ia menangis karena wahyu dari langit telah terputus. |
@@ -80,17 +80,17 @@
 **W2-MK-03 — Ummu Habibah**
 - Penjelasan: Ummu Habibah radhiyallahu ‘anha berada di Habasyah ketika Rasulullah ﷺ menikahinya. Raja Najasyi mengurus akad nikah dan mahar, lalu mengirimnya kepada Rasulullah ﷺ bersama Shurahbil bin Hasanah.
 - Jenis sumber: Hadis; penilaian derajat riwayat memiliki perbedaan.
-- Rujukan: Sunan an-Nasa’i no. 3350. Dinilai sahih oleh al-Albani dan hasan oleh Darussalam; Zubair Ali Zai menilainya daif. Karena ada perbedaan penilaian, catat perbedaan ini dan jangan menyebutnya “disepakati sahih”.
+- Rujukan: Sunan an-Nasa’i no. 3350. Dinilai sahih oleh al-Albani dan Abu Ghuddah; halaman Sunnah.com mencantumkan daif menurut Darussalam, dan Zubair Ali Zai juga menilainya daif. Karena ada perbedaan penilaian, catat perbedaan ini dan jangan menyebutnya “disepakati sahih” atau “hasan menurut Darussalam”.
 - Catatan: Redaksi kartu hanya menguji pernikahan yang diurus Raja Najasyi di Habasyah; tidak perlu memasukkan rincian status suami sebelumnya.
 
-**W2-MK-04 — Juwairiyah binti al-Harits**
+**W2-MK-04 — Juwayriyah binti al-Harits**
 - Penjelasan: Setelah menikah dengan Rasulullah ﷺ, para shahabat membebaskan banyak tawanan dari Bani al-Mustaliq karena mereka telah menjadi kerabat Rasulullah ﷺ melalui pernikahan tersebut.
 - Jenis sumber: Hadis hasan menurut penilaian al-Albani.
 - Rujukan: Sunan Abi Dawud no. 3931. https://sunnah.com/abudawud:3931
 - Catatan: Riwayat secara eksplisit menyebut seratus keluarga Bani al-Mustaliq dibebaskan karena pernikahan Juwayriyah. Angka ini boleh digunakan bila dibutuhkan, tetapi petunjuk utama cukup menyebut “banyak tawanan”. Jangan menulis “disepakati sahih”; cantumkan penilaian hasan al-Albani.
 
 **W2-MK-05 — Shafiyyah binti Huyayy**
-- Penjelasan: Shafiyyah berasal dari Bani Nadhir dan menjadi tawanan pada peristiwa Khaibar; Rasulullah ﷺ kemudian memerdekakan dan menikahinya.
+- Penjelasan: Safiyyah berasal dari Bani Nadhir dan menjadi tawanan pada peristiwa Khaibar; Rasulullah ﷺ kemudian memerdekakan dan menikahinya.
 - Jenis sumber: Hadis sahih.
 - Rujukan: Sahih al-Bukhari no. 4211–4212; Sahih Muslim no. 1365.
 - Catatan: Gunakan bahasa yang santun dan sesuai usia anak.
