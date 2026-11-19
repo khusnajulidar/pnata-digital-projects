@@ -162,7 +162,16 @@ Prinsip:
 
 **Status audit Berburu Kata:** Belum ada bank yang dinaikkan ke final. Prioritas revisi: kurangi pengulangan fakta dalam W1 Kakak, W2 QASIM/KUNYAH dan JAAFAR/SEPUPU, serta W3 empat nama qira'ah dan dua target Mu‘tah.
 
-## 13. Revisi Matching Wilayah 1 v1.1
+## 14. Revisi Berburu Kata Wilayah 1 Kakak — 19 November 2026
+
+- Dokumen W1 Berburu Kata diperbarui menjadi draf v1.1; jumlah tetap 6 target Adik dan 10 target Kakak.
+- Paket Kakak menghapus FUHAIRAH (memecah nama Amir bin Fuhairah), PENUNJUK (terlalu dekat dengan DAIL), BEKAL (beririsan dengan KULIT sebagai satu detail wadah/perbekalan), dan KAWANAN (mengulang detail ternak yang dibawa Amir).
+- Target pengganti: BURAQ (Sahih al-Bukhari 3887), ZAMZAM (Bukhari 349), KAABAH (Bukhari 1583), dan BATUHITAM (sirah Ibn Hisham, edisi Guillaume hlm. 84–87). BATUHITAM harus diberi label sumber sirah, bukan hadis sahih.
+- Paket Kakak masih memuat beberapa target hijrah (AMIR, DAIL, PESISIR, KULIT, MALAM, TIGA), tetapi setiap petunjuk menguji detail berbeda. Perlu evaluasi akhir apakah enam target dalam satu tema perjalanan masih terlalu dominan.
+- BURAQ dan ZAMZAM berasal dari rangkaian Isra-Mi‘raj, tetapi menguji dua detail berbeda. Jangan menambah target Isra lain tanpa alasan pembelajaran kuat.
+- Catatan teknis: kata terpanjang BATUHITAM (9 huruf); kisi Kakak 12×12/13×13 masih memungkinkan secara panjang kata, tetapi tata letak harus diuji di Canva.
+
+## 15. Revisi Matching Wilayah 1 v1.1
 Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Berburu Kata Wilayah 1. Paket Adik kini menggunakan Bilal (amalan salat setelah wudu; Sahih al-Bukhari 1149), Khadijah (kabar gembira rumah di surga; Bukhari 3820), Tsumamah bin Utsal (masuk Islam setelah dibebaskan; Bukhari 462), Thufail bin Amr (doa Nabi untuk Daus; Bukhari 4392), dan Abu Dzarr (perjalanan masuk Islam dan pengumuman syahadat; Muslim 2474). Paket Kakak menggunakan Abu Bakr (khalil; Bukhari 3656), Abdullah bin Mas'ud (membacakan Al-Qur'an; Bukhari 4582), Adi bin Hatim (kabar keamanan perjalanan; Bukhari 3595), Zaid bin Haritsah (QS 33:37), Ali (peristiwa Tabuk; Bukhari 4416), Mu'adz (diutus ke Yaman; Bukhari 4347), Jarir (Dzul Khalashah; Bukhari 4355), dan Utsman (sumur Rumah/pasukan Tabuk; Bukhari 2778). Bilal sengaja memakai riwayat berbeda dari TTS Wilayah 3 yang menguji azan.
 
 **Status keseluruhan:** Revisi awal telah dilakukan pada Matching Wilayah 1, 2, dan 3. Ketiganya masih berstatus draf; verifikasi akhir, pemeriksaan keterbacaan, dan audit lintas semua mode tetap diperlukan sebelum produksi HTML.
