@@ -135,7 +135,34 @@ Prinsip:
 4. Audit Bonus, terutama sumber biografi dan konsistensi nama.
 5. Perbarui README dan tandai final hanya setelah seluruh butir lolos audit.
 
-## 12. Revisi Matching Wilayah 1 v1.1
+## 12. Temuan audit Berburu Kata Wilayah 1–3 — 19 November 2026
+
+### Wilayah 1
+- **TSUR**: ejaan Indonesia dipakai konsisten dalam bank; bentuk Arab yang lazim ditransliterasikan Thawr/Thaur. Pilih satu kebijakan transliterasi dan jelaskan sekali pada catatan editor, jangan mencampur bentuk di Canva/HTML.
+- Paket Kakak terlalu terkonsentrasi pada satu rangkaian hadis hijrah (Bukhari 3905). Ada pasangan yang berdekatan atau redundan: AMIR–FUHAIRAH (satu nama orang yang terbelah menjadi dua target), DAIL–PENUNJUK (kabilah asal dan fungsi orang yang sama), serta KULIT–BEKAL (wadah dan isi/perbekalan dalam satu detail). FUHAIRAH juga tidak tepat dijelaskan sebagai “nama keluarga”; perlu diperiksa ulang makna nama Amir bin Fuhairah. Rekomendasi: pertahankan fakta yang benar-benar berbeda dan ganti beberapa target dengan fakta/tokoh lain yang terverifikasi.
+- Adik ASMA dan SABUK bersumber dari satu peristiwa, tetapi menguji dua hal berbeda; dapat dipertahankan jika redaksi tidak mengulang pertanyaan yang sama.
+- TIGA dan TSUR juga bersumber dari satu peristiwa, tetapi menguji durasi dan lokasi; boleh dipertahankan bila tingkat kesulitan sesuai.
+
+### Wilayah 2
+- **QASIM** (asal kunyah Abu al-Qasim) dan **KUNYAH** (pengertian kunyah serta Abu al-Qasim) terlalu berdekatan: keduanya mengajarkan konsep yang sama. Ganti salah satunya.
+- **JAAFAR** dan **SEPUPU** sama-sama menguji hubungan Ja‘far bin Abi Thalib sebagai sepupu Rasulullah ﷺ. Ini pengulangan inti fakta; pertahankan satu, ganti yang lain dengan fakta keluarga yang berbeda.
+- **AHLULBAIT** memerlukan redaksi hati-hati. Jangan memberi kesan bahwa ayat QS 33:33 hanya merujuk satu kelompok tanpa menjelaskan konteks ayat dan hadis-hadis terkait; tetap gunakan redaksi yang tidak memperluas/menyempitkan makna tanpa dalil.
+- Rujukan sirah untuk beberapa nama masih hanya menyebut judul kitab dan bagian umum, belum jilid/halaman/edisi. Tetap draf sampai rujukan edisi yang bisa dilacak dicatat.
+
+### Wilayah 3
+- W3-BK-K01 sampai K04 (Abdullah bin Mas‘ud, Salim, Ubay, Mu‘adh) semuanya mengulang satu tujuan pembelajaran dan satu hadis: empat orang yang disebut sebagai rujukan bacaan Al-Qur’an (Bukhari 3806; juga 4999 dengan variasi daftar). Ini terlalu repetitif untuk empat slot. Rekomendasi: pertahankan satu atau paling banyak dua nama, ganti sisanya dengan kisah/fakta shahabat lain yang berbeda dan terverifikasi.
+- **KHALID** dan **IBNRAWAAHA** sama-sama menguji urutan pemegang panji Perang Mu‘tah dari rangkaian riwayat yang sama (Bukhari 3757). Detail tokoh berbeda, tetapi kedekatan fakta perlu dipertimbangkan; satu dapat diganti agar cakupan lebih luas.
+- **ABUAYYUB**: sumber yang ditulis masih umum dan belum memiliki nomor hadis/edisi sirah yang spesifik. Belum boleh dianggap lolos audit.
+- Target **ABDULLAHIBNUMASUD** sepanjang 17 huruf menyulitkan kisi Canva. Pertimbangkan bentuk yang lebih ringkas tetapi tetap jelas, misalnya ABDULLAHMASUD (13 huruf), dengan penjelasan nama lengkap di jawaban setelah ditemukan. Jika dipilih, samakan bentuk target di seluruh materi dan HTML.
+- **HUDHAYFA**, **SUHAYB**, **MUADH**, **IBNRAWAAHA** perlu satu kebijakan transliterasi. Pilih bentuk sederhana yang konsisten untuk pemain dan catat bentuk nama lengkap pada penjelasan.
+
+### Catatan sumber yang sudah dikonfirmasi
+- Sahih al-Bukhari 3806 menyebut Ibn Mas‘ud, Salim maula Abi Hudhayfah, Ubay, dan Mu‘adh sebagai empat orang yang dijadikan rujukan bacaan Al-Qur’an. Bukhari 4999 juga menyebut empat nama, dengan urutan berbeda. Karena satu bank memecahnya menjadi empat soal, hal itu dihitung sebagai pengulangan tujuan pembelajaran, bukan empat kisah terpisah.
+- Riwayat tentang Abu Ayyub menjadi tempat singgah Rasulullah ﷺ di Madinah dikenal dalam sumber sirah; sumber yang saat ini dicatat di bank belum cukup spesifik untuk audit final.
+
+**Status audit Berburu Kata:** Belum ada bank yang dinaikkan ke final. Prioritas revisi: kurangi pengulangan fakta dalam W1 Kakak, W2 QASIM/KUNYAH dan JAAFAR/SEPUPU, serta W3 empat nama qira'ah dan dua target Mu‘tah.
+
+## 13. Revisi Matching Wilayah 1 v1.1
 Matching Wilayah 1 telah disusun ulang untuk menghapus tumpang tindih dengan Berburu Kata Wilayah 1. Paket Adik kini menggunakan Bilal (amalan salat setelah wudu; Sahih al-Bukhari 1149), Khadijah (kabar gembira rumah di surga; Bukhari 3820), Tsumamah bin Utsal (masuk Islam setelah dibebaskan; Bukhari 462), Thufail bin Amr (doa Nabi untuk Daus; Bukhari 4392), dan Abu Dzarr (perjalanan masuk Islam dan pengumuman syahadat; Muslim 2474). Paket Kakak menggunakan Abu Bakr (khalil; Bukhari 3656), Abdullah bin Mas'ud (membacakan Al-Qur'an; Bukhari 4582), Adi bin Hatim (kabar keamanan perjalanan; Bukhari 3595), Zaid bin Haritsah (QS 33:37), Ali (peristiwa Tabuk; Bukhari 4416), Mu'adz (diutus ke Yaman; Bukhari 4347), Jarir (Dzul Khalashah; Bukhari 4355), dan Utsman (sumur Rumah/pasukan Tabuk; Bukhari 2778). Bilal sengaja memakai riwayat berbeda dari TTS Wilayah 3 yang menguji azan.
 
 **Status keseluruhan:** Revisi awal telah dilakukan pada Matching Wilayah 1, 2, dan 3. Ketiganya masih berstatus draf; verifikasi akhir, pemeriksaan keterbacaan, dan audit lintas semua mode tetap diperlukan sebelum produksi HTML.
