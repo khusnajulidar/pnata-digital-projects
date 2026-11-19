@@ -112,7 +112,7 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 - Hindari memakai ulang fakta yang sama pada TTS, Berburu Kata, dan Matching kecuali ada tujuan penguatan yang dinyatakan.
 - Nama yang mirip atau memiliki transliterasi bervariasi harus dibakukan sebelum grid disusun.
 - W2-K5 sudah dibakukan menjadi JUWAYRIYAH (10 huruf).
-- Tidak ada lagi tiga slot TTS yang memecah satu hadis daftar sepuluh shahabat. ZUBAIR tetap muncul satu kali sebagai anggota daftar tersebut; karena mode Berburu Kata Wilayah 3 Kakak memiliki misi khusus menemukan kesepuluh nama, audit lintas-mode masih harus memastikan butir ZUBAIR tidak dipakai sebagai pertanyaan faktual terpisah di sana.
+- Seluruh tiga slot yang sebelumnya memakai hadis daftar sepuluh shahabat telah diganti. Hal ini juga menghindari pengulangan fakta dengan misi khusus Berburu Kata Wilayah 3 Kakak yang meminta pemain menemukan kesepuluh nama tersebut.
 
 ## F. Status dokumen
 **Belum final untuk produksi.** Rujukan Abu Ubaidah telah dikoreksi; wilayah 2 Paket Kakak masih membutuhkan rujukan biografi spesifik. Grid/HTML ditunda sampai seluruh rujukan dan ejaan lolos audit. Semua grid harus dihitung dan diuji terpisah setelah kunci jawaban disetujui.
