@@ -20,11 +20,15 @@ Nama file berikut mengikuti nama yang benar-benar ada di repositori:
 - `mockup-04-template-aktivitas-pilihan.png` — acuan keluarga pilihan
 - `mockup-05.png` — acuan keluarga audio dan pilihan
 - `mockup-06.png` — acuan keluarga susun/drag-and-drop
-- `mockup-07–template-aktivitas-simulasi-interaktif.png` — nama file menunjukkan simulasi; isi visual perlu diverifikasi
+- `mockup-07–template-aktivitas-simulasi-interaktif.png` — acuan simulasi dua tangan dan meja makan berdasarkan analisis visual pengguna
 - `mockup-08.jfif` — penyelesaian Misi 1
 - `mockup-09.jfif` — penyelesaian permainan
-- `mockup-10.png` — kandidat untuk aktivitas doa; isi visual perlu diverifikasi
+- `mockup-10.png` — acuan penyajian doa Arab, transliterasi, terjemahan, dan audio berdasarkan analisis visual pengguna
 - `mockup-11.png` — ilustrasi adegan makan bersama
+
+## Status audit aset
+
+Audit struktur repositori pada 19 November 2026 menemukan 11 gambar mockup, tetapi folder `assets/images/` belum berisi gambar ilustrasi mandiri. Berkas mockup biner tidak dapat dibuka ulang melalui konektor GitHub teks pada sesi audit; klasifikasi isi gambar mengacu pada pemeriksaan terdahulu dan analisis visual pengguna. Lihat [ASSET-ILLUSTRATION-NEEDS.md](../ASSET-ILLUSTRATION-NEEDS.md) bagian 7 untuk hasil audit per aset dan per aktivitas.
 
 ## Cara menggunakan aset
 
