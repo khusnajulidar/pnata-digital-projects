@@ -2,6 +2,10 @@
 
 Repository kerja proyek game edukasi interaktif P'Nata tentang adab makan untuk anak usia 3–4 tahun.
 
+## Keputusan integrasi mockup
+
+Ketentuan terbaru mengenai mockup sebagai tampilan visual final, area interaksi transparan, penanganan teks/pilihan yang berbeda, dan feedback otomatis tercatat di [`MOCKUP-INTEGRATION-DECISIONS.md`](./MOCKUP-INTEGRATION-DECISIONS.md). Dokumen ini melengkapi spesifikasi UI sebelumnya dan menjadi acuan khusus untuk integrasi mockup aktivitas. Ketentuan khusus Peta Lima Misi yang telah disepakati tetap berlaku.
+
 ## Status proyek
 
 - [x] GDD dasar disepakati
