@@ -244,7 +244,7 @@ Temuan telah ditangani pada revisi bank 1.2. Lihat pembaruan audit terbaru di ba
 
 ### TTS Wilayah 3 — draf v1.2
 - Tiga butir Kakak yang semula memakai Talhah, Zubair, dan Sa'd dari satu hadis daftar sepuluh shahabat (Jami' at-Tirmidhi 3747) seluruhnya diganti. Penggantian total diperlukan karena Berburu Kata Wilayah 3 Kakak memiliki misi khusus untuk menemukan sepuluh nama tersebut; mempertahankan satu butir saja di TTS tetap akan mengulang fakta yang sama lintas mode.
-- Target baru: **JARIR** — baiat untuk menegakkan salat, menunaikan zakat, dan menasihati setiap Muslim (Sahih al-Bukhari 57); **JABIR** — kisah unta yang kelelahan, dibeli Rasulullah ﷺ lalu dikembalikan bersama harganya (Sahih al-Bukhari 2097); **SULAYK** — shahabat yang datang saat khutbah Jumat dan diperintahkan salat dua rakaat (Sahih Muslim 875; nama Sulayk disebut dalam redaksi Muslim).
+- Target baru: **JARIR** — baiat untuk menegakkan salat, menunaikan zakat, dan menasihati setiap Muslim (Sahih al-Bukhari 57); **JABIR** — kisah unta yang kelelahan, dibeli Rasulullah ﷺ lalu dikembalikan bersama harganya (Sahih al-Bukhari 2097); **SULAYK** — shahabat yang datang saat khutbah Jumat dan diperintahkan salat dua rakaat (Sahih Muslim 875g; nama Sulayk disebut dalam redaksi Muslim).
 - Catatan: Sahih al-Bukhari 930 memuat kisah perintah salat dua rakaat bagi seseorang yang datang saat khutbah, tetapi redaksi yang digunakan tidak menyebut nama Sulayk. Karena itu, rujukan identitas Sulayk harus tetap Sahih Muslim 875, bukan Bukhari 930 saja.
 
 ### Berburu Kata Wilayah 1 — draf v1.2
