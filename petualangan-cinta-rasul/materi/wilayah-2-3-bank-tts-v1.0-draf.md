@@ -1,6 +1,6 @@
 # BANK TTS — WILAYAH 2 & 3
 ## Petualangan Cinta Rasul ﷺ | Paket Adik dan Kakak
-**Versi:** 1.1 — revisi audit awal, tetap berstatus draf  
+**Versi:** 1.2 — revisi anti-pengulangan TTS Wilayah 3, tetap berstatus draf  
 **Cakupan:** TTS Wilayah 2 — Keluarga Rasulullah ﷺ; TTS Wilayah 3 — Taman Para Shahabat  
 **Catatan:** Grid belum disusun. Kunci grid memakai huruf kapital tanpa spasi/tanda baca.
 
@@ -81,9 +81,9 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 | W3-K3 | UTHMAN | 6 | Shahabat yang membeli/mengadakan sumur Rumah dan membantu menyiapkan pasukan al-'Usrah. |
 | W3-K4 | ALI | 3 | Shahabat yang menerima panji pada Perang Khaibar dan Allah memberikan kemenangan melalui tangannya. |
 | W3-K5 | ABUUBAIDAH | 10 | Shahabat yang dipilih Rasulullah ﷺ sebagai orang paling tepercaya untuk diutus kepada penduduk Najran. |
-| W3-K6 | TALHAH | 6 | Shahabat yang disebut dalam hadis sepuluh orang yang diberi kabar gembira dengan Surga. |
-| W3-K7 | ZUBAIR | 6 | Shahabat yang disebut bersama Talhah dalam hadis sepuluh orang yang diberi kabar gembira dengan Surga. |
-| W3-K8 | SAAD | 4 | Shahabat yang dikenal dengan nama Sa'd bin Abi Waqqas dan termasuk sepuluh orang yang diberi kabar gembira dengan Surga. |
+| W3-K6 | JARIR | 5 | Shahabat yang berbaiat kepada Rasulullah ﷺ untuk menegakkan salat, menunaikan zakat, dan memberi nasihat tulus kepada setiap Muslim. |
+| W3-K7 | ANAS | 4 | Shahabat yang didoakan Rasulullah ﷺ agar diberi keberkahan pada harta dan keturunannya, atas permintaan ibunya. |
+| W3-K8 | SULAYK | 6 | Shahabat yang datang ke masjid ketika Rasulullah ﷺ sedang berkhutbah Jumat, lalu diperintahkan salat dua rakaat. |
 
 ### Kunci dan penjelasan
 - **W3-K1 ABUBAKR** — Abu Bakr menemani Rasulullah ﷺ ketika keduanya berada di gua pada peristiwa hijrah. Rujukan: QS. At-Tawbah [9]:40; Sahih al-Bukhari 3653. https://quran.com/9/40 ; https://sunnah.com/bukhari:3653
@@ -91,7 +91,9 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 - **W3-K3 UTHMAN** — Utsman bin Affan mengadakan sumur Rumah dan menyiapkan pasukan al-'Usrah. Rujukan: Sahih al-Bukhari 2778. https://sunnah.com/bukhari:2778
 - **W3-K4 ALI** — Ali bin Abi Talib menerima panji pada Perang Khaibar; Rasulullah ﷺ menyebut keutamaan mencintai Allah dan Rasul-Nya serta dicintai Allah dan Rasul-Nya. Rujukan: Sahih al-Bukhari 4210. https://sunnah.com/bukhari:4210
 - **W3-K5 ABUUBAIDAH** — Rasulullah ﷺ mengutus Abu Ubaidah bin al-Jarrah kepada penduduk Najran dan menyebutnya sebagai orang yang sangat tepercaya. Rujukan: Sunan Ibn Majah 135 (dinilai sahih oleh Darussalam) dan Jami‘ at-Tirmidhi 3796. https://sunnah.com/ibnmajah:135 ; https://sunnah.com/tirmidhi:3796
-- **W3-K6 TALHAH**, **W3-K7 ZUBAIR**, **W3-K8 SAAD** — Ketiganya termasuk sepuluh shahabat yang diberi kabar gembira dengan Surga. Riwayat Jami‘ at-Tirmidhi 3747 menyebut sepuluh nama secara lengkap dan dinilai sahih oleh Darussalam. https://sunnah.com/tirmidhi:3747
+- **W3-K6 JARIR** — Jarir bin Abdullah meriwayatkan bahwa ia berbaiat kepada Rasulullah ﷺ untuk menegakkan salat, menunaikan zakat, dan memberi nasihat yang tulus kepada setiap Muslim. Rujukan: Sahih al-Bukhari 57. https://sunnah.com/bukhari:57
+- **W3-K7 ANAS** — Ibu Anas bin Malik meminta Rasulullah ﷺ mendoakannya. Beliau berdoa agar Anas diberi banyak harta dan keturunan serta keberkahan pada pemberian Allah. Rujukan: Sahih al-Bukhari 6344. https://sunnah.com/bukhari:6344
+- **W3-K8 SULAYK** — Sulayk al-Ghatafani datang ketika Rasulullah ﷺ sedang berkhutbah Jumat. Beliau memerintahkannya berdiri dan salat dua rakaat. Rujukan: Sahih Muslim 875; identitas Sulayk disebut dalam redaksi riwayat Muslim. https://sunnah.com/muslim:875
 
 ---
 
@@ -110,7 +112,7 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 - Hindari memakai ulang fakta yang sama pada TTS, Berburu Kata, dan Matching kecuali ada tujuan penguatan yang dinyatakan.
 - Nama yang mirip atau memiliki transliterasi bervariasi harus dibakukan sebelum grid disusun.
 - W2-K5 sudah dibakukan menjadi JUWAYRIYAH (10 huruf).
-- Wilayah 3 menggunakan beberapa nama shahabat yang sama-sama termasuk sepuluh orang yang diberi kabar gembira dengan Surga. Jangan mengulang soal daftar yang sama pada mode lain; tiap nama di sini diuji melalui satu petunjuk khusus.
+- Tidak ada lagi tiga slot TTS yang memecah satu hadis daftar sepuluh shahabat. ZUBAIR tetap muncul satu kali sebagai anggota daftar tersebut; karena mode Berburu Kata Wilayah 3 Kakak memiliki misi khusus menemukan kesepuluh nama, audit lintas-mode masih harus memastikan butir ZUBAIR tidak dipakai sebagai pertanyaan faktual terpisah di sana.
 
 ## F. Status dokumen
 **Belum final untuk produksi.** Rujukan Abu Ubaidah telah dikoreksi; wilayah 2 Paket Kakak masih membutuhkan rujukan biografi spesifik. Grid/HTML ditunda sampai seluruh rujukan dan ejaan lolos audit. Semua grid harus dihitung dan diuji terpisah setelah kunci jawaban disetujui.
