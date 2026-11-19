@@ -371,3 +371,80 @@ Pemeriksaan ini mengonfirmasi isi visual mockup, bukan keberhasilan memisahkan o
 
 ### Status akses Mockup 07 dan Mockup 10
 Pengambilan ulang melalui GitHub Base64 pada sesi ini menghasilkan konten kosong untuk Mockup 07 dan Mockup 10. Ini adalah keterbatasan jalur pengambilan file, bukan bukti bahwa file tersebut kosong atau rusak. Untuk Mockup 07, analisis visual pengguna yang telah tercatat tetap menjadi acuan; untuk Mockup 10, deskripsi visual pengguna tetap menjadi acuan sementara. Keduanya tidak diklaim berhasil diperiksa ulang pada sesi ini.
+
+
+---
+
+# 9. Audit tingkat objek dan rencana ekstraksi aset (20 November 2026)
+
+Bagian ini memisahkan **objek yang terlihat di dalam mockup** dari **file aset mandiri yang benar-benar tersedia**. Sebuah objek yang tampak di mockup belum otomatis menjadi PNG transparan atau komponen yang siap dipakai ulang.
+
+## 9.1 Status sumber aset saat audit
+
+| Sumber | Temuan | Implikasi produksi |
+|---|---|---|
+| `adab-makan/mockups/` | Terdapat 11 gambar mockup; Mockup 11 yang berhasil diperiksa ulang dari GitHub adalah `mockup-11.jfif`. | Mockup menjadi sumber referensi visual dan kemungkinan sumber ekstraksi, bukan otomatis kumpulan aset terpisah. |
+| `adab-makan/assets/images/` | Hanya berisi `README.md`; belum ada file ilustrasi mandiri yang terdaftar. | Seluruh kebutuhan objek mandiri masih perlu dibuat, diekstrak, atau dikonfirmasi dari sumber lain. |
+| `adab-makan/assets/audio/` | Berisi audio utama, audio feedback, narasi, dan dokumentasi rekaman. | Audio sudah memiliki folder sendiri dan tidak dihitung sebagai aset ilustrasi. |
+| Mockup 07 | Menjadi sumber visual tangan, meja, makanan, gelas, dan alat makan berdasarkan analisis visual yang telah diberikan pengguna. | Kandidat utama untuk ekstraksi objek makan/minum; kualitas potongan dan transparansi belum diuji. |
+| Mockup 11 | Berkas `.jfif` berhasil ditampilkan langsung dari GitHub. Adegan makan bersama memperlihatkan wadah makanan, nasi/lauk/sayuran, piring, perlengkapan makan, gelas, tangan anak, serta lengan/torso orang dewasa. | Gunakan sebagai acuan adegan utuh untuk aktivitas 9–10. Jangan menganggap objek-objeknya sudah terpisah. Dekorasi mug berupa senyum tanpa mata boleh dipertahankan sesuai persetujuan pengguna. |
+| Mockup 10 | Keberadaan file terkonfirmasi, tetapi tampilan biner belum berhasil diambil melalui jalur konektor yang dicoba. | Jangan mengekstrak atau mengklaim detail objek yang belum dilihat langsung; gunakan analisis visual pengguna sebagai acuan sementara. |
+
+## 9.2 Inventaris objek yang dapat dipakai ulang
+
+Status istilah:
+- **Ada di mockup**: objek terlihat pada sumber visual, tetapi belum tersedia sebagai file mandiri.
+- **Perlu uji ekstraksi**: objek mungkin dapat dipotong dari mockup, tetapi kualitas tepi, resolusi, bayangan, dan latar transparan belum diuji.
+- **Perlu dibuat**: belum ditemukan sumber mandiri yang terverifikasi untuk kebutuhan tersebut.
+- **UI dinamis**: bukan gambar; dibangun dengan HTML/CSS/JavaScript.
+
+| Kelompok | Objek/komponen | Sumber acuan | Status saat ini | Aktivitas terkait | Keputusan |
+|---|---|---|---|---:|---|
+| Adegan | Meja makan dan latar meja | Mockup 07 dan 11 | Ada di mockup; perlu uji ekstraksi | 5, 7, 9, 10, 20, 25 | Pertahankan sebagai latar/adegan. Jika dipakai lintas aktivitas, buat versi latar bersih tanpa teks atau tombol. |
+| Adegan | Konteks makan bersama keluarga | Mockup 11 | Ada di mockup | 9, 10 | Pertahankan framing yang sudah disetujui. Penggambaran Abi/Umi tetap parsial; tidak perlu mengubah motif senyum pada mug. |
+| Tangan | Tangan anak dari perspektif anak | Mockup 07 dan 11 | Ada di mockup; perlu uji ekstraksi | 5, 7, 9, 10, 16, 18, 20 | Uji apakah tangan dapat dipisahkan dengan tepi alami. Jangan membalik orientasi tanpa verifikasi kanan/kiri. |
+| Tangan | Tangan orang dewasa yang mengambil makanan dengan sendok | Mockup 11 | Ada di mockup; perlu uji ekstraksi | 9, 10 | Bisa membantu menjelaskan konteks makanan bersama; jangan dijadikan fokus jika mengganggu target sentuh anak. |
+| Peralatan | Wadah saji/mangkuk besar bersama | Mockup 11 | Ada di mockup; perlu uji ekstraksi | 9, 10 | Kandidat aset utama aktivitas 9. Jika diekstrak, pertahankan bentuk, perspektif, dan bayangan. |
+| Makanan | Nasi dalam wadah bersama | Mockup 07 dan 11 | Ada di mockup; perlu uji ekstraksi | 9, 10, 13, 15 | Dapat menjadi salah satu objek makanan; variasi porsi perlu dibuat sebagai aset tersendiri bila tidak dapat dibentuk bersih dari sumber. |
+| Makanan | Lauk dan sayuran dalam wadah bersama | Mockup 07 dan 11 | Ada di mockup; perlu uji ekstraksi | 9, 10, 13, 15 | Pertahankan sebagai pilihan makanan yang tampak jelas; jarak dan area sentuh ditangani UI. |
+| Peralatan | Piring individual anak | Mockup 07 dan 11 | Ada di mockup; perlu uji ekstraksi | 5, 7, 10, 13, 22, 25 | Kandidat objek dasar untuk porsi, kondisi setelah makan, dan penataan meja. |
+| Peralatan | Gelas/mug | Mockup 07, 10 (berdasarkan analisis pengguna), dan 11 | Ada di mockup; perlu uji ekstraksi | 16, 17, 18, 19, 20, 25 | Gunakan bentuk gelas yang paling netral dan sesuai aktivitas. Motif senyum tanpa mata pada mug Mockup 11 boleh tetap ada. |
+| Peralatan | Sendok | Mockup 07, 10 (analisis pengguna), dan 11 | Ada di mockup; perlu uji ekstraksi | 4, 9, 10, 25 | Kandidat item mandiri untuk aktivitas 25 dan konteks makan. |
+| Peralatan | Garpu | Mockup 10 (analisis pengguna) dan 11 | Ada di mockup; perlu uji ekstraksi | 25 | Periksa apakah bentuk dan sudutnya cocok untuk item drag-and-drop. |
+| Peralatan | Alas makan/placemat | Mockup 11 | Ada di mockup | 9, 10, 25 | Lebih tepat sebagai bagian latar daripada item yang dapat dipindahkan. |
+| Aksi | Sendok mengambil makanan dari wadah bersama | Mockup 11 | Ada sebagai adegan gabungan; belum berupa pose mandiri | 9, 10 | Pertahankan adegan sebagai referensi; jika diperlukan animasi, buat pose/urutan baru, jangan mengandalkan pemotongan sendok saja. |
+| Porsi | Porsi secukupnya dan porsi berlebihan | Belum ada aset mandiri terverifikasi | Perlu dibuat | 13 | Buat sepasang piring dengan jenis makanan, sudut kamera, dan ukuran piring yang sama; bedakan hanya jumlah makanan. |
+| Sikap | Makanan yang tidak disukai dan respons yang baik | Belum ada aset mandiri terverifikasi | Perlu dibuat bila UI teks tidak cukup | 11, 12 | Utamakan adegan piring/tangan tanpa ekspresi karakter. Jangan membuat anak seolah wajib menghabiskan makanan ketika tidak mampu atau tidak sehat. |
+| Penyimpanan | Wadah tertutup untuk menyimpan makanan yang masih layak | Belum ada aset mandiri terverifikasi | Perlu dibuat | 14 | Buat wadah bersih dengan tutup terlihat jelas dan makanan tersimpan dengan aman. |
+| Minum | Tangan memegang gelas dengan posisi benar | Mockup 07 sebagai acuan objek | Ada di mockup; perlu uji ekstraksi | 16, 18, 20 | Jika pose tidak sesuai, buat pose baru dengan gaya dan perspektif yang sama. |
+| Minum | Gelas dijauhkan saat mengambil napas | Belum ada pose mandiri terverifikasi | Perlu dibuat | 17 | Buat dua keadaan tangan/gelas yang mudah dibandingkan tanpa menampilkan wajah atau napas sebagai karakter. |
+| Minum | Rangkaian beberapa tegukan | Belum ada rangkaian pose terpisah terverifikasi | Perlu dibuat sebagai beberapa state | 18 | Gunakan gelas dan tangan yang sama; ubah posisi/indikator tahap secara konsisten. |
+| Suhu | Makanan/minuman panas dan keadaan setelah menunggu | Belum ada aset mandiri terverifikasi | Perlu dibuat | 19 | Buat dua keadaan yang jelas. Jangan menggambarkan anak meniup ke dalam gelas sebagai tindakan yang dianjurkan. |
+| Setelah makan | Piring setelah makan | Belum ada aset mandiri terverifikasi | Perlu uji adaptasi dari piring Mockup 07/11 | 22, 25 | Buat variasi piring setelah makan dengan sisa yang wajar; jangan mengesankan harus selalu kosong. |
+| Meja rapi | Piring, gelas, sendok, garpu pada posisi tujuan | Mockup 06 sebagai pola susun; objek dari 07/10/11 | Ada di mockup sebagai objek; perlu uji ekstraksi | 25 | Siapkan tiap objek sebagai item mandiri dan slot tujuan sebagai UI dinamis. |
+| UI | Area sentuh makanan, highlight, pilihan, status, progres, feedback | Tidak perlu gambar sumber | UI dinamis | 3–25 sesuai aktivitas | Buat sebagai HTML/CSS/JS, tidak dibakar ke gambar. |
+| UI | Slot urutan, target drag, tombol, kartu, label, teks Arab | Mockup 04/05/06/10 sebagai acuan | UI dinamis | 1–25 sesuai pola | Jangan mengekstrak teks/tombol dari screenshot sebagai aset final. |
+
+## 9.3 Paket aset produksi setelah audit objek
+
+| Urutan | Paket | Isi minimum yang harus disiapkan | Aktivitas | Ketergantungan |
+|---:|---|---|---:|---|
+| 1 | Paket B — Tangan dan tindakan makan | Tangan kanan/kiri dengan orientasi terverifikasi; pose tangan mulai makan; pose mengambil makanan | 5–8, 10 | Uji ekstraksi Mockup 07 terlebih dahulu. |
+| 2 | Paket C — Adegan makanan bersama | Adegan Mockup 11 sebagai latar; wadah saji; pilihan makanan yang terlihat jelas; titik interaksi terpisah | 9–10 | Gunakan Mockup 11 `.jfif` sebagai referensi yang telah diperiksa langsung. |
+| 3 | Paket D — Porsi dan penyimpanan | Sepasang porsi yang adil untuk dibandingkan; wadah penyimpanan tertutup | 11–15 | Objek piring/makanan dapat mengambil gaya dari Mockup 07/11 setelah uji ekstraksi. |
+| 4 | Paket E — Tangan dan gelas | Tangan memegang gelas; gelas dijauhkan; beberapa state tegukan; dua kondisi suhu | 16–20 | Uji objek gelas/tangan Mockup 07; pose tindakan baru bila diperlukan. |
+| 5 | Paket F/H — Setelah makan dan perlengkapan | Piring setelah makan; piring, gelas, sendok, garpu mandiri; slot tata meja | 22, 25 | Uji ekstraksi Mockup 07/10/11; Mockup 10 masih menunggu pemeriksaan gambar langsung. |
+| 6 | Paket A — Situasi sebelum makan | Satu adegan meja siap makan dan variasi tahap yang dibutuhkan | 3–5 | Gunakan ulang latar dan perlengkapan yang telah lolos uji; jangan membuat adegan duplikat. |
+| 7 | Paket G — Teks dan audio | Kartu Arab, transliterasi, arti, kontrol audio dan pilihan | 1, 2, 21, 23, 24 | Implementasi UI; tidak menunggu aset ilustrasi baru. |
+
+## 9.4 Uji ekstraksi sebelum membuat ilustrasi baru
+
+Urutan pemeriksaan teknis yang disarankan:
+1. Pilih satu objek paling penting dari Mockup 07 (misalnya tangan kanan atau piring) dan satu objek dari Mockup 11 (wadah saji).
+2. Uji pemotongan dengan tepi bersih dan transparansi; jangan menghapus bayangan yang membuat objek tampak melayang.
+3. Bandingkan hasil potongan dengan mockup asli pada ukuran tampil yang sama.
+4. Tolak hasil ekstraksi jika tepi rusak, detail hilang, resolusi pecah, atau latar yang terhapus membuat bentuk objek tidak alami.
+5. Jika ekstraksi gagal, buat ulang objek secara terpisah dengan referensi visual yang sama; jangan mengubah komposisi mockup asli.
+6. Simpan aset yang lolos di `adab-makan/assets/images/` dengan nama deskriptif dan dokumentasikan sumber serta aktivitas pemakaiannya.
+
+**Batas audit:** pada tahap ini belum ada objek yang dinyatakan berhasil diekstrak menjadi file mandiri. Daftar “ada di mockup” hanya menunjukkan sumber visual yang dapat diuji, bukan status aset siap pakai.
