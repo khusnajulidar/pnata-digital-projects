@@ -71,7 +71,7 @@
 | W3-MK-05 | Zaid bin Tsabit | Pada masa Abu Bakar, beliau ditugaskan menelusuri dan mengumpulkan catatan Al-Qur'an setelah banyak penghafal Al-Qur'an gugur dalam Perang Yamamah. |
 | W3-MK-06 | Sa'd bin Abi Waqqash | Beliau menyebut dirinya sebagai orang Arab pertama yang melepaskan anak panah di jalan Allah. |
 | W3-MK-07 | Ummu Sulaim | Ketika putranya yang baru lahir dibawa kepada Rasulullah ﷺ, beliau melakukan tahnik dengan kurma dan memberi nama anak itu Abdullah. |
-| W3-MK-08 | Hudhayfah bin al-Yaman | Pada Perang Uhud, ayahnya terbunuh tanpa sengaja dalam kekacauan pasukan. Hudhayfah kemudian mendoakan ampunan bagi orang-orang yang membunuh ayahnya. |
+| W3-MK-08 | Hudzaifah bin al-Yaman | Pada Perang Uhud, ayahnya terbunuh tanpa sengaja dalam kekacauan pasukan. Hudzaifah kemudian mendoakan ampunan bagi orang-orang yang membunuh ayahnya. |
 
 ### Penjelasan dan rujukan Kakak
 
@@ -121,12 +121,12 @@
 - Tautan: https://sunnah.com/muslim/44/152
 - Catatan: Ini berbeda dari kisah Ummu Sulaim membawa air pada Perang Uhud di paket Adik; tokoh sama, fakta berbeda.
 
-**W3-MK-08 — Hudhayfah bin al-Yaman**
-- Penjelasan: Pada Perang Uhud, ayah Hudhayfah, al-Yaman, terbunuh tanpa sengaja ketika barisan kaum Muslimin saling bertempur dalam kekacauan. Hudhayfah berkata, “Semoga Allah mengampuni kalian.” Riwayat menyebut ia terus memohonkan ampun bagi orang-orang yang membunuh ayahnya.
+**W3-MK-08 — Hudzaifah bin al-Yaman**
+- Penjelasan: Pada Perang Uhud, ayah Hudzaifah, al-Yaman, terbunuh tanpa sengaja ketika barisan kaum Muslimin saling bertempur dalam kekacauan. Hudzaifah berkata, “Semoga Allah mengampuni kalian.” Riwayat menyebut ia terus memohonkan ampun bagi orang-orang yang membunuh ayahnya.
 - Jenis sumber: Hadis sahih.
 - Rujukan: Sahih al-Bukhari no. 4065; penomoran dalam sebagian susunan kitab/edisi dapat berbeda.
 - Tautan: https://sunnah.com/bukhari:4065
-- Catatan: Nama Hudhayfah juga muncul di Berburu Kata Kakak, tetapi fakta yang diuji berbeda. Berburu Kata membahas pengetahuan khususnya tentang sejumlah orang munafik; Matching ini membahas sikap memaafkan dan mendoakan ampunan setelah ayahnya terbunuh tanpa sengaja.
+- Catatan: Nama Hudzaifah juga muncul di Berburu Kata Kakak, tetapi fakta yang diuji berbeda. Berburu Kata membahas pengetahuan khususnya tentang sejumlah orang munafik; Matching ini membahas sikap memaafkan dan mendoakan ampunan setelah ayahnya terbunuh tanpa sengaja.
 
 ## D. Audit keragaman dan pengulangan
 
@@ -135,7 +135,7 @@
 - Adik: 5 pasangan.
 - Kakak: 8 pasangan.
 - Total: 13 pasangan.
-- Nama yang berulang antarprofil: Ummu Sulaim. Ia muncul dengan dua fakta yang berbeda: membawa air pada Perang Uhud dan peristiwa tahnik putranya. Abu Talhah hanya digunakan pada paket Adik; paket Kakak kini menggunakan Hudhayfah bin al-Yaman.
+- Nama yang berulang antarprofil: Ummu Sulaim. Ia muncul dengan dua fakta yang berbeda: membawa air pada Perang Uhud dan peristiwa tahnik putranya. Abu Talhah hanya digunakan pada paket Adik; paket Kakak kini menggunakan Hudzaifah bin al-Yaman.
 - Nama yang diperkenalkan melalui draf ini antara lain: Ukkasyah bin Mihshan, Rabi'ah bin Ka'b al-Aslami, Nu'man bin Basyir, Usaid bin Hudhair, Zaid bin Tsabit, dan Sa'd bin Abi Waqqash.
 - Nama-nama yang sudah muncul dalam bank TTS/word search boleh digunakan kembali jika butir ini mengajarkan kisah yang berbeda. Contoh: Abu Hurairah tidak menjadi target W3 word search sebelumnya.
 - Tidak ada target yang mengulang persis jawaban kunci TTS atau kata target Berburu Kata W3. Audit silang seluruh wilayah tetap diperlukan sebelum produksi.
