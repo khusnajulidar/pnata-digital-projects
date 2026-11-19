@@ -1,8 +1,8 @@
 # BANK PASANGKAN TOKOH DAN KISAHNYA — WILAYAH 3: TAMAN PARA SHAHABAT
 ## Paket Adik (kelas 1–3) dan Kakak (kelas 4–6)
 **Proyek:** Petualangan Cinta Rasul — P’Nata  
-**Versi:** 1.0 — draf awal dengan riwayat hadis primer  
-**Status:** Bank pasangan tersusun; belum final untuk produksi.
+**Versi:** 1.1 — audit rujukan dan ketepatan redaksi  
+**Status:** Draf revisi; rujukan utama telah diperiksa, masih perlu audit bahasa anak, konsistensi ejaan, dan finalisasi lintas mode.
 
 ---
 
@@ -20,7 +20,7 @@
 | ID | Tokoh | Petunjuk/kisah yang dipasangkan |
 |---|---|---|
 | W3-MA-01 | Abu Talhah al-Anshari (bukan Thalhah bin Ubaidillah) | Pada Perang Uhud, beliau berdiri melindungi Rasulullah ﷺ dengan perisainya. |
-| W3-MA-02 | Ummu Sulaim | Pada Perang Uhud, beliau bersama Aisyah membawa air untuk membantu orang-orang yang terluka/kehausan. |
+| W3-MA-02 | Ummu Sulaim | Pada Perang Uhud, beliau bersama Aisyah membawa kantong air dan memberi minum orang-orang yang kehausan. |
 | W3-MA-03 | Ukkasyah bin Mihshan | Ketika Rasulullah ﷺ menyebut 70.000 orang masuk surga tanpa hisab, Ukkasyah meminta didoakan agar termasuk di antara mereka. |
 | W3-MA-04 | Rabi'ah bin Ka'b al-Aslami | Beliau pernah meminta kepada Rasulullah ﷺ agar dapat menemani beliau di surga; Rasulullah ﷺ mengajarkan agar memperbanyak sujud. |
 | W3-MA-05 | Abu Musa al-Asy'ari | Rasulullah ﷺ memuji keindahan suara beliau ketika membaca Al-Qur'an. |
@@ -38,7 +38,7 @@
 - Jenis sumber: Hadis sahih.
 - Rujukan: Sahih al-Bukhari no. 3811 dan 4064.
 - Tautan: https://sunnah.com/bukhari:3811
-- Catatan: Petunjuk menggunakan ungkapan “membantu orang-orang” agar tidak mempersempit riwayat menjadi hanya satu kelompok penerima air.
+- Catatan: Redaksi petunjuk dibatasi pada isi riwayat: Aisyah dan Ummu Sulaim membawa kantong air dan memberi minum orang-orang yang kehausan. Jangan menambahkan bahwa mereka secara khusus merawat orang-orang yang terluka, karena redaksi hadis menyebut orang-orang yang kehausan.
 
 **W3-MA-03 — Ukkasyah bin Mihshan**
 - Penjelasan: Ketika Rasulullah ﷺ mengabarkan bahwa 70.000 orang dari umat beliau masuk surga tanpa hisab, Ukkasyah meminta didoakan. Rasulullah ﷺ berdoa agar ia termasuk di antara mereka.
@@ -117,7 +117,7 @@
 **W3-MK-07 — Ummu Sulaim**
 - Penjelasan: Ketika putranya lahir, Ummu Sulaim mengirimnya bersama Anas kepada Rasulullah ﷺ. Rasulullah ﷺ melakukan tahnik dengan kurma dan menamainya Abdullah.
 - Jenis sumber: Hadis sahih.
-- Rujukan: Sahih Muslim no. 2144 (riwayat tentang kelahiran Abdullah dan tahnik).
+- Rujukan: Sahih Muslim no. 2144a (riwayat tentang kelahiran Abdullah dan tahnik). https://sunnah.com/muslim:2144a
 - Tautan: https://sunnah.com/muslim/44/152
 - Catatan: Ini berbeda dari kisah Ummu Sulaim membawa air pada Perang Uhud di paket Adik; tokoh sama, fakta berbeda.
 
