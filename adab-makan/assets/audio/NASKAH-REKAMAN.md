@@ -18,7 +18,7 @@ Dokumen kerja untuk pengisi suara dan pemeriksa. Rekaman belum dibuat. Naskah bo
 | File | Naskah |
 |---|---|
 | `aktivitas-01.mp3` | “Sebelum makan, kita membaca Bismillah. Yuk, pilih tulisan Bismillah!” |
-| `aktivitas-02.mp3` | “Dengarkan bacaan Bismillah sampai selesai. Lalu, pilih tulisan yang sesuai.” |
+| `aktivitas-02.mp3` | “Dengarkan bacaan Basmallah sampai selesai. Lalu, pilih tulisan yang sesuai.” |
 | `aktivitas-03.mp3` | “Kapan kita membaca Bismillah? Pilih gambar sebelum mulai makan.” |
 | `aktivitas-04.mp3` | “Ayo susun urutannya. Cuci tangan, membaca Bismillah, lalu mulai makan.” |
 | `aktivitas-05.mp3` | “Pilih Bismillah. Dengarkan bacaannya sampai selesai. Setelah itu, kita mulai makan.” |
