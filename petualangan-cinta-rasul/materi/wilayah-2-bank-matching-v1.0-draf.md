@@ -16,9 +16,9 @@
 | ID | Tokoh | Petunjuk/kisah |
 |---|---|---|
 | W2-MA-01 | Fatimah az-Zahra | Putri Rasulullah ﷺ yang diberi kabar bahwa beliau akan menjadi anggota keluarga pertama yang menyusul Rasulullah ﷺ setelah wafat beliau. |
-| W2-MA-02 | Hasan bin Ali | Cucu Rasulullah ﷺ yang melalui dirinya Allah mendamaikan dua kelompok besar kaum Muslimin. |
+| W2-MA-02 | Hasan bin Ali | Cucu Rasulullah ﷺ yang pernah dicium beliau di hadapan seorang shahabat; peristiwa itu mengajarkan kasih sayang kepada anak. |
 | W2-MA-03 | Husain bin Ali | Cucu Rasulullah ﷺ yang bersama Hasan disebut sebagai pemimpin para pemuda penghuni surga. |
-| W2-MA-04 | Ibrahim | Putra Rasulullah ﷺ dari Mariyah al-Qibthiyyah yang wafat ketika masih kecil. |
+| W2-MA-04 | Ibrahim | Ketika putra Rasulullah ﷺ ini wafat, beliau mengajarkan bahwa mata menangis dan hati bersedih, tetapi lisan tetap mengucapkan yang diridhai Allah. |
 | W2-MA-05 | Aisyah binti Abu Bakr | Istri Rasulullah ﷺ yang kalungnya hilang dalam sebuah perjalanan; ketika rombongan tidak menemukan air, turun ayat tentang tayammum. |
 
 ### Penjelasan dan sumber
@@ -29,10 +29,9 @@
 - Tautan: https://sunnah.com/bukhari:3623
 
 **W2-MA-02 — Hasan bin Ali**
-- Penjelasan: Rasulullah ﷺ mengabarkan bahwa Hasan adalah seorang pemimpin dan Allah akan mendamaikan melalui dirinya dua kelompok besar kaum Muslimin. Hal itu terjadi ketika Hasan memilih jalan perdamaian sehingga pertumpahan darah dapat dihindari.
+- Penjelasan: Rasulullah ﷺ pernah mencium Hasan bin Ali ketika al-Aqra' bin Habis berada di dekat beliau. Ketika al-Aqra' menyebut bahwa ia tidak pernah mencium anak-anaknya, Rasulullah ﷺ mengingatkan bahwa orang yang tidak menyayangi tidak akan disayangi. Butir ini mengajarkan kasih sayang kepada anak, berbeda dari TTS Wilayah 2 yang menguji peran Hasan dalam perdamaian dua kelompok kaum Muslimin.
 - Jenis sumber: Hadis sahih.
-- Rujukan: Sahih al-Bukhari no. 2704.
-- Tautan: https://sunnah.com/bukhari:2704
+- Rujukan: Sahih al-Bukhari no. 5997. https://sunnah.com/bukhari:5997
 
 **W2-MA-03 — Husain bin Ali**
 - Penjelasan: Rasulullah ﷺ menyebut Hasan dan Husain sebagai pemimpin para pemuda penghuni surga.
@@ -61,7 +60,7 @@
 | W2-MK-03 | Ummu Habibah (Ramlah binti Abi Sufyan) | Istri Rasulullah ﷺ yang akad nikahnya diurus Raja Najasyi ketika ia berada di Habasyah. |
 | W2-MK-04 | Juwairiyah binti al-Harits | Pernikahannya dengan Rasulullah ﷺ menjadi sebab banyak tawanan dari kaumnya dibebaskan oleh kaum Muslimin. |
 | W2-MK-05 | Shafiyyah binti Huyayy | Termasuk tawanan Khaibar yang kemudian dinikahi Rasulullah ﷺ. |
-| W2-MK-06 | Ruqayyah binti Rasulullah ﷺ | Berhijrah ke Habasyah bersama suaminya, Utsman bin Affan, dalam salah satu gelombang hijrah kaum Muslimin. |
+| W2-MK-06 | Ruqayyah binti Rasulullah ﷺ | Istri Utsman bin Affan yang sedang sakit ketika Perang Badar sehingga Utsman tetap tinggal merawatnya; Rasulullah ﷺ memberinya pahala dan bagian seperti peserta Badar. |
 | W2-MK-07 | Usamah bin Zaid | Rasulullah ﷺ sangat menyayanginya dan pernah menggendongnya bersama Hasan. |
 | W2-MK-08 | Ummu Aiman (Barakah) | Perempuan yang biasa dikunjungi Rasulullah ﷺ. Setelah beliau wafat, Abu Bakr dan Umar mengunjunginya; ia menangis karena wahyu dari langit telah terputus. |
 
@@ -97,11 +96,11 @@
 - Catatan: Gunakan bahasa yang santun dan sesuai usia anak.
 
 **W2-MK-06 — Ruqayyah binti Rasulullah ﷺ**
-- Penjelasan: Ruqayyah berhijrah ke Habasyah bersama suaminya, Utsman bin Affan, dalam gelombang hijrah awal kaum Muslimin. Peristiwa ini termasuk materi sirah.
-- Jenis sumber: Sirah/biografi.
-- Jenis sumber: Sirah/biografi, bukan hadis sahih.
-- Rujukan: Ibn Hisham, *as-Sirah an-Nabawiyyah*, edisi F. Wüstenfeld, *Das Leben Muhammed's nach Muhammed Ibn Ishâk bearbeitet von Abd el-Malik Ibn Hischâm*, jilid 1, Göttingen: Dieterich, 1858, hlm. 208–209. Daftar rombongan hijrah pertama secara eksplisit menyebut Utsman bin Affan bersama istrinya, Ruqayyah putri Rasulullah ﷺ. Teks dan terjemahan: https://www.habeshahistory.com/travellers/first-hijra-to-abyssinia/read
-- Catatan: Halaman berbeda pada edisi lain tidak boleh dicampur dengan nomor halaman Wüstenfeld. Untuk produksi, tulis edisi yang sama atau ganti nomor halaman setelah edisi fisik yang digunakan diperiksa.
+- Penjelasan: Pada Perang Badar, Utsman bin Affan tidak ikut berangkat karena istrinya, putri Rasulullah ﷺ, sedang sakit. Rasulullah ﷺ menyampaikan bahwa Utsman memperoleh pahala dan bagian seperti orang yang ikut dalam Perang Badar. Identitas istri tersebut sebagai Ruqayyah ditetapkan melalui sumber sirah/biografi; riwayat Bukhari menyebutnya sebagai putri Rasulullah ﷺ tanpa menyebut nama.
+- Jenis sumber: Hadis sahih untuk peristiwa sakit dan bagian/pahala Badar; identifikasi nama melalui sirah/biografi.
+- Rujukan hadis: Sahih al-Bukhari no. 3130. https://sunnah.com/bukhari:3130
+- Rujukan identitas: Ibn Hisham, *as-Sirah an-Nabawiyyah*, edisi F. Wüstenfeld, *Das Leben Muhammed's nach Muhammed Ibn Ishâk bearbeitet von Abd el-Malik Ibn Hischâm*, jilid 1, Göttingen: Dieterich, 1858, hlm. 208–209; daftar hijrah pertama menyebut Utsman bersama istrinya Ruqayyah. Teks dan terjemahan: https://www.habeshahistory.com/travellers/first-hijra-to-abyssinia/read
+- Catatan: Petunjuk ini berbeda dari TTS W2-K8 yang menguji pernikahan dan hijrah Ruqayyah ke Habasyah. Bukhari 3130 sendiri tidak menyebut nama Ruqayyah, sehingga identifikasi nama harus tetap didukung sumber sirah.
 
 **W2-MK-07 — Usamah bin Zaid**
 - Penjelasan: Rasulullah ﷺ menggendong Usamah bersama Hasan dan mendoakan keduanya.
@@ -119,6 +118,6 @@
 ## C. Audit pengulangan dan status
 - Jumlah: 5 pasangan Adik, 8 pasangan Kakak.
 - Butir Zaid bin Haritsah yang mengulang fakta penyebutan namanya dalam QS. Al-Ahzab 33:37 telah diganti dengan Ruqayyah dan peristiwa hijrahnya ke Habasyah. Butir Hafsah menggantikan Zaynab binti Jahsy agar tidak mengulang fakta QS. Al-Ahzab 33:37 yang sudah ada pada TTS Wilayah 2.
-- Hasan/Husain merupakan cucu; Ibrahim adalah putra; jangan campur kategori.
+- Hasan/Husain merupakan cucu; Ibrahim adalah putra; jangan campur kategori. Hasan pada Matching kini menguji kasih sayang kepada anak (Bukhari 5997), bukan pengulangan kisah perdamaian Hasan yang sudah diuji TTS. Ibrahim pada Matching menyoroti respons Rasulullah ﷺ ketika putranya wafat, berbeda dari TTS yang menguji identitas putra beliau.
 - Aisyah kini memakai kisah kalung dan turunnya ayat tayammum (Bukhari 334). Ummu Habibah memakai riwayat pernikahan di Habasyah dari an-Nasa'i 3350 dengan catatan perbedaan penilaian hadis. Ummu Aiman kini memakai Muslim 2454 dan petunjuk dibatasi pada isi riwayat tersebut. Juwairiyah tetap perlu audit penilaian dan redaksi rujukan.
 - Status: DRAF. Jangan masuk produksi sebelum audit sumber, ejaan, dan anti-pengulangan selesai.
