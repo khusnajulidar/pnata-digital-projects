@@ -215,3 +215,31 @@ Arah visual yang perlu ditonjolkan:
 
 **Catatan penerapan:** Mockup 02 — Pilih Profil dapat mulai memperkenalkan identitas ekspedisi gurun dengan porsi pasir dan bukit batu yang lebih besar. Peta wilayah dan layar tantangan kemudian dapat memiliki variasi lanskap gurun sesuai karakter masing-masing wilayah, tanpa mengubah aturan adab dan larangan rekonstruksi sejarah spekulatif.
 
+### Rencana penempatan layer UI di atas Kandidat D
+
+Acuan berikut adalah proporsi awal pada kanvas portrait, bukan koordinat piksel yang kaku. Posisi akhir disesuaikan setelah logo resmi dan latar dipasang bersama.
+
+| Zona layar | Perkiraan area vertikal | Isi | Catatan |
+|---|---:|---|---|
+| Identitas | 4–12% | Logo resmi P’Nata | Ukuran ringkas, tidak mengambil ruang judul. |
+| Judul | 13–25% | Petualangan Cinta Rasul | Kontras tinggi; jangan menutup gerbang atau ornamen langit yang penting. |
+| Subjudul | 25–32% | Mengenal Rasulullah ﷺ, Keluarga, dan Para Shahabat | Maksimal beberapa baris pendek; gunakan bidang lembut bila langit tidak cukup kontras. |
+| Panggung visual | 34–75% | Gerbang, oasis, jalur, lanskap | Biarkan ilustrasi Kandidat D menjadi fokus; hindari panel besar menutupi gerbang. |
+| Aksi utama | 80–91% | MULAI PETUALANGAN | Tombol besar pada kartu/panel terpisah; pastikan tidak terlalu dekat tepi bawah. |
+
+Prinsip penataan:
+1. Jangan menempelkan seluruh teks pada satu panel besar. Judul dan subjudul boleh memakai bidang transparan/ivory yang ringan bila dibutuhkan.
+2. Tombol utama harus menjadi elemen UI, bukan bagian dari gambar latar. Gunakan bentuk tombol yang terasa seperti objek 3D ringan, tetapi label tetap teks HTML.
+3. Jangan menutupi jalur yang mengarah ke gerbang secara berlebihan; tombol ditempatkan pada area bawah yang paling lapang.
+4. Logo resmi tidak boleh dibuat ulang oleh generator gambar. Ambil file logo asli dari aset brand P’Nata.
+5. Siapkan dua pengujian crop: layar ponsel portrait yang lebih pendek dan layar 9:16. Judul, subjudul, serta tombol harus tetap utuh.
+6. Jika tinggi layar sempit, kurangi jarak antar-zona atau skala dekorasi; jangan mengecilkan tombol hingga sulit disentuh.
+
+### Tahap produksi terdekat
+
+1. Gunakan Kandidat D sebagai latar dasar.
+2. Pasang layer logo, judul, subjudul, dan tombol sesuai zona di atas.
+3. Evaluasi satu komposisi penuh pada ukuran ponsel.
+4. Revisi hanya bagian yang mengganggu keterbacaan atau keseimbangan; jangan mengulang eksplorasi latar tanpa alasan visual yang jelas.
+5. Setelah Mockup 01 disetujui, lanjutkan Mockup 02 dengan nuansa padang pasir yang lebih kuat.
+
