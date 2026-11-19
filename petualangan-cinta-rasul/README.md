@@ -231,3 +231,7 @@ Matching Wilayah 2 direvisi menjadi v1.1. Aisyah kini memakai kisah kalung hilan
 ### Revisi Matching Wilayah 1 dan klarifikasi Matching Wilayah 3 — 19 November 2026
 
 Matching Wilayah 1 diperbarui menjadi v1.2: Zaid bin Haritsah diganti Dihyah al-Kalbi untuk menghindari kedekatan dengan target ZAYD pada Berburu Kata Wilayah 2 yang sama-sama berpusat pada QS Al-Ahzab 33:37 dan tema nasab/adopsi. Dihyah diuji melalui perannya membawa surat Rasulullah ﷺ kepada penguasa Busra untuk diteruskan kepada Heraclius (Sahih al-Bukhari 7). Matching Wilayah 3 kini menandai secara eksplisit bahwa Abu Talhah al-Anshari dan Thalhah bin Ubaidillah adalah dua shahabat berbeda; nama lengkap wajib tampil di kartu dan umpan balik.
+
+### Audit TTS Wilayah 2 — 19 November 2026
+
+TTS Wilayah 2 diperjelas pada butir ZAINAB: QS Al-Ahzab 33:37 menjelaskan peristiwa pernikahan Zaynab bint Jahsh tetapi tidak menyebut nama Zaynab secara eksplisit; identitas tokoh berasal dari sirah/biografi. Catatan sumber diperkuat untuk HIND (nama masyhur Umm Salamah dengan variasi penyebutan nasab), RAMLAH (Mustadrak al-Hakim 6769 dan an-Nasa'i 3350 dengan perbedaan penilaian), SAUDAH (Bukhari 5237), dan RUQAYYAH (Ibn Hisham 1/322–323). Bank tetap draf sampai audit akhir dan pencantuman edisi sirah selesai.
