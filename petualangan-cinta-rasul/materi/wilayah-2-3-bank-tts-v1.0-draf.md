@@ -32,24 +32,24 @@
 | W2-K1 | MAIMUNAH | 8 | Siapakah istri Rasulullah ﷺ yang dinikahi pada masa Umratul Qadha? |
 | W2-K2 | HIND | 4 | Siapakah nama asli Umm Salamah, salah seorang istri Rasulullah ﷺ? |
 | W2-K3 | RAMLAH | 6 | Siapakah nama asli Ummu Habibah, putri Abu Sufyan yang menjadi salah seorang istri Rasulullah ﷺ? |
-| W2-K4 | ZAINAB | 6 | Siapakah nama salah seorang istri Rasulullah ﷺ yang disebut dalam kisah pernikahan pada Surah Al-Ahzab ayat 37? |
+| W2-K4 | ZAINAB | 6 | Siapakah istri Rasulullah ﷺ yang dinikahi setelah Zayd bin Haritsah menceraikannya, dalam peristiwa yang dijelaskan pada Surah Al-Ahzab ayat 37? |
 | W2-K5 | JUWAYRIYAH | 10 | Siapakah istri Rasulullah ﷺ yang pernikahannya menjadi sebab terbebasnya banyak tawanan Bani al-Musthaliq? |
 | W2-K6 | SAUDAH | 6 | Siapakah istri Rasulullah ﷺ yang dikenal dengan nama Saudah bint Zam‘ah? |
 | W2-K7 | MARIAH | 6 | Siapakah nama perempuan yang menjadi ibu putra Rasulullah ﷺ, Ibrahim? |
 | W2-K8 | RUQAYYAH | 8 | Siapakah putri Rasulullah ﷺ yang menikah dengan Utsman bin Affan sebelum hijrah ke Madinah? |
 
 ### Catatan penting Paket Kakak
-Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebelum dinyatakan final. Beberapa nama/relasi keluarga tidak disebut secara eksplisit dalam satu hadis sahih tertentu. Karena itu:
+Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebelum dinyatakan final. Beberapa nama/relasi keluarga ditetapkan melalui kitab sirah/biografi, bukan hadis sahih yang eksplisit. Karena itu:
 - **W2-K1 MAIMUNAH**: Rasulullah ﷺ menikahi Maimunah; riwayat menyebut pernikahan itu pada masa Umratul Qadha. Rujukan: Sahih al-Bukhari 4258–4259; https://sunnah.com/bukhari:4258
-- **W2-K2 HIND**: Hind bint Abi Umayyah dikenal dengan kunyah Umm Salamah. Statusnya sebagai istri Rasulullah ﷺ benar, tetapi rujukan biografi primer untuk nama lengkapnya masih harus ditetapkan. Jangan menganggap nama Hind sudah lolos audit hanya karena dikenal luas.
-- **W2-K3 RAMLAH**: Ramlah bint Abi Sufyan dikenal dengan kunyah Umm Habibah. Rujukan biografi primer untuk nama lengkap dan statusnya masih harus ditetapkan sebelum final.
-- **W2-K4 ZAINAB**: yang dimaksud adalah Zaynab bint Jahsh; rujukan utama QS. Al-Ahzab [33]:37. https://quran.com/33/37
+- **W2-K2 HIND**: Nama yang masyhur dalam kitab-kitab biografi adalah Hind bint Abi Umayyah, dikenal dengan kunyah Umm Salamah. Ada variasi dalam penyebutan nama ayah/garis nasab (sebagian sumber menyebut Hind bint Suhayl), sehingga catat bentuk target HIND sebagai nama yang masyhur, bukan klaim bahwa semua sumber sepakat pada seluruh rangkaian nasab. Rujukan biografi yang perlu dicantumkan pada catatan editor: Ibn Hajar, *al-Isabah fi Tamyiz ash-Shahabah*, entri Umm Salamah/Hind; bandingkan data perawi Umm Salamah di Sunnah.com. Ini tetap sumber biografi/perawi, bukan hadis yang secara eksplisit menuturkan nama lahirnya.
+- **W2-K3 RAMLAH**: Ramlah bint Abi Sufyan dikenal dengan kunyah Umm Habibah. Mustadrak al-Hakim no. 6769 mengutip ahli nasab Mus'ab bin Abdullah az-Zubairi yang menyebut nama aslinya Ramlah; Sunan an-Nasa'i no. 3350 meriwayatkan pernikahannya ketika berada di Habasyah. Catat bahwa riwayat pernikahan an-Nasa'i no. 3350 memiliki perbedaan penilaian derajat hadis (al-Albani sahih, Darussalam hasan, Zubair Ali Zai daif).
+- **W2-K4 ZAINAB**: yang dimaksud adalah Zaynab bint Jahsh. QS. Al-Ahzab [33]:37 menjelaskan peristiwa pernikahannya dengan Rasulullah ﷺ setelah Zayd bin Haritsah menceraikannya, tetapi ayat tersebut tidak menyebut nama Zaynab secara eksplisit. Nama dan identitasnya ditetapkan melalui kitab sirah/biografi, misalnya Ibn Hajar, *al-Isabah*, entri Zaynab bint Jahsh. https://quran.com/33/37
 - **W2-K5 JUWAYRIYAH**: riwayat Aisyah menyebut pembebasan seratus keluarga Bani al-Mustaliq setelah pernikahan Juwayriyah dengan Rasulullah ﷺ. Rujukan: Sunan Abi Dawud 3931; dinilai hasan oleh al-Albani. https://sunnah.com/abudawud:3931.
-- **W2-K6 SAUDAH**: petunjuk identitas kini tidak lagi mengandalkan klaim urutan pernikahan. Tetap lengkapi rujukan biografi spesifik Saudah bint Zam‘ah sebelum final.
+- **W2-K6 SAUDAH**: Sahih al-Bukhari no. 5237 secara eksplisit menyebut Saudah bint Zam'ah dan konteks bahwa ia adalah istri Nabi ﷺ. Rujukan: https://sunnah.com/bukhari:5237. Butir identitas kini memiliki rujukan hadis yang spesifik.
 - **W2-K7 MARIAH**: Mariah al-Qibthiyyah adalah ibu Ibrahim. Jangan masukkan beliau ke daftar 11 istri atau menyebutnya sebagai Ummul Mukminin; Komite Tetap Riset Ilmiah dan Fatwa Saudi menjelaskan bahwa beliau bukan istri, melainkan umm walad. Rujukan fatwa no. 5848, Majmu‘ Fatawa al-Lajnah ad-Da’imah, jilid 18, hlm. 10. https://abdurrahman.org/wp-content/uploads/2024/04/en_18_majmoo_alfatawa_iftaa_coll01.pdf
-- **W2-K8 RUQAYYAH**: putri Rasulullah ﷺ yang menikah dengan Utsman bin Affan. Rujukan sirah/biografi keluarga Nabi; perlu dilengkapi secara spesifik sebelum final.
+- **W2-K8 RUQAYYAH**: putri Rasulullah ﷺ yang menikah dengan Utsman bin Affan dan berhijrah bersamanya ke Habasyah. Rujukan sirah: Ibn Hisham, *as-Sirah an-Nabawiyyah*, jilid 1, hlm. 322–323 (daftar rombongan hijrah awal bersama Utsman). Pastikan edisi kitab yang digunakan dicantumkan dalam daftar pustaka produksi; ini sumber sirah, bukan hadis sahih.
 
-**Keputusan mutu:** Paket Kakak tetap berstatus kandidat. Petunjuk dan jawaban K2–K3 kini menguji nama asli, bukan mengulang kunyah; K5 memakai kisah pembebasan tawanan; K6 tidak lagi memakai klaim kronologi yang rawan. Rujukan biografi K2, K3, K6, dan K8 masih harus dilengkapi. Jangan masukkan ke grid/HTML sebelum audit itu selesai.
+**Keputusan mutu:** Paket Kakak tetap berstatus kandidat. Petunjuk dan jawaban K2–K3 kini menguji nama asli, bukan mengulang kunyah; K5 memakai kisah pembebasan tawanan; K6 tidak lagi memakai klaim kronologi yang rawan. K2 memakai nama yang masyhur dengan catatan variasi nasab; K3 kini memiliki rujukan ahli nasab dan hadis pernikahan dengan perbedaan grading; K6 memiliki Bukhari 5237; K8 memiliki rujukan Ibn Hisham 1/322–323. K4 juga harus dipahami bahwa QS 33:37 tidak menyebut nama Zaynab secara eksplisit. Jangan masukkan ke grid/HTML sebelum audit itu selesai.
 
 ---
 
