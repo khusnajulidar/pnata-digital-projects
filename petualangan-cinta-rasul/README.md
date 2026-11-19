@@ -238,4 +238,11 @@ TTS Wilayah 2 diperjelas pada butir ZAINAB: QS Al-Ahzab 33:37 menjelaskan perist
 
 ### Temuan audit lanjutan — TTS Wilayah 3 dan Berburu Kata Wilayah 1
 
-Audit menemukan tiga soal TTS Kakak Wilayah 3 (Talhah, Zubair, Sa'd) yang semuanya menguji satu hadis/tujuan yang sama, yaitu daftar sepuluh shahabat yang diberi kabar gembira dengan Surga (Tirmidhi 3747). Dua butir perlu diganti dengan fakta lain yang terverifikasi. Audit juga menemukan W1 Berburu Kata target SUSU (Adik) dan AMIR (Kakak) menguji detail yang sama dari kisah Amir bin Fuhairah membawa ternak/susu ke sekitar gua. Salah satunya perlu diganti, dan paket Kakak perlu dikurangi kepadatannya pada satu peristiwa hijrah. Kisi Canva/HTML tetap ditunda.
+Audit menemukan tiga soal TTS Kakak Wilayah 3 (Talhah, Zubair, Sa'd) yang semuanya menguji satu hadis/tujuan yang sama, yaitu daftar sepuluh shahabat yang diberi kabar gembira dengan Surga (Tirmidhi 3747). Temuan ini kemudian ditangani seluruhnya, bukan hanya dua butir, agar tidak beririsan dengan misi khusus Berburu Kata Wilayah 3 Kakak. Audit juga menemukan W1 Berburu Kata target SUSU (Adik) dan AMIR (Kakak) menguji detail yang sama dari kisah Amir bin Fuhairah. Kedua temuan telah diperbaiki pada revisi v1.2 yang dicatat di bawah.
+
+
+### Revisi bank terbaru — 19 November 2026
+
+- **TTS Wilayah 2–3 v1.2:** tiga target TTS Wilayah 3 Kakak yang semula menguji satu hadis daftar sepuluh shahabat (Talhah, Zubair, Sa'd; Tirmidhi 3747) diganti seluruhnya agar tidak mengulang misi khusus Berburu Kata Wilayah 3 Kakak. Pengganti: JARIR (Bukhari 57), JABIR (Bukhari 2097), dan SULAYK (Muslim 875). Nama Sulayk tidak terdapat dalam redaksi Bukhari 930 yang umum; identifikasi nama memakai Muslim 875.
+- **Berburu Kata Wilayah 1 v1.2:** SUSU (Adik) diganti QUBA (Bukhari 3906) untuk menghilangkan pengulangan fakta dengan AMIR (Kakak). Empat target Kakak yang terlalu terkonsentrasi pada perjalanan hijrah — DAIL, PESISIR, KULIT, MALAM — diganti SAFA (Bukhari 4770), AQABAH (Bukhari 3231), MINBAR (Bukhari 3584), dan FATH (Bukhari 4280). Redaksi AQABAH tidak mengklaim bahwa nama Taif tertulis eksplisit dalam Bukhari 3231.
+- **Status:** Bank masih draf. Grid Canva dan HTML belum dibuat; audit lanjutan seluruh mode, pemeriksaan sumber, ejaan, dan keterbacaan tetap menjadi prasyarat.
