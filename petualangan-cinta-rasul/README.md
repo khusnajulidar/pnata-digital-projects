@@ -155,7 +155,7 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 | Mode | Adik | Kakak | Status |
 |---|---:|---:|---|
 | TTS | 5 jawaban/wilayah | 8 jawaban/wilayah | Wilayah 1 disusun; Wilayah 2 dan 3 memiliki draf TTS, masih perlu verifikasi/pemolesan |
-| Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Wilayah 1 dan Wilayah 2 draf v1.0 tersimpan; Wilayah 3 dan Bonus belum disusun |
+| Berburu Kata | 6 kata/wilayah | 10 kata/wilayah | Wilayah 1–3 draf v1.0 tersimpan; Bonus belum disusun |
 | Pasangkan Tokoh dan Kisahnya | 5 pasangan/wilayah | 8 pasangan/wilayah | Belum disusun |
 
 ### Dokumen bank TTS
@@ -172,7 +172,7 @@ Tidak memerlukan akun/login. Progres terikat pada browser/perangkat. Sediakan to
 
 **Catatan status:** Dokumen yang berlabel draf/kandidat belum merupakan bank final untuk produksi. Pemeriksaan sumber dan bahasa anak tetap menjadi gerbang sebelum pembuatan grid.
 
-- [Wilayah 1 — Jejak Rasulullah ﷺ, Berburu Kata v1.0 (draf)](materi/wilayah-1-bank-berburu-kata-v1.0-draf.md)\n- [Wilayah 2 — Keluarga Rasulullah ﷺ, Berburu Kata v1.0 (draf)](materi/wilayah-2-bank-berburu-kata-v1.0-draf.md)
+- [Wilayah 1 — Jejak Rasulullah ﷺ, Berburu Kata v1.0 (draf)](materi/wilayah-1-bank-berburu-kata-v1.0-draf.md)\n- [Wilayah 2 — Keluarga Rasulullah ﷺ, Berburu Kata v1.0 (draf)](materi/wilayah-2-bank-berburu-kata-v1.0-draf.md)\n- [Wilayah 3 — Taman Para Shahabat, Berburu Kata v1.0 (draf)](materi/wilayah-3-bank-berburu-kata-v1.0-draf.md)
 
 ### Catatan terbaru
 Bank Berburu Kata Wilayah 1 telah disusun: 6 target Adik dan 10 target Kakak. Materi mengambil detail penggembalaan dan perjalanan hijrah dengan rujukan Sahih al-Bukhari 2262, 2263, dan 3905. Kisi visual belum dibuat; kisi dan koordinatnya menjadi pekerjaan Canva setelah daftar kata disetujui.
