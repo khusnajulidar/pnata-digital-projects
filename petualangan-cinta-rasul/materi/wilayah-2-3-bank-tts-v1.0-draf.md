@@ -78,7 +78,7 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 |---|---|---:|---|
 | W3-K1 | ABUBAKR | 7 | Shahabat yang menemani Rasulullah ﷺ ketika berada di dalam gua saat hijrah, sebagaimana disebut dalam QS. At-Tawbah ayat 40. |
 | W3-K2 | UMAR | 4 | Shahabat yang disebut dalam hadis sahih bahwa setan akan mengambil jalan lain ketika melihatnya berjalan di suatu jalan. |
-| W3-K3 | UTHMAN | 6 | Shahabat yang membeli/mengadakan sumur Rumah dan membantu menyiapkan pasukan al-'Usrah. |
+| W3-K3 | UTHMAN | 6 | Shahabat yang membuat Rasulullah ﷺ merasa malu kepadanya, sampai beliau menyebut bahwa para malaikat pun malu kepadanya. |
 | W3-K4 | ALI | 3 | Shahabat yang menerima panji pada Perang Khaibar dan Allah memberikan kemenangan melalui tangannya. |
 | W3-K5 | ABUUBAIDAH | 10 | Shahabat yang dipilih Rasulullah ﷺ sebagai orang paling tepercaya untuk diutus kepada penduduk Najran. |
 | W3-K6 | JARIR | 5 | Shahabat yang berbaiat kepada Rasulullah ﷺ untuk menegakkan salat, menunaikan zakat, dan memberi nasihat tulus kepada setiap Muslim. |
@@ -88,7 +88,7 @@ Paket ini masih memerlukan pembakuan ejaan dan pemeriksaan rujukan biografi sebe
 ### Kunci dan penjelasan
 - **W3-K1 ABUBAKR** — Abu Bakr menemani Rasulullah ﷺ ketika keduanya berada di gua pada peristiwa hijrah. Rujukan: QS. At-Tawbah [9]:40; Sahih al-Bukhari 3653. https://quran.com/9/40 ; https://sunnah.com/bukhari:3653
 - **W3-K2 UMAR** — Dalam hadis sahih, Rasulullah ﷺ menyampaikan bahwa setan mengambil jalan lain ketika melihat Umar berjalan di suatu jalan. Rujukan: Sahih al-Bukhari 3294. https://sunnah.com/bukhari:3294
-- **W3-K3 UTHMAN** — Utsman bin Affan mengadakan sumur Rumah dan menyiapkan pasukan al-'Usrah. Rujukan: Sahih al-Bukhari 2778. https://sunnah.com/bukhari:2778
+- **W3-K3 UTHMAN** — Ketika Utsman datang menemui Rasulullah ﷺ, beliau merapikan pakaiannya. Beliau menjelaskan bahwa beliau patut malu kepada orang yang para malaikat pun malu kepadanya. Rujukan: Sahih Muslim no. 2401. https://sunnah.com/muslim:2401
 - **W3-K4 ALI** — Ali bin Abi Talib menerima panji pada Perang Khaibar; Rasulullah ﷺ menyebut keutamaan mencintai Allah dan Rasul-Nya serta dicintai Allah dan Rasul-Nya. Rujukan: Sahih al-Bukhari 4210. https://sunnah.com/bukhari:4210
 - **W3-K5 ABUUBAIDAH** — Rasulullah ﷺ mengutus Abu Ubaidah bin al-Jarrah kepada penduduk Najran dan menyebutnya sebagai orang yang sangat tepercaya. Rujukan: Sunan Ibn Majah 135 (dinilai sahih oleh Darussalam) dan Jami‘ at-Tirmidhi 3796. https://sunnah.com/ibnmajah:135 ; https://sunnah.com/tirmidhi:3796
 - **W3-K6 JARIR** — Jarir bin Abdullah meriwayatkan bahwa ia berbaiat kepada Rasulullah ﷺ untuk menegakkan salat, menunaikan zakat, dan memberi nasihat yang tulus kepada setiap Muslim. Rujukan: Sahih al-Bukhari 57. https://sunnah.com/bukhari:57
