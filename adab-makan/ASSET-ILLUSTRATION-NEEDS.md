@@ -117,3 +117,116 @@ Komponen dinamis tetap harus diberi styling khusus agar menyatu dengan efek 3D s
 - Status “buat jika belum tersedia” harus diperiksa terhadap seluruh aset repo sebelum produksi agar tidak membuat duplikasi.
 - Dokumen ini merupakan daftar kebutuhan awal, bukan instruksi untuk langsung menghasilkan semua ilustrasi. Produksi dilakukan setelah audit aset yang sudah ada dan persetujuan komposisi.
 
+
+
+---
+
+# 7. Hasil Audit Aset Visual Repositori
+
+**Tanggal audit:** 19 November 2026  
+**Cakupan:** seluruh pohon berkas `adab-makan/` pada branch `main`, termasuk `mockups/`, `assets/images/`, serta daftar aset audio.  
+**Metode:** daftar berkas dan metadata diverifikasi melalui GitHub API; dokumen proyek dibaca. Pemeriksaan visual langsung terhadap berkas gambar biner tidak berhasil dilakukan pada sesi audit ini karena konektor GitHub yang tersedia hanya mengembalikan teks dan menolak isi gambar biner. Karena itu, penilaian isi gambar di bawah menggunakan catatan pemeriksaan visual terdahulu dan deskripsi Mockup 07/10 yang diberikan pengguna, bukan klaim bahwa semua gambar dibuka ulang pada audit ini.
+
+## 7.1 Temuan struktur repositori
+
+- Folder `adab-makan/mockups/` berisi **11 gambar mockup** dan satu README.
+- Folder `adab-makan/assets/images/` hanya berisi `README.md`; **tidak ditemukan berkas ilustrasi gambar terpisah** pada folder tersebut.
+- Penelusuran pohon repositori secara rekursif tidak menemukan subfolder gambar lain di dalam `adab-makan/`.
+- Folder audio berisi tiga rekaman utama (`bismillah.mp3`, `alhamdulillah.mp3`, `doa-setelah-makan-tirmidzi-3458.mp3`), empat audio feedback, dan 25 berkas narasi aktivitas. Ini aset audio, bukan pengganti kebutuhan ilustrasi.
+
+**Implikasi:** mockup dapat menjadi acuan visual/template, tetapi objek di dalam gambar belum otomatis tersedia sebagai file terpisah dengan transparansi atau resolusi/crop yang siap dipakai pada berbagai aktivitas. Ekstraksi aset memerlukan pemeriksaan gambar asli dan keputusan desain; jangan menganggapnya sudah selesai.
+
+## 7.2 Klasifikasi sebelas mockup
+
+Klasifikasi berikut menilai kegunaan sebagai **acuan/template**, bukan menyatakan semua elemen gambar sudah berhasil diekstrak menjadi aset mandiri.
+
+| Berkas | Klasifikasi audit | Dasar dan batas pemakaian |
+|---|---|---|
+| `mockup-01-halaman-pembuka.png` | **Dapat digunakan sebagai acuan template** | Halaman pembuka telah dikenali dari inventaris sebelumnya. Pertahankan identitas visual; tombol dan status mulai dapat dibuat dinamis. Gambar biner tidak dibuka ulang pada audit ini. |
+| `mockup-02-petunjuk.jfif` | **Dapat digunakan sebagai acuan template** | Halaman petunjuk menurut inventaris sebelumnya. Teks/kontrol yang berubah dapat dibuat dinamis. Detail ilustrasi dan bagian yang dapat diekstrak belum diverifikasi ulang. |
+| `mockup-03.jfif` | **Dapat digunakan sebagai acuan template hybrid** | Dikenali sebagai Peta Lima Misi dari UI Implementation Spec. Ilustrasi/dekorasi menjadi aset visual; kartu misi, gembok, progres, dan bintang harus dinamis. |
+| `mockup-04-template-aktivitas-pilihan.png` | **Dapat digunakan sebagai acuan template** | Sebelumnya telah diperiksa sebagai template pilihan “Kenali Bismillah”. Gunakan struktur visualnya; jangan memakai teks contoh sebagai konten tetap untuk aktivitas lain. |
+| `mockup-05.png` | **Dapat digunakan sebagai acuan template** | Sebelumnya telah diperiksa sebagai aktivitas audio dan pilihan. Kontrol audio, kartu, dan teks perlu diimplementasikan secara fungsional/dinamis. |
+| `mockup-06.png` | **Dapat digunakan sebagai acuan template** | Sebelumnya telah diperiksa sebagai pola susun/drag tiga tahap. Slot dan item interaktif perlu dibangun ulang sebagai UI; jangan menganggap elemen di dalam screenshot sudah menjadi objek drag terpisah. |
+| `mockup-07–template-aktivitas-simulasi-interaktif.png` | **Perlu adaptasi/edit untuk implementasi** | Berdasarkan analisis visual pengguna: meja, makanan, alat makan, gelas, dua tangan perspektif anak, dan sorotan tangan kanan. Sangat relevan untuk simulasi, tetapi area sentuh, status, feedback, dan navigasi harus dinamis. Ekstraksi objek terpisah belum diverifikasi. |
+| `mockup-08.jfif` | **Perlu adaptasi/edit** | Dikenali sebagai layar penyelesaian Misi 1. Jangan gunakan mentah untuk seluruh misi karena label/konteksnya spesifik. Jadikan acuan gaya dan buat teks/status dinamis. |
+| `mockup-09.jfif` | **Dapat digunakan sebagai acuan template** | Dikenali sebagai layar penyelesaian permainan. Status bintang dan tombol akhir perlu terhubung ke progres sebenarnya. |
+| `mockup-10.png` | **Perlu adaptasi/edit untuk implementasi** | Berdasarkan analisis visual pengguna: tiga kartu Arab/transliterasi/terjemahan, audio utama, audio ulang, dekorasi perlengkapan makan, navigasi. Teks dan audio harus dinamis/terhubung ke rekaman yang benar; ilustrasi terpisah belum tersedia. |
+| `mockup-11.png` | **Perlu verifikasi visual sebelum dipakai ulang** | Inventaris sebelumnya mengenalinya sebagai adegan makan bersama dan GDD menetapkannya sebagai referensi sementara Aktivitas 9–10. Kecocokan perspektif, jarak makanan, representasi orang tanpa wajah/mata, serta kesesuaian ketentuan visual belum dapat dinyatakan lolos pada audit ini. |
+
+**Tidak ada mockup yang diklasifikasikan “tidak sesuai” secara final**, karena gambar biner tidak dapat diperiksa ulang untuk menilai detail visualnya. Mockup 08 hanya memiliki batas penggunaan: tidak sesuai bila dipakai mentah sebagai layar penyelesaian semua misi.
+
+## 7.3 Status kebutuhan visual per aktivitas
+
+Status:
+- **Terpenuhi**: kebutuhan dapat dipenuhi oleh aset mandiri yang terverifikasi atau komponen dinamis yang memang tidak membutuhkan ilustrasi.
+- **Sebagian terpenuhi**: acuan/template/adegan tersedia, tetapi ilustrasi terpisah, adaptasi, atau pemeriksaan kecocokan masih diperlukan.
+- **Belum tersedia**: belum ditemukan aset gambar yang secara terverifikasi memenuhi kebutuhan spesifik.
+
+| Aktivitas | Kebutuhan visual utama | Status audit | Catatan |
+|---:|---|---|---|
+| 1. Kenali Bismillah | Kartu teks Arab dan template pilihan | **Sebagian terpenuhi** | Acuan Mockup 04 ada; kartu/teks final dibuat dinamis, bukan aset ilustrasi mandiri. |
+| 2. Dengarkan Bismillah | Template audio-pilihan dan teks Arab | **Sebagian terpenuhi** | Acuan Mockup 05 dan rekaman Bismillah tersedia; fungsi serta kecocokan tampilan perlu diuji. |
+| 3. Kapan Membaca Bismillah? | Ilustrasi situasi sebelum makan dan pembanding | **Belum tersedia** | Belum ada ilustrasi mandiri yang dapat diverifikasi. |
+| 4. Urutkan Sebelum Makan | Tiga ilustrasi tahap dan template susun | **Sebagian terpenuhi** | Acuan Mockup 06 tersedia; tiga gambar tahap terpisah belum ditemukan di folder aset. |
+| 5. Ayo Mulai Makan! | Meja, makanan, tangan, alur aksi | **Sebagian terpenuhi** | Mockup 07 menjadi acuan; objek terpisah dan adaptasi tahap belum tersedia/terverifikasi. |
+| 6. Kenali Tangan Kanan | Ilustrasi tangan dengan orientasi jelas | **Belum tersedia** | Ada ilustrasi tangan di deskripsi Mockup 07, tetapi belum tersedia sebagai file mandiri terverifikasi. |
+| 7. Ayo Makan dengan Tangan Kanan | Simulasi dua tangan dan sorotan tangan kanan | **Sebagian terpenuhi** | Komposisi acuan tersedia di Mockup 07; implementasi area interaksi dan ekstraksi aset belum dilakukan. |
+| 8. Tangan Kanan Saat Makan | Perbandingan tindakan makan yang benar | **Belum tersedia** | Belum ditemukan ilustrasi mandiri untuk pilihan tindakan. |
+| 9. Ambil Makanan Terdekat | Adegan wadah bersama, perspektif anak, jarak makanan | **Sebagian terpenuhi** | Mockup 11 adalah acuan adegan menurut inventaris/GDD; kelayakan detail adegan belum diverifikasi ulang. |
+| 10. Misi Piring Makanan | Gabungan simulasi tangan kanan dan makanan terdekat | **Sebagian terpenuhi** | Mockup 07 dan 11 menjadi acuan; komposisi gabungan dan transisi belum tersedia. |
+| 11. Jangan Mencela Makanan | Kartu respons/teks | **Terpenuhi untuk kebutuhan ilustrasi** | Dapat menggunakan UI teks dinamis pada keluarga Mockup 04; ilustrasi tambahan tidak wajib. |
+| 12. Jika Tidak Suka Makanan | Ilustrasi tindakan yang tepat | **Belum tersedia** | Belum ditemukan gambar mandiri yang menjelaskan tindakan tanpa karakter/wajah. |
+| 13. Ambil Secukupnya | Perbandingan porsi yang sesuai dan berlebihan | **Belum tersedia** | Objek makanan dari Mockup 07 mungkin menjadi sumber adaptasi, tetapi pasangan visual porsi belum tersedia sebagai aset mandiri. |
+| 14. Jangan Menyia-nyiakan Makanan | Ilustrasi penyimpanan makanan aman | **Belum tersedia** | Belum ditemukan wadah/adegan penyimpanan sebagai aset gambar. |
+| 15. Makanan adalah Nikmat Allah | Kartu pilihan dan sajian makanan | **Sebagian terpenuhi** | Template pilihan tersedia; sajian makanan pada Mockup 07 menjadi acuan, belum sebagai aset terpisah. |
+| 16. Minum dengan Tangan Kanan | Tangan memegang gelas dengan orientasi benar | **Sebagian terpenuhi** | Mockup 07 memuat tangan dan gelas menurut analisis; ilustrasi mandiri belum tersedia. |
+| 17. Jangan Bernapas ke Dalam Gelas | Ilustrasi tindakan yang benar dan pembanding | **Belum tersedia** | Belum ditemukan rangkaian visual tindakan minum yang dapat diverifikasi. |
+| 18. Minum dengan Beberapa Tegukan | Urutan beberapa keadaan tangan/gelas | **Sebagian terpenuhi** | Mockup 07 memberi gaya/objek dasar; variasi tahapan belum tersedia. |
+| 19. Tunggu Sampai Tidak Terlalu Panas | Ilustrasi kondisi panas dan aman ditunggu | **Belum tersedia** | Belum ditemukan pasangan visual dengan penanda panas yang jelas. |
+| 20. Tantangan Adab Makan dan Minum | Empat tahap gabungan makan/minum | **Sebagian terpenuhi** | Template simulasi Mockup 07 tersedia sebagai acuan; variasi objek minum dan empat tahap belum lengkap. |
+| 21. Kenali Alhamdulillah | Kartu teks Arab | **Terpenuhi untuk kebutuhan ilustrasi** | Kartu dapat dibuat sebagai UI teks Arab dinamis; tidak memerlukan ilustrasi raster. |
+| 22. Kapan Mengucapkan Alhamdulillah? | Ilustrasi konteks setelah makan | **Belum tersedia** | Belum ditemukan ilustrasi piring/keadaan setelah makan yang terverifikasi sebagai aset mandiri. |
+| 23. Dengarkan Doa Setelah Makan | Layout Arab, transliterasi, arti, audio | **Sebagian terpenuhi** | Mockup 10 menjadi acuan dan rekaman doa tersedia; implementasi audio/teks harus diuji. |
+| 24. Pilih Doa Setelah Makan | Kartu pilihan doa dan audio | **Sebagian terpenuhi** | Mockup 05/10 menjadi acuan gabungan; layout pilihan final belum dibuat. |
+| 25. Meja Makan Rapi | Piring, gelas, sendok, target susun | **Sebagian terpenuhi** | Mockup 06 menjadi acuan interaksi dan perlengkapan pada Mockup 07/10 menjadi acuan visual; item terpisah belum tersedia. |
+
+Catatan: status “terpenuhi” pada aktivitas 11 dan 21 hanya berarti **tidak ada kebutuhan ilustrasi khusus**; bukan berarti seluruh UI/gameplay aktivitas telah selesai.
+
+## 7.4 Aset yang siap, perlu adaptasi, dan belum ditemukan
+
+### Siap digunakan sebagai acuan template
+- Mockup 01, 02, 03, 04, 05, 06, dan 09 sesuai fungsi yang sudah dicatat dalam inventaris sebelumnya.
+- Mockup 07 dan 10 sebagai acuan simulasi serta materi doa-audio berdasarkan analisis visual pengguna.
+
+Kesiapan sebagai acuan tidak sama dengan kesiapan sebagai aset potongan gambar untuk implementasi.
+
+### Perlu adaptasi atau pemeriksaan tambahan
+- Mockup 07: pisahkan/siapkan objek meja, tangan, makanan, gelas, dan alat makan jika kualitas hasil ekstraksi memadai.
+- Mockup 08: jadikan acuan penyelesaian misi, tetapi hilangkan ketergantungan pada label Misi 1 melalui UI dinamis.
+- Mockup 10: teks doa dan kontrol audio harus berupa elemen dinamis/fungsional.
+- Mockup 11: periksa adegan secara visual terhadap GDD sebelum menetapkannya untuk Aktivitas 9–10.
+
+### Belum ditemukan sebagai file gambar mandiri
+1. Situasi sebelum makan dan tiga tahap persiapan.
+2. Ilustrasi pilihan tangan kanan dan tindakan makan.
+3. Variasi tindakan untuk aktivitas “tidak mencela”/“tidak suka” bila ilustrasi dibutuhkan.
+4. Pasangan porsi secukupnya dan berlebihan.
+5. Adegan menyimpan makanan.
+6. Ilustrasi tindakan minum yang benar, mengambil napas di luar gelas, dan beberapa tegukan.
+7. Kondisi makanan/minuman panas dan keadaan setelah aman.
+8. Ilustrasi keadaan setelah makan dan item perlengkapan meja dalam bentuk terpisah.
+
+## 7.5 Keterbatasan dan tindakan lanjutan
+
+1. GitHub API berhasil memverifikasi nama file, lokasi, ukuran, dan jumlah aset, tetapi jalur yang tersedia pada sesi ini tidak dapat membaca isi biner gambar. Upaya membaca gambar melalui konektor teks ditolak oleh sistem karena file bukan UTF-8.
+2. Karena itu, belum dapat dipastikan apakah mockup memuat detail yang sesuai, apakah objek dapat dipotong tanpa kehilangan kualitas, atau apakah ada unsur visual yang perlu direvisi.
+3. Sebelum produksi, lakukan pemeriksaan visual manual terhadap 11 mockup, khususnya Mockup 11 dan elemen tangan/karakter. Cocokkan dengan aturan GDD tentang tidak menggunakan hewan, tidak menampilkan tubuh manusia utuh, serta tidak menampilkan mata bila wajah diperlukan.
+4. Jangan membuat ilustrasi baru hanya berdasarkan daftar “belum tersedia” sebelum pemeriksaan visual dan kemungkinan ekstraksi dari mockup selesai.
+5. Tahap audit ini **tidak mengubah gambar, kode game, mockup, audio, atau gameplay**. Hanya dokumen inventaris yang diperbarui.
+
+## 7.6 Kesimpulan audit
+
+Repositori saat ini memiliki 11 mockup visual, tetapi belum memiliki koleksi ilustrasi aktivitas terpisah di `assets/images/`. Mayoritas kebutuhan ilustrasi spesifik untuk 25 aktivitas berstatus **sebagian terpenuhi** atau **belum tersedia** jika dinilai sebagai aset gambar mandiri. Acuan template sudah relatif lengkap; kekurangan utama adalah ilustrasi objek/tindakan terpisah dan verifikasi visual sebelum ekstraksi.
+
+**Keputusan audit:** lanjutkan dengan pemeriksaan manual mockup dan identifikasi aset yang aman diekstrak terlebih dahulu. Setelah itu barulah daftar produksi ilustrasi baru difinalkan.
