@@ -97,3 +97,23 @@ Aturan:
 Logo resmi P’Nata harus diambil dari aset brand asli. Jika aset tersebut sudah ada di repository, gunakan file yang sama; jika belum dapat ditemukan, minta tautan GitHub atau lokasi folder dari pemilik aset. Jangan mengganti dengan logo sementara buatan sendiri.
 
 Setelah logo dan latar dipasang bersama, buat satu komposisi visual final untuk ditinjau. Mockup ini belum menjadi HTML produksi.
+
+## 10. Aset identitas P’Nata terkonfirmasi
+
+Aset resmi tersedia di repository proyek Petualangan Huruf Hijaiyah dan dapat digunakan kembali tanpa menggambar ulang:
+
+- Logo lengkap: `petualangan-huruf-hijaiyah/PNata_Logo_Lengkap_HQ.png`
+- Ikon: `petualangan-huruf-hijaiyah/PNata_Ikon_HQ_4x.png`
+
+Penggunaan pada proyek ini:
+- **Mockup 01:** gunakan logo lengkap sebagai identitas utama di zona A.
+- **Ikon aplikasi/favicon:** gunakan ikon P’Nata.
+- **Watermark atau penanda kecil:** gunakan ikon jika konteks dan ukurannya sesuai.
+
+Aturan:
+1. Gunakan file asli dari repository; jangan meminta generator gambar menggambar ulang logo.
+2. Pertahankan proporsi, warna, dan bentuk asli. Jangan meregangkan, memotong, atau memberi efek yang mengubah identitas.
+3. Periksa transparansi dan kontras ketika ditempatkan di atas langit Kandidat D. Jika perlu, gunakan bidang ivory yang halus di belakang logo; jangan mengubah file logo.
+4. Pada halaman pembuka, logo lengkap dibuat cukup jelas untuk dikenali tetapi tidak lebih dominan daripada judul permainan.
+5. Jangan menambahkan ikon dan logo lengkap sekaligus jika hasilnya terasa berulang atau terlalu padat.
+
