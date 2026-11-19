@@ -152,7 +152,7 @@ Klasifikasi berikut menilai kegunaan sebagai **acuan/template**, bukan menyataka
 | `mockup-08.jfif` | **Perlu adaptasi/edit** | Dikenali sebagai layar penyelesaian Misi 1. Jangan gunakan mentah untuk seluruh misi karena label/konteksnya spesifik. Jadikan acuan gaya dan buat teks/status dinamis. |
 | `mockup-09.jfif` | **Dapat digunakan sebagai acuan template** | Dikenali sebagai layar penyelesaian permainan. Status bintang dan tombol akhir perlu terhubung ke progres sebenarnya. |
 | `mockup-10.png` | **Perlu adaptasi/edit untuk implementasi** | Berdasarkan analisis visual pengguna: tiga kartu Arab/transliterasi/terjemahan, audio utama, audio ulang, dekorasi perlengkapan makan, navigasi. Teks dan audio harus dinamis/terhubung ke rekaman yang benar; ilustrasi terpisah belum tersedia. |
-| `mockup-11.png` | **Perlu adaptasi; visual kini diperiksa** | Gambar menampilkan meja makan bersama, wadah makanan, piring, gelas, alat makan, tangan, lengan, dan torso beberapa orang; kepala/wajah tidak tampak dalam framing. Adegan cocok sebagai referensi makan bersama, tetapi elemen tubuh manusia yang terlihat perlu dipertimbangkan terhadap ketentuan visual proyek sebelum digunakan. |
+| `mockup-11.png` | **Layak sebagai acuan; perlu penyesuaian kecil** | Pemeriksaan langsung mengonfirmasi adegan makan bersama, wadah makanan, piring, alat makan, tangan, lengan, dan torso orang dewasa tanpa wajah utuh. Motif wajah kecil pada mug perlu dihapus atau mug diganti sebelum dipakai sebagai aset final. |
 
 **Tidak ada mockup yang diklasifikasikan “tidak sesuai” secara final**, karena gambar biner tidak dapat diperiksa ulang untuk menilai detail visualnya. Mockup 08 hanya memiliki batas penggunaan: tidak sesuai bila dipakai mentah sebagai layar penyelesaian semua misi.
 
@@ -173,8 +173,8 @@ Status:
 | 6. Kenali Tangan Kanan | Ilustrasi tangan dengan orientasi jelas | **Belum tersedia** | Ada ilustrasi tangan di deskripsi Mockup 07, tetapi belum tersedia sebagai file mandiri terverifikasi. |
 | 7. Ayo Makan dengan Tangan Kanan | Simulasi dua tangan dan sorotan tangan kanan | **Sebagian terpenuhi** | Komposisi acuan tersedia di Mockup 07; implementasi area interaksi dan ekstraksi aset belum dilakukan. |
 | 8. Tangan Kanan Saat Makan | Perbandingan tindakan makan yang benar | **Belum tersedia** | Belum ditemukan ilustrasi mandiri untuk pilihan tindakan. |
-| 9. Ambil Makanan Terdekat | Adegan wadah bersama, perspektif anak, jarak makanan | **Sebagian terpenuhi** | Mockup 11 adalah acuan adegan menurut inventaris/GDD; kelayakan detail adegan belum diverifikasi ulang. |
-| 10. Misi Piring Makanan | Gabungan simulasi tangan kanan dan makanan terdekat | **Sebagian terpenuhi** | Mockup 07 dan 11 menjadi acuan; komposisi gabungan dan transisi belum tersedia. |
+| 9. Ambil Makanan Terdekat | Adegan wadah bersama, perspektif anak, jarak makanan | **Sebagian terpenuhi** | Mockup 11 telah diperiksa langsung dan sesuai sebagai acuan adegan. Area sentuh dan jarak pilihan tetap perlu dirancang dinamis; motif wajah pada mug harus dihapus/diganti. |
+| 10. Misi Piring Makanan | Gabungan simulasi tangan kanan dan makanan terdekat | **Sebagian terpenuhi** | Mockup 07 dan 11 menjadi acuan; komposisi gabungan dan transisi belum tersedia. Mockup 11 perlu penyesuaian motif wajah pada mug. |
 | 11. Jangan Mencela Makanan | Kartu respons/teks | **Terpenuhi untuk kebutuhan ilustrasi** | Dapat menggunakan UI teks dinamis pada keluarga Mockup 04; ilustrasi tambahan tidak wajib. |
 | 12. Jika Tidak Suka Makanan | Ilustrasi tindakan yang tepat | **Belum tersedia** | Belum ditemukan gambar mandiri yang menjelaskan tindakan tanpa karakter/wajah. |
 | 13. Ambil Secukupnya | Perbandingan porsi yang sesuai dan berlebihan | **Belum tersedia** | Objek makanan dari Mockup 07 mungkin menjadi sumber adaptasi, tetapi pasangan visual porsi belum tersedia sebagai aset mandiri. |
@@ -205,7 +205,7 @@ Kesiapan sebagai acuan tidak sama dengan kesiapan sebagai aset potongan gambar u
 - Mockup 07: pisahkan/siapkan objek meja, tangan, makanan, gelas, dan alat makan jika kualitas hasil ekstraksi memadai.
 - Mockup 08: jadikan acuan penyelesaian misi, tetapi hilangkan ketergantungan pada label Misi 1 melalui UI dinamis.
 - Mockup 10: teks doa dan kontrol audio harus berupa elemen dinamis/fungsional.
-- Mockup 11: periksa adegan secara visual terhadap GDD sebelum menetapkannya untuk Aktivitas 9–10.
+- Mockup 11: adegan telah diperiksa langsung dan layak menjadi acuan Aktivitas 9–10; hapus motif wajah pada mug atau ganti mug sebelum digunakan.
 
 ### Belum ditemukan sebagai file gambar mandiri
 1. Situasi sebelum makan dan tiga tahap persiapan.
@@ -274,7 +274,7 @@ Gambar berhasil diambil dari repositori GitHub dan ditampilkan untuk pemeriksaan
 - **Penilaian sementara:** sesuai sebagai acuan aktivitas 23, dengan teks dan kontrol audio dibuat dinamis/fungsional. Pemeriksaan visual langsung dan verifikasi detail tata letak masih tertunda.
 
 ### Ringkasan status pemeriksaan langsung
-Mockup 07, 09, dan 11 telah diperiksa langsung. Mockup 10 telah dikonfirmasi keberadaan filenya dan memiliki analisis visual pengguna, tetapi belum dapat ditampilkan langsung melalui konektor. Mockup lain tetap mengikuti catatan audit sebelumnya; tidak diklaim telah diperiksa ulang pada tahap ini.
+Mockup 07, 09, dan 11 telah diperiksa langsung. Pemeriksaan ulang Mockup 11 dari GitHub juga mengidentifikasi motif wajah kecil pada mug yang harus dihilangkan atau diganti. Mockup 10 telah dikonfirmasi keberadaan filenya dan memiliki analisis visual pengguna, tetapi belum dapat ditampilkan langsung melalui konektor. Mockup lain tetap mengikuti catatan audit sebelumnya; tidak diklaim telah diperiksa ulang pada tahap ini.
 
 
 ## 8. Rencana produksi aset yang lebih terarah untuk 25 aktivitas
