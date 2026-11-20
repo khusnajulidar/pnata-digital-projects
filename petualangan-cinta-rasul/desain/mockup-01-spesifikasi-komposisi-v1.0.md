@@ -117,3 +117,12 @@ Aturan:
 4. Pada halaman pembuka, logo lengkap dibuat cukup jelas untuk dikenali tetapi tidak lebih dominan daripada judul permainan.
 5. Jangan menambahkan ikon dan logo lengkap sekaligus jika hasilnya terasa berulang atau terlalu padat.
 
+
+
+## 11. Penegasan penggunaan logo dan ikon P’Nata
+
+Keputusan final:
+- **Logo lengkap P’Nata** digunakan sebagai identitas utama pada halaman pembuka Mockup 01.
+- **Ikon P’Nata** digunakan sebagai watermark saja pada halaman permainan atau materi lain apabila sesuai kebutuhan desain.
+- Ikon tidak ditampilkan sebagai identitas kedua yang berdampingan dengan logo lengkap pada halaman pembuka, agar tidak terjadi pengulangan identitas.
+- Kedua aset harus menggunakan berkas resmi asli, mempertahankan proporsi, warna, bentuk, dan transparansinya. Dilarang menggambar ulang atau mengubah bentuk aset tanpa persetujuan.
