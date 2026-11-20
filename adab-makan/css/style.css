@@ -658,5 +658,5 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 .scene-hotspot{position:absolute;border:3px solid transparent;border-radius:24px;background:rgba(255,255,255,0);min-width:54px;min-height:54px;touch-action:manipulation}
 .scene-hotspot:focus-visible{outline:4px solid #f3a340;outline-offset:2px;background:rgba(255,212,93,.2)}
 .scene-hotspot:active{background:rgba(22,125,120,.18)}
-.scene-near-child{left:32%;top:49%;width:35%;height:30%}
-.scene-near-adult{left:43%;top:27%;width:35%;height:22%}
+.scene-near-child{left:35%;top:43%;width:38%;height:17%}
+.scene-near-adult{left:35%;top:32%;width:38%;height:13%}
