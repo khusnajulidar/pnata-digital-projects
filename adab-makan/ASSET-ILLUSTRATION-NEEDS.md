@@ -167,7 +167,7 @@ Status di bawah menilai apakah **kebutuhan visual aktivitas** sudah memiliki acu
 |---:|---|---|---|
 | 1. Kenali Bismillah | Template pilihan dan kartu teks Arab | **Terpenuhi** | Mockup 04 telah diperiksa; kartu/teks final dibuat dinamis. |
 | 2. Dengarkan Bismillah | Template audio-pilihan dan teks Arab | **Terpenuhi** | Mockup 05 telah diperiksa dan audio Bismillah tersedia; kontrol perlu dihubungkan ke audio. |
-| 3. Kapan Membaca Bismillah? | Ilustrasi situasi sebelum makan dan pembanding | **Belum tersedia** | Belum ada adegan situasional yang secara jelas menunjukkan kapan membaca Bismillah. |
+| 3. Kapan Membaca Bismillah? | Ilustrasi situasi sebelum makan dan pembanding | **Sebagian terpenuhi** | Mockup 06 memuat tangan memegang kartu Bismillah di meja makan dan adegan persiapan; pasangan situasi pembanding untuk pilihan gambar belum tersedia. |
 | 4. Urutkan Sebelum Makan | Tiga tahap: bersiap, Bismillah, mulai makan | **Sebagian terpenuhi** | Mockup 06 memuat tiga gambar relevan dan layout susun; gambar masih menyatu di mockup, belum menjadi kartu mandiri yang teruji. |
 | 5. Ayo Mulai Makan! | Meja, makanan, tangan, dan aksi awal | **Sebagian terpenuhi** | Mockup 07 menjadi acuan visual; variasi tahap dan objek terpisah belum tersedia/teruji. |
 | 6. Kenali Tangan Kanan | Tangan kanan/kiri dengan orientasi jelas | **Sebagian terpenuhi** | Mockup 07 memperlihatkan dua tangan dan sorotan tangan kanan; aset tangan mandiri belum tersedia. |
@@ -206,7 +206,7 @@ Status di bawah menilai apakah **kebutuhan visual aktivitas** sudah memiliki acu
 - Mockup 10: status masih sementara karena gambar belum berhasil diperiksa langsung; teks dan audio harus dinamis.
 
 ### Kebutuhan visual spesifik yang benar-benar belum tersedia
-1. Situasi sebelum makan untuk Aktivitas 3.
+1. Pasangan situasi pembanding untuk Aktivitas 3 (satu adegan relevan sudah ada pada Mockup 06).
 2. Ilustrasi tindakan yang tepat saat tidak menyukai makanan untuk Aktivitas 12.
 3. Wadah tertutup dan adegan menyimpan makanan dengan aman untuk Aktivitas 14.
 4. Perbandingan tindakan tidak bernapas ke dalam gelas untuk Aktivitas 17.
