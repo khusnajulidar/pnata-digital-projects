@@ -563,3 +563,41 @@ Audit ini membandingkan GDD, pemetaan mockup, data aktivitas di `js/app.js`, fun
 **Struktur gameplay 25 aktivitas sudah terdaftar, tetapi implementasi visual belum mencapai standar mockup yang disepakati.** Aktivitas 1, 2, 4, 7, dan 9 memiliki dasar visual mockup yang paling jelas; Aktivitas 10 memanfaatkan adegan Mockup 11 pada tahap kedua. Aktivitas 18 dan 20 sudah memiliki mekanik UI khusus, tetapi visualnya masih sementara. Banyak aktivitas pilihan gambar masih berupa teks dan emoji.
 
 Tahap berikutnya sebaiknya bukan langsung membuat 25 mockup baru. Prioritaskan pemanfaatan ulang Mockup 04/05/06/07/11, siapkan paket ilustrasi yang benar-benar belum ada, lalu implementasikan per kelompok aktivitas dan uji hasilnya berdampingan dengan mockup acuan.
+
+
+## 12. Implementasi awal perbaikan visual Aktivitas 3–8
+
+**Pembaruan:** 21 November 2026  
+**Berkas kode:** `js/app.js` dan `css/style.css`
+
+### 12.1 Perubahan yang sudah masuk ke branch `main`
+
+| Aktivitas | Implementasi terbaru | Batasan yang masih perlu diperiksa |
+|---:|---|---|
+| 3 — Kapan Membaca Bismillah? | Pilihan situasi kini memakai dua kartu ilustrasi vektor: meja makan siap sebelum makan dan piring setelah makan. Tidak lagi memakai emoji sebagai gambar pilihan. | Ilustrasi ini adalah visual vektor sederhana di dalam kode, belum aset 3D soft-clay final. Perlu pemeriksaan proporsi, keterbacaan, dan kesesuaian mockup. |
+| 4 — Urutkan Sebelum Makan | Tetap memakai keluarga Mockup 06 dan mekanik susun yang sudah ada. | Area sentuh dan tampilan perlu diuji di browser. |
+| 5 — Ayo Mulai Makan! | Alur pilih Bismillah, dengarkan audio, lalu mulai makan tetap dipertahankan. | Belum dipindahkan ke komposisi Mockup 07 karena posisi kontrol harus dicocokkan dengan artwork agar tidak menutupi ilustrasi. |
+| 6 — Kenali Tangan Kanan | Pilihan kini menampilkan dua ilustrasi tangan vektor dengan orientasi kiri/kanan yang berbeda dan label yang jelas. | Orientasi visual perlu diuji berdampingan dengan perspektif Mockup 07; jangan membalik artwork final secara otomatis. |
+| 7 — Ayo Makan dengan Tangan Kanan | Tetap menggunakan Mockup 07 dan area interaksi transparan yang telah dipetakan. | Posisi hotspot belum diuji langsung pada desktop dan ponsel. |
+| 8 — Tangan Kanan Saat Makan | Pilihan kini menampilkan ilustrasi tindakan tangan mengambil makanan; urutan gambar sudah disesuaikan dengan urutan opsi dan jawaban benar pada data aktivitas. | Ilustrasi masih berupa SVG sederhana, belum aset final 3D soft-clay. |
+
+### 12.2 Komponen visual yang ditambahkan
+
+- Kartu pilihan bergambar dua kolom dengan latar cream, sudut membulat, bayangan lembut, dan fokus keyboard yang terlihat.
+- Ilustrasi vektor tertanam untuk adegan sebelum/setelah makan serta tangan kiri/kanan dan tindakan mengambil makanan.
+- Ukuran kartu dan ilustrasi menyesuaikan layar kecil melalui media query.
+- Mekanik penilaian tetap menggunakan `data-choice` dan `correctIndex`; tidak ada perubahan pada jawaban benar, sistem progres, atau audio.
+
+### 12.3 Status verifikasi
+
+- Perubahan `app.js` dan `style.css` telah diambil kembali dari GitHub setelah commit dan diperiksa keberadaan cabang render, ilustrasi, pemetaan urutan jawaban, serta aturan responsif.
+- Aktivitas 4, 5, dan 7 tidak dirombak pada tahap ini untuk menghindari perubahan yang belum cocok dengan mockup.
+- Belum dilakukan uji browser, uji perangkat sentuh, atau deployment Netlify.
+- SVG ini adalah peningkatan visual awal agar aktivitas 3, 6, dan 8 tidak lagi tampil sebagai teks/emoji generik. Ini bukan pengganti aset ilustrasi final yang telah disetujui.
+
+### 12.4 Tahap lanjutan
+
+1. Buka dan bandingkan Aktivitas 3, 6, dan 8 pada browser dengan mockup/acuan desain.
+2. Koreksi skala, komposisi, dan orientasi tangan bila diperlukan.
+3. Rancang integrasi Aktivitas 5 ke Mockup 07 setelah posisi kontrol Bismillah/audio dipastikan.
+4. Lanjutkan pola pilihan bergambar untuk aktivitas lain yang masih memakai emoji.
