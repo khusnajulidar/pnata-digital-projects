@@ -1,7 +1,7 @@
 # MOCKUP 05 — HALAMAN PERMAINAN TTS
-## Spesifikasi Komposisi dan Interaksi v1.6
+## Spesifikasi Komposisi dan Interaksi v1.7
 
-Status: metode input dan alur pemeriksaan jawaban telah diputuskan; detail koreksi, konflik persilangan, dan perpindahan petunjuk masih perlu difinalkan.
+Status: keputusan interaksi inti telah dikunci. Dokumen ini menambahkan rancangan visual utuh sebagai template reusable sebelum implementasi HTML.
 
 Dokumen ini melanjutkan Visual Master **Ekspedisi Jejak Cahaya** dan standar implementasi pada `STANDAR-DESAIN-IMPLEMENTASI-GAME.md`. Mockup 05 adalah layar aktivitas TTS setelah anak memilih wilayah dan jenis permainan.
 
@@ -142,7 +142,7 @@ Seluruh keadaan berasal dari state permainan. Jangan menampilkan status selesai 
 
 Grid dibangun dari data/koordinat TTS yang disiapkan dari Canva atau sumber final. Jangan mengandalkan gambar Canva sebagai papan statis jika huruf dan status harus berubah.
 
-## 10. Keputusan yang sudah dikunci dan hal yang masih perlu difinalkan
+## 10. Keputusan interaksi yang sudah dikunci
 
 **Sudah dikunci:**
 - setelah seluruh kotak untuk petunjuk aktif terisi, anak menekan tombol PERIKSA;
@@ -160,11 +160,6 @@ Grid dibangun dari data/koordinat TTS yang disiapkan dari Canva atau sumber fina
 - tombol DEL menghapus huruf pada kotak belum terkunci yang sedang dipilih;
 - kotak persilangan merupakan sel bersama dan hurufnya harus konsisten.
 
-**Masih perlu ditetapkan sebelum implementasi interaksi final:**
-- detail tampilan/animasi saat sistem melewati kotak persilangan yang sudah terkunci;
-- apakah anak dapat menghapus satu huruf yang belum terkunci sebelum menekan PERIKSA, atau hanya mengosongkan seluruh isian setelah jawaban salah.
-
-Jangan mengasumsikan keputusan yang belum dikunci.
 
 ## 11. Kriteria evaluasi mockup
 
@@ -180,10 +175,160 @@ Mockup siap masuk tahap implementasi jika:
 
 ## 12. Tahap berikutnya
 
-1. Finalkan perilaku koreksi dan konflik huruf pada kotak persilangan.
-2. Finalkan pemeriksaan jawaban dan perpindahan petunjuk.
-3. Siapkan grid serta koordinat TTS dari materi Canva.
+1. Bangun satu template visual TTS berdasarkan rancangan utuh pada Bagian 13.
+2. Siapkan satu contoh grid dan koordinat dari materi Canva sebagai data uji.
+3. Implementasikan interaksi inti dengan data contoh tersebut.
 4. Uji TTS terpendek/terpanjang untuk profil ADIK dan KAKAK.
 5. Cocokkan implementasi dengan mockup pada ponsel, tablet, dan laptop.
 
-Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Pemeriksaan menggunakan tombol PERIKSA; jawaban benar dikunci dan petunjuk ditandai selesai, sedangkan jawaban belum tepat dapat diperbaiki tanpa batas percobaan yang ditentukan. Aturan kotak terkunci, pengosongan isian setelah jawaban salah, dan rekomendasi otomatis petunjuk berikutnya telah dikunci. Anak tetap bebas memilih petunjuk lain yang belum selesai. Perbedaan visual antara kotak yang dipilih secara manual dan kotak yang hanya mendapat sorotan rekomendasi perlu dipastikan pada desain visual.
+Spesifikasi ini mengunci keyboard A–Z di layar, alur memilih petunjuk lalu mengisi jawabannya secara berurutan, pemeriksaan melalui PERIKSA, penguncian jawaban benar, pengosongan isian baru setelah jawaban salah, serta rekomendasi otomatis petunjuk berikutnya. Anak tetap bebas memilih petunjuk lain yang belum selesai. Rancangan visual utuh dan urutan komponen layar dijelaskan pada Bagian 13.
+
+
+## 13. Rancangan visual utuh — template reusable TTS
+
+### 13.1 Prinsip komposisi
+
+Satu layar permainan TTS terdiri dari lapisan latar ilustratif dan komponen antarmuka dinamis. Gunakan satu template untuk semua 39 aktivitas TTS; yang berubah adalah data wilayah, profil, petunjuk, susunan grid, jawaban, dan progres. Jangan membuat 39 desain halaman yang berbeda.
+
+Pada ponsel portrait, urutan prioritas visual adalah:
+1. orientasi singkat (kembali, wilayah, TTS);
+2. petunjuk aktif;
+3. papan TTS;
+4. keyboard A–Z;
+5. tombol PERIKSA dan umpan balik.
+
+Papan dan keyboard adalah pusat aktivitas. Ornamen 3D tidak boleh mengambil perhatian lebih besar daripada keduanya.
+
+### 13.2 Sketsa susunan layar ponsel
+
+```text
+┌──────────────────────────────────┐
+│ ‹ KEMBALI     WILAYAH 1     ADIK │  Header ringkas
+│                                  │
+│          TEKA-TEKI SILANG        │  Judul aktivitas
+│          Progres: 2 dari 5       │  Jika data tersedia
+│                                  │
+│ ┌──────────────────────────────┐ │
+│ │ PETUNJUK 03 · MENURUN        │ │
+│ │ [teks petunjuk dinamis...]   │ │  Panel petunjuk
+│ └──────────────────────────────┘ │
+│                                  │
+│       PAPAN TEKA-TEKI SILANG     │
+│       ┌───┬───┬───┬───┐          │
+│       │ 1 │   │   │   │          │
+│       ├───┼───┼───┼───┤          │  Grid dinamis
+│       │   │ 2 │   │   │          │  (contoh skematis)
+│       ├───┼───┼───┼───┤          │
+│       │   │   │   │   │          │
+│                                  │
+│ ┌──────────────────────────────┐ │
+│ │ A  B  C  D  E  F  G          │ │
+│ │ H  I  J  K  L  M  N          │ │
+│ │ O  P  Q  R  S  T  U          │ │  Keyboard layar
+│ │ V  W  X  Y  Z       DEL      │ │
+│ └──────────────────────────────┘ │
+│                                  │
+│          [ PERIKSA ]             │
+│       area umpan balik           │
+└──────────────────────────────────┘
+```
+
+Sketsa ini menunjukkan urutan dan hirarki, bukan ukuran final atau contoh grid yang harus dipakai. Nomor, bentuk, dan jumlah sel mengikuti data TTS sebenarnya.
+
+### 13.3 Latar dan atmosfer
+
+- Gunakan latar bernuansa ekspedisi padang pasir: batu pasir, tebing berlapis, jalur perjalanan, dan detail kayu/kain.
+- Nuansa gurun lebih kuat daripada oasis; tanaman hanya aksen.
+- Latar boleh berupa ilustrasi 3D storybook-diorama yang kaya detail, tetapi area tengah di belakang papan dibuat lebih tenang dan kontras.
+- Ornamen seperti lentera, gulungan peta, kompas, atau peti kecil ditempatkan di tepi layar atau sebagai aksen kecil.
+- Jangan membuat meja, gulungan, atau ornamen menutupi area kerja.
+- Hindari pola tekstur yang terlalu ramai tepat di belakang huruf dan petunjuk.
+
+### 13.4 Panel petunjuk
+
+- Panel ivory hangat dengan sudut membulat, bayangan lembut, dan aksen sandstone/gold.
+- Nomor petunjuk dan arah (MENDATAR/MENURUN) tampil sebagai label kecil yang jelas.
+- Teks petunjuk menjadi elemen paling mudah dibaca setelah papan.
+- Sediakan ruang untuk petunjuk dua baris atau lebih; jangan memotong teks.
+- Bila petunjuk aktif berubah, panel memperbarui isi tanpa mengganti keseluruhan layar.
+
+### 13.5 Papan TTS
+
+- Sel jawaban berbentuk kotak konsisten, dengan garis batas jelas dan ruang antar-sel secukupnya.
+- Sel aktif mendapat satu sorotan yang sama untuk fokus rekomendasi maupun fokus pilihan manual.
+- Sel terisi tetapi belum terkunci tetap dapat diedit sesuai aturan fokus.
+- Sel yang menjadi bagian dari jawaban benar menampilkan status terkunci dengan jelas; status ini tidak boleh hanya dibedakan melalui warna saja.
+- Sel hitam/nonaktif harus terbaca berbeda dari sel jawaban.
+- Nomor petunjuk ditempatkan kecil di sudut sel awal dan tidak mengganggu huruf.
+- Huruf kapital, tebal secukupnya, kontras tinggi.
+- Bila grid terlalu lebar untuk ponsel, gunakan wadah grid yang dapat digeser secara horizontal atau mekanisme zoom yang terkontrol. Jangan mengecilkan sel sampai huruf dan area sentuh tidak terbaca.
+- Scroll/zoom grid tidak boleh menggeser atau menutupi keyboard dan panel petunjuk secara tidak terduga.
+
+### 13.6 Keyboard A–Z
+
+- Susunan 7 kolom pada ponsel sebagai titik awal: 7 + 7 + 7 + 5 huruf, dengan DEL pada baris terakhir.
+- Ukuran tombol mengikuti lebar perangkat; target sentuh ideal sekitar 44–48 CSS px bila ruang memungkinkan.
+- Jika lebar perangkat tidak cukup, gunakan susunan adaptif atau area keyboard yang dapat digulir; jangan memaksakan tombol terlalu kecil.
+- Tombol huruf memiliki bentuk konsisten, kontras tinggi, dan umpan balik tekan yang terlihat.
+- DEL dibedakan secara visual tetapi tetap satu keluarga gaya dengan tombol huruf.
+- Keyboard tidak memunculkan keyboard bawaan perangkat.
+
+### 13.7 Tombol PERIKSA dan umpan balik
+
+- Tombol PERIKSA ditempatkan setelah keyboard, mudah dijangkau ibu jari, dan hanya aktif ketika seluruh sel jawaban petunjuk aktif telah terisi.
+- Gunakan gaya tombol utama P’Nata: Oasis Green/Deep Palm dengan aksen Soft Gold, bentuk membulat, kedalaman/shadow halus.
+- Jawaban benar: umpan balik positif singkat; sel jawaban berubah menjadi status terkunci; petunjuk ditandai selesai.
+- Jawaban salah: umpan balik ramah; isian baru untuk petunjuk aktif dikosongkan, sel yang sebelumnya terkunci tetap dipertahankan.
+- Hindari animasi yang terlalu panjang atau menghalangi anak melanjutkan.
+
+### 13.8 Watermark dan identitas
+
+- Ikon resmi P’Nata menjadi watermark yang sangat halus pada setiap layar.
+- Letakkan pada area latar yang tidak mengganggu petunjuk, huruf, atau tombol.
+- Opacity awal 0.05–0.08; evaluasi pada perangkat nyata.
+- Tidak ada logo lengkap pada layar permainan TTS.
+
+### 13.9 Adaptasi tablet dan laptop
+
+**Tablet:** gunakan ruang horizontal untuk menata panel petunjuk di atas atau di samping papan, sementara keyboard tetap dekat dengan papan. Pertahankan ukuran tombol sentuh yang nyaman.
+
+**Laptop:** papan dapat berada di tengah dengan panel petunjuk di sisi kiri/kanan dan keyboard di bawah papan. Keyboard layar tetap digunakan sebagai input utama; jangan mengubah mekanik menjadi input keyboard fisik tanpa persetujuan.
+
+### 13.10 Elemen yang harus tetap dinamis
+
+Elemen berikut tidak boleh diratakan menjadi satu gambar:
+- nama wilayah dan profil;
+- judul/nomor petunjuk dan teks petunjuk;
+- nomor sel, huruf, status sel, dan sorotan;
+- keyboard dan DEL;
+- PERIKSA;
+- umpan balik;
+- progres dan status penyelesaian.
+
+Ilustrasi latar, ornamen, tekstur, dan dekorasi boleh berupa aset gambar. Grid, petunjuk, dan keyboard harus dibangun sebagai komponen antarmuka.
+
+### 13.11 Data Canva yang dibutuhkan untuk satu TTS contoh
+
+Untuk mengubah rancangan Canva menjadi papan interaktif, siapkan:
+- jumlah baris dan kolom;
+- koordinat setiap jawaban (baris, kolom awal, arah);
+- panjang jawaban;
+- teks petunjuk dan nomor petunjuk;
+- kunci jawaban;
+- hubungan sel persilangan;
+- sel aktif dan sel nonaktif.
+
+Canva menjadi acuan visual dan tempat menyusun rancangan puzzle. Data koordinat perlu dicatat/diturunkan secara terstruktur; mengekspor satu gambar Canva saja tidak otomatis mengubahnya menjadi papan HTML interaktif.
+
+### 13.12 Kriteria persetujuan template
+
+Template visual dapat disetujui bila:
+1. suasana padang pasir terasa dan konsisten dengan Visual Master;
+2. petunjuk, papan, dan keyboard jelas menjadi fokus;
+3. layar ponsel tidak terasa sesak;
+4. huruf dan tombol tetap nyaman dibaca/disentuh;
+5. grid lebar tetap dapat digunakan tanpa merusak tata letak;
+6. watermark halus dan tidak mengganggu;
+7. semua elemen yang berubah atau interaktif tetap dinamis;
+8. tidak ada tokoh, hewan, avatar, atau unsur visual yang bertentangan dengan batasan proyek;
+9. satu template dapat menampung seluruh data TTS dengan variasi panjang yang wajar.
