@@ -481,3 +481,22 @@ Pemeriksaan ini memastikan semua lintasan berada di dalam grid dan huruf yang be
 - Membandingkan hasil render grid dengan kedua halaman Canva pada layar ponsel dan desktop.
 
 **Status:** satu template telah disiapkan untuk dua variasi data. Tahap selanjutnya adalah uji browser dan penyempurnaan visual sesuai Visual Master.
+
+
+## 15.8 Perbaikan fokus sel dan watermark prototipe
+
+Pada pemeriksaan kode lanjutan ditemukan satu kondisi tepi pada perpindahan fokus: ketika sel setelah huruf yang baru dimasukkan merupakan sel terkunci dan tidak ada sel editable lain setelahnya, fokus sebelumnya dapat bergeser ke sel terkunci. Ini bertentangan dengan aturan bahwa sel terkunci tidak boleh menjadi sel pilihan.
+
+Perbaikan pada prototipe:
+1. Fungsi perpindahan fokus kini hanya mencari sel editable berikutnya.
+2. Jika tidak ada sel editable berikutnya, fokus tetap berada pada sel editable terakhir yang baru diisi; fokus tidak dipindahkan ke sel terkunci.
+3. Huruf yang sudah ada tetapi belum terkunci tetap dapat menjadi fokus berikutnya.
+4. Ditambahkan watermark ikon resmi P’Nata dengan transparansi rendah (opacity 0.06), tanpa menampilkan logo lengkap pada halaman permainan.
+
+Pemeriksaan logika terarah setelah perbaikan:
+- melompati sel persilangan terkunci menuju sel editable berikutnya: **lulus**;
+- mempertahankan fokus ketika sisa lintasan hanya berisi sel terkunci: **lulus**;
+- tetap menuju sel berikutnya meskipun sel tersebut sudah berisi huruf yang belum terkunci: **lulus**;
+- tidak memindahkan fokus dari sel terakhir ke sel terkunci: **lulus**.
+
+**Batas pengujian:** pemeriksaan di atas adalah uji logika fungsi perpindahan fokus, bukan uji browser menyeluruh. Interaksi visual, DEL, PERIKSA, jawaban salah/benar, pergantian dataset, serta perbandingan dengan Canva tetap harus diuji langsung di browser dan pada ukuran layar sasaran.
