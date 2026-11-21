@@ -483,3 +483,83 @@ Bagian ini mencatat bukti pemeriksaan file satu per satu. Status akses dibedakan
 3. **Tidak sesuai:** belum ada yang dapat dinyatakan tidak sesuai secara final.
 4. **Aset ilustrasi mandiri siap pakai:** belum ada file gambar terpisah yang terverifikasi di `assets/images/`.
 5. **Pekerjaan visual berikutnya:** uji ekstraksi objek dari mockup yang sudah diperiksa, terutama perlengkapan meja dan makanan; buat hanya kebutuhan spesifik yang tidak dapat dipenuhi dengan adaptasi berkualitas.
+
+
+---
+
+# 11. Audit implementasi visual 25 aktivitas pada kode aktual (21 November 2026)
+
+Audit ini membandingkan GDD, pemetaan mockup, data aktivitas di `js/app.js`, fungsi render, dan aturan tampilan di `css/style.css`. Ini adalah audit statis kode dan dokumentasi; bukan hasil pengujian visual langsung di browser.
+
+## 11.1 Ringkasan temuan
+
+- **25/25 aktivitas terdaftar** di data `missions` dan terbagi menjadi lima misi dengan lima aktivitas.
+- Mockup aktivitas yang benar-benar dipasang sebagai latar berdasarkan `exactMockups`: Aktivitas **1 (04), 2 (05), 4 (06), dan 7 (07)**.
+- Aktivitas **9** memakai gambar adegan Mockup 11 dengan hotspot; Aktivitas **10** memakai adegan yang sama pada tahap kedua.
+- Aktivitas **5, 18, 20, 23, dan 24** memiliki UI khusus berbasis HTML/CSS, tetapi belum dipasangkan dengan template visual mockup yang sesuai.
+- Sebagian besar aktivitas pilihan biasa masih memakai kartu generik dan emoji. Emoji yang terlihat dalam kode adalah placeholder visual, bukan ilustrasi final setara mockup.
+- Tidak ditemukan implementasi penggunaan Mockup 10 pada render Aktivitas 23–24, meskipun GDD dan pemetaan aset menetapkannya sebagai acuan doa.
+- Mockup 08 hanya dipakai untuk penyelesaian Misi 1; penyelesaian Misi 2–5 jatuh ke layar generik. Mockup 09 dipakai untuk layar akhir seluruh permainan.
+
+## 11.2 Audit satu per satu
+
+| No. | Aktivitas | Implementasi visual yang ditemukan di kode | Kecocokan terhadap GDD dan mockup | Status visual implementasi |
+|---:|---|---|---|---|
+| 1 | Kenali Bismillah | Latar Mockup 04; dua pilihan teks Arab menjadi hotspot transparan. | Sesuai keluarga pilihan dan contoh Mockup 04. | **Baik sebagai dasar**; perlu uji posisi hotspot, ukuran teks Arab, feedback, dan responsivitas di browser. |
+| 2 | Dengarkan Bismillah | Latar Mockup 05; tombol audio dan dua kartu pilihan menjadi hotspot transparan. | Sesuai keluarga audio-pilihan dan GDD. | **Baik sebagai dasar**; perlu uji audio, hotspot, dan status pilihan di browser. |
+| 3 | Kapan Membaca Bismillah? | Pilihan teks “Sebelum mulai makan/Setelah selesai makan” dengan emoji 🧼 dan 🍽️. | GDD meminta **memilih gambar**, bukan pilihan teks/emoji. Mockup 06 menyediakan sebagian konteks persiapan, tetapi belum pasangan adegan pembanding. | **Belum sesuai**; butuh dua adegan visual yang jelas dan konsisten. |
+| 4 | Urutkan Sebelum Makan | Latar Mockup 06; tiga slot dan kartu susun memakai hotspot transparan di atas ilustrasi mockup. | Jenis interaksi sesuai. Data menyebut cuci tangan, Bismillah, mulai makan; perlu memastikan urutan dan gambar kartu pada mockup terbaca sama. | **Baik sebagai dasar, perlu validasi**; periksa kecocokan posisi kartu/slot, sentuh, drag, dan urutan di browser. |
+| 5 | Ayo Mulai Makan! | UI khusus Bismillah, tombol pilih, audio, dan tombol Mulai Makan. | Alur sesuai GDD, tetapi tidak memakai latar/adegan Mockup 07 atau adegan meja makan; kartu Bismillah berupa teks UI. | **Fungsi dasar tersedia; visual belum selaras** dengan template adegan yang disetujui. |
+| 6 | Kenali Tangan Kanan | Pilihan teks “Tangan kiri/Tangan kanan”; kedua pilihan memakai emoji tangan yang sama. | GDD meminta memilih gambar tangan dengan orientasi yang jelas. Emoji yang sama tidak membedakan orientasi. | **Belum sesuai**; perlu ilustrasi tangan kiri dan kanan dengan sudut pandang terverifikasi. |
+| 7 | Ayo Makan dengan Tangan Kanan | Latar Mockup 07; hotspot tangan kanan/kiri, lalu tombol aksi mengambil makanan. | Sesuai keluarga simulasi Mockup 07. Tahap kedua saat ini berupa tombol, belum animasi gerakan tangan menuju makanan seperti GDD. | **Sebagian sesuai**; perlu uji area sentuh dan peningkatan visual/gerak tahap mengambil makanan. |
+| 8 | Tangan Kanan Saat Makan | Pilihan teks tindakan dengan emoji alat makan 🍴 dan 🥄. | GDD meminta gambar tindakan makan menggunakan tangan kanan; ikon alat makan tidak menjelaskan perbedaan penggunaan tangan kanan/kiri. | **Belum sesuai**; perlu pasangan ilustrasi tindakan yang kontras dan benar. |
+| 9 | Ambil Makanan Terdekat | Gambar Mockup 11 dengan dua hotspot: area makanan dekat anak dan area dekat orang dewasa. | Sesuai adegan makan bersama dari perspektif anak dan aturan memilih makanan terdekat. | **Sesuai sebagai dasar**; posisi hotspot harus diuji pada rasio layar berbeda agar benar-benar tepat mengenai wadah/makanan. |
+| 10 | Misi Piring Makanan | Tahap pertama pilihan teks tangan kanan/kiri dengan emoji; tahap kedua gambar Mockup 11 dengan hotspot. | Alur gabungan sesuai GDD, tetapi tahap pertama belum memakai visual tangan dari Mockup 07. | **Sebagian sesuai**; satukan bahasa visual tahap pertama dan kedua, lalu uji kedua target. |
+| 11 | Jangan Mencela Makanan | Pilihan teks panjang dengan emoji 💚 dan 🙁. | GDD memperbolehkan memilih respons/ucapan; tidak wajib ilustrasi baru. | **Fungsi konsep sesuai, tampilan generik**; tata kartu dan tipografi perlu mengikuti keluarga Mockup 04, bukan emoji sebagai ilustrasi utama. |
+| 12 | Jika Tidak Suka Makanan | Pilihan teks dengan emoji 😊 dan 💬. | GDD meminta memilih sikap/tindakan; belum ada ilustrasi tindakan yang menunjukkan sikap tidak mencela. | **Belum memenuhi kebutuhan visual**; perlu adegan sederhana piring/tangan atau visual tindakan yang tepat. |
+| 13 | Ambil Secukupnya | Pilihan teks “Porsi secukupnya/Mengambil terlalu banyak” dengan emoji 🍲 dan 🍛. | GDD meminta memilih gambar porsi; kedua emoji tidak memperlihatkan perbandingan jumlah makanan yang adil. | **Belum sesuai**; perlu sepasang piring dengan jenis makanan dan sudut pandang sama, berbeda hanya jumlahnya. |
+| 14 | Jangan Menyia-nyiakan Makanan | Pilihan teks dengan emoji wadah 🥡 dan tempat sampah 🗑️. | Jawaban benar menyebut menyimpan dengan bantuan orang dewasa, tetapi visual emoji tidak memperlihatkan tindakan menyimpan makanan secara aman. | **Belum sesuai**; perlu wadah tertutup dan konteks pendampingan orang dewasa secara parsial bila diperlukan. |
+| 15 | Makanan adalah Nikmat Allah | Pilihan teks “Allah/Mainan” dengan emoji 🌤️ dan 🧸. | Pertanyaan dasar sesuai tujuan mengenal Allah sebagai pemberi rezeki; tidak wajib ilustrasi raster baru. | **Fungsi konsep tersedia, tampilan generik**; pilihan visual dan distraktor perlu lebih relevan, serta mengikuti gaya kartu mockup. |
+| 16 | Minum dengan Tangan Kanan | Pilihan teks tangan kiri/kanan; kedua pilihan memakai emoji gelas 🥛 yang sama. | GDD meminta gambar tangan kanan memegang gelas. | **Belum sesuai**; perlu pose tangan memegang gelas dengan orientasi yang telah diverifikasi. |
+| 17 | Jangan Bernapas ke Dalam Gelas | Pilihan teks “Bernapas di luar gelas/Bernapas ke dalam gelas” dengan emoji 🌬️ dan 🥤. | Konsep teks sesuai, tetapi GDD meminta mengenali tindakan melalui gambar; ikon tidak menjelaskan posisi gelas dan tindakan. | **Belum sesuai**; perlu dua keadaan tangan/gelas yang mudah dibandingkan tanpa wajah. |
+| 18 | Minum dengan Beberapa Tegukan | Simulasi empat tahap dengan gelas CSS sederhana, indikator langkah, dan tombol lanjut. | Urutan teks sesuai GDD: minum, menjauhkan gelas, bernapas di luar gelas, lanjut minum. Belum memakai ilustrasi tangan/gelas dari Paket E atau Mockup 07. | **Mekanik dasar tersedia; visual sementara**; perlu aset/state tangan-gelas konsisten dan pemeriksaan apakah jeda beberapa tegukan dipahami anak. |
+| 19 | Tunggu Sampai Tidak Terlalu Panas | Pilihan teks “Menunggu sampai aman/Langsung dimakan” dengan emoji ⏳ dan 🔥. | GDD meminta memilih gambar; pasangan kondisi panas dan kondisi aman belum digambarkan. | **Belum sesuai**; perlu dua keadaan visual yang jelas dan tidak mengajarkan meniup ke wadah. |
+| 20 | Tantangan Adab Makan dan Minum | Papan tantangan empat tahap dengan teks, progres, dan emoji 🤚, 🥛, 💧, ♨️. | Empat pokok tantangan sesuai GDD, tetapi belum menggunakan variasi ilustrasi Paket B dan E. | **Mekanik dasar tersedia; visual sementara**; perlu visual per tahap yang konsisten dengan aktivitas 6–8 dan 16–19. |
+| 21 | Kenali Alhamdulillah | UI audio-pilihan generik dengan dua teks Arab. | Jenis memilih kartu Arab sesuai GDD; belum menggunakan keluarga Mockup 04/05 sebagai latar. | **Konten dasar sesuai; template belum digunakan**; dapat memakai ulang keluarga Mockup 04 atau 05 tanpa ilustrasi baru. |
+| 22 | Kapan Mengucapkan Alhamdulillah? | Pilihan teks “Setelah makan/Hanya sebelum tidur” dengan emoji 🍽️ dan 🌙. | GDD meminta memilih gambar yang menunjukkan keadaan setelah makan. | **Belum sesuai**; perlu adegan setelah makan/piring setelah makan. Pertahankan makna bahwa Alhamdulillah tidak terbatas hanya setelah makan. |
+| 23 | Dengarkan Doa Setelah Makan | Panel HTML menampilkan Arab, latin, arti, tombol audio, dan instruksi secara bersamaan. | Tiga lapisan teks tampil bersama sesuai persyaratan khusus pengguna dan GDD. Namun, Mockup 10 belum dipasang sebagai template visual. | **Isi utama sesuai; visual belum final**; pertahankan tiga teks saat audio berjalan dan integrasikan dengan template Mockup 10 setelah dapat divalidasi. |
+| 24 | Pilih Doa Setelah Makan | Panel doa, tombol audio, lalu dua pilihan teks Arab (doa lengkap dan Bismillah). | Mekanik audio-pilihan sesuai GDD; belum memakai template Mockup 05/10. Kartu doa panjang perlu diuji agar tidak meluber atau terlalu kecil. | **Sebagian sesuai**; terapkan keluarga template audio-pilihan dan validasi keterbacaan lafadz lengkap. |
+| 25 | Meja Makan Rapi | UI susun tiga item dengan emoji piring 🍽️, gelas 🥛, sendok 🥄; slot tujuan dibuat dinamis. | Mekanik susun sesuai, tetapi GDD meminta perlengkapan sebagai objek visual yang dipindahkan. Item belum berupa ilustrasi mandiri. | **Mekanik dasar tersedia; visual belum sesuai standar**; perlu item piring, gelas, sendok terpisah dan slot yang menyatu dengan template. |
+
+## 11.3 Kelompok prioritas perbaikan
+
+### Prioritas 1 — aktivitas yang jenis interaksinya belum sesuai GDD
+1. **Aktivitas 3, 6, 8, 13, 16, 17, 19, dan 22:** GDD meminta memilih gambar/tindakan, sedangkan implementasi saat ini terutama pilihan teks dan emoji.
+2. **Aktivitas 12 dan 14:** memerlukan ilustrasi tindakan yang spesifik dan belum tersedia.
+3. **Aktivitas 25:** mekanik susun sudah ada, tetapi item masih emoji, bukan perlengkapan visual mandiri.
+
+### Prioritas 2 — aset ada tetapi belum dimanfaatkan atau belum konsisten
+1. **Aktivitas 5 dan 10 tahap pertama:** manfaatkan visual tangan/meja Mockup 07 agar tidak kembali ke UI generik.
+2. **Aktivitas 11 dan 15:** gunakan keluarga kartu Mockup 04 untuk mempertahankan kualitas tanpa memproduksi ilustrasi baru.
+3. **Aktivitas 18 dan 20:** gunakan satu paket ilustrasi tangan-gelas yang konsisten, bukan hanya gelas CSS dan emoji.
+4. **Aktivitas 21 dan 24:** gunakan ulang keluarga template Mockup 04/05.
+5. **Aktivitas 23:** integrasikan tampilan ke keluarga Mockup 10; jangan menghilangkan Arab, latin, atau terjemahan saat audio diputar.
+6. **Aktivitas 9–10:** pertahankan Mockup 11; uji posisi hotspot dan komposisi pada perangkat nyata.
+
+### Prioritas 3 — konsistensi layar non-aktivitas
+- Gunakan Mockup 08 sebagai template penyelesaian untuk seluruh lima misi dengan judul/status/bintang dinamis; saat ini hanya Misi 1 yang memakai latar Mockup 08.
+- Pertahankan Mockup 09 sebagai layar akhir; uji tombol MAIN LAGI dan LIHAT PETA MISI.
+
+## 11.4 Temuan implementasi nonvisual yang perlu masuk tahap pengujian
+
+- Navigasi, audio, validasi, progres, dan interaksi pointer terlihat memiliki handler di `app.js`, tetapi audit statis tidak membuktikan perilakunya benar di browser.
+- Drag-and-drop memiliki jalur pointer dan jalur sentuh melalui pemilihan item lalu slot; keduanya perlu diuji pada ponsel/tablet dan desktop.
+- Hotspot Mockup 07 dan 11 memakai koordinat persentase; akurasi target belum terverifikasi pada berbagai rasio layar.
+- Aktivitas 23 sudah menyajikan Arab, latin, dan arti bersamaan pada markup render; tetap perlu uji keterbacaan ketika audio aktif dan pada layar kecil.
+- Tidak ada perubahan kode game, CSS, gambar mockup, atau audio dalam audit ini. Dokumen ini hanya merekam hasil pemeriksaan statis agar tahap perbaikan berikutnya memiliki dasar yang jelas.
+
+## 11.5 Kesimpulan
+
+**Struktur gameplay 25 aktivitas sudah terdaftar, tetapi implementasi visual belum mencapai standar mockup yang disepakati.** Aktivitas 1, 2, 4, 7, dan 9 memiliki dasar visual mockup yang paling jelas; Aktivitas 10 memanfaatkan adegan Mockup 11 pada tahap kedua. Aktivitas 18 dan 20 sudah memiliki mekanik UI khusus, tetapi visualnya masih sementara. Banyak aktivitas pilihan gambar masih berupa teks dan emoji.
+
+Tahap berikutnya sebaiknya bukan langsung membuat 25 mockup baru. Prioritaskan pemanfaatan ulang Mockup 04/05/06/07/11, siapkan paket ilustrasi yang benar-benar belum ada, lalu implementasikan per kelompok aktivitas dan uji hasilnya berdampingan dengan mockup acuan.
