@@ -81,7 +81,7 @@ else if(d[4]==="scene-choice"){side='<p class="small-muted">Amati posisi piring 
 else{main=options(d);}
 /* Hanya aktivitas yang teks dan ilustrasinya cocok yang memakai mockup utuh. */
 const activityId=num-1;
-const exactMockups={0:"04",1:"05",3:"06"};
+const exactMockups={0:"04",1:"05",3:"06",6:"07"};
 const mockup=exactMockups[activityId]||"none";
 const isArtwork=mockup!=="none";
 const nav=isArtwork?'<div class="footer-nav"><button class="btn ghost" data-action="map" aria-label="Kembali">KEMBALI</button><button class="btn ghost" data-action="hint" aria-label="Petunjuk">PETUNJUK</button><button class="btn secondary" data-action="'+(activityId===3&&!done&&!state.feedbackGood?"check-sequence":"next")+'" '+(!done&&!state.feedbackGood&&activityId!==3?'disabled':'')+' aria-label="Lanjutkan">LANJUTKAN</button></div>':'<div class="footer-nav"><button class="btn ghost" data-action="map">KEMBALI</button><button class="btn ghost" data-action="hint">PETUNJUK</button><button class="btn secondary" data-action="next" '+(!done&&!state.feedbackGood?'disabled':'')+'>LANJUTKAN</button></div>';
