@@ -1,5 +1,5 @@
 # MOCKUP 05 — HALAMAN PERMAINAN TTS
-## Spesifikasi Komposisi dan Interaksi v1.5
+## Spesifikasi Komposisi dan Interaksi v1.6
 
 Status: metode input dan alur pemeriksaan jawaban telah diputuskan; detail koreksi, konflik persilangan, dan perpindahan petunjuk masih perlu difinalkan.
 
@@ -55,7 +55,7 @@ Alur:
 ### Zona D — Papan TTS
 - Papan menjadi pusat interaksi.
 - Kotak memiliki batas dan jarak konsisten, ukuran huruf terbaca, serta area sentuh memadai.
-- Kotak aktif, terisi, benar, dan sedang diperiksa memiliki keadaan visual berbeda.
+- Kotak yang mendapat sorotan fokus/rekomendasi menggunakan satu gaya sorotan yang sama, baik fokus itu berasal dari rekomendasi sistem maupun pilihan manual anak. Anak dapat memindahkan sorotan dengan mengetuk kotak lain yang belum terkunci. Tidak ada dua gaya sorotan terpisah untuk 'rekomendasi sistem' dan 'pilihan anak'. Keadaan kotak terkunci/benar tetap memiliki penanda tersendiri yang jelas dan tidak dapat diedit.
 - Jumlah baris/kolom, posisi persilangan, dan nomor petunjuk berasal dari data TTS final.
 - Pada layar sempit, jangan mengecilkan grid sampai sulit dibaca; gunakan area gulir khusus bila memang diperlukan.
 - Jangan menggunakan grid dekoratif palsu sebagai pengganti papan interaktif.
