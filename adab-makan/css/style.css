@@ -682,3 +682,21 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 .challenge-answer{border:2px solid #e5ddcd;border-radius:18px;padding:13px 16px;background:#fff;color:#53675f;font-weight:800;cursor:pointer;min-height:58px;transition:transform .15s,box-shadow .15s}
 .challenge-answer.correct{border-color:#b9dfd1;background:#f4fbf6}.challenge-answer:active{transform:scale(.98)}.challenge-answer:focus-visible{outline:3px solid #63b8a7;outline-offset:3px}
 @media(max-width:560px){.sip-simulation,.challenge-board{padding:12px}.challenge-step{width:30px;height:30px}.challenge-answer{min-height:54px}}
+
+
+/* Illustrated choice cards for activities 3, 6 and 8. Artwork is vector UI, not emoji placeholders. */
+.illustrated-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(10px,2vw,18px);width:100%;margin:4px auto}
+.illustrated-option{min-width:0;min-height:190px;padding:12px 10px 14px;border:3px solid #e5e9dd;border-radius:24px;background:linear-gradient(160deg,#fff 0%,#fffaf0 100%);box-shadow:0 6px 0 #e8dfcb,0 10px 20px rgba(77,94,78,.08);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#42564d;transition:transform .15s,border-color .15s,background .15s}
+.illustrated-option:active{transform:translateY(3px);box-shadow:0 3px 0 #e8dfcb}
+.illustrated-option:focus-visible{outline:4px solid #f3a340;outline-offset:3px}
+.illustrated-art{display:grid;place-items:center;width:100%;min-height:112px;border-radius:18px;background:radial-gradient(ellipse at 50% 75%,#f6ecd8 0 48%,transparent 49%)}
+.illustrated-art svg{display:block;width:min(100%,210px);height:auto;max-height:122px;filter:drop-shadow(0 4px 2px rgba(87,76,55,.10))}
+.illustrated-label{font-size:clamp(14px,1.7vw,19px);line-height:1.25;font-weight:900;text-align:center}
+.illustrated-option:hover{border-color:#9dcfc0;background:linear-gradient(160deg,#fff 0%,#eff9f3 100%)}
+@media(max-width:560px){
+ .illustrated-options{gap:9px}
+ .illustrated-option{min-height:160px;padding:8px 6px 10px;border-radius:18px}
+ .illustrated-art{min-height:92px}
+ .illustrated-art svg{max-height:100px}
+ .illustrated-label{font-size:14px}
+}
