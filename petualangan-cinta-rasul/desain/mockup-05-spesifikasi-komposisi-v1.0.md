@@ -332,3 +332,31 @@ Template visual dapat disetujui bila:
 7. semua elemen yang berubah atau interaktif tetap dinamis;
 8. tidak ada tokoh, hewan, avatar, atau unsur visual yang bertentangan dengan batasan proyek;
 9. satu template dapat menampung seluruh data TTS dengan variasi panjang yang wajar.
+
+## 14. Rencana pilot implementasi template TTS
+
+### 14.1 Keputusan penggunaan puzzle contoh
+
+Satu puzzle cukup untuk memulai implementasi template dan menguji mekanik inti. Namun, satu puzzle belum cukup untuk menyatakan template telah teruji untuk seluruh variasi bank TTS.
+
+**Puzzle pilot utama:** puzzle Canva dengan 8 petunjuk (halaman soal dan halaman kunci jawaban yang berpasangan). Puzzle ini dipilih karena lebih kaya persilangan dan lebih memadai untuk menguji perpindahan petunjuk, sel bersama, serta penguncian jawaban benar.
+
+**Puzzle uji pembanding:** puzzle dengan 5 petunjuk (halaman soal dan kunci jawaban yang baru dilengkapi). Puzzle ini digunakan setelah pilot utama untuk memastikan template juga nyaman pada grid yang lebih sederhana.
+
+### 14.2 Tahapan implementasi
+
+1. Turunkan grid puzzle 8 petunjuk dari Canva menjadi data terstruktur: dimensi, sel aktif/nonaktif, koordinat awal jawaban, arah, panjang, petunjuk, dan kunci jawaban.
+2. Verifikasi setiap koordinat dan persilangan terhadap gambar soal serta kunci jawaban. Jangan menebak koordinat yang belum terverifikasi.
+3. Bangun satu halaman HTML/CSS/JS yang memakai data puzzle tersebut.
+4. Implementasikan seluruh mekanik yang telah dikunci: pilih petunjuk, input A–Z di layar, fokus yang dapat dipindah, DEL, PERIKSA, jawaban benar terkunci, jawaban salah mengosongkan isian baru tanpa menghapus huruf terkunci, dan rekomendasi petunjuk berikutnya.
+5. Uji alur normal, jawaban salah, jawaban benar, persilangan, pergantian petunjuk, serta tampilan ponsel portrait.
+6. Masukkan puzzle 5 petunjuk sebagai data kedua tanpa membuat template atau mekanik baru.
+7. Setelah dua contoh berjalan, uji sampel tambahan yang mewakili grid terpendek, terpanjang, paling lebar, dan pola persilangan yang berbeda dari keseluruhan bank 39 TTS.
+8. Jika seluruh variasi sampel lolos, gunakan template yang sama untuk memasukkan data semua 39 TTS.
+
+### 14.3 Batas kesimpulan
+
+- Berhasilnya puzzle pilot membuktikan bahwa template dan mekanik inti dapat berjalan pada contoh tersebut.
+- Berhasilnya puzzle pembanding membuktikan bahwa template dapat menangani setidaknya dua bentuk grid berbeda.
+- Kelayakan untuk seluruh bank baru dapat disimpulkan setelah pengujian sampel representatif dan pemeriksaan data seluruh puzzle.
+- Tidak perlu membuat desain visual baru untuk setiap halaman TTS. Variasi puzzle ditangani melalui data, bukan dengan menggandakan template.
