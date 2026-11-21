@@ -75,11 +75,14 @@ Prinsip rancangan:
 
 Keyboard A–Z adalah alat input, bukan bank pilihan jawaban: seluruh huruf tersedia dan anak menentukan huruf yang diperlukan. Jangan mengubahnya menjadi pilihan huruf terbatas per soal tanpa persetujuan baru.
 
-### Zona F — Aksi dan umpan balik
-- Sediakan ruang untuk aksi pemeriksaan jika mekanik final memang memerlukannya.
-- Pesan benar/belum tepat harus singkat, ramah, dan tidak mempermalukan.
-- Koreksi, penghapusan, dan perpindahan petunjuk mengikuti aturan interaksi final.
-- Jangan menambahkan tombol Bantuan/Petunjuk, Lewati, Reset, timer, atau batas kesempatan tanpa kesepakatan.
+### Zona F — Aksi dan umpan balik (KEPUTUSAN DIKUNCI)
+- Setelah seluruh kotak jawaban untuk petunjuk aktif terisi, tampilkan tombol **PERIKSA**.
+- Anak menekan PERIKSA untuk mengirim jawaban petunjuk aktif untuk diperiksa.
+- Jika jawaban benar: jawaban dikunci, kotak-kotaknya ditandai benar, dan petunjuk ditandai selesai.
+- Jika jawaban belum tepat: tampilkan umpan balik singkat, ramah, dan tidak mempermalukan; anak diberi kesempatan memperbaiki jawaban.
+- Tidak ada batas jumlah percobaan yang ditambahkan.
+- Jangan menambahkan tombol Bantuan/Petunjuk, Lewati, Reset, timer, atau batas kesempatan tanpa kesepakatan baru.
+- Perpindahan ke petunjuk berikutnya setelah jawaban benar belum otomatis ditetapkan; lihat bagian keputusan yang masih perlu difinalkan.
 
 ## 5. Arah visual
 
@@ -115,14 +118,15 @@ Uji dengan TTS terpendek dan terpanjang serta grid terlebar dari bank sebenarnya
 
 ## 8. Keadaan antarmuka
 
-Rancang keadaan sesuai mekanik final:
+Rancang keadaan sesuai mekanik yang telah disepakati:
 1. aktivitas siap;
 2. petunjuk aktif dan kotak belum terisi;
 3. anak memilih huruf dari keyboard layar;
-4. jawaban sedang diperiksa, jika pemeriksaan eksplisit digunakan;
-5. jawaban benar;
-6. jawaban belum tepat dan dapat dikoreksi;
-7. aktivitas selesai.
+4. seluruh kotak petunjuk aktif telah terisi dan tombol PERIKSA tersedia;
+5. jawaban sedang diperiksa setelah PERIKSA ditekan;
+6. jawaban benar: terkunci dan petunjuk selesai;
+7. jawaban belum tepat: umpan balik tampil dan anak dapat memperbaiki;
+8. seluruh aktivitas selesai setelah semua kondisi penyelesaian terpenuhi.
 
 Seluruh keadaan berasal dari state permainan. Jangan menampilkan status selesai atau bintang sebelum syarat penyelesaian terpenuhi.
 
@@ -137,6 +141,10 @@ Grid dibangun dari data/koordinat TTS yang disiapkan dari Canva atau sumber fina
 ## 10. Keputusan yang sudah dikunci dan hal yang masih perlu difinalkan
 
 **Sudah dikunci:**
+- setelah seluruh kotak untuk petunjuk aktif terisi, anak menekan tombol PERIKSA;
+- jika benar, jawaban dikunci dan petunjuk ditandai selesai;
+- jika belum tepat, anak mendapat umpan balik dan boleh memperbaiki;
+- tidak ada batas percobaan yang ditambahkan;
 - metode input: keyboard huruf A–Z di layar;
 - anak menyentuh tombol huruf untuk memasukkan huruf ke papan;
 - keyboard perangkat bukan metode input utama;
@@ -147,9 +155,8 @@ Grid dibangun dari data/koordinat TTS yang disiapkan dari Canva atau sumber fina
 
 **Masih perlu ditetapkan sebelum implementasi interaksi final:**
 - perilaku jika huruf yang dimasukkan bertentangan dengan huruf yang sudah ada pada kotak persilangan;
-- perilaku tombol hapus/koreksi;
-- apakah jawaban diperiksa otomatis atau melalui tombol periksa;
-- aturan perpindahan ke petunjuk berikutnya setelah benar.
+- perilaku tombol hapus/koreksi dan cara memperbaiki jawaban yang belum tepat;
+- apakah setelah jawaban benar sistem otomatis membuka petunjuk berikutnya atau anak memilih sendiri petunjuk berikutnya.
 
 Jangan mengasumsikan keputusan yang belum dikunci.
 
@@ -173,4 +180,4 @@ Mockup siap masuk tahap implementasi jika:
 4. Uji TTS terpendek/terpanjang untuk profil ADIK dan KAKAK.
 5. Cocokkan implementasi dengan mockup pada ponsel, tablet, dan laptop.
 
-Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Mekanik pemeriksaan, koreksi, dan penanganan konflik pada persilangan tetap menunggu finalisasi.
+Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Pemeriksaan menggunakan tombol PERIKSA; jawaban benar dikunci dan petunjuk ditandai selesai, sedangkan jawaban belum tepat dapat diperbaiki tanpa batas percobaan yang ditentukan. Perilaku koreksi, konflik persilangan, dan perpindahan ke petunjuk berikutnya tetap menunggu finalisasi.
