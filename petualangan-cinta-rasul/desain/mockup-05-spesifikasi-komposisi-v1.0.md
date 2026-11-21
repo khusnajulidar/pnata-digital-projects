@@ -1,5 +1,5 @@
 # MOCKUP 05 — HALAMAN PERMAINAN TTS
-## Spesifikasi Komposisi dan Interaksi v1.4
+## Spesifikasi Komposisi dan Interaksi v1.5
 
 Status: metode input dan alur pemeriksaan jawaban telah diputuskan; detail koreksi, konflik persilangan, dan perpindahan petunjuk masih perlu difinalkan.
 
@@ -28,7 +28,7 @@ Alur:
 1. Anak mengetuk nomor/panel petunjuk yang ingin dikerjakan.
 2. Sistem menyorot seluruh rangkaian kotak jawaban yang terkait dengan petunjuk itu.
 3. Anak memilih huruf A–Z pada keyboard layar.
-4. Huruf ditempatkan berurutan pada kotak jawaban petunjuk aktif.
+4. Huruf ditempatkan mengikuti kotak fokus/rekomendasi pada jawaban petunjuk aktif. Anak tetap dapat memilih kotak lain yang belum terkunci untuk mengisi atau memperbaikinya secara manual.
 5. Anak dapat melihat rangkaian huruf yang sudah dimasukkan pada grid.
 6. Setelah jawaban lengkap, proses pemeriksaan mengikuti mekanik yang akan difinalkan.
 
@@ -69,8 +69,10 @@ Prinsip rancangan:
 - huruf kapital, kontras jelas, dan label tidak ambigu;
 - tombol yang disentuh memasukkan huruf ke kotak aktif sesuai aturan grid;
 - anak dapat melihat huruf yang telah terisi pada papan;
-- kotak yang sudah terkunci tidak dapat dihapus atau dikoreksi;
-- huruf yang baru dimasukkan pada petunjuk yang sedang dikerjakan dapat dibersihkan kembali jika jawaban setelah PERIKSA ternyata salah;
+- kotak yang sudah terkunci tidak dapat dipilih untuk diedit, dihapus, atau dikoreksi;
+- tombol DEL menghapus hanya huruf pada kotak belum terkunci yang sedang dipilih;
+- anak dapat memilih kotak belum terkunci mana pun untuk mengisi atau memperbaiki huruf secara manual;
+- setelah satu huruf dimasukkan, sorotan rekomendasi bergerak ke kotak berikutnya pada urutan jawaban, termasuk jika kotak itu sudah berisi huruf; sorotan tidak mengubah isi kotak;
 - keyboard tidak boleh menutupi petunjuk atau bagian penting papan;
 - tata letak harus responsif untuk ponsel, tablet, dan laptop.
 
@@ -152,7 +154,10 @@ Grid dibangun dari data/koordinat TTS yang disiapkan dari Canva atau sumber fina
 - keyboard perangkat bukan metode input utama;
 - seluruh huruf A–Z tersedia, bukan bank huruf terbatas;
 - anak memilih petunjuk terlebih dahulu;
-- huruf yang dipilih mengisi kotak jawaban petunjuk aktif secara berurutan;
+- huruf yang dipilih mengisi kotak yang sedang dipilih/fokus;
+- sorotan rekomendasi berpindah ke kotak berikutnya dalam urutan jawaban setelah input, sekalipun kotak itu sudah berisi huruf;
+- anak bebas memilih kotak belum terkunci lain untuk mengisi atau mengoreksi secara manual;
+- tombol DEL menghapus huruf pada kotak belum terkunci yang sedang dipilih;
 - kotak persilangan merupakan sel bersama dan hurufnya harus konsisten.
 
 **Masih perlu ditetapkan sebelum implementasi interaksi final:**
@@ -181,4 +186,4 @@ Mockup siap masuk tahap implementasi jika:
 4. Uji TTS terpendek/terpanjang untuk profil ADIK dan KAKAK.
 5. Cocokkan implementasi dengan mockup pada ponsel, tablet, dan laptop.
 
-Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Pemeriksaan menggunakan tombol PERIKSA; jawaban benar dikunci dan petunjuk ditandai selesai, sedangkan jawaban belum tepat dapat diperbaiki tanpa batas percobaan yang ditentukan. Aturan kotak terkunci, pengosongan isian setelah jawaban salah, dan rekomendasi otomatis petunjuk berikutnya telah dikunci. Anak tetap bebas memilih petunjuk lain yang belum selesai. Detail penghapusan satu huruf sebelum pemeriksaan masih menunggu finalisasi.
+Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Pemeriksaan menggunakan tombol PERIKSA; jawaban benar dikunci dan petunjuk ditandai selesai, sedangkan jawaban belum tepat dapat diperbaiki tanpa batas percobaan yang ditentukan. Aturan kotak terkunci, pengosongan isian setelah jawaban salah, dan rekomendasi otomatis petunjuk berikutnya telah dikunci. Anak tetap bebas memilih petunjuk lain yang belum selesai. Perbedaan visual antara kotak yang dipilih secara manual dan kotak yang hanya mendapat sorotan rekomendasi perlu dipastikan pada desain visual.
