@@ -20,7 +20,21 @@ Data yang ditampilkan berasal dari alur dan bank permainan:
 
 Semua teks soal, huruf grid, nomor petunjuk, status, dan progres adalah elemen HTML/CSS/JS dinamis, bukan bagian permanen dari gambar latar.
 
-## 3. Komposisi layar ponsel (portrait-first)
+## 3. Alur pengisian jawaban (KEPUTUSAN DIKUNCI)
+
+Anak **memilih nomor petunjuk terlebih dahulu**, kemudian memilih huruf pada keyboard A–Z di layar. Huruf mengisi kotak-kotak jawaban petunjuk tersebut secara berurutan. Anak tidak perlu menyentuh kotak satu per satu.
+
+Alur:
+1. Anak mengetuk nomor/panel petunjuk yang ingin dikerjakan.
+2. Sistem menyorot seluruh rangkaian kotak jawaban yang terkait dengan petunjuk itu.
+3. Anak memilih huruf A–Z pada keyboard layar.
+4. Huruf ditempatkan berurutan pada kotak jawaban petunjuk aktif.
+5. Anak dapat melihat rangkaian huruf yang sudah dimasukkan pada grid.
+6. Setelah jawaban lengkap, proses pemeriksaan mengikuti mekanik yang akan difinalkan.
+
+**Aturan persilangan:** satu kotak pada persilangan adalah satu sel yang dipakai bersama oleh dua jawaban. Huruf yang tampil pada sel itu harus konsisten untuk kedua arah. Pengisian jawaban lain tidak boleh membuat sel persilangan yang sudah berisi huruf berubah diam-diam. Penanganan jika input baru bertentangan dengan huruf pada persilangan perlu mengikuti aturan koreksi yang difinalkan; jangan menimpa huruf secara otomatis tanpa memberi tahu anak.
+
+## 4. Komposisi layar ponsel (portrait-first)
 
 ### Zona A — Navigasi dan konteks
 - Tombol kembali dengan area sentuh yang nyaman.
@@ -67,7 +81,7 @@ Keyboard A–Z adalah alat input, bukan bank pilihan jawaban: seluruh huruf ters
 - Koreksi, penghapusan, dan perpindahan petunjuk mengikuti aturan interaksi final.
 - Jangan menambahkan tombol Bantuan/Petunjuk, Lewati, Reset, timer, atau batas kesempatan tanpa kesepakatan.
 
-## 4. Arah visual
+## 5. Arah visual
 
 Konsisten dengan Visual Master:
 - 3D stylized storybook-diorama; perpaduan dunia kaya detail dan miniatur ramah anak;
@@ -82,14 +96,14 @@ Latar TTS lebih tenang daripada peta:
 
 Tidak boleh ada manusia, hewan, avatar, siluet tokoh, penggambaran Rasulullah ﷺ/keluarga/Shahabat/ulama, benda rekaan yang diklaim sebagai peninggalan sejarah, kaligrafi Arab dekoratif tanpa sumber, atau teks/grid permanen di dalam ilustrasi.
 
-## 5. Watermark dan identitas merek
+## 6. Watermark dan identitas merek
 
 - Gunakan ikon resmi P’Nata sebagai watermark pada layar ini.
 - Watermark halus; target awal opacity CSS 0.05–0.08 dan uji keterbacaan pada latar sebenarnya.
 - Jangan tampilkan ikon sebagai logo kedua yang dominan atau logo lengkap pada layar aktivitas.
 - Gunakan aset resmi tanpa menggambar ulang, mengubah proporsi, atau mengubah identitasnya.
 
-## 6. Responsivitas dan aksesibilitas
+## 7. Responsivitas dan aksesibilitas
 
 **Ponsel portrait:** petunjuk, papan, dan keyboard tersusun vertikal; keyboard tidak menutupi papan; huruf grid dan tombol mudah disentuh.
 
@@ -99,7 +113,7 @@ Tidak boleh ada manusia, hewan, avatar, siluet tokoh, penggambaran Rasulullah �
 
 Uji dengan TTS terpendek dan terpanjang serta grid terlebar dari bank sebenarnya. Jangan hanya menguji contoh pendek.
 
-## 7. Keadaan antarmuka
+## 8. Keadaan antarmuka
 
 Rancang keadaan sesuai mekanik final:
 1. aktivitas siap;
@@ -112,7 +126,7 @@ Rancang keadaan sesuai mekanik final:
 
 Seluruh keadaan berasal dari state permainan. Jangan menampilkan status selesai atau bintang sebelum syarat penyelesaian terpenuhi.
 
-## 8. Pemisahan aset dan implementasi
+## 9. Pemisahan aset dan implementasi
 
 **Aset gambar:** latar/ilustrasi suasana, ornamen pinggir, tekstur dekoratif, ikon resmi P’Nata.
 
@@ -120,23 +134,26 @@ Seluruh keadaan berasal dari state permainan. Jangan menampilkan status selesai 
 
 Grid dibangun dari data/koordinat TTS yang disiapkan dari Canva atau sumber final. Jangan mengandalkan gambar Canva sebagai papan statis jika huruf dan status harus berubah.
 
-## 9. Keputusan yang sudah dikunci dan hal yang masih perlu difinalkan
+## 10. Keputusan yang sudah dikunci dan hal yang masih perlu difinalkan
 
 **Sudah dikunci:**
 - metode input: keyboard huruf A–Z di layar;
 - anak menyentuh tombol huruf untuk memasukkan huruf ke papan;
 - keyboard perangkat bukan metode input utama;
-- seluruh huruf A–Z tersedia, bukan bank huruf terbatas.
+- seluruh huruf A–Z tersedia, bukan bank huruf terbatas;
+- anak memilih petunjuk terlebih dahulu;
+- huruf yang dipilih mengisi kotak jawaban petunjuk aktif secara berurutan;
+- kotak persilangan merupakan sel bersama dan hurufnya harus konsisten.
 
 **Masih perlu ditetapkan sebelum implementasi interaksi final:**
-- apakah anak memilih kotak satu per satu atau memilih petunjuk aktif lalu huruf ditempatkan otomatis pada rangkaian kotaknya;
+- perilaku jika huruf yang dimasukkan bertentangan dengan huruf yang sudah ada pada kotak persilangan;
 - perilaku tombol hapus/koreksi;
 - apakah jawaban diperiksa otomatis atau melalui tombol periksa;
 - aturan perpindahan ke petunjuk berikutnya setelah benar.
 
 Jangan mengasumsikan keputusan yang belum dikunci.
 
-## 10. Kriteria evaluasi mockup
+## 11. Kriteria evaluasi mockup
 
 Mockup siap masuk tahap implementasi jika:
 - visual konsisten dengan Mockup 01–04 dan nuansa padang pasir terasa;
@@ -148,12 +165,12 @@ Mockup siap masuk tahap implementasi jika:
 - tidak ada ilustrasi yang melanggar batasan;
 - tidak ada mekanik baru yang ditambahkan diam-diam.
 
-## 11. Tahap berikutnya
+## 12. Tahap berikutnya
 
-1. Finalkan cara memilih kotak/petunjuk dan cara huruf ditempatkan.
-2. Finalkan pemeriksaan jawaban, koreksi, dan perpindahan petunjuk.
+1. Finalkan perilaku koreksi dan konflik huruf pada kotak persilangan.
+2. Finalkan pemeriksaan jawaban dan perpindahan petunjuk.
 3. Siapkan grid serta koordinat TTS dari materi Canva.
 4. Uji TTS terpendek/terpanjang untuk profil ADIK dan KAKAK.
 5. Cocokkan implementasi dengan mockup pada ponsel, tablet, dan laptop.
 
-Spesifikasi v1.1 mengunci keyboard huruf di layar sebagai metode input, tetapi tidak menetapkan mekanik pemeriksaan dan navigasi jawaban yang belum disepakati.
+Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Mekanik pemeriksaan, koreksi, dan penanganan konflik pada persilangan tetap menunggu finalisasi.
