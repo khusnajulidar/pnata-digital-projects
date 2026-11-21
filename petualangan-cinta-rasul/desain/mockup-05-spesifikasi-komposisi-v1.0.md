@@ -1,5 +1,5 @@
 # MOCKUP 05 — HALAMAN PERMAINAN TTS
-## Spesifikasi Komposisi dan Interaksi v1.3
+## Spesifikasi Komposisi dan Interaksi v1.4
 
 Status: metode input dan alur pemeriksaan jawaban telah diputuskan; detail koreksi, konflik persilangan, dan perpindahan petunjuk masih perlu difinalkan.
 
@@ -84,7 +84,7 @@ Keyboard A–Z adalah alat input, bukan bank pilihan jawaban: seluruh huruf ters
 - Huruf pada kotak yang telah terkunci karena jawaban silang sebelumnya tetap dipertahankan dan tidak ikut dikosongkan.
 - Tidak ada batas jumlah percobaan yang ditambahkan.
 - Jangan menambahkan tombol Bantuan/Petunjuk, Lewati, Reset, timer, atau batas kesempatan tanpa kesepakatan baru.
-- Perpindahan ke petunjuk berikutnya setelah jawaban benar belum otomatis ditetapkan; lihat bagian keputusan yang masih perlu difinalkan.
+- Setelah jawaban benar, sistem otomatis menyoroti petunjuk berikutnya yang belum selesai sebagai rekomendasi. Anak tetap bebas memilih petunjuk lain yang belum selesai dan mengerjakannya lebih dahulu. Sorotan berpindah mengikuti pilihan anak; setelah jawaban benar, sistem kembali merekomendasikan petunjuk belum selesai berikutnya.
 
 ## 5. Arah visual
 
@@ -157,8 +157,7 @@ Grid dibangun dari data/koordinat TTS yang disiapkan dari Canva atau sumber fina
 
 **Masih perlu ditetapkan sebelum implementasi interaksi final:**
 - detail tampilan/animasi saat sistem melewati kotak persilangan yang sudah terkunci;
-- apakah anak dapat menghapus satu huruf yang belum terkunci sebelum menekan PERIKSA, atau hanya mengosongkan seluruh isian setelah jawaban salah;
-- apakah setelah jawaban benar sistem otomatis membuka petunjuk berikutnya atau anak memilih sendiri petunjuk berikutnya.
+- apakah anak dapat menghapus satu huruf yang belum terkunci sebelum menekan PERIKSA, atau hanya mengosongkan seluruh isian setelah jawaban salah.
 
 Jangan mengasumsikan keputusan yang belum dikunci.
 
@@ -182,4 +181,4 @@ Mockup siap masuk tahap implementasi jika:
 4. Uji TTS terpendek/terpanjang untuk profil ADIK dan KAKAK.
 5. Cocokkan implementasi dengan mockup pada ponsel, tablet, dan laptop.
 
-Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Pemeriksaan menggunakan tombol PERIKSA; jawaban benar dikunci dan petunjuk ditandai selesai, sedangkan jawaban belum tepat dapat diperbaiki tanpa batas percobaan yang ditentukan. Aturan kotak terkunci dan pengosongan isian setelah jawaban salah telah dikunci. Detail penghapusan satu huruf sebelum pemeriksaan dan perpindahan ke petunjuk berikutnya masih menunggu finalisasi.
+Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Pemeriksaan menggunakan tombol PERIKSA; jawaban benar dikunci dan petunjuk ditandai selesai, sedangkan jawaban belum tepat dapat diperbaiki tanpa batas percobaan yang ditentukan. Aturan kotak terkunci, pengosongan isian setelah jawaban salah, dan rekomendasi otomatis petunjuk berikutnya telah dikunci. Anak tetap bebas memilih petunjuk lain yang belum selesai. Detail penghapusan satu huruf sebelum pemeriksaan masih menunggu finalisasi.
