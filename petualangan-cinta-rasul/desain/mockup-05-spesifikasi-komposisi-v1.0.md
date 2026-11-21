@@ -1,5 +1,5 @@
 # MOCKUP 05 — HALAMAN PERMAINAN TTS
-## Spesifikasi Komposisi dan Interaksi v1.2
+## Spesifikasi Komposisi dan Interaksi v1.3
 
 Status: metode input dan alur pemeriksaan jawaban telah diputuskan; detail koreksi, konflik persilangan, dan perpindahan petunjuk masih perlu difinalkan.
 
@@ -32,7 +32,7 @@ Alur:
 5. Anak dapat melihat rangkaian huruf yang sudah dimasukkan pada grid.
 6. Setelah jawaban lengkap, proses pemeriksaan mengikuti mekanik yang akan difinalkan.
 
-**Aturan persilangan:** satu kotak pada persilangan adalah satu sel yang dipakai bersama oleh dua jawaban. Huruf yang tampil pada sel itu harus konsisten untuk kedua arah. Pengisian jawaban lain tidak boleh membuat sel persilangan yang sudah berisi huruf berubah diam-diam. Penanganan jika input baru bertentangan dengan huruf pada persilangan perlu mengikuti aturan koreksi yang difinalkan; jangan menimpa huruf secara otomatis tanpa memberi tahu anak.
+**Aturan persilangan dan kotak terkunci (KEPUTUSAN DIKUNCI):** satu kotak pada persilangan adalah satu sel yang dipakai bersama oleh dua jawaban. Setelah sebuah jawaban diperiksa benar, seluruh kotak jawaban itu dikunci. Kotak terkunci tidak dapat diubah atau ditimpa ketika anak mengerjakan petunjuk lain. Jika urutan pengisian petunjuk melewati kotak yang sudah terkunci, sistem mempertahankan huruf yang terkunci dan melanjutkan fokus/input ke kotak berikutnya yang masih dapat diisi. Huruf terkunci tetap dipakai sebagai huruf persilangan untuk jawaban berikutnya. Jangan pernah menghapus atau mengganti huruf yang sudah terkunci.
 
 ## 4. Komposisi layar ponsel (portrait-first)
 
@@ -69,7 +69,8 @@ Prinsip rancangan:
 - huruf kapital, kontras jelas, dan label tidak ambigu;
 - tombol yang disentuh memasukkan huruf ke kotak aktif sesuai aturan grid;
 - anak dapat melihat huruf yang telah terisi pada papan;
-- sediakan kontrol koreksi/hapus hanya sesuai alur input yang disepakati;
+- kotak yang sudah terkunci tidak dapat dihapus atau dikoreksi;
+- huruf yang baru dimasukkan pada petunjuk yang sedang dikerjakan dapat dibersihkan kembali jika jawaban setelah PERIKSA ternyata salah;
 - keyboard tidak boleh menutupi petunjuk atau bagian penting papan;
 - tata letak harus responsif untuk ponsel, tablet, dan laptop.
 
@@ -79,7 +80,8 @@ Keyboard A–Z adalah alat input, bukan bank pilihan jawaban: seluruh huruf ters
 - Setelah seluruh kotak jawaban untuk petunjuk aktif terisi, tampilkan tombol **PERIKSA**.
 - Anak menekan PERIKSA untuk mengirim jawaban petunjuk aktif untuk diperiksa.
 - Jika jawaban benar: jawaban dikunci, kotak-kotaknya ditandai benar, dan petunjuk ditandai selesai.
-- Jika jawaban belum tepat: tampilkan umpan balik singkat, ramah, dan tidak mempermalukan; anak diberi kesempatan memperbaiki jawaban.
+- Jika jawaban belum tepat: tampilkan umpan balik singkat, ramah, dan tidak mempermalukan; seluruh huruf yang baru diisikan untuk petunjuk tersebut dikosongkan kembali agar anak dapat mencoba lagi.
+- Huruf pada kotak yang telah terkunci karena jawaban silang sebelumnya tetap dipertahankan dan tidak ikut dikosongkan.
 - Tidak ada batas jumlah percobaan yang ditambahkan.
 - Jangan menambahkan tombol Bantuan/Petunjuk, Lewati, Reset, timer, atau batas kesempatan tanpa kesepakatan baru.
 - Perpindahan ke petunjuk berikutnya setelah jawaban benar belum otomatis ditetapkan; lihat bagian keputusan yang masih perlu difinalkan.
@@ -125,7 +127,7 @@ Rancang keadaan sesuai mekanik yang telah disepakati:
 4. seluruh kotak petunjuk aktif telah terisi dan tombol PERIKSA tersedia;
 5. jawaban sedang diperiksa setelah PERIKSA ditekan;
 6. jawaban benar: terkunci dan petunjuk selesai;
-7. jawaban belum tepat: umpan balik tampil dan anak dapat memperbaiki;
+7. jawaban belum tepat: umpan balik tampil, huruf baru pada petunjuk itu dikosongkan kembali, sedangkan kotak terkunci tetap terisi;
 8. seluruh aktivitas selesai setelah semua kondisi penyelesaian terpenuhi.
 
 Seluruh keadaan berasal dari state permainan. Jangan menampilkan status selesai atau bintang sebelum syarat penyelesaian terpenuhi.
@@ -154,8 +156,8 @@ Grid dibangun dari data/koordinat TTS yang disiapkan dari Canva atau sumber fina
 - kotak persilangan merupakan sel bersama dan hurufnya harus konsisten.
 
 **Masih perlu ditetapkan sebelum implementasi interaksi final:**
-- perilaku jika huruf yang dimasukkan bertentangan dengan huruf yang sudah ada pada kotak persilangan;
-- perilaku tombol hapus/koreksi dan cara memperbaiki jawaban yang belum tepat;
+- detail tampilan/animasi saat sistem melewati kotak persilangan yang sudah terkunci;
+- apakah anak dapat menghapus satu huruf yang belum terkunci sebelum menekan PERIKSA, atau hanya mengosongkan seluruh isian setelah jawaban salah;
 - apakah setelah jawaban benar sistem otomatis membuka petunjuk berikutnya atau anak memilih sendiri petunjuk berikutnya.
 
 Jangan mengasumsikan keputusan yang belum dikunci.
@@ -180,4 +182,4 @@ Mockup siap masuk tahap implementasi jika:
 4. Uji TTS terpendek/terpanjang untuk profil ADIK dan KAKAK.
 5. Cocokkan implementasi dengan mockup pada ponsel, tablet, dan laptop.
 
-Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Pemeriksaan menggunakan tombol PERIKSA; jawaban benar dikunci dan petunjuk ditandai selesai, sedangkan jawaban belum tepat dapat diperbaiki tanpa batas percobaan yang ditentukan. Perilaku koreksi, konflik persilangan, dan perpindahan ke petunjuk berikutnya tetap menunggu finalisasi.
+Spesifikasi ini mengunci keyboard A–Z di layar serta alur memilih petunjuk lalu mengisi jawabannya secara berurutan. Pemeriksaan menggunakan tombol PERIKSA; jawaban benar dikunci dan petunjuk ditandai selesai, sedangkan jawaban belum tepat dapat diperbaiki tanpa batas percobaan yang ditentukan. Aturan kotak terkunci dan pengosongan isian setelah jawaban salah telah dikunci. Detail penghapusan satu huruf sebelum pemeriksaan dan perpindahan ke petunjuk berikutnya masih menunggu finalisasi.
