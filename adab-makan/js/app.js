@@ -120,7 +120,7 @@ case"audio":playActivityAudio();break;case"narration":playNarration();break;
 case"select-bismillah":state.bismillahSelected=true;renderActivity();break;
 case"start-meal":if(state.audioHeard)completeActivity();break;
 case"simulate-pick":completeActivity();break;
-case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length||Array.from({length:d[2].length},(_,i)=>state.sequence[i]===undefined).some(Boolean)){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=Array.from({length:d[2].length},(_,i)=>state.sequence[i]===i).every(Boolean);answer(ok);if(ok){b.dataset.action="next";b.disabled=false}break}
+case"check-sequence":{const d=activityData();if(state.sequence.length!==d[2].length||Array.from({length:d[2].length},(_,i)=>state.sequence[i]===undefined).some(Boolean)){feedback("Lengkapi semua tempat terlebih dahulu.",false);break}const ok=Array.from({length:d[2].length},(_,i)=>state.sequence[i]===i).every(Boolean);answer(ok);if(ok){document.querySelectorAll('[data-action="check-sequence"]').forEach(button=>{button.dataset.action="next";button.disabled=false})}break}
 case"replay":progress=blankProgress();save();go("home");break;
 }return}
 if(b.dataset.mission!==undefined){const m=Number(b.dataset.mission);if(progress.unlockedMissions.includes(m)){state.mission=m;state.activity=0;go("activity")}return}
