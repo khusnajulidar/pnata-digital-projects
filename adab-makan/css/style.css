@@ -660,3 +660,25 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 .scene-hotspot:active{background:rgba(22,125,120,.18)}
 .scene-near-child{left:30%;top:43%;width:44%;height:12%}
 .scene-near-adult{left:34%;top:34%;width:40%;height:11%}
+
+/* Simulasi minum: visual gelas CSS dan urutan tegukan */
+.sip-simulation{display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;padding:16px;border-radius:24px;background:linear-gradient(180deg,#f7fbf7,#fff8e8);border:1px solid #e7eee2}
+.sip-progress{display:flex;gap:9px;margin-bottom:6px}
+.sip-dot{width:13px;height:13px;border-radius:50%;background:#d9e2db;box-shadow:inset 0 1px 2px #b7c7b9}
+.sip-dot.active{background:#52b8aa;transform:scale(1.2);box-shadow:0 0 0 4px #ccece5}
+.sip-dot.done{background:#e9b95e}
+.sip-glass{position:relative;width:76px;height:110px;border:4px solid #76b8c8;border-top:0;border-radius:8px 8px 22px 22px;background:linear-gradient(90deg,#ffffffaa,#d7f1f5aa);overflow:hidden;box-shadow:0 8px 0 #d9e8eb;transition:transform .35s ease}
+.sip-glass:before{content:"";position:absolute;top:0;left:-5px;right:-5px;height:7px;border:3px solid #76b8c8;border-radius:50%;background:#f6ffff}
+.sip-water{position:absolute;bottom:0;left:0;right:0;height:57%;background:linear-gradient(180deg,#a9e1e9,#75c1d1);border-radius:0 0 15px 15px;transition:height .4s ease}
+.sip-glass.lowered{transform:translateY(16px) rotate(5deg)}.sip-glass.away{transform:translateY(-2px) rotate(-8deg)}.sip-glass.raised{transform:translateY(-5px) rotate(3deg)}
+.sip-step-label{margin:0;color:#529b94;font-size:.78rem;font-weight:900;letter-spacing:.08em}
+.sip-simulation h3{margin:0;text-align:center;color:#376d68;font-size:1.25rem}.sip-instruction{margin:0;text-align:center;max-width:34ch;color:#5f756d;line-height:1.5}
+.challenge-board{width:100%;display:flex;flex-direction:column;align-items:center;gap:12px;padding:18px;border-radius:24px;background:linear-gradient(180deg,#fff9eb,#fff);border:1px solid #f1dfb9}
+.challenge-progress{display:flex;gap:10px;align-items:center;justify-content:center;margin-bottom:4px}
+.challenge-step{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#e9e6dc;color:#8b897f;font-weight:900;border:2px solid #fff;box-shadow:0 2px 0 #d5d1c6}
+.challenge-step.active{background:#68b7a8;color:#fff;box-shadow:0 0 0 4px #d5eee7}.challenge-step.done{background:#f0c66e;color:#fff}
+.challenge-object{display:grid;place-items:center;min-height:58px;min-width:82px;padding:8px 16px;border-radius:18px;background:#fff;box-shadow:0 5px 0 #ebdfc5;font-size:2.4rem}
+.challenge-board h3{margin:0;text-align:center;max-width:32ch;color:#5c796d}.challenge-options{display:flex;flex-direction:column;gap:10px;width:100%;max-width:520px}
+.challenge-answer{border:2px solid #e5ddcd;border-radius:18px;padding:13px 16px;background:#fff;color:#53675f;font-weight:800;cursor:pointer;min-height:58px;transition:transform .15s,box-shadow .15s}
+.challenge-answer.correct{border-color:#b9dfd1;background:#f4fbf6}.challenge-answer:active{transform:scale(.98)}.challenge-answer:focus-visible{outline:3px solid #63b8a7;outline-offset:3px}
+@media(max-width:560px){.sip-simulation,.challenge-board{padding:12px}.challenge-step{width:30px;height:30px}.challenge-answer{min-height:54px}}
