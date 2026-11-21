@@ -1,7 +1,7 @@
 # MOCKUP 05 — HALAMAN PERMAINAN TTS
-## Spesifikasi Komposisi dan Interaksi v1.1
+## Spesifikasi Komposisi dan Interaksi v1.2
 
-Status: metode input jawaban telah diputuskan; detail alur pemeriksaan dan perpindahan petunjuk mengikuti mekanik permainan yang akan difinalkan.
+Status: metode input dan alur pemeriksaan jawaban telah diputuskan; detail koreksi, konflik persilangan, dan perpindahan petunjuk masih perlu difinalkan.
 
 Dokumen ini melanjutkan Visual Master **Ekspedisi Jejak Cahaya** dan standar implementasi pada `STANDAR-DESAIN-IMPLEMENTASI-GAME.md`. Mockup 05 adalah layar aktivitas TTS setelah anak memilih wilayah dan jenis permainan.
 
