@@ -452,3 +452,32 @@ Pemeriksaan otomatis awal menghasilkan:
 - 46 sel aktif terbentuk dari gabungan seluruh jawaban.
 
 **Status:** peta koordinat awal lolos pemeriksaan struktural. Tahap berikutnya tetap perlu mencocokkan tampilan grid hasil render dengan gambar Canva, kemudian menguji interaksi permainan. Validasi koordinat bukan pengganti pengujian visual dan uji bermain.
+
+
+## 15.7 Uji dua dataset pada satu template
+
+Prototipe `petualangan-cinta-rasul/prototipe/tts-pilot-02.html` kini memuat dua dataset yang dapat dipilih melalui kontrol PILIH PUZZLE:
+- Pilot 01: 5 petunjuk, grid 8 × 12.
+- Pilot 02: 8 petunjuk, grid 10 × 14.
+
+Keduanya menggunakan fungsi render dan mekanik interaksi yang sama. Data puzzle dipisahkan dari tampilan agar penambahan puzzle baru tidak memerlukan pembuatan halaman HTML baru.
+
+Hasil pemeriksaan struktur koordinat kedua dataset:
+| Dataset | Petunjuk | Ukuran grid | Sel aktif | Persilangan | Konflik |
+|---|---:|---:|---:|---:|---:|
+| Pilot 01 | 5 | 8 × 12 | 29 | 4 | 0 |
+| Pilot 02 | 8 | 10 × 14 | 46 | 7 | 0 |
+
+Pemeriksaan ini memastikan semua lintasan berada di dalam grid dan huruf yang bertemu pada persilangan sama. Ini belum menggantikan pengujian langsung di browser pada perangkat nyata.
+
+### Catatan QA interaksi yang masih harus diuji
+- Menyelesaikan petunjuk yang berbagi sel, lalu berpindah ke petunjuk lain.
+- Memastikan sel persilangan yang sudah terkunci tidak bisa diubah atau dihapus.
+- Memilih sel yang sudah berisi huruf tetapi belum terkunci.
+- Menghapus huruf pada sel fokus dengan DEL.
+- Menekan PERIKSA sebelum semua sel terisi (harus tetap nonaktif).
+- Jawaban salah membersihkan isian yang belum terkunci tanpa menghapus huruf persilangan terkunci.
+- Mengganti dataset mengosongkan progres puzzle sebelumnya dan membangun grid baru.
+- Membandingkan hasil render grid dengan kedua halaman Canva pada layar ponsel dan desktop.
+
+**Status:** satu template telah disiapkan untuk dua variasi data. Tahap selanjutnya adalah uji browser dan penyempurnaan visual sesuai Visual Master.
