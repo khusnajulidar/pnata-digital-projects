@@ -413,3 +413,42 @@ Untuk setiap pasangan yang diterima:
 6. baru masukkan data yang lolos validasi ke template permainan.
 
 **Penting:** antum boleh terus menyusun seluruh halaman TTS dari bank soal sambil template pilot dikembangkan. Tidak perlu menunggu template selesai. Namun, bila ada revisi pada halaman Canva yang sudah dipetakan, beri tahu agar data puzzle yang bersangkutan diperbarui dan diuji ulang.
+
+
+## 15.6 Hasil pemetaan koordinat pilot 8 petunjuk
+
+Data terstruktur disimpan pada:
+`petualangan-cinta-rasul/data/tts/pilot-02-8-petunjuk.json`
+
+Pemetaan menggunakan indeks baris dan kolom mulai dari 0. Ukuran grid adalah 10 baris × 14 kolom. Jumlah sel aktif hasil gabungan seluruh lintasan jawaban adalah 46.
+
+| No. | Arah | Koordinat awal (baris, kolom) | Jawaban | Panjang |
+|---:|---|---:|---|---:|
+| 1 | Menurun | (0, 13) | ALALAQ | 6 |
+| 2 | Mendatar | (1, 9) | ALFIL | 5 |
+| 3 | Menurun | (0, 9) | BANIHASYIM | 10 |
+| 4 | Mendatar | (4, 2) | KHADIJAH | 8 |
+| 5 | Mendatar | (8, 6) | MADINAH | 7 |
+| 6 | Mendatar | (6, 4) | QURAISY | 7 |
+| 7 | Menurun | (1, 4) | HIRA | 4 |
+| 8 | Mendatar | (2, 0) | JIBRIL | 6 |
+
+### Hasil validasi persilangan
+
+| Koordinat | Huruf | Petunjuk yang bertemu |
+|---|:---:|---|
+| (1, 13) | L | 1 dan 2 |
+| (1, 9) | A | 2 dan 3 |
+| (4, 9) | H | 3 dan 4 |
+| (6, 9) | S | 3 dan 6 |
+| (8, 9) | I | 3 dan 5 |
+| (4, 4) | A | 4 dan 7 |
+| (2, 4) | I | 7 dan 8 |
+
+Pemeriksaan otomatis awal menghasilkan:
+- 8 lintasan jawaban berada dalam batas grid;
+- tidak ditemukan konflik huruf pada persilangan;
+- 7 sel persilangan teridentifikasi;
+- 46 sel aktif terbentuk dari gabungan seluruh jawaban.
+
+**Status:** peta koordinat awal lolos pemeriksaan struktural. Tahap berikutnya tetap perlu mencocokkan tampilan grid hasil render dengan gambar Canva, kemudian menguji interaksi permainan. Validasi koordinat bukan pengganti pengujian visual dan uji bermain.
