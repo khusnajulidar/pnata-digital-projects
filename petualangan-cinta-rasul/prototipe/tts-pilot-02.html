@@ -12,24 +12,33 @@
 @media(max-width:760px){.shell{padding:9px}.layout{grid-template-columns:1fr}.cluelist{grid-template-columns:repeat(2,minmax(0,1fr))}.clueitem span{display:none}.main,.side{padding:12px}}
 </style></head><body><div class="shell">
 <header class="top"><button class="back" onclick="history.back()">‹ KEMBALI</button><div class="context">P’NATA DIGITAL LEARNING<br>WILAYAH 1 · ADIK</div></header>
-<section class="hero"><small>EKSPEDISI JEJAK CAHAYA</small><h1>Teka-Teki Silang</h1><p>Jejak Rasulullah ﷺ</p></section>
+<section class="hero"><small>EKSPEDISI JEJAK CAHAYA</small><h1>Teka-Teki Silang</h1><p>Jejak Rasulullah ﷺ</p><label style="display:inline-flex;gap:8px;align-items:center;margin-top:10px;font-size:12px;font-weight:800">PILIH PUZZLE <select id="puzzleSelect" style="padding:8px;border-radius:10px;border:1px solid #c9ae82;background:#fff8eb"><option value="pilot-02">Pilot 02 · 8 petunjuk</option><option value="pilot-01">Pilot 01 · 5 petunjuk</option></select></label></section>
 <div class="layout"><main class="main"><div class="panelhead"><span class="tag">PETUNJUK AKTIF</span><span class="progress" id="progress">0 / 8 selesai</span></div>
 <section class="cluebox"><div class="clue-meta" id="clueMeta">PILIH PETUNJUK</div><div class="clue-text" id="clueText">Pilih salah satu nomor petunjuk untuk mulai mengisi teka-teki.</div></section>
 <div class="boardwrap"><div class="board" id="board"></div></div><div class="keyboard" id="keyboard"></div><button class="check" id="check" disabled>PERIKSA</button><div class="feedback" id="feedback" aria-live="polite"></div></main>
 <aside class="side"><h2>Daftar Petunjuk</h2><div class="cluelist" id="cluelist"></div><div class="hint">Pilih nomor petunjuk, lalu masukkan huruf melalui keyboard di layar. Huruf pada persilangan digunakan bersama.</div></aside></div></div>
 <script>
-const D={rows:10,cols:14,clues:[
-{n:1,d:"down",r:0,c:13,a:"ALALAQ",t:"Nama surah yang ayat-ayat awalnya pertama kali diturunkan kepada Rasulullah ﷺ."},
-{n:2,d:"across",r:1,c:9,a:"ALFIL",t:"Surah yang menceritakan pasukan bergajah."},
-{n:3,d:"down",r:0,c:9,a:"BANIHASYIM",t:"Dalam hadis Sahih Muslim 2276, Rasulullah ﷺ disebut berasal dari kabilah …"},
-{n:4,d:"across",r:4,c:2,a:"KHADIJAH",t:"Istri Rasulullah ﷺ yang beliau datangi setelah menerima wahyu pertama dan yang menenangkan beliau."},
-{n:5,d:"across",r:8,c:6,a:"MADINAH",t:"Ke kota inilah Rasulullah ﷺ berhijrah."},
-{n:6,d:"across",r:6,c:4,a:"QURAISY",t:"Rasulullah ﷺ berasal dari suku Arab yang disebut dalam hadis Sahih Muslim 2276."},
-{n:7,d:"down",r:1,c:4,a:"HIRA",t:"Di gua inilah Rasulullah ﷺ menyendiri sebelum wahyu pertama datang."},
-{n:8,d:"across",r:2,c:0,a:"JIBRIL",t:"Malaikat yang dikenal membawa wahyu Al-Qur’an kepada Nabi Muhammad ﷺ."}]};
-const cells=new Map(),values=new Map(),locked=new Set(),done=new Set();let active=null,focus=0;
+const PUZZLES={
+ "pilot-02":{rows:10,cols:14,clues:[
+ {n:1,d:"down",r:0,c:13,a:"ALALAQ",t:"Nama surah yang ayat-ayat awalnya pertama kali diturunkan kepada Rasulullah ﷺ."},
+ {n:2,d:"across",r:1,c:9,a:"ALFIL",t:"Surah yang menceritakan pasukan bergajah."},
+ {n:3,d:"down",r:0,c:9,a:"BANIHASYIM",t:"Dalam hadis Sahih Muslim 2276, Rasulullah ﷺ disebut berasal dari kabilah …"},
+ {n:4,d:"across",r:4,c:2,a:"KHADIJAH",t:"Istri Rasulullah ﷺ yang beliau datangi setelah menerima wahyu pertama dan yang menenangkan beliau."},
+ {n:5,d:"across",r:8,c:6,a:"MADINAH",t:"Ke kota inilah Rasulullah ﷺ berhijrah."},
+ {n:6,d:"across",r:6,c:4,a:"QURAISY",t:"Rasulullah ﷺ berasal dari suku Arab yang disebut dalam hadis Sahih Muslim 2276."},
+ {n:7,d:"down",r:1,c:4,a:"HIRA",t:"Di gua inilah Rasulullah ﷺ menyendiri sebelum wahyu pertama datang."},
+ {n:8,d:"across",r:2,c:0,a:"JIBRIL",t:"Malaikat yang dikenal membawa wahyu Al-Qur’an kepada Nabi Muhammad ﷺ."}]},
+ "pilot-01":{rows:8,cols:12,clues:[
+ {n:1,d:"down",r:0,c:0,a:"MUHAMMAD",t:"Nama Rasulullah ﷺ yang disebut dalam Surah Muhammad ayat 2."},
+ {n:2,d:"across",r:3,c:0,a:"AMINAH",t:"Nama ibu Rasulullah ﷺ."},
+ {n:3,d:"down",r:0,c:2,a:"YATIM",t:"Dalam Surah Ad-Duha ayat 6, Allah menyebut Nabi ﷺ pernah berada dalam keadaan … ketika kecil."},
+ {n:4,d:"down",r:2,c:4,a:"MAKKAH",t:"Di kota inilah Rasulullah ﷺ dilahirkan."},
+ {n:5,d:"across",r:6,c:4,a:"ABDULLAH",t:"Nama ayah Rasulullah ﷺ."}]}
+};
+let D=PUZZLES["pilot-02"];
+let cells=new Map(),values=new Map(),locked=new Set(),done=new Set();let active=null,focus=0;
 const K=(r,c)=>r+","+c;
-D.clues.forEach(q=>{q.path=[];const dr=q.d==="down"?1:0,dc=q.d==="across"?1:0;[...q.a].forEach((ch,i)=>{const k=K(q.r+dr*i,q.c+dc*i);q.path.push(k);if(!cells.has(k))cells.set(k,{r:q.r+dr*i,c:q.c+dc*i});});});
+function buildPuzzle(){cells=new Map();values=new Map();locked=new Set();done=new Set();active=null;focus=0;D.clues.forEach(q=>{q.path=[];const dr=q.d==="down"?1:0,dc=q.d==="across"?1:0;[...q.a].forEach((ch,i)=>{const k=K(q.r+dr*i,q.c+dc*i);q.path.push(k);if(!cells.has(k))cells.set(k,{r:q.r+dr*i,c:q.c+dc*i});});});document.getElementById("progress").textContent="0 / "+D.clues.length+" selesai";document.getElementById("clueMeta").textContent="PILIH PETUNJUK";document.getElementById("clueText").textContent="Pilih salah satu nomor petunjuk untuk mulai mengisi teka-teki.";document.getElementById("feedback").textContent="";render();}
 const V=k=>values.get(k)||"";
 function renderBoard(){const b=document.getElementById("board");b.style.gridTemplateColumns="repeat("+D.cols+",auto)";b.innerHTML="";
 for(let r=0;r<D.rows;r++)for(let c=0;c<D.cols;c++){const k=K(r,c),el=document.createElement("div");el.className="cell"+(cells.has(k)?"":" off");
@@ -43,5 +52,5 @@ function del(){if(!active)return;const k=active.path[focus];if(k&&!locked.has(k)
 function check(){if(!active)return;const answer=active.path.map(V).join("");if(active.path.some(k=>!locked.has(k)&&!V(k)))return;
 if(answer===active.a){active.path.forEach(k=>locked.add(k));done.add(active.n);document.getElementById("feedback").textContent="Alhamdulillah, jawaban benar!";const next=D.clues.find(q=>!done.has(q.n));if(next)select(next);else{active=null;render();document.getElementById("clueMeta").textContent="SELESAI";document.getElementById("clueText").textContent="Alhamdulillah, semua petunjuk telah diselesaikan!";document.getElementById("feedback").textContent="Petualangan TTS ini selesai.";}}
 else{active.path.forEach(k=>{if(!locked.has(k))values.delete(k);});focus=0;while(focus<active.path.length&&locked.has(active.path[focus]))focus++;render();document.getElementById("feedback").textContent="Belum tepat. Coba periksa lagi, ya!";}}
-const kb=document.getElementById("keyboard");"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").forEach(ch=>{const b=document.createElement("button");b.className="key";b.textContent=ch;b.onclick=()=>put(ch);kb.appendChild(b);});const d=document.createElement("button");d.className="key del";d.textContent="DEL";d.onclick=del;kb.appendChild(d);document.getElementById("check").onclick=check;render();
+const kb=document.getElementById("keyboard");"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").forEach(ch=>{const b=document.createElement("button");b.className="key";b.textContent=ch;b.onclick=()=>put(ch);kb.appendChild(b);});const d=document.createElement("button");d.className="key del";d.textContent="DEL";d.onclick=del;kb.appendChild(d);document.getElementById("check").onclick=check;document.getElementById("puzzleSelect").onchange=e=>{D=PUZZLES[e.target.value];buildPuzzle();};buildPuzzle();
 </script></body></html>
