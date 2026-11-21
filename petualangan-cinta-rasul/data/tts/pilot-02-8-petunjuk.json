@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0",
+  "puzzleId": "wilayah-1-tts-pilot-02",
+  "title": "Teka-Teki Silang — Jejak Rasulullah ﷺ",
+  "source": {
+    "repository": "khusnajulidar/new-folder",
+    "folder": "Aset-PNata/Down 1. Nama Rasulullah ﷺ yang disebut dalam Surah Muhammad ayat 2 3. Dalam Surah Ad-Duha ayat 6, Allah menyebut Nabi ﷺ pernah berada dalam keadaan … ketika kecil 4. Di kota inilah Rasulullah ﷺ di/",
+    "questionPage": "3.png",
+    "answerKeyPage": "4.png",
+    "note": "Koordinat diturunkan dari grid visual halaman soal dan diverifikasi terhadap halaman kunci."
+  },
+  "grid": {
+    "rows": 10,
+    "columns": 14,
+    "indexBase": 0
+  },
+  "clues": [
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "column": 13,
+      "answer": "ALALAQ",
+      "text": "Nama surah yang ayat-ayat awalnya pertama kali diturunkan kepada Rasulullah ﷺ."
+    },
+    {
+      "number": 2,
+      "direction": "across",
+      "row": 1,
+      "column": 9,
+      "answer": "ALFIL",
+      "text": "Surah yang menceritakan pasukan bergajah."
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "column": 9,
+      "answer": "BANIHASYIM",
+      "text": "Dalam hadis Sahih Muslim 2276, Rasulullah ﷺ disebut berasal dari kabilah …"
+    },
+    {
+      "number": 4,
+      "direction": "across",
+      "row": 4,
+      "column": 2,
+      "answer": "KHADIJAH",
+      "text": "Istri Rasulullah ﷺ yang beliau datangi setelah menerima wahyu pertama dan yang menenangkan beliau."
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 8,
+      "column": 6,
+      "answer": "MADINAH",
+      "text": "Ke kota inilah Rasulullah ﷺ berhijrah."
+    },
+    {
+      "number": 6,
+      "direction": "across",
+      "row": 6,
+      "column": 4,
+      "answer": "QURAISY",
+      "text": "Rasulullah ﷺ berasal dari suku Arab yang disebut dalam hadis Sahih Muslim 2276."
+    },
+    {
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "column": 4,
+      "answer": "HIRA",
+      "text": "Di gua inilah Rasulullah ﷺ menyendiri sebelum wahyu pertama datang."
+    },
+    {
+      "number": 8,
+      "direction": "across",
+      "row": 2,
+      "column": 0,
+      "answer": "JIBRIL",
+      "text": "Malaikat yang dikenal membawa wahyu Al-Qur’an kepada Nabi Muhammad ﷺ."
+    }
+  ],
+  "answerNormalization": {
+    "removeSpaces": true,
+    "removeHyphens": true,
+    "uppercase": true
+  },
+  "implementationNotes": [
+    "Koordinat row dan column menggunakan indeks mulai dari 0.",
+    "Sel aktif dibentuk dari lintasan jawaban; sel lain pada grid 10x14 adalah sel nonaktif.",
+    "Huruf pada persilangan adalah satu sel bersama, bukan dua input terpisah.",
+    "Nomor petunjuk ditampilkan pada sel awal masing-masing jawaban."
+  ],
+  "status": "pilot-coordinate-map; pending automated and visual QA",
+  "validation": {
+    "activeCells": 46,
+    "crossingCells": [
+      {
+        "cell": "1,13",
+        "letter": "L",
+        "clues": [
+          1,
+          2
+        ]
+      },
+      {
+        "cell": "1,9",
+        "letter": "A",
+        "clues": [
+          2,
+          3
+        ]
+      },
+      {
+        "cell": "4,9",
+        "letter": "H",
+        "clues": [
+          3,
+          4
+        ]
+      },
+      {
+        "cell": "6,9",
+        "letter": "S",
+        "clues": [
+          3,
+          6
+        ]
+      },
+      {
+        "cell": "8,9",
+        "letter": "I",
+        "clues": [
+          3,
+          5
+        ]
+      },
+      {
+        "cell": "4,4",
+        "letter": "A",
+        "clues": [
+          4,
+          7
+        ]
+      },
+      {
+        "cell": "2,4",
+        "letter": "I",
+        "clues": [
+          7,
+          8
+        ]
+      }
+    ],
+    "issues": [],
+    "allCluePathsWithinBounds": true
+  }
+}
