@@ -360,3 +360,56 @@ Satu puzzle cukup untuk memulai implementasi template dan menguji mekanik inti. 
 - Berhasilnya puzzle pembanding membuktikan bahwa template dapat menangani setidaknya dua bentuk grid berbeda.
 - Kelayakan untuk seluruh bank baru dapat disimpulkan setelah pengujian sampel representatif dan pemeriksaan data seluruh puzzle.
 - Tidak perlu membuat desain visual baru untuk setiap halaman TTS. Variasi puzzle ditangani melalui data, bukan dengan menggandakan template.
+
+
+## 15. Alur penyiapan seluruh halaman TTS dari Canva
+
+### 15.1 Format pasangan halaman
+
+Setiap puzzle TTS sebaiknya disiapkan sebagai satu pasangan:
+- **Halaman soal:** grid kosong, nomor petunjuk, dan teks petunjuk.
+- **Halaman kunci jawaban:** grid yang sama persis, dengan seluruh jawaban terisi.
+
+Kedua halaman harus memiliki ukuran kanvas, posisi grid, ukuran sel, dan susunan nomor yang sama. Jangan mengubah tata letak grid di halaman kunci jawaban. Jika ada revisi pada puzzle, revisi kedua halaman sekaligus.
+
+### 15.2 Standar ekspor dan penamaan
+
+- Ekspor halaman soal dan kunci jawaban sebagai PNG berkualitas tinggi.
+- Pastikan seluruh grid dan teks terlihat utuh, tidak terpotong, dan tidak buram.
+- Gunakan nama berpasangan dan berurutan, misalnya `tts-01-soal.png` dan `tts-01-kunci.png`, `tts-02-soal.png` dan `tts-02-kunci.png`.
+- Jika satu puzzle memerlukan lebih dari satu halaman petunjuk, gunakan nomor puzzle yang sama dengan akhiran halaman yang jelas.
+- Jangan menggabungkan beberapa puzzle berbeda menjadi satu gambar yang sulit dipisahkan.
+
+### 15.3 Informasi yang harus terbaca
+
+Untuk setiap puzzle, pastikan tersedia:
+1. nomor puzzle dan wilayah;
+2. profil sasaran (ADIK/KAKAK), jika sudah ditentukan;
+3. semua nomor petunjuk;
+4. teks petunjuk lengkap;
+5. arah setiap petunjuk (mendatar/menurun);
+6. seluruh kotak grid, termasuk sel nonaktif;
+7. kunci jawaban yang cocok dengan grid soal.
+
+Jika arah atau nomor petunjuk belum tercantum jelas pada desain, sertakan catatan terpisah. Jangan mengandalkan perkiraan dari gambar yang buram.
+
+### 15.4 Pemeriksaan sebelum dikirim untuk implementasi
+
+- Jumlah huruf jawaban cocok dengan jumlah sel pada jalurnya.
+- Setiap jawaban dimulai dari nomor petunjuk yang benar.
+- Semua persilangan menghasilkan huruf yang sama.
+- Ejaan jawaban pada kunci konsisten dengan materi dan sumber.
+- Tidak ada kotak yang terlewat atau sel tambahan.
+- Halaman soal dan kunci benar-benar menggunakan grid yang identik.
+
+### 15.5 Proses pengolahan oleh tim implementasi
+
+Untuk setiap pasangan yang diterima:
+1. baca dan catat petunjuk serta jawaban;
+2. petakan koordinat grid (baris dan kolom) untuk setiap jawaban;
+3. buat data puzzle terstruktur;
+4. validasi panjang jawaban dan seluruh persilangan secara otomatis maupun visual;
+5. cocokkan hasil rekonstruksi dengan halaman soal dan kunci Canva;
+6. baru masukkan data yang lolos validasi ke template permainan.
+
+**Penting:** antum boleh terus menyusun seluruh halaman TTS dari bank soal sambil template pilot dikembangkan. Tidak perlu menunggu template selesai. Namun, bila ada revisi pada halaman Canva yang sudah dipetakan, beri tahu agar data puzzle yang bersangkutan diperbarui dan diuji ulang.
