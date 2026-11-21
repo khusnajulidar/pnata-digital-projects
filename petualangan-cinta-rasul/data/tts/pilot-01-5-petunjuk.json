@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0",
+  "puzzleId": "wilayah-1-tts-pilot-01",
+  "title": "Teka-Teki Silang — Jejak Rasulullah ﷺ",
+  "source": {
+    "repository": "khusnajulidar/new-folder",
+    "questionPage": "1.png",
+    "answerKeyPage": "2.png",
+    "folder": "Aset-PNata/Down 1. Nama Rasulullah ﷺ yang disebut dalam Surah Muhammad ayat 2 3. Dalam Surah Ad-Duha ayat 6, Allah menyebut Nabi ﷺ pernah berada dalam keadaan … ketika kecil 4. Di kota inilah Rasulullah ﷺ di/"
+  },
+  "grid": {
+    "rows": 8,
+    "columns": 12,
+    "indexBase": 0
+  },
+  "clues": [
+    {
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "column": 0,
+      "answer": "MUHAMMAD",
+      "text": "Nama Rasulullah ﷺ yang disebut dalam Surah Muhammad ayat 2."
+    },
+    {
+      "number": 2,
+      "direction": "across",
+      "row": 3,
+      "column": 0,
+      "answer": "AMINAH",
+      "text": "Nama ibu Rasulullah ﷺ."
+    },
+    {
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "column": 2,
+      "answer": "YATIM",
+      "text": "Dalam Surah Ad-Duha ayat 6, Allah menyebut Nabi ﷺ pernah berada dalam keadaan … ketika kecil."
+    },
+    {
+      "number": 4,
+      "direction": "down",
+      "row": 2,
+      "column": 4,
+      "answer": "MAKKAH",
+      "text": "Di kota inilah Rasulullah ﷺ dilahirkan."
+    },
+    {
+      "number": 5,
+      "direction": "across",
+      "row": 6,
+      "column": 4,
+      "answer": "ABDULLAH",
+      "text": "Nama ayah Rasulullah ﷺ."
+    }
+  ],
+  "validation": {
+    "status": "initial coordinate mapping",
+    "notes": "Koordinat diturunkan dari pasangan gambar Canva halaman 1 dan 2; perlu render comparison QA."
+  }
+}
