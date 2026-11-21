@@ -601,3 +601,18 @@ Tahap berikutnya sebaiknya bukan langsung membuat 25 mockup baru. Prioritaskan p
 2. Koreksi skala, komposisi, dan orientasi tangan bila diperlukan.
 3. Rancang integrasi Aktivitas 5 ke Mockup 07 setelah posisi kontrol Bismillah/audio dipastikan.
 4. Lanjutkan pola pilihan bergambar untuk aktivitas lain yang masih memakai emoji.
+
+
+## 13. Kelanjutan pemeriksaan Aktivitas 5 — integrasi Mockup 07
+
+**Tanggal:** 21 November 2026
+
+Aktivitas 5 (`Ayo Mulai Makan!`) mempunyai urutan interaksi tersendiri: pilih Bismillah, dengarkan audio sampai selesai, kemudian tombol mulai makan aktif. Urutan ini berbeda dari simulasi Aktivitas 7, sehingga tidak aman memasang pemetaan hotspot Mockup 07 secara otomatis atau memakai posisi tombol yang sama.
+
+### Keputusan saat pemeriksaan lanjutan
+- Fungsi alur `preMealStartUI()` tetap dipertahankan.
+- Aktivitas 5 belum dipetakan ke Mockup 07; tidak dibuat perubahan kode yang berisiko menggeser tombol ke hotspot yang tidak sesuai.
+- Pengambilan/preview artwork Mockup 07 melalui jalur web tidak berhasil pada pemeriksaan ini, sehingga posisi tombol artwork belum dapat ditentukan dengan bukti visual.
+
+### Langkah berikut yang diperlukan
+Sebelum integrasi Aktivitas 5, perlu akses visual langsung ke mockup 07 untuk mengukur lokasi tombol/area Bismillah, audio, dan mulai makan. Setelah posisi diketahui, buat hotspot transparan terpisah dengan label aksesibel dan pastikan state disabled/enabled mengikuti urutan belajar. Jangan gunakan perkiraan posisi tombol.
