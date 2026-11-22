@@ -542,3 +542,31 @@ Temuan arsitektur untuk tahap integrasi:
 - Sebelum perubahan arsitektur itu dilakukan, setiap perubahan isi puzzle harus disinkronkan ke kedua tempat dan diperiksa ulang.
 
 **Status QA:** sinkronisasi redaksi Pilot 02 selesai. Audit logika persilangan melalui browser dan perbandingan visual terhadap Canva masih belum dilakukan; jangan menyatakan pilot lulus uji bermain sebelum tahap tersebut selesai.
+
+
+## 15.12 Simulasi skenario persilangan Pilot 02
+
+Dilakukan pemeriksaan logika berbasis data lintasan Pilot 02 untuk dua urutan penyelesaian, termasuk satu percobaan jawaban salah. Ini merupakan simulasi aturan data dan mekanik, bukan pengujian browser terhadap antarmuka HTML.
+
+Hasil pemeriksaan struktur:
+- 46 sel aktif.
+- 7 titik persilangan.
+- Seluruh 7 persilangan memiliki huruf yang sama dari kedua jawaban.
+- Tidak ditemukan koordinat di luar batas grid 10 × 14.
+
+Skenario A — petunjuk menurun lebih dahulu:
+- Urutan: 1, 3, 7, 2, 4, 5, 6, 8.
+- Seluruh 8 jawaban dapat diselesaikan.
+- Seluruh 46 sel akhirnya terkunci.
+
+Skenario B — petunjuk mendatar lebih dahulu:
+- Urutan: 2, 4, 5, 6, 8, 1, 3, 7.
+- Seluruh 8 jawaban dapat diselesaikan.
+- Seluruh 46 sel akhirnya terkunci.
+
+Skenario C — jawaban salah sebelum penyelesaian:
+- Huruf yang belum terkunci pada lintasan aktif terhapus setelah jawaban salah.
+- Huruf yang sudah terkunci dari jawaban persilangan tetap dipertahankan.
+- Setelah percobaan ulang, seluruh puzzle tetap dapat diselesaikan.
+
+**Batas hasil:** simulasi ini memvalidasi konsistensi koordinat dan aturan yang dimodelkan. Belum membuktikan bahwa event handler, DOM, fokus visual, tombol DEL, dan tombol PERIKSA pada file HTML berjalan benar di browser. Pengujian browser nyata tetap wajib sebelum status pilot dinyatakan lulus.
