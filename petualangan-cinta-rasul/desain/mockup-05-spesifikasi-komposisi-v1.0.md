@@ -525,3 +525,20 @@ Audit lanjutan menemukan dua penyempurnaan pada prototipe:
 - JavaScript berhasil melewati pemeriksaan sintaks.
 
 **Batas pengujian:** pemeriksaan sintaks bukan uji interaksi browser. Perlu pengujian langsung untuk memastikan pesan terlihat dengan durasi yang nyaman, tombol DEL berada pada baris tersendiri pada berbagai lebar layar, dan semua mekanik berjalan sesuai spesifikasi.
+
+
+## 15.11 Sinkronisasi redaksi dataset Pilot 02
+
+Audit silang antara prototipe HTML dan dataset JSON menemukan bahwa petunjuk nomor 3 (jawaban `BANIHASYIM`) telah diperbarui pada HTML, tetapi masih menggunakan redaksi lama pada JSON. Ini berisiko membuat redaksi berbeda ketika data kelak dipisahkan dari prototipe.
+
+Perbaikan:
+- Redaksi pada `data/tts/pilot-02-8-petunjuk.json` disamakan dengan redaksi pada prototipe.
+- Redaksi yang digunakan: “Nama bani dari Quraisy yang menjadi asal keluarga Rasulullah ﷺ, sebagaimana disebut dalam hadis Sahih Muslim 2276.”
+- File JSON berhasil diperbarui dan disimpan pada commit `424af403ec605beafe1ce0c0fe436ed8f7f7373a`.
+
+Temuan arsitektur untuk tahap integrasi:
+- Saat ini data puzzle masih ditulis ulang di dalam objek JavaScript `PUZZLES` pada HTML, sementara file JSON disimpan terpisah.
+- Untuk menghindari perbedaan data pada produksi, tahap integrasi perlu menetapkan satu sumber data utama (JSON), lalu prototipe/mesin permainan membaca data dari sumber tersebut. Untuk versi offline, data JSON dapat dibundel/ditanam saat proses build sehingga tidak membutuhkan koneksi internet.
+- Sebelum perubahan arsitektur itu dilakukan, setiap perubahan isi puzzle harus disinkronkan ke kedua tempat dan diperiksa ulang.
+
+**Status QA:** sinkronisasi redaksi Pilot 02 selesai. Audit logika persilangan melalui browser dan perbandingan visual terhadap Canva masih belum dilakukan; jangan menyatakan pilot lulus uji bermain sebelum tahap tersebut selesai.
