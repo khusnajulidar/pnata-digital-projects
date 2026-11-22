@@ -511,3 +511,17 @@ Pada audit kode prototipe TTS Pilot 02 ditemukan dua hal yang langsung diperbaik
 **Status perbaikan:** perubahan tersimpan di GitHub pada commit `91bcb417bb5634418b1f3f8bca1019235f7dc201`. File hasil commit telah diambil ulang dan diperiksa: pemisah CSS sudah bersih dan redaksi petunjuk baru sudah ada.
 
 **Catatan QA:** perubahan ini merupakan perbaikan kode dan redaksi, belum merupakan uji browser. Kecocokan redaksi dengan konteks hadis serta tampilan grid terhadap Canva tetap masuk daftar pemeriksaan sebelum TTS dinyatakan final.
+
+
+## 15.10 Perbaikan lanjutan interaksi dan keyboard
+
+Audit lanjutan menemukan dua penyempurnaan pada prototipe:
+1. Tombol DEL sebelumnya menjadi item ke-27 pada grid keyboard tujuh kolom, sehingga bergabung pada baris huruf terakhir. Kini tombol DEL ditempatkan pada baris tersendiri dan dibatasi lebarnya agar mudah dikenali.
+2. Pesan jawaban benar sebelumnya dapat terhapus ketika sistem otomatis memilih petunjuk berikutnya. Kini pesan keberhasilan ditampilkan kembali setelah perpindahan petunjuk.
+
+**Pemeriksaan setelah perubahan:**
+- perubahan CSS tombol DEL ditemukan pada file hasil pengambilan ulang;
+- alur pesan jawaban benar setelah pemilihan petunjuk berikutnya ditemukan pada file hasil pengambilan ulang;
+- JavaScript berhasil melewati pemeriksaan sintaks.
+
+**Batas pengujian:** pemeriksaan sintaks bukan uji interaksi browser. Perlu pengujian langsung untuk memastikan pesan terlihat dengan durasi yang nyaman, tombol DEL berada pada baris tersendiri pada berbagai lebar layar, dan semua mekanik berjalan sesuai spesifikasi.
