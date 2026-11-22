@@ -284,3 +284,14 @@ Putaran akhir menemukan dan memperbaiki dua pengulangan lintas mode: Utsman pada
 
 - [Audit Akhir Gabungan](materi/audit-akhir-gabungan-tts-berburu-kata-matching-v1.0.md)
 - [Master Index & Audit Register](materi/master-index-audit-register-v0.1.md)
+
+
+## 12. Progres prototipe TTS Pilot 02 — 23 November 2026
+
+- File prototipe: `prototipe/tts-pilot-02.html`.
+- Penyempurnaan antarmuka yang telah diterapkan: daftar petunjuk dikelompokkan menjadi **MENDATAR** dan **MENURUN** (nomor petunjuk tetap mengikuti nomor pada grid); keyboard diubah menjadi tata letak **QWERTY** tiga baris; tombol hapus ditempatkan setelah huruf M; tombol **PERIKSA** dibuat memanjang menyerupai tombol spasi; tombol petunjuk memakai ikon lampu dan ditempatkan di sisi grid; efek tekan tombol dan sel aktif dipertahankan.
+- Mekanisme yang telah diuji pada sesi pilot sebelumnya: pemilihan petunjuk/sel, input huruf, pemeriksaan jawaban dan umpan balik, perpindahan otomatis setelah jawaban benar, penghapusan huruf, serta bantuan yang membuka satu huruf benar dan menguncinya.
+- Pemeriksaan kode versi terbaru: struktur JavaScript lolos pemeriksaan sintaks; keberadaan elemen QWERTY, pengelompokan petunjuk, ikon bantuan, dan tombol PERIKSA telah diverifikasi pada file GitHub.
+- Pengguna telah mencoba versi terbaru dan menyatakan tampilan serta interaksi sudah bagus. **Penerapan pada desain mockup/background belum dilakukan**; tahap berikutnya adalah mengintegrasikan prototipe TTS dengan visual master dan latar permainan, lalu mengevaluasi keterbacaan, proporsi, dan responsivitas.
+- Catatan pengujian: pemeriksaan sintaks bukan pengganti uji browser menyeluruh pada versi terbaru. Setelah integrasi visual, lakukan uji ulang di Chrome pada desktop dan ukuran ponsel, termasuk semua interaksi keyboard, tombol bantuan, dan navigasi petunjuk.
+- Status: **TTS Pilot 02 — antarmuka dasar disetujui pengguna; siap masuk tahap integrasi mockup/background.** Kisi Canva untuk seluruh bank TTS belum dibuat; dua pilot Canva yang telah ada tetap menjadi bahan acuan, bukan berarti seluruh paket TTS sudah selesai.
