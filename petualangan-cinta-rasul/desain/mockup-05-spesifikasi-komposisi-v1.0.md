@@ -500,3 +500,14 @@ Pemeriksaan logika terarah setelah perbaikan:
 - tidak memindahkan fokus dari sel terakhir ke sel terkunci: **lulus**.
 
 **Batas pengujian:** pemeriksaan di atas adalah uji logika fungsi perpindahan fokus, bukan uji browser menyeluruh. Interaksi visual, DEL, PERIKSA, jawaban salah/benar, pergantian dataset, serta perbandingan dengan Canva tetap harus diuji langsung di browser dan pada ukuran layar sasaran.
+
+
+## 15.9 Perbaikan hasil audit kode awal
+
+Pada audit kode prototipe TTS Pilot 02 ditemukan dua hal yang langsung diperbaiki:
+1. Karakter literal `\\n` yang tersisip di antara aturan CSS dan media query dibersihkan menjadi pemisah baris normal.
+2. Petunjuk nomor 3 untuk jawaban `BANIHASYIM` diperjelas menjadi: “Nama bani dari Quraisy yang menjadi asal keluarga Rasulullah ﷺ, sebagaimana disebut dalam hadis Sahih Muslim 2276.” Tujuannya membedakan jawaban ini dari petunjuk nomor 6 yang jawabannya `QURAISY`.
+
+**Status perbaikan:** perubahan tersimpan di GitHub pada commit `91bcb417bb5634418b1f3f8bca1019235f7dc201`. File hasil commit telah diambil ulang dan diperiksa: pemisah CSS sudah bersih dan redaksi petunjuk baru sudah ada.
+
+**Catatan QA:** perubahan ini merupakan perbaikan kode dan redaksi, belum merupakan uji browser. Kecocokan redaksi dengan konteks hadis serta tampilan grid terhadap Canva tetap masuk daftar pemeriksaan sebelum TTS dinyatakan final.
