@@ -71,6 +71,9 @@ if(d[4]==="dua-audio"||d[4]==="dua-choice"){
 side='<div class="small-muted">Doa setelah makan • Jami’ at-Tirmidzi 3458</div><div class="dua-panel"><div class="arabic">'+dua.ar+'</div></div><div class="audio-note">Dengarkan doa sambil mengikuti teks Arab, latin, dan artinya.</div>';main='<div class="dua-panel"><div class="arabic">'+dua.ar+'</div><p class="latin">'+dua.latin+'</p><p class="translation">'+dua.meaning+'</p></div><button class="audio-btn" data-action="audio">'+audioButtonText()+'</button><p class="audio-note">Ikuti bacaan sambil melihat teks Arab, latin, dan artinya.</p>';
  if(d[4]==="dua-choice")main+='<p class="audio-note">'+(state.audioHeard?"Sekarang pilih doa yang tadi kamu dengarkan.":"Dengarkan doa terlebih dahulu, ya.")+'</p><div class="options"><button class="option" data-choice="0" '+(!state.audioHeard?"disabled":"")+'><span class="symbol">🤲</span><span class="arabic">'+dua.ar+'</span></button><button class="option" data-choice="1" '+(!state.audioHeard?"disabled":"")+'><span class="symbol">📖</span><span class="arabic">بِسْمِ اللَّهِ</span></button></div>';
 }else if(d[4]==="audio-choice"&&state.mission===0&&state.activity===4){main=preMealStartUI();}
+else if(state.mission===0&&state.activity===0){main='<div class="mockup-a1-interaction"><div class="mockup-a1-sample arabic" dir="rtl" lang="ar">بِسْمِ اللَّهِ</div><div class="options">'+d[2].map((v,i)=>'<button class="option" data-choice="'+i+'"><span class="arabic" dir="rtl" lang="ar">'+v+'</span></button>').join("")+'</div></div>';}
+else if(state.mission===0&&state.activity===2){main='<div class="mockup-a3-interaction"><div class="options">'+d[2].map((v,i)=>'<button class="option" data-choice="'+i+'"><span>'+v+'</span></button>').join("")+'</div></div>';}
+
 else if(d[4]==="audio-choice"){main=audioChoiceUI(d);}
 else if(d[4]==="simulation"){main=simulationUI();}
 else if(d[4]==="sequence4"){main=sipStageUI();}
@@ -82,7 +85,7 @@ else if((state.mission===0&&state.activity===2)||(state.mission===1&&(state.acti
 else{main=options(d);}
 /* Hanya aktivitas yang teks dan ilustrasinya cocok yang memakai mockup utuh. */
 const activityId=num-1;
-const exactMockups={0:"04",1:"05",3:"06",6:"07"};
+const exactMockups={0:"a1",1:"05",2:"a3",3:"06",4:"a5",6:"07"};
 const mockup=exactMockups[activityId]||"none";
 const isArtwork=mockup!=="none";
 const canContinue=done||state.feedbackGood;
