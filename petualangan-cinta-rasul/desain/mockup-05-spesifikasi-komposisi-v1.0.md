@@ -570,3 +570,20 @@ Skenario C — jawaban salah sebelum penyelesaian:
 - Setelah percobaan ulang, seluruh puzzle tetap dapat diselesaikan.
 
 **Batas hasil:** simulasi ini memvalidasi konsistensi koordinat dan aturan yang dimodelkan. Belum membuktikan bahwa event handler, DOM, fokus visual, tombol DEL, dan tombol PERIKSA pada file HTML berjalan benar di browser. Pengujian browser nyata tetap wajib sebelum status pilot dinyatakan lulus.
+
+## 15.13 Integrasi awal background Desert Oasis ke TTS Pilot 02
+
+Aset latar yang dipilih:
+- `desain/eksplorasi-background/Colourful Desert Oasis Townscape.png`
+- URL aset dipanggil langsung dari GitHub Raw agar prototipe menggunakan satu file gambar yang tersimpan di repositori.
+
+Perubahan awal pada `prototipe/tts-pilot-02.html`:
+1. Mengganti latar gradien polos dengan ilustrasi background gurun/oasis.
+2. Menambahkan lapisan warna lembut di atas gambar agar kontras antarmuka tetap terjaga.
+3. Menjadikan area judul TTS sebagai panel ivory semi-transparan agar judul tetap terbaca.
+4. Menjaga panel petunjuk, papan TTS, keyboard, tombol PERIKSA, tombol bantuan, dan watermark sebagai elemen HTML/CSS terpisah; tidak diratakan ke dalam gambar.
+5. Menambahkan aturan background responsif untuk layar sempit, dengan prioritas tampilan ponsel.
+
+**Status:** integrasi CSS awal tersimpan di GitHub pada commit `8d6f56c07bd2e1777e69412a8ad6c88bce1f4d8d`. File diambil ulang dan diperiksa; referensi background, aturan mobile, panel judul, data puzzle, keyboard, bantuan, dan tombol PERIKSA tetap ditemukan.
+
+**Batas QA:** ini baru integrasi awal kode. Belum dilakukan pemeriksaan visual langsung di browser/perangkat, belum dipastikan pemotongan gambar pada berbagai rasio layar, dan belum dilakukan uji permainan menyeluruh setelah perubahan. Tahap berikutnya adalah membuka prototipe pada desktop dan ponsel, mengevaluasi keterbacaan serta crop background, lalu menyetel posisi/overlay berdasarkan hasil nyata. Mekanik permainan tidak sengaja diubah pada tahap ini.
