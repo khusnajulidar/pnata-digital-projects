@@ -1050,3 +1050,123 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 }
 .screen[data-mockup="06"] .activity-main .drag-item,
 .screen[data-mockup="06"] .activity-main .slot{touch-action:manipulation}
+
+
+/* Peta Misi — bintang dibuat lebih besar dan sedikit lebih ke kanan. */
+.screen[data-mockup="03"] .topbar .stars{
+  display:flex;align-items:center;justify-content:flex-end;
+  gap:clamp(7px,.9vw,12px);
+  font-size:clamp(40px,4.9vw,58px);
+  line-height:1;
+  flex:0 0 auto;
+  transform:translate(13px,-2px);
+}
+.screen[data-mockup="03"] .topbar .star{
+  line-height:1;
+  filter:drop-shadow(0 2px 1px rgba(130,91,24,.16));
+}
+@media(max-width:560px){
+  .screen[data-mockup="03"] .topbar .stars{
+    gap:4px;font-size:clamp(27px,7vw,38px);
+    transform:translate(5px,0);
+  }
+}
+
+/* Aktivitas 1 & 2 — ukuran teks Arab disamakan dan diperbesar. */
+.screen[data-mockup="a1"] .mockup-a1-interaction .option .arabic,
+.screen[data-mockup="05"] .activity-main .option .arabic{
+  font-size:clamp(30px,4.5vw,58px)!important;
+  line-height:1.65!important;
+  font-weight:700;
+}
+.screen[data-mockup="a1"] .mockup-a1-interaction .option{
+  font-size:clamp(30px,4.5vw,58px)!important;
+}
+
+/* Aktivitas 2 — kartu pilihan dibuat ulang di atas area teks cetak,
+   mengikuti bidang biru-hijau dan jingga pada mockup tanpa mengganti latar. */
+.screen[data-mockup="05"] .activity-main .options{
+  display:block!important;position:absolute;inset:0;pointer-events:none;
+}
+.screen[data-mockup="05"] .activity-main .option{
+  display:flex!important;align-items:center;justify-content:center;
+  position:absolute;top:57%;width:33%;height:23%;min-height:0;
+  padding:5px 12px;border-radius:25px;
+  opacity:1!important;pointer-events:auto;
+  color:#704d3b!important;font-size:0!important;
+  box-shadow:inset 0 3px 0 rgba(255,255,255,.82),0 5px 0 rgba(107,137,121,.20);
+  transition:filter .15s,transform .15s;
+}
+.screen[data-mockup="05"] .activity-main .option:first-child{
+  left:14%;
+  background:linear-gradient(180deg,#e9f9f7 0%,#d4efeb 100%)!important;
+  border:4px solid #86c9c0!important;
+}
+.screen[data-mockup="05"] .activity-main .option:last-child{
+  left:54%;
+  background:linear-gradient(180deg,#fff3e9 0%,#f8dfce 100%)!important;
+  border:4px solid #e6a77f!important;
+}
+.screen[data-mockup="05"] .activity-main .option:active{
+  transform:translateY(2px);filter:brightness(.98);
+}
+.screen[data-mockup="05"] .activity-main .option .arabic{
+  display:block;width:100%;text-align:center;
+  color:#704d3b!important;
+  font-size:clamp(30px,4.5vw,58px)!important;
+  line-height:1.65!important;font-weight:700;
+}
+
+/* Aktivitas 3 — label diturunkan tepat ke pusat panel jawaban. */
+.screen[data-mockup="a3"] .activity-main .mockup-a3-interaction .option{
+  top:70.5%!important;height:11.5%!important;
+  left:8.5%!important;width:38%!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  padding:0 10px!important;text-align:center!important;
+  background:transparent!important;border:0!important;box-shadow:none!important;
+  color:#176f68!important;font-size:clamp(15px,1.8vw,23px)!important;
+  line-height:1.2!important;text-shadow:0 1px 3px rgba(255,255,255,.92);
+}
+.screen[data-mockup="a3"] .activity-main .mockup-a3-interaction .option:last-child{
+  left:54%!important;
+}
+@media(max-width:560px){
+  .screen[data-mockup="a3"] .activity-main .mockup-a3-interaction .option{
+    top:70%!important;height:12%!important;
+    font-size:clamp(12px,3vw,17px)!important;
+  }
+}
+
+/* Tombol Lanjutkan — gaya kapsul hijau 3D; muncul di atas tombol abu-abu
+   pada mockup hanya setelah jawaban benar. */
+.screen .footer-nav .btn.continue-btn:not(:disabled){
+  display:grid!important;place-items:center;
+  background:linear-gradient(180deg,#9ce9b8 0%,#55c98a 34%,#279d68 100%)!important;
+  border:3px solid #b9f0cc!important;
+  border-radius:26px!important;
+  color:#fff!important;
+  font-size:clamp(12px,1.35vw,17px)!important;
+  font-weight:1000!important;letter-spacing:.035em;
+  text-shadow:0 2px 1px rgba(18,103,66,.48);
+  box-shadow:inset 0 3px 0 rgba(255,255,255,.58),
+             0 6px 0 #16784e,
+             0 9px 16px rgba(25,115,75,.2)!important;
+  opacity:1!important;
+  padding:8px 14px!important;
+  transform:translateY(-1px);
+}
+.screen .footer-nav .btn.continue-btn:not(:disabled):hover{
+  filter:brightness(1.05);
+  transform:translateY(-3px);
+}
+.screen .footer-nav .btn.continue-btn:not(:disabled):active{
+  transform:translateY(3px);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.4),
+             0 2px 0 #16784e!important;
+}
+@media(max-width:560px){
+  .screen .footer-nav .btn.continue-btn:not(:disabled){
+    font-size:11px!important;padding:5px 6px!important;border-width:2px!important;
+    border-radius:16px!important;
+  }
+}
