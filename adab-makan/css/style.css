@@ -860,3 +860,11 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
   .sequence-slots .slot{min-height:108px;padding:7px 3px;border-radius:14px}
   .drag-item{min-height:88px;padding:7px 3px;border-radius:14px;font-size:12px}
 }
+
+
+/* Cumulative activity indicator: earlier and current dots green, upcoming dots beige. */
+.activity-progress-dots{position:absolute;z-index:20;top:3.3%;left:50%;transform:translateX(-50%);width:29%;height:5.5%;min-height:22px;display:flex;align-items:center;justify-content:space-between;padding:0 1.2%;border-radius:999px;background:#f8f0df;pointer-events:none}
+.activity-progress-dots::before{content:"";position:absolute;left:5%;right:5%;top:50%;height:4px;transform:translateY(-50%);border-radius:99px;background:#e2d5bd}
+.activity-progress-dots .progress-dot{position:relative;z-index:1;width:clamp(12px,2vw,24px);height:clamp(12px,2vw,24px);border-radius:50%;background:#e4d7c3;border:2px solid #f5e9d5;box-shadow:0 2px 4px rgba(90,75,50,.16);flex:0 0 auto}
+.activity-progress-dots .progress-dot.active{background:#48aa93;border-color:#b9dfd3;box-shadow:0 0 0 2px rgba(72,170,147,.14),0 2px 4px rgba(60,92,70,.14)}
+@media(max-width:560px){.activity-progress-dots{width:34%;min-height:16px;padding:0 1.5%;top:3.1%}.activity-progress-dots .progress-dot{width:11px;height:11px;border-width:1.5px}}
