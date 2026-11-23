@@ -868,3 +868,12 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 .activity-progress-dots .progress-dot{position:relative;z-index:1;width:clamp(12px,2vw,24px);height:clamp(12px,2vw,24px);border-radius:50%;background:#e4d7c3;border:2px solid #f5e9d5;box-shadow:0 2px 4px rgba(90,75,50,.16);flex:0 0 auto}
 .activity-progress-dots .progress-dot.active{background:#48aa93;border-color:#b9dfd3;box-shadow:0 0 0 2px rgba(72,170,147,.14),0 2px 4px rgba(60,92,70,.14)}
 @media(max-width:560px){.activity-progress-dots{width:34%;min-height:16px;padding:0 1.5%;top:3.1%}.activity-progress-dots .progress-dot{width:11px;height:11px;border-width:1.5px}}
+
+/* Live answer text and feedback must remain legible above the new blank mockup card areas. */
+.screen[data-mockup="a1"] .activity-main .mockup-a1-interaction .option,
+.screen[data-mockup="a3"] .activity-main .mockup-a3-interaction .option{opacity:1;color:#176f68;font-size:clamp(15px,2.1vw,25px);font-weight:900;text-align:center;display:flex;align-items:center;justify-content:center;background:rgba(255,252,242,.84);border:2px solid rgba(226,199,147,.9);box-shadow:0 3px 0 rgba(219,191,144,.45);padding:5px 8px}
+.screen[data-mockup="a1"] .activity-main .mockup-a1-interaction .option .arabic{font-size:clamp(21px,3vw,36px);line-height:1.5}
+.screen[data-mockup="a3"] .activity-main .mockup-a3-interaction .option{top:63%;height:13%;background:rgba(255,252,242,.9)}
+.screen[data-mockup="a3"] .activity-main .mockup-a3-interaction .option:last-child{left:53%}
+.screen[data-mockup="a1"] #feedback,.screen[data-mockup="a3"] #feedback,.screen[data-mockup="a5"] #feedback{display:block!important;min-height:32px;padding:7px 12px;background:rgba(255,252,241,.92);color:#795b1d;border:1px solid #e3d6bf;border-radius:14px;font-size:clamp(12px,1.5vw,17px);width:42%}
+.screen[data-mockup="a1"] #feedback.good,.screen[data-mockup="a3"] #feedback.good,.screen[data-mockup="a5"] #feedback.good{background:rgba(235,249,237,.97);color:#27633c;border-color:#c6e5ca}
