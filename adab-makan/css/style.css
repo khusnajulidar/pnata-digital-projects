@@ -877,3 +877,35 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
 .screen[data-mockup="a3"] .activity-main .mockup-a3-interaction .option:last-child{left:53%}
 .screen[data-mockup="a1"] #feedback,.screen[data-mockup="a3"] #feedback,.screen[data-mockup="a5"] #feedback{display:block!important;min-height:32px;padding:7px 12px;background:rgba(255,252,241,.92);color:#795b1d;border:1px solid #e3d6bf;border-radius:14px;font-size:clamp(12px,1.5vw,17px);width:42%}
 .screen[data-mockup="a1"] #feedback.good,.screen[data-mockup="a3"] #feedback.good,.screen[data-mockup="a5"] #feedback.good{background:rgba(235,249,237,.97);color:#27633c;border-color:#c6e5ca}
+
+/* New Mission 1 backgrounds (fresh mockup artwork) */
+.screen[data-mockup="a1"]{background:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/refs/heads/main/adab-makan/mockups/mockup%20Aktivitas%201%20%E2%80%94%20Kenali%20Bismillah.jfif") center/100% 100% no-repeat;padding:0}
+.screen[data-mockup="a3"]{background:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/refs/heads/main/adab-makan/mockups/mockup%20Aktivitas%203%20%E2%80%94%20Kapan%20Membaca%20Bismillah.jfif") center/100% 100% no-repeat;padding:0}
+.screen[data-mockup="a5"]{background:url("https://raw.githubusercontent.com/khusnajulidar/pnata-digital-projects/refs/heads/main/adab-makan/mockups/mockup%20Aktivitas%205%20%E2%80%94%20Ayo%20Mulai%20Makan.jfif") center/100% 100% no-repeat;padding:0}
+.screen[data-mockup="a1"]::before,.screen[data-mockup="a1"]::after,.screen[data-mockup="a3"]::before,.screen[data-mockup="a3"]::after,.screen[data-mockup="a5"]::before,.screen[data-mockup="a5"]::after{display:none}
+.screen[data-mockup="a1"] .activity-head,.screen[data-mockup="a1"] .progress-line,.screen[data-mockup="a1"] .activity-side,.screen[data-mockup="a3"] .activity-head,.screen[data-mockup="a3"] .progress-line,.screen[data-mockup="a3"] .activity-side,.screen[data-mockup="a5"] .activity-head,.screen[data-mockup="a5"] .progress-line,.screen[data-mockup="a5"] .activity-side{display:none}
+.screen[data-mockup="a1"] .activity-layout,.screen[data-mockup="a3"] .activity-layout,.screen[data-mockup="a5"] .activity-layout{position:absolute;inset:0;display:block;min-height:0;margin:0}
+.screen[data-mockup="a1"] .activity-main,.screen[data-mockup="a3"] .activity-main,.screen[data-mockup="a5"] .activity-main{position:absolute;inset:0;margin:0;padding:0;border:0;border-radius:0;background:transparent;display:block;pointer-events:none}
+.screen[data-mockup="a1"] .activity-main>*:not(.mockup-a1-interaction),.screen[data-mockup="a3"] .activity-main>*:not(.mockup-a3-interaction),.screen[data-mockup="a5"] .activity-main>*:not(.premeal-steps){display:none!important}
+.mockup-a1-interaction,.mockup-a3-interaction{position:absolute;inset:0;pointer-events:none}
+.mockup-a1-sample{position:absolute;left:34%;top:35%;width:32%;height:13%;display:grid;place-items:center;font-size:clamp(24px,3vw,42px);color:#176f68}
+.screen[data-mockup="a1"] .options,.screen[data-mockup="a3"] .options{display:block!important;position:absolute;inset:0;pointer-events:none}
+.screen[data-mockup="a1"] .option{position:absolute;left:13%;top:58%;width:34%;height:23%;min-height:0;padding:0;border:0;border-radius:22px;background:rgba(255,252,242,.84);color:#176f68;font-size:clamp(21px,3vw,36px);opacity:1;pointer-events:auto;box-shadow:none}
+.screen[data-mockup="a1"] .option:last-child{left:53%}
+.screen[data-mockup="a3"] .option{position:absolute;left:12%;top:63%;width:35%;height:13%;min-height:0;padding:5px 8px;border:2px solid rgba(226,199,147,.9);border-radius:22px;background:rgba(255,252,242,.9);color:#176f68;font-size:clamp(15px,2.1vw,25px);font-weight:900;opacity:1;pointer-events:auto;box-shadow:0 3px 0 rgba(219,191,144,.45)}
+.screen[data-mockup="a3"] .option:last-child{left:53%}
+.screen[data-mockup="a5"] .premeal-steps{position:absolute;inset:0;display:block;width:100%;pointer-events:none}
+.screen[data-mockup="a5"] .premeal-steps .dua-panel{position:absolute;left:8%;top:34%;width:37%;height:29%;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none}
+.screen[data-mockup="a5"] .premeal-steps .arabic{position:absolute;inset:0;display:grid;place-items:center;font-size:clamp(30px,4vw,54px);color:#176f69}
+.screen[data-mockup="a5"] .premeal-steps .dua-panel .btn{display:none!important}
+.screen[data-mockup="a5"] .premeal-steps .audio-btn{position:absolute;left:60%;top:40%;width:17%;height:13%;min-height:0;padding:0;border:0;border-radius:50%;background:transparent;box-shadow:none;color:transparent;font-size:0;opacity:0;pointer-events:auto}
+.screen[data-mockup="a5"] .premeal-steps .audio-note{position:absolute;left:55%;top:55%;width:24%;height:10%;display:grid;place-items:center;padding:0;color:transparent;font-size:0}
+.screen[data-mockup="a5"] .premeal-steps .btn[data-action="start-meal"]{position:absolute;left:56%;top:72%;width:28%;height:13%;min-height:0;padding:0;border:0;border-radius:22px;background:transparent;box-shadow:none;color:transparent;font-size:0;opacity:0;pointer-events:auto}
+.screen[data-mockup="a1"] .footer-nav,.screen[data-mockup="a3"] .footer-nav,.screen[data-mockup="a5"] .footer-nav{position:absolute;inset:0;margin:0;display:block;pointer-events:none}
+.screen[data-mockup="a1"] .footer-nav .btn,.screen[data-mockup="a3"] .footer-nav .btn,.screen[data-mockup="a5"] .footer-nav .btn{position:absolute;padding:0;border:0;border-radius:22px;background:transparent;box-shadow:none;color:transparent;font-size:0;opacity:0;pointer-events:auto}
+.screen[data-mockup="a1"] .footer-nav .btn:nth-child(1),.screen[data-mockup="a3"] .footer-nav .btn:nth-child(1),.screen[data-mockup="a5"] .footer-nav .btn:nth-child(1){left:1%;top:85%;width:10%;height:14%}
+.screen[data-mockup="a1"] .footer-nav .btn:nth-child(2),.screen[data-mockup="a3"] .footer-nav .btn:nth-child(2),.screen[data-mockup="a5"] .footer-nav .btn:nth-child(2){left:38%;top:84%;width:25%;height:14%}
+.screen[data-mockup="a1"] .footer-nav .btn:nth-child(3),.screen[data-mockup="a3"] .footer-nav .btn:nth-child(3),.screen[data-mockup="a5"] .footer-nav .btn:nth-child(3){left:73%;top:84%;width:26%;height:14%}
+.screen[data-mockup="a1"] #feedback,.screen[data-mockup="a3"] #feedback,.screen[data-mockup="a5"] #feedback{display:block!important;position:absolute;left:50%;top:78%;transform:translateX(-50%);width:42%;min-height:32px;padding:7px 12px;background:rgba(255,252,241,.92);color:#795b1d;border:1px solid #e3d6bf;border-radius:14px;font-size:clamp(12px,1.5vw,17px);pointer-events:none}
+.screen[data-mockup="a1"] #feedback.good,.screen[data-mockup="a3"] #feedback.good,.screen[data-mockup="a5"] #feedback.good{background:rgba(235,249,237,.97);color:#27633c;border-color:#c6e5ca}
+@media(max-width:560px){.screen[data-mockup="a1"] .mockup-a1-sample{font-size:20px}}
