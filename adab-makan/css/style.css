@@ -1038,3 +1038,15 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
   .screen[data-mockup="a5"] .premeal-steps .audio-btn{left:69%!important;width:12%!important}
   .screen[data-mockup="a5"] .activity-main > #feedback{left:61%!important;width:32%!important}
 }
+
+/* Activity 4 fix: reveal the sequence interaction layer hidden by the mockup reset. */
+.screen[data-mockup="06"] .activity-main .sequence-board{
+  display:block!important;position:absolute;inset:0;width:100%;height:100%;
+  pointer-events:none;
+}
+.screen[data-mockup="06"] .activity-main .sequence-slots,
+.screen[data-mockup="06"] .activity-main .drag-items{
+  z-index:2;
+}
+.screen[data-mockup="06"] .activity-main .drag-item,
+.screen[data-mockup="06"] .activity-main .slot{touch-action:manipulation}
