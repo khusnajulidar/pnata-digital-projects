@@ -85,7 +85,7 @@ else if((state.mission===0&&state.activity===2)||(state.mission===1&&(state.acti
 else{main=options(d);}
 /* Hanya aktivitas yang teks dan ilustrasinya cocok yang memakai mockup utuh. */
 const activityId=num-1;
-const exactMockups={0:"a1",1:"05",2:"a3",3:"06",4:"a5",6:"07"};
+const exactMockups={0:"a1",1:"05",2:"a3",3:"06",4:"a5"};
 const mockup=exactMockups[activityId]||"none";
 const isArtwork=mockup!=="none";
 const canContinue=done||state.feedbackGood;
@@ -142,7 +142,7 @@ ROOT.addEventListener("pointerup",e=>{const slot=e.target.closest("[data-slot]")
 ROOT.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
 if(b.dataset.action){switch(b.dataset.action){
 case"start":go("instructions");break;case"home":go("home");break;case"instructions":go("instructions");break;case"map":go("map");break;case"previous":state.activity=Math.max(0,state.activity-1);state.feedback="";state.feedbackGood=false;state.step=0;state.sequence=[];state.selectedSequenceIndex=null;state.audioHeard=false;state.bismillahSelected=false;go("activity");break;
-case"hint":if(document.querySelector('.screen[data-mockup="04"],.screen[data-mockup="05"],.screen[data-mockup="06"]'))playNarration();else feedback("Petunjuk: "+activityData()[1],false);break;
+case"hint":playNarration();break;
 case"next":next();break;
 case"audio":playActivityAudio();break;case"narration":playNarration();break;
 case"select-bismillah":state.bismillahSelected=true;renderActivity();break;
