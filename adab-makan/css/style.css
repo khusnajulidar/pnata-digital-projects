@@ -942,3 +942,99 @@ button:disabled{opacity:.5;cursor:not-allowed;filter:saturate(.65)}
   background:#d9dedb!important;color:#89938e!important;
   box-shadow:0 4px 0 #c7ceca!important;opacity:1!important;
 }
+
+
+/* Final interaction tuning — Mission 1 Activity 4: visible response on tap. */
+.screen[data-mockup="06"] .activity-main .drag-item.selected{
+  display:block!important;opacity:1!important;
+  border:4px solid rgba(43,154,113,.92)!important;
+  background:rgba(98,205,153,.20)!important;
+  box-shadow:0 0 0 6px rgba(66,179,132,.24),0 5px 18px rgba(43,119,85,.18)!important;
+  color:transparent!important;
+}
+.screen[data-mockup="06"] .activity-main .slot.filled{
+  display:block!important;opacity:1!important;
+  border:4px solid rgba(58,169,119,.92)!important;
+  background:rgba(117,211,158,.17)!important;
+  box-shadow:0 0 0 6px rgba(66,179,132,.22),0 5px 18px rgba(43,119,85,.16)!important;
+}
+.screen[data-mockup="06"] .activity-main .slot.filled::after{
+  content:"✓";position:absolute;top:-11px;right:-10px;
+  display:grid;place-items:center;width:34px;height:34px;border-radius:50%;
+  background:#3da875;color:#fff;font-size:22px;font-weight:900;
+  border:3px solid #fff;box-shadow:0 3px 8px rgba(43,100,75,.24);
+}
+.screen[data-mockup="06"] .activity-main > #feedback{
+  display:block!important;position:absolute;left:39%;top:77%;width:39%;
+  min-height:0;padding:2px;background:transparent!important;border:0!important;
+  box-shadow:none!important;color:#795b1d;text-align:center;
+  font-size:clamp(12px,1.25vw,16px);line-height:1.2;pointer-events:none;
+  text-shadow:0 1px 3px rgba(255,255,255,.95);
+}
+.screen[data-mockup="06"] .activity-main > #feedback:empty{display:none!important}
+.screen[data-mockup="06"] .activity-main > #feedback.good{color:#27633c!important}
+
+/* Activity 5: fit the Bismillah in its printed frame, and align audio to the speaker. */
+.screen[data-mockup="a5"] .premeal-steps .dua-panel{
+  left:12%!important;top:36.5%!important;width:28%!important;height:23%!important;
+  display:grid;place-items:center;overflow:visible;
+}
+.screen[data-mockup="a5"] .premeal-steps .dua-panel .arabic{
+  position:absolute;inset:0;display:grid;place-items:center;
+  width:100%;height:100%;padding:0 5%;
+  font-size:clamp(27px,3.5vw,46px)!important;line-height:1.5;
+  text-align:center;
+}
+.screen[data-mockup="a5"] .premeal-steps .dua-panel .btn[data-action="select-bismillah"]{
+  display:block!important;position:absolute;inset:0!important;width:100%!important;height:100%!important;
+}
+.screen[data-mockup="a5"] .premeal-steps .audio-btn{
+  left:69.5%!important;top:34.5%!important;width:11.5%!important;height:16.5%!important;
+}
+.screen[data-mockup="a5"] .premeal-steps .btn[data-action="start-meal"]{
+  left:34%!important;top:68%!important;width:33%!important;height:16%!important;
+}
+.screen[data-mockup="a5"] .premeal-steps .audio-note{display:none!important}
+.screen[data-mockup="a5"] .premeal-steps{position:absolute;inset:0;width:100%;pointer-events:none}
+.screen[data-mockup="a5"] .premeal-steps .dua-panel,
+.screen[data-mockup="a5"] .premeal-steps .audio-btn,
+.screen[data-mockup="a5"] .premeal-steps .btn[data-action="start-meal"]{pointer-events:auto}
+.screen[data-mockup="a5"] .step-check{
+  position:absolute;z-index:5;display:grid;place-items:center;
+  width:clamp(23px,3vw,34px);height:clamp(23px,3vw,34px);
+  border:3px solid #fff;border-radius:50%;background:#40aa78;color:#fff;
+  font-size:clamp(14px,1.6vw,20px);font-weight:1000;
+  box-shadow:0 3px 9px rgba(35,101,71,.24);opacity:0;transform:scale(.65);
+  transition:opacity .18s ease,transform .18s ease;pointer-events:none;
+}
+.screen[data-mockup="a5"] .check-bismillah{left:37%;top:33%}
+.screen[data-mockup="a5"] .check-audio{left:78.5%;top:33%}
+.screen[data-mockup="a5"] .check-start{left:63%;top:66%}
+.screen[data-mockup="a5"] .premeal-steps.is-bismillah-done .check-bismillah,
+.screen[data-mockup="a5"] .premeal-steps.is-audio-done .check-audio,
+.screen[data-mockup="a5"] .premeal-steps.is-finished .check-start{
+  opacity:1;transform:scale(1);
+}
+.screen[data-mockup="a5"] .premeal-steps.is-bismillah-done .dua-panel{
+  filter:drop-shadow(0 0 8px rgba(55,174,124,.25));
+}
+.screen[data-mockup="a5"] .premeal-steps.is-audio-done .audio-btn{
+  filter:drop-shadow(0 0 8px rgba(55,174,124,.55));
+}
+.screen[data-mockup="a5"] .premeal-steps.is-finished .btn[data-action="start-meal"]{
+  filter:drop-shadow(0 0 10px rgba(55,174,124,.65));
+}
+.screen[data-mockup="a5"] .activity-main > #feedback{
+  display:block!important;position:absolute;left:63%!important;top:66%!important;
+  transform:none!important;width:29%!important;min-height:0!important;
+  padding:3px!important;background:transparent!important;border:0!important;
+  border-radius:0!important;box-shadow:none!important;color:#27633c!important;
+  font-size:clamp(12px,1.3vw,16px)!important;line-height:1.25;text-align:center;
+  text-shadow:0 1px 3px rgba(255,255,255,.95);pointer-events:none;
+}
+.screen[data-mockup="a5"] .activity-main > #feedback:empty{display:none!important}
+@media(max-width:560px){
+  .screen[data-mockup="a5"] .premeal-steps .dua-panel{left:11%!important;width:30%!important}
+  .screen[data-mockup="a5"] .premeal-steps .audio-btn{left:69%!important;width:12%!important}
+  .screen[data-mockup="a5"] .activity-main > #feedback{left:61%!important;width:32%!important}
+}
