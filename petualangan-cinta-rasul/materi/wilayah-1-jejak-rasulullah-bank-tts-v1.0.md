@@ -85,7 +85,7 @@
 - Rujukan: Sahih Muslim no. 2276.
 - Tautan: https://sunnah.com/muslim:2276
 
-**K2 — BANUHASYIM**
+**K2 — BANIHASYIM**
 - Penjelasan: Bani Hasyim adalah kabilah/klan dari Quraisy. Rasulullah ﷺ berasal dari Bani Hasyim.
 - Jenis sumber: Hadis sahih.
 - Rujukan: Sahih Muslim no. 2276.
@@ -147,7 +147,7 @@
 | Adik | 4 | MUHAMMAD | Nama Nabi dalam QS. Muhammad: 2 |
 | Adik | 5 | YATIM | Keadaan yang disebut dalam QS. Ad-Duha: 6 |
 | Kakak | 1 | QURAISY | Suku |
-| Kakak | 2 | BANUHASYIM | Klan/kabilah |
+| Kakak | 2 | BANIHASYIM | Klan/kabilah |
 | Kakak | 3 | HIRA | Tempat menyendiri sebelum wahyu |
 | Kakak | 4 | JIBRIL | Malaikat pembawa wahyu |
 | Kakak | 5 | KHADIJAH | Istri yang menenangkan setelah wahyu pertama |
