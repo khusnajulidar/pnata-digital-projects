@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dzikir Setelah Wudhu — P’Nata</title>
+<style>
+  :root {
+    --bg: #FFF8E7;
+    --ink: #1B2F6B;
+    --card: #FFFFFF;
+    --teal: #13A89E;
+    --teal-dark: #0E8379;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0F1E2E; --ink: #F3F6FF; --card: #17304A; }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+  }
+  main {
+    background: var(--card);
+    border-radius: 28px;
+    padding: 32px 24px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 8px; }
+  .brand { font-size: 0.9rem; opacity: 0.75; margin: 0 0 24px; }
+  button {
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    background: var(--teal);
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button:active { transform: scale(0.97); }
+  button.on { background: var(--teal-dark); animation: pulse 1.2s ease-in-out infinite; }
+  button svg { width: 88px; height: 88px; }
+  #status { margin: 24px 0 0; font-size: 1.1rem; min-height: 3.2em; line-height: 1.5; }
+  .hint { font-size: 0.95rem; opacity: 0.8; margin: 8px 0 0; }
+  @keyframes pulse { 50% { transform: scale(1.05); } }
+  @media (prefers-reduced-motion: reduce) { button.on { animation: none; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dzikir Setelah Wudhu</h1>
+  <p class="brand">P’Nata</p>
+  <button id="btn" type="button" aria-label="Putar dzikir setelah wudhu">
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M8 24h12l14-12v40L20 40H8z" fill="#fff"/>
+      <path d="M42 22c4 3 4 17 0 20" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+      <path d="M48 14c9 7 9 29 0 36" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    </svg>
+  </button>
+  <p id="status" role="status">Ketuk tombol untuk mendengar dzikirnya.</p>
+  <p class="hint">Setelah selesai, kembali ke bukumu.</p>
+  <audio id="a" src="dzikir-setelah-wudhu.mp3" preload="auto"></audio>
+</main>
+<script>
+  var a = document.getElementById('a');
+  var b = document.getElementById('btn');
+  var s = document.getElementById('status');
+
+  function play() {
+    a.currentTime = 0;
+    var p = a.play();
+    if (p && p.then) {
+      p.then(function () { s.textContent = 'Sedang diputar…'; })
+       .catch(function () { s.textContent = 'Ketuk tombol untuk mendengar dzikirnya.'; });
+    }
+  }
+
+  b.addEventListener('click', play);
+  a.addEventListener('play', function () { b.classList.add('on'); s.textContent = 'Sedang diputar…'; });
+  a.addEventListener('ended', function () {
+    b.classList.remove('on');
+    s.textContent = 'Selesai. Ketuk tombol untuk mengulang, atau kembali ke bukumu.';
+  });
+  a.addEventListener('error', function () {
+    b.classList.remove('on');
+    s.textContent = 'Audio belum bisa dimuat. Coba lagi nanti.';
+  });
+
+  // Coba putar otomatis; bila peramban menolak, anak cukup mengetuk tombol.
+  window.addEventListener('load', function () {
+    var p = a.play();
+    if (p && p.catch) { p.catch(function () {}); }
+  });
+</script>
+</body>
+</html>
